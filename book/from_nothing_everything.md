@@ -288,11 +288,19 @@ This is simultaneously (i) the growth recursion of Chapter 3 and (ii) the self-s
 
 ### The Idea
 
-Here is a quiet bombshell. The golden ratio is usually called *irrational* — its decimal expansion, 1.6180339887…, runs forever without repeating. But that endlessness is an artifact of **base 10**, a system we adopted because we have ten fingers. It says nothing about φ itself.
+The structure has been growing — positions accumulating on the Fibonacci ladder, each one either active (1) or inactive (0). To describe what is happening at each position, the structure needs a way to write things down. It needs a counting system. The question is: which one?
 
-> **Metaphor: the untranslatable word.** Every language has words that take a whole sentence to explain in another tongue — the Danish *hygge*, the Japanese *wabi-sabi*. You might conclude the concept is complex. But to a native speaker it is one word, instantly understood. The complexity was in the translation, not the concept.
+We count in base 10 because we have ten fingers. Computers count in base 2 because transistors have two states. These are choices — practical, but arbitrary. The universe has no fingers and no transistors. Its growth ratio is φ. Its resolution is binary (each position is 0 or 1). Its combining rule is “the two most recent make the next.” A counting system built from these constraints — base φ, with binary digits — is not a choice. It is what the structure already *is*, written down.
 
-In the universe’s own counting system — **base φ**, which the framework calls **Maya Math** — the golden ratio is simply **“10.”** One symbol. Exact. The self-similar fraction 1/φ is a single operation: shift one place right. The carry rule that will drive all of physics, φ² = φ + 1, is a one-line identity: **11 → 100.** The “complexity” of φ is the *cost of translating a self-referential quantity into a base that was never built for self-reference.* The universe does not count in tens. It counts in golden ratios — and in that language, its constants are simple.
+The framework calls this system **Maya Math**. In Maya Math, the golden ratio is simply **“10”** — one followed by zero, meaning “one unit of φ¹ and nothing at φ⁰.” That’s it. One symbol. Exact. No infinite decimal tail. The self-similar fraction 1/φ is a single operation: shift one place to the right. The equation that drives all of physics — φ² = φ + 1 — is a one-line identity: **11 → 100**, two adjacent 1s combine into a single 1 at the next position.
+
+> **Metaphor: the untranslatable word.** Every language has words that take a whole sentence to explain in another tongue — the Danish *hygge*, the Japanese *wabi-sabi*. You might conclude the concept is complex. But to a native speaker it is one word, instantly understood. The complexity was in the translation, not the concept. When we write φ = 1.6180339887… in decimal, the infinite string of digits is not a property of φ — it is the cost of translating a self-referential quantity into a language that was never built for self-reference.
+
+The carry rule — **11 → 100** — deserves a closer look, because it is the engine that will drive everything from here on. It says: whenever two adjacent positions are both active, they must combine and produce one active position at the next level up. This is not a new rule. It is the same combining law from Chapter 3 — the two most recent make the next — applied to the counting system. Two adjacent 1s on the ladder are exactly the situation the growth rule was built to resolve. They cannot simply coexist, because that would mean two adjacent structures failing to combine — contradicting the growth axiom. So they carry. Always. Automatically.
+
+A direct consequence: every value has exactly one way to be written with no two adjacent 1s. (Any adjacency would immediately carry.) This is called **Zeckendorf uniqueness**, and it means the counting system is unambiguous — there is exactly one correct description of every state. No synonyms, no alternate spellings. The Fibonacci numbers from Chapter 3 are the simplest patterns: 1, 10, 100, 1000 — single 1s at successive positions. The counting system and the growth sequence are the same structure, viewed from two angles.
+
+One last rule: **no subtraction**. The graph only grows (Axiom 5). What has been generated cannot be un-generated. In the counting system, this means you can add and carry, but you can never subtract. The arrow of growth is built into the arithmetic itself.
 
 ### The Mathematics
 
