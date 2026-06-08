@@ -771,13 +771,33 @@ From the outside, a black hole looks like destruction — matter falling in, los
 
 ### The Idea
 
-The coupling constants are the most important numbers in physics that nobody can explain. The fine-structure constant α ≈ 1/137.036 sets the strength of electromagnetism — how strongly an electron couples to a photon. The strong coupling α_s ≈ 0.118 sets the strength of the nuclear force that binds quarks into protons. The Weinberg angle sin²θ_W ≈ 0.231 determines the mixing between the electromagnetic and weak forces. For nearly a century, physicists have measured these numbers to extraordinary precision and wondered: why these values?
+Every force in nature has a strength. Push two magnets together and you feel the electromagnetic force — but how *strong* is it, exactly? The answer is a number: roughly 1/137. Push two quarks apart and the strong nuclear force pulls them back — its strength is about 0.118. These numbers — called **coupling constants** (because they measure how strongly things “couple” or connect to each other) — are among the most precisely measured quantities in all of science. Physicists have pinned them down to ten decimal places. But for nearly a century, no one has been able to explain *why* they have the values they do. They are measured, not understood.
 
-The framework proposes an answer. It derives all three from a single formula — the *universal coupling formula* — applied to the screening tower at different depths.
+The framework proposes that these numbers are not accidents. They are consequences of the tower’s structure — and specifically, of a remarkable feature: the tower *screens itself*.
 
-> **Metaphor: the telescope and its own light.** Imagine a telescope whose lenses are made from the very light it collects. Better resolution means better lenses, which means even better resolution. There’s a feedback loop. The coupling constant is the *fixed point* of this loop — the equilibrium where the telescope’s resolving power and its lens quality are self-consistent. Different telescopes (different tower depths) settle at different fixed points. That’s why the forces have different strengths.
+**What is screening?** Recall from Chapter 10: each position in the tower acts like a pane of tinted glass between the observer and a bound structure. The more panes, the weaker the apparent force. The strong nuclear force involves only a few panes (the triangle’s 3 layers), so it appears strong. Electromagnetism involves the full 8-layer tower, so it appears weak. The panes dim the force — they *screen* it.
 
-The formula has three pieces. First, the **color factor** from the triangle (Chapter 6): L(2) = 3 edges, each contributing independent screening. Second, the **tower** — the post-Higgs examiner channel T₆ = φ⁷ + φ⁵ + φ³ + φ, whose value on the φ-ladder sets the screening depth. Third, a **self-referential deficit** δ that encodes the feedback: the coupling α shifts the tower’s effective depth, and the shifted tower determines α. The equation refers to itself. Its solution is a fixed point.
+**Why is the screening self-referential?** Here is where something unusual happens. The amount of dimming each pane produces depends on the strength of the force — because the panes are *made of the same stuff* as the force they are screening. Think of it this way: if the force is strong, it builds thick panes, which screen more, which makes the force appear weaker. But if the force is weaker, the panes are thinner, which screen less, which makes the force appear stronger. The force determines the panes. The panes determine the force. The equation refers to itself.
+
+> **Metaphor: the thermostat.** A thermostat measures the room temperature and adjusts the heater. But the heater changes the room temperature, which changes what the thermostat reads, which changes how the heater runs. The system chases itself around in a circle — until it settles at one specific temperature where everything is self-consistent: the reading, the heating, and the temperature all agree. That equilibrium is called a **fixed point**. The coupling constants are the fixed points of the tower’s self-referential screening. They are the only values where the force strength and the screening it produces are consistent with each other.
+
+The formula has three ingredients, all from earlier chapters:
+
+**First: the triangle (Chapter 6).** The triangle has 3 edges, each providing an independent screening channel. This factor of 3 — the color factor — multiplies everything. It is why the number 3 appears in the coupling formulas.
+
+**Second: the tower (Chapters 10–12).** After the Higgs cascade, the observer channel has four active positions. The *value* of this tower on the φ-ladder sets the baseline screening depth. A deeper tower means more screening, which means a weaker force.
+
+**Third: the self-referential correction.** The force strength α shifts the tower slightly — because the force builds the very structure that screens it. The shifted tower then determines α. This correction is small (about 0.65% for electromagnetism) but it is what turns a good approximation into a precise prediction.
+
+**The three forces.** The same formula, applied at different depths, gives all three coupling constants:
+
+**Electromagnetism** — the force of light, the force between charged particles. Its strength is measured by a number called the **fine-structure constant**, written α. The framework derives α⁻¹ = **137.036**, matching the experimentally measured value of 137.035999 to six significant figures. This number has fascinated physicists since the 1920s (the physicist Richard Feynman called it “one of the greatest damn mysteries of physics”). In the framework, it is not a mystery. It is the fixed point of the screening equation applied at the full tower depth.
+
+**The strong nuclear force** — the force that binds quarks together inside protons and neutrons (the building blocks of atomic nuclei), and holds those nuclei together against the electric repulsion of their protons. Its strength is measured by α_s. The same formula, applied at the shallower triangle depth (3 layers instead of 8), gives α_s = **0.1179**. The experimental value is 0.1180 ± 0.0009. The match is within 0.1 of one standard deviation — essentially exact.
+
+**The weak mixing angle** — a number called sin²θ_W (the **Weinberg angle**, named after physicist Steven Weinberg) that determines how the electromagnetic and weak forces blend into each other. At very high energies, these two forces are aspects of a single unified force; the Weinberg angle specifies the proportion of each in the blend, the way a dimmer switch sets the balance between two lights. The framework derives sin²θ_W = **0.2312**. The experimental value is 0.23122 ± 0.00003.
+
+Three numbers. One formula. Zero adjustable parameters. Each traces through a specific chain of reasoning to the ten axioms. Whether this constitutes a derivation or an elaborate coincidence is the question the reader must sit with. The framework’s position is that three independent six-significant-figure matches from a zero-parameter formula would be a remarkable coincidence — but the framework’s position is not the reader’s obligation.
 
 ### The Mathematics
 
