@@ -1,0 +1,204 @@
+<svg width="100%" viewBox="0 0 680 740" xmlns="http://www.w3.org/2000/svg">
+  <title>The tower grows and the cascade fires at each stage</title>
+  <desc>At each Fibonacci stage, the tower fills all positions with 1s (shown as filled blocks). Then the carry rule forces adjacent pairs to combine, leaving an alternating pattern. The diagram shows this growth-and-rearrangement process from stage 1 through stage 6.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .h { font-size: 14px; font-weight: 500; }
+    .s { font-size: 12px; }
+    .st { font-size: 11px; }
+    .on { fill: #AFA9EC; stroke: #534AB7; stroke-width: 0.5; }
+    .off { fill: none; stroke: #D3D1C7; stroke-width: 0.5; stroke-dasharray: 3 2; }
+    .bnd { fill: #CECBF6; stroke: #534AB7; stroke-width: 0.5; }
+    .arr-carry { stroke: #D85A30; stroke-width: 1; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .h { fill: #D3D1C7; }
+      .s { fill: #B4B2A9; }
+      .st { fill: #888780; }
+      .off { stroke: #5F5E5A; }
+    }
+    @media not (prefers-color-scheme: dark) {
+      .h { fill: #2C2C2A; }
+      .s { fill: #5F5E5A; }
+      .st { fill: #888780; }
+    }
+  </style>
+  <defs>
+    <marker id="ca" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M2 2L8 5L2 8" fill="none" stroke="#D85A30" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <!-- Column headers -->
+  <text class="st" x="52" y="20" text-anchor="middle">Stage</text>
+  <text class="st" x="190" y="20" text-anchor="middle">Tower fills up</text>
+  <text class="st" x="360" y="20" text-anchor="end">carry rule fires</text>
+  <text class="st" x="500" y="20" text-anchor="middle">Result</text>
+  <text class="st" x="630" y="20" text-anchor="middle">Active</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="30" x2="660" y2="30" stroke="#D3D1C7" stroke-width="0.3"/>
+
+  <!-- STAGE 1-2: depth 1, no cascade needed -->
+  <text class="s" x="52" y="62" text-anchor="middle">1–2</text>
+  <text class="st" x="52" y="76" text-anchor="middle">depth 1</text>
+  <rect x="172" y="48" width="36" height="28" rx="3" class="on"/>
+  <text class="st" x="190" y="66" text-anchor="middle" fill="#3C3489">1</text>
+
+  <text class="s" x="360" y="66" text-anchor="end" style="fill:#888780;font-style:italic">only one — no adjacent pair</text>
+
+  <rect x="482" y="48" width="36" height="28" rx="3" class="on"/>
+  <text class="st" x="500" y="66" text-anchor="middle" fill="#3C3489">1</text>
+
+  <text class="h" x="630" y="66" text-anchor="middle">1</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="95" x2="660" y2="95" stroke="#D3D1C7" stroke-width="0.15"/>
+
+  <!-- STAGE 3: depth 2 → 11 → 10 + boundary -->
+  <text class="s" x="52" y="130" text-anchor="middle">3</text>
+  <text class="st" x="52" y="144" text-anchor="middle">depth 2</text>
+
+  <rect x="172" y="116" width="36" height="28" rx="3" class="on"/>
+  <rect x="172" y="148" width="36" height="28" rx="3" class="on"/>
+  <text class="st" x="190" y="134" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="166" text-anchor="middle" fill="#3C3489">1</text>
+
+  <!-- Carry arrow -->
+  <path d="M216 145 C240 145, 240 130, 260 130" class="arr-carry" marker-end="url(#ca)"/>
+  <text class="st" x="310" y="128" style="fill:#D85A30">pair combines</text>
+
+  <rect x="482" y="102" width="36" height="28" rx="3" class="bnd"/>
+  <rect x="482" y="134" width="36" height="28" rx="3" class="off"/>
+  <rect x="482" y="166" width="36" height="28" rx="3" class="on"/>
+  <text class="st" x="500" y="120" text-anchor="middle" fill="#3C3489">↑</text>
+  <text class="st" x="500" y="152" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="184" text-anchor="middle" fill="#3C3489">1</text>
+
+  <text class="h" x="630" y="140" text-anchor="middle">1</text>
+  <text class="st" x="630" y="158" text-anchor="middle">+overflow</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="205" x2="660" y2="205" stroke="#D3D1C7" stroke-width="0.15"/>
+
+  <!-- STAGE 4: depth 3 → 111 → 101 + boundary -->
+  <text class="s" x="52" y="245" text-anchor="middle">4</text>
+  <text class="st" x="52" y="259" text-anchor="middle">depth 3</text>
+
+  <rect x="172" y="222" width="36" height="26" rx="3" class="on"/>
+  <rect x="172" y="250" width="36" height="26" rx="3" class="on"/>
+  <rect x="172" y="278" width="36" height="26" rx="3" class="on"/>
+  <text class="st" x="190" y="239" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="267" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="295" text-anchor="middle" fill="#3C3489">1</text>
+
+  <path d="M216 262 C240 262, 240 248, 260 248" class="arr-carry" marker-end="url(#ca)"/>
+  <text class="st" x="310" y="246" style="fill:#D85A30">bottom pair</text>
+  <text class="st" x="310" y="260" style="fill:#D85A30">combines</text>
+
+  <rect x="482" y="208" width="36" height="26" rx="3" class="bnd"/>
+  <rect x="482" y="236" width="36" height="26" rx="3" class="off"/>
+  <rect x="482" y="264" width="36" height="26" rx="3" class="on"/>
+  <rect x="482" y="292" width="36" height="26" rx="3" class="off"/>
+  <text class="st" x="500" y="225" text-anchor="middle" fill="#3C3489">↑</text>
+  <text class="st" x="500" y="253" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="281" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="309" text-anchor="middle" fill="#888780">0</text>
+
+  <text class="h" x="630" y="260" text-anchor="middle">2</text>
+  <text class="st" x="630" y="278" text-anchor="middle">+overflow</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="330" x2="660" y2="330" stroke="#D3D1C7" stroke-width="0.15"/>
+
+  <!-- STAGE 5: depth 5 → 11111 → 10101 + boundary -->
+  <text class="s" x="52" y="375" text-anchor="middle">5</text>
+  <text class="st" x="52" y="389" text-anchor="middle">depth 5</text>
+
+  <rect x="176" y="342" width="28" height="22" rx="3" class="on"/>
+  <rect x="176" y="366" width="28" height="22" rx="3" class="on"/>
+  <rect x="176" y="390" width="28" height="22" rx="3" class="on"/>
+  <rect x="176" y="414" width="28" height="22" rx="3" class="on"/>
+  <rect x="176" y="438" width="28" height="22" rx="3" class="on"/>
+  <text class="st" x="190" y="357" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="381" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="405" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="429" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="453" text-anchor="middle" fill="#3C3489">1</text>
+
+  <path d="M212 408 C236 408, 240 390, 260 390" class="arr-carry" marker-end="url(#ca)"/>
+  <text class="st" x="310" y="385" style="fill:#D85A30">pairs combine</text>
+  <text class="st" x="310" y="399" style="fill:#D85A30">bottom → up</text>
+
+  <rect x="486" y="330" width="28" height="22" rx="3" class="bnd"/>
+  <rect x="486" y="354" width="28" height="22" rx="3" class="off"/>
+  <rect x="486" y="378" width="28" height="22" rx="3" class="on"/>
+  <rect x="486" y="402" width="28" height="22" rx="3" class="off"/>
+  <rect x="486" y="426" width="28" height="22" rx="3" class="on"/>
+  <rect x="486" y="450" width="28" height="22" rx="3" class="off"/>
+  <text class="st" x="500" y="345" text-anchor="middle" fill="#3C3489">↑</text>
+  <text class="st" x="500" y="369" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="393" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="417" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="441" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="465" text-anchor="middle" fill="#888780">0</text>
+
+  <text class="h" x="630" y="400" text-anchor="middle">3</text>
+  <text class="st" x="630" y="418" text-anchor="middle">+overflow</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="480" x2="660" y2="480" stroke="#D3D1C7" stroke-width="0.15"/>
+
+  <!-- STAGE 6: depth 8 → 11111111 → 10101010 + boundary -->
+  <text class="s" x="52" y="540" text-anchor="middle">6</text>
+  <text class="st" x="52" y="554" text-anchor="middle">depth 8</text>
+
+  <rect x="178" y="496" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="518" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="540" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="562" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="584" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="606" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="628" width="24" height="20" rx="3" class="on"/>
+  <rect x="178" y="650" width="24" height="20" rx="3" class="on"/>
+  <text class="st" x="190" y="510" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="532" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="554" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="576" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="598" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="620" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="642" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="190" y="664" text-anchor="middle" fill="#3C3489">1</text>
+
+  <path d="M210 580 C240 580, 244 560, 264 560" class="arr-carry" marker-end="url(#ca)"/>
+  <text class="st" x="314" y="548" style="fill:#D85A30">4 pairs combine</text>
+  <text class="st" x="314" y="562" style="fill:#D85A30">bottom → up</text>
+
+  <rect x="488" y="484" width="24" height="20" rx="3" class="bnd"/>
+  <rect x="488" y="506" width="24" height="20" rx="3" class="off"/>
+  <rect x="488" y="528" width="24" height="20" rx="3" class="on"/>
+  <rect x="488" y="550" width="24" height="20" rx="3" class="off"/>
+  <rect x="488" y="572" width="24" height="20" rx="3" class="on"/>
+  <rect x="488" y="594" width="24" height="20" rx="3" class="off"/>
+  <rect x="488" y="616" width="24" height="20" rx="3" class="on"/>
+  <rect x="488" y="638" width="24" height="20" rx="3" class="off"/>
+  <rect x="488" y="660" width="24" height="20" rx="3" class="on"/>
+  <text class="st" x="500" y="498" text-anchor="middle" fill="#3C3489">↑</text>
+  <text class="st" x="500" y="520" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="542" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="564" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="586" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="608" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="630" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="652" text-anchor="middle" fill="#888780">0</text>
+  <text class="st" x="500" y="674" text-anchor="middle" fill="#3C3489">1</text>
+
+  <text class="h" x="630" y="578" text-anchor="middle">4</text>
+  <text class="st" x="630" y="596" text-anchor="middle">+overflow</text>
+  <text class="st" x="630" y="612" text-anchor="middle" style="fill:#1D9E75">= spacetime</text>
+  <text class="st" x="630" y="626" text-anchor="middle" style="fill:#1D9E75">dimensions</text>
+
+  <!-- Bottom summary -->
+  <line x1="20" y1="695" x2="660" y2="695" stroke="#D3D1C7" stroke-width="0.3"/>
+  <text class="s" x="340" y="720" text-anchor="middle">At every stage: the tower fills up, the carry rule fires, an alternating pattern emerges.</text>
+  <text class="s" x="340" y="738" text-anchor="middle">The overflow from each stage seeds the next. Growth never stops.</text>
+</svg>
