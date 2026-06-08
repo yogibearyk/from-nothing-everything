@@ -32,6 +32,8 @@ The philosophical through-line matters. This is not a story about physicists tin
 
 This book tells that story from the beginning, in the order the universe builds itself. It is written in two layers. The **Idea** layer (plain English, no equations) tells the story as a narrative anyone can follow. The **Mathematics** layer (derivations, decimal checks) lets you verify every claim. You can read just the Ideas and get the whole picture. You can read both and check every step. The book's position is that you should trust nothing it says until you have checked it yourself — and it tries to make the checking as easy as possible.
 
+The framework rests on ten axioms — ten structural rules, introduced one at a time in the chapters that follow, each at the moment it becomes necessary. A complete reference table appears at the end of Part I for readers who want to see them all in one place.
+
 ---
 
 ## A note on notation
@@ -523,6 +525,27 @@ And here is the crucial insight: *this process is not special to stage 6.* The s
 | 7 | 13 | 1111111111111 | 1010101010101 + boundary | 7 |
 
 **Validation.** Stage-6 cascade: the total value φ⁰ + φ¹ + … + φ⁷ = 74.395. After carries: φ² + φ⁴ + φ⁶ + φ⁸ = 2.618 + 6.854 + 17.944 + 46.979 = 74.395. ✓ Value preserved exactly.
+
+---
+
+## The Ten Axioms — Collected
+
+*Each axiom was introduced in the chapter where it first became necessary. Here they are gathered in one place, with a plain-English gloss, for reference.*
+
+| # | Name | In plain English | First used |
+|---|------|-----------------|------------|
+| 1 | **Ground** | Ω exists. No distinctions, no structure. 0 = 1 = ∞. | Ch 1 |
+| 2 | **Introspection** | Ω examines its own interior. This act IS Ω, not something that happens to it. | Ch 2 |
+| 3 | **First Maya** | Self-examination creates the first distinction: M₁↔M₂. Mutual, indivisible. | Ch 2 |
+| 4 | **Single Primitive** | Only one kind of node exists. “Observer” and “observed” are roles, not types. | Ch 2 |
+| 5 | **Recursive Generation** | Structure generates structure. Growth is forward-biased. Nothing is un-generated. | Ch 3 |
+| 6 | **Graph** | The structure is a directed graph. Closed loops (cycles) are permitted. | Ch 6 |
+| 7 | **Binary** | Every examination resolves to 0 or 1. Resolution belongs to the relation, not the node. | Ch 5 |
+| 8 | **Constraint Spectrum** | Between fully resolved and fully unresolved lies a continuous range. Partial resolution is probability. | Ch 9 |
+| 9 | **Coherent Convergence** | Unresolved nodes can coexist without forcing a result. Forced resolution destroys the coherence. | Ch 9 |
+| 10 | **Local Ω-Return** | Examine anything deeply enough and you return to Ω. The self, fully known, is the ground. | Ch 14 |
+
+*These ten rules, together with the two constants they force (φ and ⊙), are the entire input. Everything from here on — spacetime, forces, masses, the energy budget of the cosmos — is output.*
 
 ---
 
