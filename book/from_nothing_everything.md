@@ -1185,13 +1185,29 @@ Three spatial dimensions, each contributing one factor of the bilateral Drishti.
 
 ### The Idea
 
-The universe, at its largest scale, is a budget. Every bit of energy falls into one of three categories: dark energy (which accelerates the expansion), dark matter (which slows it), and ordinary baryonic matter (which makes stars, planets, and people). The Planck satellite measured the split with exquisite precision: about 68.5% dark energy, 26.5% dark matter, 4.9% baryonic. These numbers are among the best-measured quantities in cosmology, and among the most puzzling. Why these fractions? Why is dark matter five times more abundant than ordinary matter? And above all: why is the cosmological constant — the energy density of empty space — not 10¹²² times larger than it is?
+If you could weigh the entire universe and sort its contents, you would find three categories — and their proportions are among the most puzzling facts in all of science.
 
-The framework answers all three, from one number: D = φ/π ≈ 0.515.
+**Ordinary matter** — the atoms that make up stars, planets, oceans, and your body — accounts for only about **5%** of the total. Everything you have ever seen, touched, or measured is a small sliver of what exists.
 
-> **Metaphor: the spotlight and the room.** Imagine you are standing in a large, dark room with a spotlight. The light illuminates a circle on the floor — that is the "resolved" fraction, the matter you can see and interact with. The rest of the room is in darkness — that is the "unresolved" fraction, the dark energy. How much of the floor is lit depends on the spotlight's angle and the room's geometry. In the framework, the spotlight is the Drishti bound (D = φ/⊙), and the room is the full observational budget (= 1). The lit fraction is ⊙⁻¹ ≈ 0.318 — the matter density. The dark fraction is (1 − ⊙⁻¹) ≈ 0.682 — the dark energy density.
+**Dark matter** — the invisible matter from Chapter 19, known only by its gravity — accounts for about **26.5%**. It is five times more abundant than ordinary matter. No one knows why the ratio is five-to-one rather than, say, a thousand-to-one or one-to-one.
+
+**Dark energy** — the most mysterious category — accounts for the remaining **68.5%**. Dark energy is the energy of empty space itself. It sounds like a contradiction (how can emptiness have energy?), but measurements confirm that the vacuum exerts a gentle outward push, causing the expansion of the universe to accelerate. Two independent teams discovered this acceleration in 1998 by studying distant **supernovae** (exploding stars used as distance markers), winning the 2011 Nobel Prize in Physics.
+
+These proportions were measured with extraordinary precision by the **Planck satellite** — a European Space Agency mission that mapped the cosmic microwave background (Chapter 20) from 2009 to 2013. The measurements are accurate to better than 1%. But the Standard Model of particle physics cannot explain any of the three fractions. They are inputs, not outputs.
+
+**The deepest puzzle: the cosmological constant problem.** When physicists try to calculate how much energy empty space *should* have, using the rules of quantum mechanics, they get a number that is roughly 10¹²² times larger than what is observed. That is 1 followed by 122 zeros — a mismatch so enormous that physicist Steven Weinberg called it “the worst prediction in the history of physics.” The observed dark energy density is not zero, but it is incomprehensibly smaller than theory predicts. This discrepancy — called the **cosmological constant problem** — has been an open wound in physics for decades.
+
+The framework answers all three fractions from one number: **D = φ/⊙ ≈ 0.515**, the Drishti bound from Chapter 9.
+
+> **Metaphor: the spotlight and the room.** Imagine standing in a large, dark room with a spotlight. The light illuminates a circle on the floor — that is the matter you can see and interact with (the “resolved” fraction). The rest of the room is in darkness — that is the dark energy (the “unresolved” fraction). How much of the floor is lit depends on the spotlight’s angle.
 >
-> Now, within the lit circle, there is a smaller circle — matter that has been screened *twice*, once through the observer's perspective and once through the hidden sector's barrier. That doubly-screened portion is the dark matter: D² = (φ/π)² ≈ 0.265. The remainder — lit but only singly screened — is the baryonic matter: ⊙⁻¹ − D² ≈ 0.049. The entire budget is cut from one ratio, applied once, twice, or not at all.
+> In the framework, the spotlight is the Drishti bound. It illuminates a fraction ⊙⁻¹ ≈ 0.318 of the total budget. That is the total matter density — everything that has been resolved by observation. The remaining 68.2% is dark energy — the portion that observation has not yet resolved.
+>
+> Now, within the lit circle, not everything is equally visible. Some of the resolved matter has been screened *twice* — once through the observer’s own perspective, and once through the hidden sector’s barrier. That doubly-screened portion is the dark matter: D² = (φ/π)² ≈ 0.265. The remainder — resolved but only singly screened — is the ordinary matter: 0.318 − 0.265 ≈ 0.049. The entire budget is cut from one ratio, applied once, twice, or not at all.
+
+**Why is dark matter five times more abundant than ordinary matter?** In standard cosmology, this near-integer ratio is an unexplained coincidence — dark matter and ordinary matter arise from completely unrelated mechanisms, yet land within a factor of six of each other. In the framework, the ratio is not a coincidence. Both densities are cut from the same constant D. The ratio D²/(⊙⁻¹ − D²) is fixed by the values of φ and π. It gives 5.38 (observed: 5.37). The “coincidence” dissolves into geometry.
+
+**Why is the cosmological constant so small?** In the framework, dark energy is not a number measured in the “wrong” units against the Planck scale. It is a dimensionless geometric fraction: the unresolved portion of the observational budget, depending only on π, φ, and α. The enormous mismatch of 10¹²² disappears because the framework never makes the comparison that produces it. The problem was not that the cosmological constant is unnaturally small — it was that standard physics was measuring it with the wrong ruler.
 
 ### The Mathematics
 
