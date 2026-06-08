@@ -1349,45 +1349,61 @@ Until then, the honest position is: this is either a genuine structural theory o
 
 ### The Idea
 
-A theory that claims everything would be suspicious. A theory that clearly marks what it can and cannot do earns the right to be taken seriously. This chapter maps the frontier — the three honest boundaries where the trail goes cold, the deeper questions the framework raises but cannot yet answer, and the experiments that will test its most exposed predictions.
+A theory that claims to explain everything would be suspicious. A theory that clearly marks what it can and cannot do earns the right to be taken seriously. This chapter maps the frontier — the places where the framework’s trail goes cold, the questions it raises but cannot yet answer, and the experiments that will test its most exposed predictions within the coming decade.
 
-> **Metaphor: the explorer's map.** Old maps labeled unknown regions *terra incognita* and drew sea monsters in the margins. This chapter is the framework's *terra incognita* — the regions beyond the last surveyed landmark. The monsters may turn out to be real, or the region may turn out to be more of the same territory. Either way, drawing the boundary honestly is more useful than pretending there are no edges.
+> **Metaphor: the explorer’s map.** Old maps labeled unknown regions *terra incognita* (“unknown land”) and drew sea monsters in the margins. This chapter is the framework’s *terra incognita* — the regions beyond the last surveyed landmark. The monsters may turn out to be real, or the region may turn out to be more of the same territory. Either way, drawing the boundary honestly is more useful than pretending there are no edges.
 
 ### The Three Honest Boundaries
 
-**Boundary 1: The graph-to-field bridge.** The framework derives coupling constants, mixing angles, and cosmological fractions from the tower structure, but does not formulate an action principle — a Lagrangian S = ∫ L d⁴x from which the Standard Model's quantum fields and propagators would emerge. The discrete tower produces the *numbers* of particle physics; continuous quantum field theory provides the *dynamics*. The bridge between the two is the framework's deepest open problem.
+**Boundary 1: From numbers to dynamics.** The framework derives the *constants* of physics — the strength of forces, the masses of particles, the fractions of the cosmic budget. But it does not yet derive the *rules of motion* — the equations that tell you how a particle moves from one place to another, how two particles collide and scatter, how a quantum field evolves from moment to moment. In physics, these rules of motion are encoded in something called an **action principle** — a single mathematical expression from which all the dynamics of a theory can be derived. The Standard Model has one. General relativity has one. The framework does not — yet.
 
-Partial results exist. The Schwarzschild metric has been derived from the axioms, as have the full Einstein field equations (with one structural assumption: the transition from discrete graph to continuous manifold). Four structural parallels toward a full action principle have been identified: the fixed-point equation as a saddle-point condition, the tower value as a partition function, the generation function as a Green's function, and the Fibonacci recurrence as a lattice discretization of the Klein-Gordon equation. These are signposts, not a road.
+Think of it this way: the framework has produced a complete parts list for the universe (what the parts are, how heavy they are, how strongly they interact). But it has not yet produced the instruction manual (how the parts move and combine in real time). Bridging this gap — connecting the discrete tower structure to the continuous mathematics of quantum fields — is the framework’s deepest open problem. Partial results exist (the equations of general relativity have been derived, with one assumption), but the full bridge has not been built.
 
-**Boundary 2: Epoch dependence of cosmological parameters.** The cosmological predictions (Ω_m, Ω_Λ, Ω_DM) are observer-epoch quantities — budget fractions at z = 0. The framework does not yet derive the full expansion history. Three sub-questions are open: Does the Drishti screening evolve with epoch? Can the Friedmann equations be derived from the constraint-curvature correspondence? And is the agreement at z = 0 a version of the cosmological coincidence problem?
+**Boundary 2: The cosmic budget at other times.** The cosmological predictions of Chapter 21 (the fractions of dark energy, dark matter, and ordinary matter) match the measurements made *today* — at the present moment in the universe’s history. But the universe has not always had the same proportions. In its early history, matter dominated; dark energy was negligible. Today, dark energy dominates. The framework does not yet derive how these fractions evolve over time. It gives a snapshot (the budget right now) but not a movie (the budget through cosmic history). Whether the snapshot’s remarkable accuracy extends to a full film is an open question.
 
-**Boundary 3: The dark sector's experimental accessibility.** The framework predicts a complete dark sector (Chapter 19) with specific masses, couplings, and a zero kinetic mixing parameter. But the Higgs portal coupling between the SM and dark sectors is not computed, which means the framework cannot predict whether the dark sector is experimentally accessible at any existing or planned facility. The predictions become testable only if a coupling mechanism is identified.
+**Boundary 3: Can we see the dark sector?** The framework predicts a complete dark sector (Chapter 19) with specific particle masses, specific force strengths, and zero mixing with ordinary light. But it does not yet calculate how *strongly* the dark sector interacts with ordinary matter through the one channel that might connect them — the Higgs field. Without this calculation, the framework cannot predict whether the dark sector’s particles could ever be produced in a particle accelerator or detected in a laboratory. The predictions are precise but, for now, observationally out of reach.
 
 ### What the Framework Does Not Derive
 
-Some things the framework does not attempt:
+Some things the framework does not attempt, and is honest about:
 
-It does not derive the *absolute* quark masses — only the ratios. The absolute scale is set by the Yukawa couplings, which require the Higgs vacuum expectation value v (one of the two dimensionful anchors) and a calculation of the coupling structure that the framework does not yet perform.
+**Absolute masses.** The framework derives the *ratios* between particle masses (Chapter 16) but not the masses in kilograms or electron-volts. The absolute scale requires a reference point (the Higgs field’s baseline value), and the framework does not yet compute this from the axioms.
 
-It does not derive the *charged lepton masses* individually — only their ratios through the generation tower. The framework predicts m_e : m_μ : m_τ through the generation tower but does not reproduce the absolute values without the dimensionful anchor.
+**Individual lepton masses.** The framework predicts how the electron, muon, and tau relate to each other through the generation tower, but does not reproduce their individual masses without the same reference point.
 
-It does not reproduce the *full angular power spectrum* of the CMB — only the spectral index n_s, the amplitude A_s, and the tensor ratio r. Showing that the Fibonacci mode structure generates the correct C_ℓ multipole coefficients is a major piece of unfinished work.
+**The full pattern of the oldest light.** Chapter 20 derived three headline numbers about the cosmic microwave background (the tilt, the loudness, and the gravitational wave strength). But the full, detailed pattern — the specific ripple strength at every angular scale, hundreds of data points measured by the Planck satellite — has not yet been reproduced. Showing that the Fibonacci tower’s mode structure generates this full pattern is a major piece of unfinished work.
 
-It does not address *quantum gravity* in the full sense. The Schwarzschild metric and EFE are derived, but the quantization of the gravitational field — the ultraviolet completion — remains open. The framework's structure is inherently discrete at the tower level, which suggests a natural UV cutoff, but this has not been formalized.
+**Quantum gravity.** The framework has derived the equations that describe how mass curves spacetime (Einstein’s field equations) and the geometry of a black hole (the Schwarzschild solution). But it has not addressed the deeper problem of **quantum gravity** — the unification of quantum mechanics (which governs the very small) with general relativity (which governs the very large). This is widely considered the hardest open problem in all of physics. The framework’s inherently discrete structure (the tower, with its integer positions and binary resolution) hints at a natural approach, but this has not been formalized.
 
 ### The Testable Future
 
-Five predictions are testable within the current decade:
+Five predictions are testable within the current decade. Each comes with a specific experiment and a clear falsification condition — a result that would refute the framework with no room for adjustment:
 
-The tensor-to-scalar ratio **r ≈ 0.017** — LiteBIRD and CMB-S4 will measure r to δr ≈ 0.001–0.003. A measurement near 0.017 confirms; r = 0 refutes.
+**Gravitational waves from the beginning (r ≈ 0.017).** The experiments **LiteBIRD** (a Japanese satellite) and **CMB-S4** (ground telescopes in Chile and Antarctica) will measure r to high precision. If they find r near 0.017, the framework is confirmed. If they find r = 0, the framework is refuted.
 
-The neutrino mass sum **Σm_ν ≈ 57 meV** — DESI, Euclid, and CMB-S4 will push sensitivity below 50 meV. The framework predicts normal ordering; inverted ordering (Σm_ν > 100 meV) would refute.
+**The total neutrino mass (Σm_ν ≈ 57 meV).** The surveys **DESI** and **Euclid** will push sensitivity below 50 meV by measuring how neutrino mass affects the clustering of galaxies. The framework predicts 57 meV with normal ordering (lightest neutrino first). If the ordering turns out to be inverted (heaviest first, total above 100 meV), the framework is refuted.
 
-The PMNS CP phase **δ_CP ≈ 222.5°** — DUNE will measure this to ~15° precision. CP conservation (0° or 180°) would refute.
+**The neutrino CP phase (δ_CP ≈ 222.5°).** The experiment **DUNE** (Deep Underground Neutrino Experiment, in South Dakota) will measure this to about 15° precision. If the phase turns out to be 0° or 180° (meaning no matter-antimatter asymmetry in the neutrino sector), the framework is refuted.
 
-Normal mass ordering — JUNO and DUNE will determine the neutrino mass ordering. Inverted ordering would require revision.
+**Normal neutrino mass ordering.** The experiments **JUNO** (in China) and **DUNE** will independently determine whether the three neutrino masses are ordered lightest-to-heaviest (normal) or heaviest-to-lightest (inverted). The framework predicts normal. Inverted would require revision.
 
-The dark photon kinetic mixing **ε = 0** — any detection of dark photon mixing would refute. Ongoing searches at LHC, SHiP, and dark matter direct detection experiments are relevant.
+**Zero dark photon mixing (ε = 0).** Searches at the **Large Hadron Collider** (the world’s most powerful particle accelerator, at CERN in Geneva), the **SHiP** experiment (Search for Hidden Particles, also at CERN), and various dark matter detection experiments are looking for signs that dark photons mix with ordinary photons. The framework predicts exactly zero mixing. Any detection would refute the framework.
+
+### The Road to a Complete Theory
+
+The framework in its current form is a set of remarkable predictions. To become a complete theory of fundamental physics, it must cross six milestones, listed here in order of priority — each one enabling the ones that follow:
+
+**Milestone 1: The graph-to-field bridge.** This is the deepest gap. The framework’s tower is a discrete structure — integer positions, binary values, Fibonacci growth. The Standard Model is a continuous structure — smooth fields, differential equations, amplitudes that flow and interfere. Connecting the two — showing that the tower’s fixed-point equations emerge from a continuous action principle the way a crystal’s lattice structure emerges from the underlying laws of chemistry — would transform the framework from a number-producing machine into a genuine physical theory. Until this bridge is built, the framework produces the right constants but cannot describe the dynamics that use them.
+
+**Milestone 2: Cosmic history from the axioms.** Once the bridge to dynamics exists, the next step is to derive the full expansion history of the universe — not just today’s energy budget (Chapter 21) but the budget at every epoch: the radiation-dominated era, the matter-dominated era, the transition to dark energy dominance. This would answer whether the Drishti screening evolves with cosmic time, and whether the present-day agreement is a snapshot of a deeper law or a coincidence of timing.
+
+**Milestone 3: Absolute masses from the axioms.** The framework currently derives mass *ratios* (Chapter 16) but not absolute masses. Deriving the Higgs field’s baseline value from the ten axioms — the single number that converts all the framework’s pure ratios into kilograms or electron-volts — would close this gap. It would mean the mass of the electron, the proton, and every other particle could be calculated from first principles with no input from experiment.
+
+**Milestone 4: The full pattern of the oldest light.** Chapter 20 derived three numbers about the cosmic microwave background. The Planck satellite measured roughly 2,500 numbers — the ripple strength at every angular scale from horizon-wide to arcminute-fine. Reproducing this full pattern from the tower’s Fibonacci mode structure would be a dramatic confirmation, turning three data points into two thousand five hundred.
+
+**Milestone 5: Dark sector accessibility.** The framework predicts a complete dark sector (Chapter 19) but cannot yet calculate whether any of its particles could be detected by existing or planned experiments. Computing the strength of the connection between the dark sector and ordinary matter — through the Higgs field, the one channel that might link them — would tell us whether the dark sector’s predictions are testable in practice or only in principle.
+
+**Milestone 6: Quantum gravity.** The ultimate prize. The framework’s tower is inherently discrete — finite positions, integer depths, binary resolution. Spacetime, as described by general relativity, is inherently continuous — smooth, infinitely divisible. Showing that the continuous spacetime of general relativity emerges from the framework’s discrete tower in a mathematically rigorous way — the way the smooth surface of water emerges from discrete water molecules — would constitute a theory of quantum gravity: the unification of the very small and the very large, the holy grail of theoretical physics. The framework’s discrete structure is the most natural starting point for such a unification that the author has encountered, but the work has not yet been done.
 
 ### Closing
 
