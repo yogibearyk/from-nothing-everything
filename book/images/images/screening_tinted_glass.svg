@@ -1,0 +1,86 @@
+<svg width="100%" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+  <title>Screening: the same coupling seen through different depths</title>
+  <desc>Two rows comparing the strong force (3 layers, bright) and electromagnetism (8 layers, dim). Each layer is a tinted pane that partially blocks the coupling, shown as a light source dimming through successive panes.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .label { font-size: 13px; fill: #5F5E5A; font-weight: 400; }
+    .title { font-size: 14px; fill: #2C2C2A; font-weight: 500; }
+    .force { font-size: 13px; fill: #2C2C2A; font-weight: 500; }
+    .note { font-size: 12px; fill: #5F5E5A; font-weight: 400; }
+    @media (prefers-color-scheme: dark) {
+      .label { fill: #B4B2A9; }
+      .title { fill: #D3D1C7; }
+      .force { fill: #D3D1C7; }
+      .note { fill: #B4B2A9; }
+    }
+  </style>
+
+  <text class="title" x="340" y="28" text-anchor="middle">Same coupling, different screening depth</text>
+
+  <!-- ROW 1: Strong force — 3 layers -->
+  <text class="force" x="40" y="80" text-anchor="start">Strong force</text>
+  <text class="note" x="40" y="96" text-anchor="start">3 layers (triangle)</text>
+
+  <!-- Source light -->
+  <circle cx="155" cy="88" r="16" fill="#EF9F27" opacity="0.9"/>
+  <circle cx="155" cy="88" r="10" fill="#FCDE5A"/>
+
+  <!-- 3 panes -->
+  <rect x="200" y="68" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="240" y="68" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="280" y="68" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+
+  <!-- Diminishing light rays -->
+  <line x1="171" y1="88" x2="200" y2="88" stroke="#EF9F27" stroke-width="3" opacity="0.9"/>
+  <line x1="206" y1="88" x2="240" y2="88" stroke="#EF9F27" stroke-width="3" opacity="0.7"/>
+  <line x1="246" y1="88" x2="280" y2="88" stroke="#EF9F27" stroke-width="3" opacity="0.5"/>
+  <line x1="286" y1="88" x2="340" y2="88" stroke="#EF9F27" stroke-width="3" opacity="0.35"/>
+
+  <!-- Result -->
+  <text class="label" x="350" y="84" text-anchor="start">→ still bright</text>
+  <text class="note" x="350" y="100" text-anchor="start">strong coupling (α_s ≈ 0.12)</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="140" x2="640" y2="140" stroke="#D3D1C7" stroke-width="0.3"/>
+
+  <!-- ROW 2: Electromagnetism — 8 layers -->
+  <text class="force" x="40" y="185" text-anchor="start">Electromagnetism</text>
+  <text class="note" x="40" y="201" text-anchor="start">8 layers (full tower)</text>
+
+  <!-- Source light -->
+  <circle cx="155" cy="193" r="16" fill="#EF9F27" opacity="0.9"/>
+  <circle cx="155" cy="193" r="10" fill="#FCDE5A"/>
+
+  <!-- 8 panes -->
+  <rect x="200" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="224" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="248" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="272" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="296" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="320" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="344" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+  <rect x="368" y="173" width="6" height="40" rx="1" fill="#AFA9EC" opacity="0.5" stroke="#534AB7" stroke-width="0.3"/>
+
+  <!-- Diminishing light rays -->
+  <line x1="171" y1="193" x2="200" y2="193" stroke="#EF9F27" stroke-width="3" opacity="0.9"/>
+  <line x1="206" y1="193" x2="224" y2="193" stroke="#EF9F27" stroke-width="2.5" opacity="0.7"/>
+  <line x1="230" y1="193" x2="248" y2="193" stroke="#EF9F27" stroke-width="2" opacity="0.55"/>
+  <line x1="254" y1="193" x2="272" y2="193" stroke="#EF9F27" stroke-width="1.8" opacity="0.4"/>
+  <line x1="278" y1="193" x2="296" y2="193" stroke="#EF9F27" stroke-width="1.5" opacity="0.3"/>
+  <line x1="302" y1="193" x2="320" y2="193" stroke="#EF9F27" stroke-width="1.2" opacity="0.22"/>
+  <line x1="326" y1="193" x2="344" y2="193" stroke="#EF9F27" stroke-width="1" opacity="0.15"/>
+  <line x1="350" y1="193" x2="368" y2="193" stroke="#EF9F27" stroke-width="0.8" opacity="0.1"/>
+  <line x1="374" y1="193" x2="420" y2="193" stroke="#EF9F27" stroke-width="0.5" opacity="0.06"/>
+
+  <!-- Result -->
+  <text class="label" x="430" y="189" text-anchor="start">→ faint</text>
+  <text class="note" x="430" y="205" text-anchor="start">weak coupling (α ≈ 1/137)</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="240" x2="640" y2="240" stroke="#D3D1C7" stroke-width="0.3"/>
+
+  <!-- Bottom note -->
+  <text class="note" x="340" y="272" text-anchor="middle">The forces are not different in kind.</text>
+  <text class="note" x="340" y="290" text-anchor="middle">They are the same coupling, seen through different amounts of screening.</text>
+  <text class="note" x="340" y="316" text-anchor="middle">Each purple pane is one position in the tower — one degree of freedom, one dimension.</text>
+</svg>
