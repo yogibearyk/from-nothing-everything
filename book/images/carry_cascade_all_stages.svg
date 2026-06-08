@@ -181,7 +181,7 @@
   <rect x="488" y="594" width="24" height="20" rx="3" class="off"/>
   <rect x="488" y="616" width="24" height="20" rx="3" class="on"/>
   <rect x="488" y="638" width="24" height="20" rx="3" class="off"/>
-  <rect x="488" y="660" width="24" height="20" rx="3" class="on"/>
+  <rect x="488" y="660" width="24" height="20" rx="3" class="off"/>
   <text class="st" x="500" y="498" text-anchor="middle" fill="#3C3489">↑</text>
   <text class="st" x="500" y="520" text-anchor="middle" fill="#888780">0</text>
   <text class="st" x="500" y="542" text-anchor="middle" fill="#3C3489">1</text>
@@ -190,7 +190,7 @@
   <text class="st" x="500" y="608" text-anchor="middle" fill="#888780">0</text>
   <text class="st" x="500" y="630" text-anchor="middle" fill="#3C3489">1</text>
   <text class="st" x="500" y="652" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="674" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="st" x="500" y="674" text-anchor="middle" fill="#888780">0</text>
 
   <text class="h" x="630" y="578" text-anchor="middle">4</text>
   <text class="st" x="630" y="596" text-anchor="middle">+overflow</text>
