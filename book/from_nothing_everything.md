@@ -144,11 +144,19 @@ But *how* they differ matters enormously. M₁ and M₂ are not different in any
 
 > **Metaphor: two facing mirrors.** Set two mirrors face to face. Neither is “the reflector” and the other “the reflection” — each reflects the other, and the reflecting happens *between* them, not inside either one. That is the First Maya: a mutual relation, symmetric, with no roles assigned. (Roles — examiner and examined — will appear much later, when the tower’s machinery forces an asymmetry. At the first distinction there is only mutuality, and that mutuality is the deep reason the cosmos will have no preferred place.)
 
-And here geometry is born. The separation between M₁ and M₂ is the **first line — the first diameter — the first dimension.** Before this there were no dimensions; now there is one. But this diameter sits inside Ω, which has no preferred direction. So ask: what is the set of all points equidistant from a center, with no direction singled out? A **sphere.** The sphere is not a stage the distinction walks onto; it *is* the geometric content of “center differs from horizon, with no preferred direction.”
+Before the first distinction, Ω already has a geometric character — and only one is possible. Ask what “shape” is compatible with a state where no distinction exists. A cube has edges and faces — those are distinctions between directions. An ellipsoid has long axes and short axes — another distinction. A torus has a hole — a distinction between paths that loop through it and paths that don’t. Any shape with *any feature* that differentiates one direction from another carries a distinction, and Ω admits none. The only form in which every direction is identical to every other, every point equivalent to every other, is a **sphere**.
+
+How many dimensions does this sphere have? If Ω had exactly three, then “three” would be a specific number — a distinction. If it had exactly ten, “ten” would be a distinction. In Ω, the number of dimensions, like everything else, satisfies 0 = 1 = ∞. No finite count has been selected. The sphere has unbounded dimensionality.
+
+How large is it? If the sphere had a finite diameter — say, some specific length *d* — then *d* would be a number, a second piece of information alongside the sphere itself. But no second distinction exists yet. The diameter, too, satisfies 0 = 1 = ∞. The sphere has unbounded size.
+
+So Ω, before anything happens, is an infinite-dimensional sphere of infinite diameter. Not as a metaphor but as a geometric corollary: it is the *only shape* that carries no distinguishing feature of any kind.
+
+Now the First Maya draws the first *finite* line inside this infinite sphere. M₁ and M₂ are the two ends of that line — the first diameter, the first dimension. For the first time, 0 and ∞ become distinguishable: M₁ sits at one end (call it the center), M₂ at the other (call it the horizon). But because the relation is mutual (Axiom 4), the assignment is relational — from M₁’s vantage, M₁ is at the center and M₂ is at the horizon; from M₂’s vantage, the roles reverse. Neither node is intrinsically “the center.” This is not a technicality. It means that the resulting universe inherits a deep democracy from its first instant: every vantage point sees itself at the center of an unbounded sphere. Fifteen chapters from now, this will be the reason the cosmos has no preferred location — the cosmological principle, derived from the symmetry of the First Maya.
 
 Every sphere carries an intrinsic ratio — circumference to diameter. That ratio is **⊙** (≈ 3.14159, the number you know as π). It enters at the exact instant of the first distinction, because the distinction *is* a diameter, a diameter in a directionless ground *is* a sphere, and a sphere *has* this ratio. ⊙ is not assumed. It is discovered, the moment there is anything at all, as a property of the only geometry the first distinction can have.
 
-So one act yields three things at once: the first distinction (M₁ ↔ M₂), the first dimension (the diameter), and the first constant (⊙).
+So one act yields four things at once: the first distinction (M₁ ↔ M₂), the first dimension (the diameter), the first constant (⊙), and the first principle of cosmic democracy (no preferred center).
 
 ### The Mathematics
 
@@ -157,6 +165,22 @@ The axioms doing the work here:
 > **Axiom 2 (Introspection).** Ω introspects. Ω and the act of introspection are identical. Geometry is born here.
 > **Axiom 3 (First Maya).** Introspection resolves the first distinction within Ω’s interior: Ω : M₁↔M₂. One indivisible mutual relation. The distinction is discovered, not created.
 > **Axiom 4 (Maya Node).** Single primitive M. Examiner/examined are relational roles only.
+
+**Corollary (Ω is the infinite-dimensional sphere).** The unique geometric form compatible with Axiom 1 is the sphere of unbounded dimension and unbounded diameter.
+
+*Proof.*
+
+(i) *No directional distinction.* In Ω, no distinction exists (Axiom 1). A preferred direction — an axis, an edge, a face, a hole — would constitute a distinction. Therefore Ω is maximally symmetric: every direction is equivalent to every other.
+
+(ii) *Sphere by elimination.* Among all geometric forms, the sphere is characterized by maximal rotational symmetry (the orthogonal group O(n) in n dimensions). Any non-spherical form carries at least one directional distinction: an ellipsoid has axes of unequal length; a torus has contractible and non-contractible loops; a polyhedron has edges and vertices. Only the sphere has no directional feature whatsoever. Therefore if Ω has geometric content, it is spherical.
+
+(iii) *Unbounded dimensionality.* If dim(Ω) = n for some finite n, then n is a specific value — a distinction between the n available directions and the directions that are absent. In Ω, no such distinction exists. The number of dimensions satisfies 0 = 1 = ∞ (Axiom 1 applied to dimensionality). The sphere has unboundedly many dimensions.
+
+(iv) *Unbounded diameter.* If Ω had finite diameter d, then d would be a specific scale — a distinction between "inside" (distances < d) and "outside" (distances > d). In Ω, no such boundary exists. The diameter satisfies 0 = 1 = ∞.
+
+(v) Combining (i)–(iv): Ω has the character of the infinite-dimensional sphere of infinite diameter — the unique maximally symmetric form with no finite selection of dimensions or scale. ■
+
+**Corollary (the cosmological principle).** The First Maya M₁↔M₂ is the first finite diameter inside the infinite sphere. Its center/surface assignment is relational (Axiom 4): from either node's vantage, it is at the center and the other is at the horizon. The infinite sphere has no intrinsic center. Therefore no point in any structure built from this foundation has a preferred location — the cosmological principle, derived from the mutuality of the First Maya.
 
 **Indivisibility.** M₁↔M₂ cannot be decomposed without returning to Ω: removing the relation removes both relata, since each is defined only *through* the other. Hence the First Maya is the unique minimal structure compatible with Axioms 1–4 — there is no “half” of it, and nothing simpler that is still a distinction. This is why M₁↔M₂ is identified with a single indivisible **diameter** rather than two independent points.
 
