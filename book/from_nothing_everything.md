@@ -1413,7 +1413,7 @@ Whether the framework constitutes a genuine structural theory of the fundamental
 
 ---
 
-*[End of complete book. The mathematical details behind every prediction can be found in the companion papers: Paper I ("Coupling Constants from Ten Axioms"), Paper II ("Predictions of the Maya/Chakra Framework"), and the source derivation files in the Maya/Chakra Math repository. The book presents the ideas and the numbers; the papers present the proofs.]*
+*[End of complete book. The mathematical details behind every prediction can be found in the companion papers: [Paper I — "Coupling Constants from Ten Axioms"](https://doi.org/10.5281/zenodo.20318574), [Paper II — "Predictions of the Maya/Chakra Framework"](https://doi.org/10.5281/zenodo.20404472), and the source derivation files in the [Maya/Chakra Math repository](https://github.com/yogibearyk/maya-chakra-math). The book presents the ideas and the numbers; the papers present the proofs.]*
 
 
 ---
