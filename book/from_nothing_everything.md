@@ -394,27 +394,45 @@ A further structural result: the solid angle of a unit sphere in *n* dimensions 
 
 ### The Idea
 
-φ governs growth **step by step** — discrete, one combination at a time. But what if growth happened *continuously*, instant by instant, with no smallest step? That limit has a name too, and the framework reaches it without any calculus.
+The φ-ladder from Chapter 7 has rungs at specific positions — φ⁰, φ¹, φ², and so on. The structure has been climbing this ladder step by step, one rung at a time. But the triangle (Chapter 6) needs something the ladder doesn’t obviously provide: it needs to *bend back* on itself, and that requires reaching positions *between* the rungs. How do you get to a place on the ladder that isn’t a rung?
 
-> **Metaphor: the staircase and the ramp.** φ is a staircase — you ascend in fixed golden-ratio steps. **e** (≈ 2.71828) is the ramp you get when the steps become infinitely many and infinitely small, while the *total* growth over one unit of “ladder time” is held fixed. Same climb, smoothed. The relationship is exact: φ = e^(ln φ), which is to say *discrete golden growth is continuous growth run for ln φ ≈ 0.481 units of time.* Euler’s number is not an extra ingredient; it is what φ-growth looks like in the continuum.
+The answer is: you split one step into many smaller steps.
 
-This gives the framework a clean **ordering of its three special numbers**, and the order itself is a structural fact:
+> **Metaphor: the staircase and the ramp.** Imagine climbing a staircase where each step is exactly φ times higher than the last. You can reach rung 1, rung 2, rung 3 — but you can never stand at rung 1½. Now imagine replacing the staircase with a smooth ramp that covers the same total height. On the ramp, every position is reachable — not just the rungs, but everything in between. The ramp is the continuous version of the staircase.
 
-> φ² < e < L(2) < ⊙ < φ³,   i.e.   2.618 < 2.718 < 3.000 < 3.142 < 4.236.
+How does the framework build this ramp? Take one growth step and split it into smaller sub-steps, each building on the last. If the tower has depth 3 (stage 4), split one step into 3 sub-steps: each sub-step adds 1/3 of itself, and each builds on the result of the one before. If the tower has depth 8 (stage 6), split into 8 sub-steps, each adding 1/8. If the tower has depth 55 (stage 10), split into 55 sub-steps, each adding 1/55. As the tower deepens through the Fibonacci stages — 3, 5, 8, 13, 21, 55, 144 — the number of sub-steps grows, each one smaller, each compounding on the last. The total approaches a specific number: **e ≈ 2.718**.
 
-Discrete-squared, continuous, triangle, circle, discrete-cubed — the continuous limit *e* sits just above φ² and just below the triangle’s 3, and the circle ⊙ sits just below φ³. The numbers of growth, smoothness, closure, and perspective fall into a single line.
+If you have ever heard of compound interest, this is the same idea. A bank that compounds interest once a year gives you less than one that compounds monthly, which gives you less than one that compounds daily. Compound every instant — infinitely many infinitely small increments — and you reach e. The framework arrives at e the same way, but instead of money growing in a bank account, it is structure growing through the Fibonacci tower. The sub-step count at each stage *is* the tower depth — 3, 8, 21, 55, 144 — so the compounding is done entirely in the framework’s own language. e is not imported from outside. It is what φ-growth *becomes* when the tower compounds at every level simultaneously.
+
+This gives the framework three fundamental numbers, and their ordering is itself a structural fact:
+
+> φ² < e < 3 < ⊙ < φ³, that is: 2.618 < 2.718 < 3.000 < 3.142 < 4.236.
+
+Read from left to right, this is the order in which the structure gains its capabilities. After two discrete growth steps (φ²) comes the continuous limit (e) — the ability to reach between the rungs. Then the triangle closes (3) — the first loop, the first binding. Then the full circle completes (⊙) — the perspective cycle. Then three discrete steps (φ³). The continuous limit falls between two dimensions and three. It is what *enables* the transition from a flat chain to a closed triangle — without the ramp, the structure could never bend back on itself.
 
 ### The Mathematics
 
-**e from Fibonacci self-compounding (no calculus).** Continuous compounding of the φ-growth process — each infinitesimal sub-step compounding the last — yields the standard limit (1 + 1/n)^n as n → ∞, which is e. The framework derives this as the continuum limit of the discrete generation rule rather than importing the analytic definition, so that *e*, like φ and ⊙, is a *consequence* of the growth axioms.
+**e from Fibonacci self-compounding (no calculus).** At tower stage S, the depth is d_S — a Fibonacci integer derived from Axiom 5. The self-compounding at that stage, in Maya notation:
 
-In Maya digits, e has the (infinite, non-repeating) expansion
+> e_S = (φ⁰ ⊕ d_S⁻¹)^d_S
 
-> e = 100.000010000100…_M,   with inter-1 gaps 7, 5, 3, … = L(4), F(5), L(2),
+Every ingredient is framework-native: φ⁰ is the unit (position 0 on the ladder), d_S is the tower depth (a Fibonacci integer), d_S⁻¹ is its inverse, ⊕ is overlay, and the exponent is d_S repeated applications. No calculus, no imported constants.
 
-i.e. the very Lucas/Fibonacci integers that organize the rest of the theory. Like ⊙, *e* is transcendental relative to the ladder (no terminating carry).
+The sequence e₁, e₂, e₃, … is monotonically increasing and bounded above by L(2) = φ² ⊕ φ⁻² = 3. By Axiom 8 (the constraint spectrum is continuous), a bounded monotone sequence converges. The limit is e.
 
-**Validation (decimal).** e = 2.718281828…; ln φ = 0.4812118…; e^(ln φ) = 1.6180339… = φ ✓. The ordering φ² < e < L(2) < ⊙ < φ³ checks digit-for-digit.
+**Validation (decimal).**
+
+| Stage S | Tower depth d_S | (φ⁰ ⊕ d_S⁻¹)^d_S | Error from e |
+|---|---|---|---|
+| 4 | 3 = L(2) | 2.370 | 12.8% |
+| 6 | 8 = L(4) ⊕ φ⁰ | 2.566 | 5.6% |
+| 8 | 21 | 2.656 | 2.3% |
+| 10 | 55 | 2.694 | 0.9% |
+| 12 | 144 | 2.709 | 0.35% |
+| 14 | 377 | 2.715 | 0.13% |
+| ∞ | ∞ | **2.71828…** | 0 |
+
+Each Fibonacci stage gets closer. The convergence uses nothing outside the framework. e is the continuous limit of discrete Fibonacci growth, derived from the axioms with zero additional input. The ordering φ² < e < L(2) < ⊙ < φ³ checks digit-for-digit. ✓
 
 ---
 
