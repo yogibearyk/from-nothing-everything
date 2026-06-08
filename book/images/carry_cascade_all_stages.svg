@@ -1,204 +1,236 @@
-<svg width="100%" viewBox="0 0 680 740" xmlns="http://www.w3.org/2000/svg">
-  <title>The tower grows and the cascade fires at each stage</title>
-  <desc>At each Fibonacci stage, the tower fills all positions with 1s (shown as filled blocks). Then the carry rule forces adjacent pairs to combine, leaving an alternating pattern. The diagram shows this growth-and-rearrangement process from stage 1 through stage 6.</desc>
+<svg width="100%" viewBox="0 0 680 900" xmlns="http://www.w3.org/2000/svg">
+  <title>The carry cascade: how adjacent pairs combine at each stage</title>
+  <desc>At each stage, the tower fills with all 1s. Adjacent pairs combine: two neighboring 1s merge into a single 1 two positions above the lower one. At even depths all positions pair cleanly. At odd depths one position is left unpaired and survives.</desc>
   <style>
     text { font-family: system-ui, -apple-system, sans-serif; }
     .h { font-size: 14px; font-weight: 500; }
     .s { font-size: 12px; }
     .st { font-size: 11px; }
+    .xs { font-size: 10px; }
     .on { fill: #AFA9EC; stroke: #534AB7; stroke-width: 0.5; }
     .off { fill: none; stroke: #D3D1C7; stroke-width: 0.5; stroke-dasharray: 3 2; }
-    .bnd { fill: #CECBF6; stroke: #534AB7; stroke-width: 0.5; }
-    .arr-carry { stroke: #D85A30; stroke-width: 1; fill: none; }
+    .bnd { fill: #9FE1CB; stroke: #0F6E56; stroke-width: 0.5; }
+    .surv { fill: #F5C4B3; stroke: #993C1D; stroke-width: 0.5; }
+    .pair-bracket { fill: none; stroke: #D85A30; stroke-width: 1; }
+    .carry-arrow { fill: none; stroke: #0F6E56; stroke-width: 1; }
     @media (prefers-color-scheme: dark) {
-      .h { fill: #D3D1C7; }
-      .s { fill: #B4B2A9; }
-      .st { fill: #888780; }
+      .h { fill: #D3D1C7; } .s { fill: #B4B2A9; } .st { fill: #888780; } .xs { fill: #888780; }
       .off { stroke: #5F5E5A; }
     }
     @media not (prefers-color-scheme: dark) {
-      .h { fill: #2C2C2A; }
-      .s { fill: #5F5E5A; }
-      .st { fill: #888780; }
+      .h { fill: #2C2C2A; } .s { fill: #5F5E5A; } .st { fill: #888780; } .xs { fill: #888780; }
     }
   </style>
   <defs>
-    <marker id="ca" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
-      <path d="M2 2L8 5L2 8" fill="none" stroke="#D85A30" stroke-width="1.5" stroke-linecap="round"/>
+    <marker id="ga" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M2 2L8 5L2 8" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round"/>
     </marker>
   </defs>
 
-  <!-- Column headers -->
-  <text class="st" x="52" y="20" text-anchor="middle">Stage</text>
-  <text class="st" x="190" y="20" text-anchor="middle">Tower fills up</text>
-  <text class="st" x="360" y="20" text-anchor="end">carry rule fires</text>
-  <text class="st" x="500" y="20" text-anchor="middle">Result</text>
-  <text class="st" x="630" y="20" text-anchor="middle">Active</text>
+  <text class="h" x="340" y="24" text-anchor="middle">How the carry cascade works</text>
+  <text class="st" x="340" y="42" text-anchor="middle">Base-φ carry rule: two adjacent 1s combine into one 1 two positions above the lower one</text>
+  <text class="st" x="340" y="56" text-anchor="middle">φⁿ + φⁿ⁺¹ = φⁿ⁺² — the result SKIPS one position (unlike binary, where carries go up by 1)</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="30" x2="660" y2="30" stroke="#D3D1C7" stroke-width="0.3"/>
+  <rect x="100" y="68" width="14" height="11" rx="2" class="on"/>
+  <text class="xs" x="118" y="78">filled (1)</text>
+  <rect x="210" y="68" width="14" height="11" rx="2" class="off"/>
+  <text class="xs" x="228" y="78">vacated (0)</text>
+  <rect x="320" y="68" width="14" height="11" rx="2" class="bnd"/>
+  <text class="xs" x="338" y="78">overflow (seeds next stage)</text>
+  <rect x="500" y="68" width="14" height="11" rx="2" class="surv"/>
+  <text class="xs" x="518" y="78">unpaired (survives)</text>
 
-  <!-- STAGE 1-2: depth 1, no cascade needed -->
-  <text class="s" x="52" y="62" text-anchor="middle">1–2</text>
-  <text class="st" x="52" y="76" text-anchor="middle">depth 1</text>
-  <rect x="172" y="48" width="36" height="28" rx="3" class="on"/>
-  <text class="st" x="190" y="66" text-anchor="middle" fill="#3C3489">1</text>
+  <line x1="20" y1="88" x2="660" y2="88" stroke="#D3D1C7" stroke-width="0.3"/>
 
-  <text class="s" x="360" y="66" text-anchor="end" style="fill:#888780;font-style:italic">only one — no adjacent pair</text>
+  <!-- STAGE 3 (depth 2, even) -->
+  <text class="s" x="40" y="114" text-anchor="start">Stage 3</text>
+  <text class="st" x="40" y="128" text-anchor="start">depth 2, even</text>
 
-  <rect x="482" y="48" width="36" height="28" rx="3" class="on"/>
-  <text class="st" x="500" y="66" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="xs" x="150" y="106" text-anchor="middle">before</text>
+  <rect x="134" y="112" width="32" height="24" rx="3" class="on"/>
+  <text class="xs" x="150" y="128" text-anchor="middle" fill="#3C3489">pos 0</text>
+  <rect x="134" y="140" width="32" height="24" rx="3" class="on"/>
+  <text class="xs" x="150" y="156" text-anchor="middle" fill="#3C3489">pos 1</text>
 
-  <text class="h" x="630" y="66" text-anchor="middle">1</text>
+  <path d="M170 124 C182 124,182 152,170 152" class="pair-bracket"/>
+  <text class="xs" x="190" y="140" style="fill:#D85A30">pair</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="95" x2="660" y2="95" stroke="#D3D1C7" stroke-width="0.15"/>
+  <text class="xs" x="268" y="118" text-anchor="middle" style="fill:#0F6E56">φ⁰+φ¹=φ²</text>
+  <line x1="208" y1="138" x2="298" y2="138" class="carry-arrow" marker-end="url(#ga)"/>
 
-  <!-- STAGE 3: depth 2 → 11 → 10 + boundary -->
-  <text class="s" x="52" y="130" text-anchor="middle">3</text>
-  <text class="st" x="52" y="144" text-anchor="middle">depth 2</text>
+  <text class="xs" x="340" y="106" text-anchor="middle">after</text>
+  <rect x="324" y="112" width="32" height="24" rx="3" class="off"/>
+  <text class="xs" x="340" y="128" text-anchor="middle" fill="#888780">0</text>
+  <rect x="324" y="140" width="32" height="24" rx="3" class="off"/>
+  <text class="xs" x="340" y="156" text-anchor="middle" fill="#888780">0</text>
+  <rect x="324" y="84" width="32" height="24" rx="3" class="bnd"/>
+  <text class="xs" x="340" y="100" text-anchor="middle" fill="#085041">ovfl</text>
 
-  <rect x="172" y="116" width="36" height="28" rx="3" class="on"/>
-  <rect x="172" y="148" width="36" height="28" rx="3" class="on"/>
-  <text class="st" x="190" y="134" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="166" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="s" x="420" y="130" text-anchor="start">active: 1</text>
+  <text class="xs" x="420" y="146" text-anchor="start">(overflow only)</text>
 
-  <!-- Carry arrow -->
-  <path d="M216 145 C240 145, 240 130, 260 130" class="arr-carry" marker-end="url(#ca)"/>
-  <text class="st" x="310" y="128" style="fill:#D85A30">pair combines</text>
+  <line x1="20" y1="178" x2="660" y2="178" stroke="#D3D1C7" stroke-width="0.15"/>
 
-  <rect x="482" y="102" width="36" height="28" rx="3" class="bnd"/>
-  <rect x="482" y="134" width="36" height="28" rx="3" class="off"/>
-  <rect x="482" y="166" width="36" height="28" rx="3" class="on"/>
-  <text class="st" x="500" y="120" text-anchor="middle" fill="#3C3489">↑</text>
-  <text class="st" x="500" y="152" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="184" text-anchor="middle" fill="#3C3489">1</text>
+  <!-- STAGE 4 (depth 3, odd) -->
+  <text class="s" x="40" y="204" text-anchor="start">Stage 4</text>
+  <text class="st" x="40" y="218" text-anchor="start">depth 3, odd</text>
 
-  <text class="h" x="630" y="140" text-anchor="middle">1</text>
-  <text class="st" x="630" y="158" text-anchor="middle">+overflow</text>
+  <text class="xs" x="150" y="196" text-anchor="middle">before</text>
+  <rect x="134" y="202" width="32" height="22" rx="3" class="on"/>
+  <text class="xs" x="150" y="217" text-anchor="middle" fill="#3C3489">pos 0</text>
+  <rect x="134" y="226" width="32" height="22" rx="3" class="on"/>
+  <text class="xs" x="150" y="241" text-anchor="middle" fill="#3C3489">pos 1</text>
+  <rect x="134" y="250" width="32" height="22" rx="3" class="on"/>
+  <text class="xs" x="150" y="265" text-anchor="middle" fill="#3C3489">pos 2</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="205" x2="660" y2="205" stroke="#D3D1C7" stroke-width="0.15"/>
+  <text class="xs" x="126" y="217" text-anchor="end" style="fill:#993C1D">no partner →</text>
 
-  <!-- STAGE 4: depth 3 → 111 → 101 + boundary -->
-  <text class="s" x="52" y="245" text-anchor="middle">4</text>
-  <text class="st" x="52" y="259" text-anchor="middle">depth 3</text>
+  <path d="M170 237 C184 237,184 261,170 261" class="pair-bracket"/>
+  <text class="xs" x="192" y="251" style="fill:#D85A30">pair</text>
 
-  <rect x="172" y="222" width="36" height="26" rx="3" class="on"/>
-  <rect x="172" y="250" width="36" height="26" rx="3" class="on"/>
-  <rect x="172" y="278" width="36" height="26" rx="3" class="on"/>
-  <text class="st" x="190" y="239" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="267" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="295" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="xs" x="268" y="234" text-anchor="middle" style="fill:#0F6E56">φ¹+φ²=φ³</text>
+  <line x1="210" y1="249" x2="298" y2="230" class="carry-arrow" marker-end="url(#ga)"/>
 
-  <path d="M216 262 C240 262, 240 248, 260 248" class="arr-carry" marker-end="url(#ca)"/>
-  <text class="st" x="310" y="246" style="fill:#D85A30">bottom pair</text>
-  <text class="st" x="310" y="260" style="fill:#D85A30">combines</text>
+  <text class="xs" x="340" y="196" text-anchor="middle">after</text>
+  <rect x="324" y="202" width="32" height="22" rx="3" class="surv"/>
+  <text class="xs" x="340" y="217" text-anchor="middle" fill="#712B13">1 ✓</text>
+  <rect x="324" y="226" width="32" height="22" rx="3" class="off"/>
+  <text class="xs" x="340" y="241" text-anchor="middle" fill="#888780">0</text>
+  <rect x="324" y="250" width="32" height="22" rx="3" class="off"/>
+  <text class="xs" x="340" y="265" text-anchor="middle" fill="#888780">0</text>
+  <rect x="324" y="180" width="32" height="22" rx="3" class="bnd"/>
+  <text class="xs" x="340" y="195" text-anchor="middle" fill="#085041">ovfl</text>
 
-  <rect x="482" y="208" width="36" height="26" rx="3" class="bnd"/>
-  <rect x="482" y="236" width="36" height="26" rx="3" class="off"/>
-  <rect x="482" y="264" width="36" height="26" rx="3" class="on"/>
-  <rect x="482" y="292" width="36" height="26" rx="3" class="off"/>
-  <text class="st" x="500" y="225" text-anchor="middle" fill="#3C3489">↑</text>
-  <text class="st" x="500" y="253" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="281" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="309" text-anchor="middle" fill="#888780">0</text>
+  <text class="s" x="420" y="224" text-anchor="start">active: 2</text>
+  <text class="xs" x="420" y="240" text-anchor="start">(pos 0 survives — odd depth,</text>
+  <text class="xs" x="420" y="254" text-anchor="start">no downward partner)</text>
 
-  <text class="h" x="630" y="260" text-anchor="middle">2</text>
-  <text class="st" x="630" y="278" text-anchor="middle">+overflow</text>
+  <line x1="20" y1="286" x2="660" y2="286" stroke="#D3D1C7" stroke-width="0.15"/>
 
-  <!-- Divider -->
-  <line x1="20" y1="330" x2="660" y2="330" stroke="#D3D1C7" stroke-width="0.15"/>
+  <!-- STAGE 6 (depth 8, even) -->
+  <text class="s" x="40" y="310" text-anchor="start">Stage 6</text>
+  <text class="st" x="40" y="324" text-anchor="start">depth 8, even</text>
 
-  <!-- STAGE 5: depth 5 → 11111 → 10101 + boundary -->
-  <text class="s" x="52" y="375" text-anchor="middle">5</text>
-  <text class="st" x="52" y="389" text-anchor="middle">depth 5</text>
+  <text class="xs" x="108" y="306" text-anchor="middle">before</text>
+  <rect x="92" y="314" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="328" text-anchor="middle" fill="#3C3489">pos 0</text>
+  <rect x="92" y="336" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="350" text-anchor="middle" fill="#3C3489">pos 1</text>
+  <rect x="92" y="360" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="374" text-anchor="middle" fill="#3C3489">pos 2</text>
+  <rect x="92" y="384" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="398" text-anchor="middle" fill="#3C3489">pos 3</text>
+  <rect x="92" y="410" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="424" text-anchor="middle" fill="#3C3489">pos 4</text>
+  <rect x="92" y="436" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="450" text-anchor="middle" fill="#3C3489">pos 5</text>
+  <rect x="92" y="462" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="476" text-anchor="middle" fill="#3C3489">pos 6</text>
+  <rect x="92" y="488" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="108" y="502" text-anchor="middle" fill="#3C3489">pos 7</text>
 
-  <rect x="176" y="342" width="28" height="22" rx="3" class="on"/>
-  <rect x="176" y="366" width="28" height="22" rx="3" class="on"/>
-  <rect x="176" y="390" width="28" height="22" rx="3" class="on"/>
-  <rect x="176" y="414" width="28" height="22" rx="3" class="on"/>
-  <rect x="176" y="438" width="28" height="22" rx="3" class="on"/>
-  <text class="st" x="190" y="357" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="381" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="405" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="429" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="453" text-anchor="middle" fill="#3C3489">1</text>
+  <path d="M128 324 C142 324,142 346,128 346" class="pair-bracket"/>
+  <text class="xs" x="148" y="338" style="fill:#D85A30">pair 1</text>
+  <path d="M128 370 C142 370,142 394,128 394" class="pair-bracket"/>
+  <text class="xs" x="148" y="384" style="fill:#D85A30">pair 2</text>
+  <path d="M128 420 C142 420,142 446,128 446" class="pair-bracket"/>
+  <text class="xs" x="148" y="436" style="fill:#D85A30">pair 3</text>
+  <path d="M128 476 C142 476,142 498,128 498" class="pair-bracket"/>
+  <text class="xs" x="148" y="490" style="fill:#D85A30">pair 4</text>
 
-  <path d="M212 408 C236 408, 240 390, 260 390" class="arr-carry" marker-end="url(#ca)"/>
-  <text class="st" x="310" y="385" style="fill:#D85A30">pairs combine</text>
-  <text class="st" x="310" y="399" style="fill:#D85A30">bottom → up</text>
+  <text class="xs" x="260" y="330" text-anchor="middle" style="fill:#0F6E56">φ⁰+φ¹ = φ²</text>
+  <line x1="198" y1="335" x2="330" y2="370" class="carry-arrow" marker-end="url(#ga)"/>
+  <text class="xs" x="260" y="378" text-anchor="middle" style="fill:#0F6E56">φ²+φ³ = φ⁴</text>
+  <line x1="198" y1="382" x2="330" y2="420" class="carry-arrow" marker-end="url(#ga)"/>
+  <text class="xs" x="260" y="428" text-anchor="middle" style="fill:#0F6E56">φ⁴+φ⁵ = φ⁶</text>
+  <line x1="198" y1="433" x2="330" y2="472" class="carry-arrow" marker-end="url(#ga)"/>
+  <text class="xs" x="260" y="480" text-anchor="middle" style="fill:#0F6E56">φ⁶+φ⁷ = φ⁸</text>
+  <line x1="198" y1="487" x2="330" y2="518" class="carry-arrow" marker-end="url(#ga)"/>
 
-  <rect x="486" y="330" width="28" height="22" rx="3" class="bnd"/>
-  <rect x="486" y="354" width="28" height="22" rx="3" class="off"/>
-  <rect x="486" y="378" width="28" height="22" rx="3" class="on"/>
-  <rect x="486" y="402" width="28" height="22" rx="3" class="off"/>
-  <rect x="486" y="426" width="28" height="22" rx="3" class="on"/>
-  <rect x="486" y="450" width="28" height="22" rx="3" class="off"/>
-  <text class="st" x="500" y="345" text-anchor="middle" fill="#3C3489">↑</text>
-  <text class="st" x="500" y="369" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="393" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="417" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="441" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="465" text-anchor="middle" fill="#888780">0</text>
+  <text class="xs" x="358" y="306" text-anchor="middle">after</text>
+  <rect x="342" y="314" width="32" height="20" rx="3" class="off"/>
+  <text class="xs" x="358" y="328" text-anchor="middle" fill="#888780">0</text>
+  <rect x="342" y="336" width="32" height="20" rx="3" class="off"/>
+  <text class="xs" x="358" y="350" text-anchor="middle" fill="#888780">0</text>
+  <rect x="342" y="360" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="358" y="374" text-anchor="middle" fill="#3C3489">1</text>
+  <rect x="342" y="384" width="32" height="20" rx="3" class="off"/>
+  <text class="xs" x="358" y="398" text-anchor="middle" fill="#888780">0</text>
+  <rect x="342" y="410" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="358" y="424" text-anchor="middle" fill="#3C3489">1</text>
+  <rect x="342" y="436" width="32" height="20" rx="3" class="off"/>
+  <text class="xs" x="358" y="450" text-anchor="middle" fill="#888780">0</text>
+  <rect x="342" y="462" width="32" height="20" rx="3" class="on"/>
+  <text class="xs" x="358" y="476" text-anchor="middle" fill="#3C3489">1</text>
+  <rect x="342" y="488" width="32" height="20" rx="3" class="off"/>
+  <text class="xs" x="358" y="502" text-anchor="middle" fill="#888780">0</text>
+  <rect x="342" y="510" width="32" height="20" rx="3" class="bnd"/>
+  <text class="xs" x="358" y="524" text-anchor="middle" fill="#085041">ovfl</text>
 
-  <text class="h" x="630" y="400" text-anchor="middle">3</text>
-  <text class="st" x="630" y="418" text-anchor="middle">+overflow</text>
+  <text class="s" x="420" y="378" text-anchor="start" style="fill:#0F6E56;font-weight:500">active: 4 = spacetime dimensions</text>
+  <text class="xs" x="420" y="396" text-anchor="start">All 8 positions pair cleanly</text>
+  <text class="xs" x="420" y="410" text-anchor="start">(even depth — no leftovers)</text>
+  <text class="xs" x="420" y="430" text-anchor="start">Carries land at: 2, 4, 6, 8</text>
+  <text class="xs" x="420" y="444" text-anchor="start">Non-adjacent → no further carries</text>
+  <text class="xs" x="420" y="464" text-anchor="start">Vacated: 0, 1, 3, 5, 7</text>
+  <text class="xs" x="420" y="484" text-anchor="start">Overflow at pos 8 seeds stage 7</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="480" x2="660" y2="480" stroke="#D3D1C7" stroke-width="0.15"/>
+  <line x1="20" y1="544" x2="660" y2="544" stroke="#D3D1C7" stroke-width="0.3"/>
 
-  <!-- STAGE 6: depth 8 → 11111111 → 10101010 + boundary -->
-  <text class="s" x="52" y="540" text-anchor="middle">6</text>
-  <text class="st" x="52" y="554" text-anchor="middle">depth 8</text>
+  <!-- EXPLANATION: base-2 vs base-φ -->
+  <text class="h" x="340" y="572" text-anchor="middle">Why every-other, not every-third?</text>
+  <text class="st" x="340" y="590" text-anchor="middle">Base-φ carries work differently from base-2 (binary) carries</text>
 
-  <rect x="178" y="496" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="518" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="540" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="562" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="584" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="606" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="628" width="24" height="20" rx="3" class="on"/>
-  <rect x="178" y="650" width="24" height="20" rx="3" class="on"/>
-  <text class="st" x="190" y="510" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="532" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="554" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="576" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="598" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="620" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="642" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="190" y="664" text-anchor="middle" fill="#3C3489">1</text>
+  <text class="s" x="130" y="624" text-anchor="middle">Base 2 (binary)</text>
+  <text class="st" x="130" y="642" text-anchor="middle">Same-position double:</text>
+  <text class="st" x="130" y="656" text-anchor="middle">result goes UP by 1</text>
+  <rect x="110" y="668" width="18" height="16" rx="2" class="on"/>
+  <rect x="110" y="686" width="18" height="16" rx="2" class="on"/>
+  <text class="xs" x="136" y="682">→</text>
+  <rect x="152" y="652" width="18" height="16" rx="2" class="on"/>
+  <text class="xs" x="161" y="663" text-anchor="middle" fill="#3C3489">1</text>
+  <rect x="152" y="668" width="18" height="16" rx="2" class="off"/>
+  <rect x="152" y="686" width="18" height="16" rx="2" class="off"/>
 
-  <path d="M210 580 C240 580, 244 560, 264 560" class="arr-carry" marker-end="url(#ca)"/>
-  <text class="st" x="314" y="548" style="fill:#D85A30">4 pairs combine</text>
-  <text class="st" x="314" y="562" style="fill:#D85A30">bottom → up</text>
+  <text class="s" x="440" y="624" text-anchor="middle">Base φ (Maya Math)</text>
+  <text class="st" x="440" y="642" text-anchor="middle">Adjacent-position pair:</text>
+  <text class="st" x="440" y="656" text-anchor="middle">result SKIPS 1, lands at n+2</text>
+  <rect x="408" y="668" width="18" height="16" rx="2" class="on"/>
+  <text class="xs" x="417" y="679" text-anchor="middle" fill="#3C3489">n</text>
+  <rect x="408" y="686" width="18" height="16" rx="2" class="on"/>
+  <text class="xs" x="417" y="697" text-anchor="middle" fill="#3C3489">n+1</text>
+  <text class="xs" x="436" y="682">→</text>
+  <rect x="452" y="652" width="18" height="16" rx="2" class="on"/>
+  <text class="xs" x="461" y="663" text-anchor="middle" fill="#3C3489">n+2</text>
+  <rect x="452" y="668" width="18" height="16" rx="2" class="off"/>
+  <rect x="452" y="686" width="18" height="16" rx="2" class="off"/>
+  <text class="xs" x="480" y="664" text-anchor="start" style="fill:#D85A30">skips!</text>
 
-  <rect x="488" y="484" width="24" height="20" rx="3" class="bnd"/>
-  <rect x="488" y="506" width="24" height="20" rx="3" class="off"/>
-  <rect x="488" y="528" width="24" height="20" rx="3" class="on"/>
-  <rect x="488" y="550" width="24" height="20" rx="3" class="off"/>
-  <rect x="488" y="572" width="24" height="20" rx="3" class="on"/>
-  <rect x="488" y="594" width="24" height="20" rx="3" class="off"/>
-  <rect x="488" y="616" width="24" height="20" rx="3" class="on"/>
-  <rect x="488" y="638" width="24" height="20" rx="3" class="off"/>
-  <rect x="488" y="660" width="24" height="20" rx="3" class="off"/>
-  <text class="st" x="500" y="498" text-anchor="middle" fill="#3C3489">↑</text>
-  <text class="st" x="500" y="520" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="542" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="564" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="586" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="608" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="630" text-anchor="middle" fill="#3C3489">1</text>
-  <text class="st" x="500" y="652" text-anchor="middle" fill="#888780">0</text>
-  <text class="st" x="500" y="674" text-anchor="middle" fill="#888780">0</text>
+  <line x1="20" y1="720" x2="660" y2="720" stroke="#D3D1C7" stroke-width="0.3"/>
 
-  <text class="h" x="630" y="578" text-anchor="middle">4</text>
-  <text class="st" x="630" y="596" text-anchor="middle">+overflow</text>
-  <text class="st" x="630" y="612" text-anchor="middle" style="fill:#1D9E75">= spacetime</text>
-  <text class="st" x="630" y="626" text-anchor="middle" style="fill:#1D9E75">dimensions</text>
+  <!-- SUMMARY TABLE -->
+  <text class="h" x="340" y="748" text-anchor="middle">Summary: active positions at each stage (including overflow)</text>
 
-  <!-- Bottom summary -->
-  <line x1="20" y1="695" x2="660" y2="695" stroke="#D3D1C7" stroke-width="0.3"/>
-  <text class="s" x="340" y="720" text-anchor="middle">At every stage: the tower fills up, the carry rule fires, an alternating pattern emerges.</text>
-  <text class="s" x="340" y="738" text-anchor="middle">The overflow from each stage seeds the next. Growth never stops.</text>
+  <text class="st" x="80" y="776" text-anchor="middle">Stage 1–2</text>
+  <text class="s" x="80" y="794" text-anchor="middle">1</text>
+  <text class="xs" x="80" y="810" text-anchor="middle">no cascade</text>
+
+  <text class="st" x="190" y="776" text-anchor="middle">Stage 3</text>
+  <text class="s" x="190" y="794" text-anchor="middle">1</text>
+  <text class="xs" x="190" y="810" text-anchor="middle">0 inside + ovfl</text>
+
+  <text class="st" x="310" y="776" text-anchor="middle">Stage 4</text>
+  <text class="s" x="310" y="794" text-anchor="middle">2</text>
+  <text class="xs" x="310" y="810" text-anchor="middle">1 inside + ovfl</text>
+
+  <text class="st" x="430" y="776" text-anchor="middle">Stage 5</text>
+  <text class="s" x="430" y="794" text-anchor="middle">3</text>
+  <text class="xs" x="430" y="810" text-anchor="middle">2 inside + ovfl</text>
+
+  <text class="st" x="560" y="776" text-anchor="middle">Stage 6</text>
+  <text class="s" x="560" y="794" text-anchor="middle" style="fill:#0F6E56;font-weight:500">4</text>
+  <text class="xs" x="560" y="810" text-anchor="middle">3 inside + ovfl</text>
+
+  <text class="st" x="340" y="846" text-anchor="middle">Even depths pair cleanly. Odd depths leave one position unpaired (it survives).</text>
+  <text class="st" x="340" y="864" text-anchor="middle">The overflow at each stage becomes the seed of the next. Growth never stops.</text>
 </svg>
