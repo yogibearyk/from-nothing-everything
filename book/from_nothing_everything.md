@@ -361,11 +361,17 @@ This single integer, L(2) = 3, will reappear as the color factor in the QED β-f
 
 ### The Idea
 
-In Chapter 2 the circle constant ⊙ *appeared*, as the intrinsic ratio of the sphere implied by the first distinction. Now we *construct* it from the ladder, and find it is a different kind of number than φ — and that the difference is meaningful.
+In Chapter 5 we built a counting system — Maya Math — with positions spaced by the golden ratio. Think of it as a ladder. The ground rung is φ⁰ = 1. One rung up is φ¹ ≈ 1.618. The next is φ² ≈ 2.618. Then φ³ ≈ 4.236, and so on, each rung φ times higher than the last. Going down: φ⁻¹ ≈ 0.618, φ⁻² ≈ 0.382, and so on. Every number the framework has produced so far — the Fibonacci integers, the Lucas constants L(2) = 3 and L(4) = 7 — lands exactly on one or more rungs of this ladder. They have homes.
 
-> **Metaphor: the carpenter with only straight boards.** Imagine building a circle from straight planks. Three planks give a triangle, a crude circle. Five give a pentagon, better. Eight, thirteen, twenty-one — each Fibonacci-sided polygon hugs the true circle more tightly, but no finite polygon ever *is* the circle. The circle constant is what these polygons approach but never reach. φ, by contrast, *is* reachable — it is a single ladder position. ⊙ is forever between the rungs.
+In Chapter 2, the circle constant ⊙ appeared — the ratio of a circle’s circumference to its diameter, born at the same instant as the first distinction. Now we ask: where does ⊙ sit on the ladder?
 
-That “forever between the rungs” has a precise name: ⊙ is **transcendental relative to the φ-ladder.** No finite Maya pattern equals it; its representation is infinite and non-repeating *even in base φ.* This is the deep contrast that organizes the whole framework: **φ is algebraic (it satisfies x² = x + 1); ⊙ is transcendental (it satisfies no finite identity).** That single fact is why, two systems from now, one of them will have a carry rule and the other will not.
+The answer is: *nowhere*. It falls between the rungs — and not just approximately. No combination of finitely many rungs will ever add up to ⊙ exactly. You can get close (three rungs give you roughly 3.14), but there is always a remainder, and the remainder never terminates.
+
+> **Metaphor: the carpenter with only straight boards.** Imagine building a circle from straight planks. Three planks give you a triangle — the first closed shape (Chapter 6), and a rough approximation of a circle. Why five planks next, and not four? Because the framework’s growth rule only permits Fibonacci increments: each new polygon is built from the two most recent. So the natural refinement sequence is 3, 5, 8, 13, 21, 34 sides — each Fibonacci-sided polygon hugging the true circle more tightly. But no finite polygon, no matter how many sides, ever *is* the circle. The circle is what the sequence approaches but never reaches.
+
+This is the deep difference between the framework’s two constants. The golden ratio φ *can* be captured in a single, finite equation: φ² = φ + 1. Write that down and you have pinned φ completely — there is nothing more to know. The circle constant ⊙ has no such equation. No finite combination of additions, multiplications, and powers of φ will ever exactly equal ⊙. Mathematicians call this being *transcendental*: it transcends the reach of any finite algebraic expression.
+
+Why does this matter? Because the carry rule — the engine of Maya Math, the rule that resolves adjacent 1s — works *because* φ has a finite equation (φ² = φ + 1 is literally what the carry does: 11 → 100). If ⊙ has no finite equation, then any counting system based on ⊙ cannot have a carry rule. The carries would never stop. Patterns built from ⊙ can accumulate without ever being forced to resolve — they can coexist, layer upon layer, indefinitely. This is not a defect. It is a second kind of structure: one that resolves (φ, with its carry rule) and one that persists (⊙, without one). The framework will use both — and their interplay, as we will see, produces all of physics.
 
 ### The Mathematics
 
