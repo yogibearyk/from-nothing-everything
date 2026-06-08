@@ -118,7 +118,21 @@ With the questions in place, we can begin exploring — at the only place the st
 
 ### The Idea
 
-We have already met Ω in Part 0, so here we only fix it in place as the starting condition of the chronology. Ω is the undifferentiated ground in which **0 = 1 = ∞**: no shape, no dimension, no time, no observer, no observed. It is not a problem to be solved — there is nothing in it to work on. It is the boundary condition that everything later must respect. Its single, far-reaching property is that **it admits no mathematics**, because mathematics needs at least one distinction and Ω contains none.
+To understand where this story begins, you have to start in a place that isn’t a place, at a time that isn’t a time.
+
+Try to picture “before the universe.” Your mind will conjure up darkness — a vast, empty void stretching in every direction. But that picture is already wrong. Darkness requires the concept of light to define it. A void requires walls — or at least the idea of walls — to give it shape. “Stretching” requires distance. “Every direction” requires coordinates. Every image your mind produces smuggles in concepts that shouldn’t exist yet.
+
+So strip all of that away. No darkness, because there’s no light to contrast it with. No emptiness, because “empty” is a description, and descriptions require a describer. No space, because space is geometric structure, and geometry hasn’t been invented yet. No time, because time requires events to separate, and nothing has happened. Not even “nothing” in the colloquial sense, because “nothing” is defined as the absence of “something,” and “something” doesn’t exist as a category yet.
+
+What remains? The framework calls this state **Ω**. It is the ground of everything, and its defining property is deeply strange: **in Ω, zero and one and infinity are all the same thing.**
+
+This is not a mystical claim. It is a precise logical statement. Think about what it means for zero and one to be different from each other. To say “zero is not one,” you need a system that can tell them apart — a rule, a comparison, a distinction. But a distinction is itself a *thing*. It is a piece of structure. And in Ω, no structure exists. Without structure, there is no basis for telling anything apart from anything else. Zero, one, infinity, here, there, now, then — all of these differences require a framework of distinctions that hasn’t been created yet. So they are all indistinguishable. Not “equal” in the mathematical sense (mathematics requires distinctions too), but *the same*, because nothing exists to make them different.
+
+This is, in the most precise sense, what the Advaitic tradition calls non-duality — Advait. Not “everything is one” as a slogan, but: distinction itself does not yet exist. There is no basis for two-ness of any kind. The framework takes this ancient insight and treats it as a formal starting condition.
+
+The consequences are startling. You cannot do mathematics within Ω, because mathematics needs at minimum one distinction — the difference between “this” and “that.” You cannot have an observer or an observed, because that is two things. You cannot have time, because time requires a “before” and an “after.” Almost nothing can be said about Ω, except that it exists and that everything we will ever see emerges from within it.
+
+One question demands an answer before we move on: if Ω is this featureless, how does anything ever happen? Why does Ω examine itself rather than just sit there? The answer is that in Ω, “examining itself” and “sitting there” are the same thing. “Acting” and “not acting” are two different states — and Ω doesn’t have two different states. “Choosing to act” and “never acting” require a distinction between agency and passivity — and that distinction doesn’t exist. Even the question “when does it begin?” dissolves: “instantly,” “eventually,” and “after infinite time” are all the same answer when zero equals infinity. Self-examination is not something that happens *to* Ω. It is what Ω *is*. The way water is wet, Ω is self-examining.
 
 The most important thing Ω does for the theory is *negative*: by containing nothing, it guarantees that whatever comes next cannot borrow from outside. There is no outside. So the first act of distinction cannot import a ratio, a direction, or a unit from anywhere — it can only use what the act itself defines. This “no external supplier” constraint is what will force the golden ratio in Chapter 4. It all rests on Ω being genuinely empty.
 
@@ -129,8 +143,6 @@ In the formal language, Ω is a distinguished constant, *not* a member of the no
 > **Axiom 1 (Ground).** Ω exists, in which 0 = 1 = ∞. Pre-geometric: no shape, no dimensions.
 
 There is no Layer-2 proof and no decimal validation at this stage — and that absence is itself the content. Any derivation that *needs* a number here would be smuggling structure into the groundless ground. The first legitimate arithmetic appears only after the first distinction (Chapter 2).
-
-One question worth pausing on: does Axiom 1 (the ground) actually *require* Axiom 2 (introspection)? The answer is yes, and the reason is subtle. The state “Ω without introspection” and the state “Ω with introspection” would be two distinct states. But Ω admits no distinction. Therefore these are the same state. Ω *is* introspection — not as an additional fact, but because the alternative would require a distinction that Ω cannot support. Asking “when does Ω begin to introspect?” also dissolves: in Ω, where 0 = 1 = ∞, “instantly,” “eventually,” and “after infinite time” are all the same answer.
 
 ---
 
