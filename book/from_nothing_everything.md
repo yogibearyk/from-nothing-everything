@@ -58,7 +58,9 @@ A *bilateral* version, used wherever a forward-and-backward pair is resolved as 
 
 ## Mathematics before physics
 
-Most physical theories are recipes. They have a form — say, a Lagrangian — and then a list of numbers you have to *measure* and pour in: the electron’s mass, the fine-structure constant, the strength of gravity, around two dozen in the Standard Model alone. The recipe tells you how the ingredients combine. It does not tell you why the salt is salty or why there is exactly this much of it. Those numbers are inputs, taken from the bench, not explained.
+Think of a recipe. A good recipe tells you exactly how to combine the ingredients — how long to cook, at what temperature, in what order. But it never tells you *why* salt tastes salty, or why butter melts at the temperature it does. The ingredients are what they are. You just buy them and pour them in.
+
+The Standard Model of particle physics — the theory that physicists use today, and the most precisely tested theory in the history of science — works the same way. It is a magnificent recipe: it tells you how forces combine, how particles interact, how energy converts from one form to another, with astonishing precision. But it requires about twenty-six ingredients: the mass of the electron, the strength of the electric force, the strength of gravity, and so on. These numbers must be measured in a laboratory and typed into the equations by hand. The theory tells you how they combine. It never tells you why they have the values they do. They are inputs, not explanations.
 
 The Maya / Chakra framework inverts the relationship. It begins not with physics but with a question that sounds like philosophy: **what is the least that has to be true for anything to be true at all?** The working hypothesis is that if you answer that question carefully enough — if you find the minimal structure that any self-consistent world must have — the constants of physics might fall out as *consequences* of that structure, not as ingredients added on top.
 
