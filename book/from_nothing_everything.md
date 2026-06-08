@@ -926,15 +926,31 @@ Five ratios, five matches within 1σ. Average pull: 0.24σ. Two structural mecha
 
 ### The Idea
 
-The universe has two mixing matrices. The CKM matrix describes how quarks of different generations mix when they interact with the weak force. The PMNS matrix describes the same thing for neutrinos. Both are measured with extraordinary precision. Both are completely unexplained by the Standard Model — they enter as free parameters, four numbers each.
+In Chapter 16 we asked how heavy the particles are. This chapter asks a different question: how much do the particles *blur into each other?*
 
-The framework derives all eight numbers from the generation tower. And it does so by explaining something deeper: *why* the two matrices look so different.
+**What is mixing?** When a quark interacts through the weak force (the force that transforms one type of particle into another, introduced in Chapter 12), something surprising can happen: a quark from one generation can behave as if it belongs to a different generation. A strange quark (second generation) can briefly act like a down quark (first generation). This blurring between generations is called **mixing**, and it happens with a specific probability for each pair of generations. The table of all these probabilities is called a **mixing matrix**.
 
-> **Metaphor: the hallway and the open field.** Imagine three rooms connected by narrow hallways. If you roll a ball from one room to another, it mostly stays in its room — the hallways are restrictive, so only a little leaks through. The "mixing" between rooms is small because the barriers are large. That is the CKM matrix: small mixing, because quarks live at the triangle's *edges* (Chapter 6), where the full electromagnetic screening creates steep barriers between generations.
->
-> Now imagine the same three rooms with the walls removed — just an open field. A ball placed anywhere quickly spreads across all three regions. The "mixing" is large because there are no barriers. That is the PMNS matrix: large mixing, because neutrinos live at the triangle's *nodes*, where they carry no electric charge and no color — the barriers are transparent to them.
+There are two such tables in physics:
 
-This is the node/edge duality, and it is the single structural insight that explains the entire CKM–PMNS divide. Quarks at edges see steep barriers → small CKM mixing. Neutrinos at nodes see no barriers → large PMNS mixing. The same generation tower, the same three positions {1, 3, 5}, viewed from two different locations on the triangle.
+The **CKM matrix** (named after physicists Cabibbo, Kobayashi, and Maskawa) describes mixing among the six quarks. It has four independent numbers that determine how likely any quark is to transform into any other quark when the weak force acts.
+
+The **PMNS matrix** (named after Pontecorvo, Maki, Nakagawa, and Sakata) describes mixing among the three **neutrinos** — ghostly, nearly massless particles that barely interact with anything. (A neutrino can pass through a wall of lead a light-year thick without stopping.) The PMNS matrix also has four independent numbers.
+
+These eight numbers are among the most precisely measured in physics — and, in the Standard Model, completely unexplained. They are typed in by hand. The framework derives all eight from the generation tower.
+
+**Why quarks live on edges and neutrinos live on nodes.** To understand why the two matrices look so different, we need to return to Chapter 6’s triangle. The triangle has three corners (nodes) and three edges. In Chapter 6 we established that things living *on the corners* see the whole triangle — they carry whole-number electric charges. Things living *on the edges* see only one of the triangle’s three sides — they carry fractional charges, always in thirds.
+
+This is the structural origin of the quark-lepton divide. **Quarks** live on edges — they carry electric charges of +2/3 or −1/3 (always thirds, because each edge is one of three). **Leptons** — the family that includes electrons and neutrinos — live on corners. Electrons carry charge −1 (a whole number). And neutrinos carry charge 0 — also a whole number, but a very special one: zero.
+
+That zero is the key to everything. Electric charge determines how strongly a particle interacts with the electromagnetic force — and therefore how much of the tower’s screening it experiences. Quarks, with their fractional charges, feel the full electromagnetic screening of the tower. That screening creates steep barriers between generations — it is hard for a quark to tunnel from one generation to another. Neutrinos, with zero charge, feel *no* electromagnetic screening at all. The barriers that wall off the quarks are completely transparent to neutrinos. They pass through as if the walls aren’t there.
+
+> **Metaphor: the hallway and the open field.** Imagine three rooms connected by narrow hallways. Roll a ball from one room and it mostly stays put — the hallways are restrictive, so little leaks through. That is the CKM matrix: small mixing, because the barriers between generations are steep. Now remove the walls entirely — just an open field. A ball placed anywhere quickly spreads across all three regions. That is the PMNS matrix: large mixing, because the barriers are gone.
+
+**Why the two matrices look so different.** The CKM matrix has *small* mixing — quarks mostly stay in their own generation. A first-generation quark almost always interacts as a first-generation quark. The leakage between generations is a few percent. The PMNS matrix has *large* mixing — neutrinos spread freely across all three generations. A neutrino born as one type has a substantial chance of arriving as another. The same generation tower, the same three generation positions — but quarks see it through steep electromagnetic barriers while neutrinos see it with no barriers at all.
+
+**What is CP violation?** One of the four numbers in each matrix measures something especially deep: the asymmetry between matter and **antimatter** (antimatter is a mirror version of ordinary matter — identical in mass but opposite in charge). If you could replace every particle in the universe with its antiparticle and run physics backward, you would expect to get exactly the same result. Almost. There is a tiny difference — a slight preference for matter over antimatter — and that difference is measured by a number called the **CP phase** (where “C” stands for charge conjugation — swapping particle for antiparticle — and “P” stands for parity — looking in a mirror). Without CP violation, the universe after the Big Bang would have produced equal amounts of matter and antimatter, which would have annihilated each other completely, leaving nothing behind. The fact that you exist to read this sentence is evidence that CP violation is real. The framework derives the CP phase for both quarks (≈ 68.8°, matching experiment within 0.1σ) and neutrinos (≈ 222.5°, testable by upcoming experiments called DUNE and Hyper-Kamiokande).
+
+The framework’s deepest claim in this chapter: the CKM and PMNS matrices are not independent puzzles requiring separate explanations. They are two views of the same structure — the generation tower seen from two different locations on the triangle. Edges give small mixing. Nodes give large mixing. The eight numbers are eight consequences of one geometry.
 
 ### The Mathematics: CKM
 
@@ -1690,6 +1706,16 @@ Zeckendorf pair at ladder indices ±2 (step (iv)). ■
 
 *Proof.* Two comparable-length directed paths create ambiguous multiplication.
 Axiom 4 forbids canonical path choice. Unique inversion fails. ■
+
+
+
+**Corollary 6.3 (Node/Edge Charge Assignment).** Entities bound to the triangle’s nodes carry integer electric charges; entities bound to its edges carry charges in units of 1/3.
+
+*Proof.* (i) The triangle has L(2) = 3 nodes and L(2) = 3 edges (Theorem 6.1). (ii) An entity at a node participates in all three edges of the triangle. Its coupling to the whole structure is undivided: charge = n (integer). (iii) An entity at an edge participates in one of three equivalent edges. Its coupling is 1/L(2) = 1/3 of the whole: charge = n/3. (iv) By Axiom 4 (single primitive), the assignment is structural, not imposed: the position on the triangle determines the charge. ■
+
+**Corollary 6.4 (Neutrino transparency).** Node-bound entities with zero electric charge experience no electromagnetic screening from the tower (Theorem 9.2). The generation barriers that suppress quark mixing (CKM) are transparent to neutrinos (PMNS).
+
+*Proof.* (i) Electromagnetic screening is proportional to Q², where Q is the electric charge (from the self-referential coupling of Theorem 14.2). (ii) For Q = 0: screening factor = 0. (iii) Zero screening → zero barrier between generations → near-maximal mixing. ■
 
 ---
 
