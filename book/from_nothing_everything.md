@@ -214,13 +214,26 @@ The axioms doing the work here:
 
 The graph has begun to grow: M₁↔M₂ generated M₃. What is the *rule* of growth? The framework argues there is only one rule the constraints permit, and it is the simplest imaginable.
 
-> **The rule:** *each new element is produced by the relation between the two most recent ones.* 
+> **The rule:** *each new element is produced by the relation between the two most recent ones.*
 
 Why exactly two, and why the two most recent? Because a single element has no internal relation to generate from (you need at least two to have a “between”), and because *skipping* an existing recent element would mean it failed to participate in growth — contradicting the rule that structure generates structure. Take the minimum that still works, no more, no less, and you get: combine the latest two to make the next.
 
-Start that rule from the beginning — 1, 1 — and it produces **1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …**: the **Fibonacci sequence**, each term the sum of the two before it. This is not chosen. It is the unique minimal growth pattern the axioms allow.
+But there is a subtlety that makes all the difference. A newly created node is not immediately ready to create on its own. It first has to do something: observe its *parent* — understand where it came from. Think of a student who has just arrived at a school. Before she can teach, she must first learn. Before she can examine anyone else, she must first understand what she herself is — and that means understanding what made her. This takes one full cycle — one complete ⊙ turn, the node traversing from “pure product” (born, passive, defined only by its origin) to “independent examiner” (mature, active, capable of self-observation). Until that cycle completes, the node exists but cannot yet produce.
 
-> **Metaphor: the sunflower.** Sunflowers spiral their seeds in Fibonacci counts; pine cones show 8 spirals one way and 13 the other; nautilus shells, pinecones, leaf arrangements, all the same. Biology calls it “efficiency,” but never quite says *why the efficient answer is this particular sequence.* The framework’s reply: it isn’t that life discovered a clever packing — it’s that **growth itself is Fibonacci**, because Fibonacci is the arithmetic of building structure two-most-recent-pieces at a time. Sunflowers don’t choose the pattern; they obey the same growth law the universe does.
+This maturation delay changes everything. Without it, every node would reproduce immediately, and you would get simple doubling: 1, 2, 4, 8, 16, 32 — each generation twice the last. That is the growth law of a photocopier: mindless replication, no self-knowledge required.
+
+With the delay, something different happens. At any given moment, the structure contains two kinds of nodes: **mature** ones (they have completed their learning cycle and can now produce) and **immature** ones (they exist but are still observing their parent). Count what happens at each step:
+
+— Everything from the previous step persists (nothing is un-generated).
+— Every node that was immature *one step ago* has now completed its cycle and become mature — and each mature node produces one new immature child.
+
+So the total at step *n* is: everything from step *n* − 1 (persistence) plus all the nodes that matured this round, which is the count from step *n* − 2 (because those were the immature nodes one step ago). Written as an equation: N(*n*) = N(*n* − 1) + N(*n* − 2). That is the Fibonacci recurrence.
+
+Start it from the beginning — 1, 1 — and it produces **1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …**: the **Fibonacci sequence**, each term the sum of the two before it.
+
+This is not a coincidence. It is the same problem Leonardo of Pisa described in 1202 — rabbits that need one generation to mature before they can reproduce. The framework reveals that Fibonacci’s rabbits were not a quirky biological example. They were an instance of the universal growth law: any structure that must understand its own origin before it can create will grow by Fibonacci.
+
+> **Metaphor: the sunflower.** Sunflowers spiral their seeds in Fibonacci counts; pine cones show 8 spirals one way and 13 the other; nautilus shells, leaf arrangements, all the same. Biology calls it “efficiency,” but never quite says *why the efficient answer is this particular sequence.* The framework’s reply: it isn’t that life discovered a clever packing — it’s that **growth itself is Fibonacci**, because Fibonacci is the growth law of things that must understand themselves before they can create. Each new bud must first orient to its stem — learn its own position — before it can branch independently. That orientation is the maturation cycle. Sunflowers don’t choose the pattern; they obey the same growth law the universe does.
 
 ### The Mathematics
 
