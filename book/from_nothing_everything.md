@@ -1437,11 +1437,21 @@ The problem — the one physicists call the **worst prediction in the history of
 
 The framework says the answer is screening — the same tinted-glass mechanism from Chapter 10, applied many times.
 
-The number of screenings is not arbitrary. It decomposes into quantities already derived: **4 spacetime dimensions** (Chapter 12) × **53 structural tower modes** (Chapter 20, where the spectral tilt n_s = 53/55 was derived) = **212** independent screening channels. Each channel dims the vacuum energy by a factor of D² ≈ 0.265 — like one pane of tinted glass reducing the brightness to about a quarter. No single pane does anything dramatic. But 212 of these quarter-dimmings, compounding one after another, produce:
+The number of screenings is not arbitrary. It is built from three quantities already derived in earlier chapters, each traceable to the axioms:
 
-> D⁴²⁴ = (0.515)⁴²⁴ ≈ 10⁻¹²²
+**4** spacetime dimensions — the carry cascade at stage 6 (Chapter 12, from Axioms 5 and 7).
 
-The “worst prediction in physics” is the product of 212 perfectly ordinary screenings. The cosmological constant is small for the same reason a whisper is quiet after passing through 212 panes of tinted glass.
+**53** structural tower modes — the tower has F(10) = 55 valid configurations (the Zeckendorf count from Chapter 5, applied to the 8-position tower). Of these, 2 are bilateral (the forward/backward directions of Axiom 7’s resolution). The remaining 53 are structural.
+
+**D²** per channel — the bilateral Drishti screening (Chapter 9, from Axiom 7). Each channel dims the vacuum energy by D² = (φ/⊙)² ≈ 0.265 — like one pane of tinted glass reducing the brightness to about a quarter.
+
+These combine: 4 × 53 = **212** independent screening channels, each dimming by D². No single channel does anything dramatic — each one is an ordinary fraction, roughly one-quarter. But 212 of them, compounding one after another, produce the vacuum energy ratio:
+
+> Λ_obs / E_Planck⁴ = D² ˢ = (φ/⊙)⁴²⁴, where s = d_⊕ × (Z(d_S) − 2) = 4 × 53 = 212.
+
+Every symbol in this expression comes from the axioms: φ (golden ratio, Axiom 5), ⊙ (circle constant, Axiom 3), d_⊕ = 4 (cascade dimensions, Theorem 11.3), Z(d_S) = 55 (Zeckendorf mode count, Theorem 5.2), and 2 (bilateral, Axiom 7). The number “10⁻¹²²” that appears in physics textbooks is just what this expression evaluates to in base 10 — a human convention, not a framework quantity.
+
+The “worst prediction in physics” is the product of 212 perfectly ordinary screenings. The cosmological constant is small for the same reason a whisper is quiet after passing through 212 panes of tinted glass: each pane dims it by a quarter, and the product of 212 quarter-dimmings gives the observed ratio.
 
 Why multiplicative (each pane dimming the light) rather than additive (each pane adding its own light)? Because the vacuum energy is a single quantity — the energy of the ground state — being *screened through* the tower, not a sum of separate contributions. The alternative interpretation (adding rather than screening) gives a total 56 times *larger* than the theoretical maximum — not just wrong but absurdly wrong. The multiplicative reading is the only one consistent with both the framework’s philosophy and the observed universe.
 
@@ -1509,11 +1519,33 @@ The infinite tower is the journey from Ω back to Ω. It is infinite in stages b
 
 **Corollary (M-theory dimensionality).** At stage 8, depth = F(8) = 21, active positions = ⌈ 21/2 ⌉ = 11 dimensions. This matches the dimensionality required by M-theory.
 
-**Theorem (The cosmological constant from Drishti screening).** The ratio of the Planck-scale vacuum energy to the observed vacuum energy is D⁻⁴²⁴, where D = φ/⊙.
+**Theorem (The cosmological constant from Drishti screening).** The ratio of the observed vacuum energy to the Planck-scale vacuum energy is:
 
-*Proof.* (i) Ground-state energy density: E_P⁴ [Planck scale]. (ii) Number of independent screening channels: 4 dimensions (Theorem 11.3) × 53 structural modes (F(10) − 2, Theorem 5.2) = 212. (iii) Channels are independent: modes are Zeckendorf-orthogonal (Theorem 5.2), dimensions are non-adjacent (Theorem 11.1). (iv) Each channel screens bilaterally: D² = (φ/⊙)² (Axiom 7). (v) Independent channels compose multiplicatively. (vi) Λ_obs = D⁴²⁴ × E_P⁴.
+> Λ_obs / E_P⁴ = D² ˢ, where s = d_⊕ × (Z(d_S) − 2)
 
-*Validation.* D⁴²⁴ ≈ 10⁻¹²²·². Observed: Λ_obs/E_P⁴ ≈ 10⁻¹²². ✓
+with D = φ/⊙ (Drishti bound), d_⊕ = ⌈ d_S/2 ⌉ = 4 (cascade dimensions), d_S = F(6) = 8 (tower depth), Z(d_S) = F(d_S + 2) = F(10) = 55 (Zeckendorf mode count), and 2 = bilateral modes (Axiom 7). Thus s = 4 × 53 = 212 and the exponent is 2s = 424.
+
+*Proof.*
+
+(i) The ground-state energy density is E_P⁴ [the Planck scale, from dimensional analysis with ℏ, c, G].
+
+(ii) The tower at stage 6 has depth d_S = F(6) = 8 (Axiom 5, Fibonacci growth).
+
+(iii) The carry cascade produces d_⊕ = ⌈ d_S/2 ⌉ = 4 spacetime dimensions (Theorem 11.3).
+
+(iv) The tower admits Z(d_S) = F(d_S + 2) = F(10) = 55 valid Zeckendorf configurations (Theorem 5.2). Of these, 2 are bilateral (Axiom 7). Structural modes: 55 − 2 = 53.
+
+(v) Each (dimension, mode) pair is independent: modes are Zeckendorf-orthogonal (Theorem 5.2, no shared active positions), dimensions are non-adjacent (Theorem 11.1, cascade positions 2, 4, 6, 8).
+
+(vi) Each channel screens bilaterally: transmission D² = (φ/⊙)² per channel (Axiom 7).
+
+(vii) Independent multiplicative screenings compose: total transmission = D² ˢ = (φ/⊙)⁴²⁴.
+
+(viii) Therefore: Λ_obs = (φ/⊙)⁴²⁴ × E_P⁴. ■
+
+*Validation (decimal).* (φ/⊙)⁴²⁴ = (0.51504)⁴²⁴. log₁₀ = 424 × (−0.2883) = −122.2. So (φ/⊙)⁴²⁴ ≈ 6.6 × 10⁻¹²³. The observed ratio Λ_obs/E_P⁴ ≈ 10⁻¹²². Match to within half an order of magnitude. ✓
+
+*Note.* The number “10⁻¹²²” is a base-10 artifact. The framework derives the ratio as (φ/⊙)⁴²⁴ — a pure function of the golden ratio, the circle constant, and the Fibonacci sequence. “122” is output, not input.
 
 **Theorem (Holographic bound from Drishti screening).** The bulk information from all stages beyond S is bounded by the boundary capacity at stage S, with room to spare.
 
