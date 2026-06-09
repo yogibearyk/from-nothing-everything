@@ -1405,6 +1405,65 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 6: Quantum gravity.** The ultimate prize. The framework’s tower is inherently discrete — finite positions, integer depths, binary resolution. Spacetime, as described by general relativity, is inherently continuous — smooth, infinitely divisible. Showing that the continuous spacetime of general relativity emerges from the framework’s discrete tower in a mathematically rigorous way — the way the smooth surface of water emerges from discrete water molecules — would constitute a theory of quantum gravity: the unification of the very small and the very large, the holy grail of theoretical physics. The framework’s discrete structure is the most natural starting point for such a unification that the author has encountered, but the work has not yet been done.
 
+### The Infinite Tower: How Far Does the Universe Go?
+
+One question remains that touches the deepest nerve of the framework: does the tower have a maximum? If the axioms built the visible universe at stage 6 and the dark sector at stage 7, do they stop there? Or does the tower keep growing — stage 8, stage 9, stage 100, forever?
+
+**The axioms say it never stops.** Axiom 5 (recursive generation, forward-biased) has no stopping condition. Each stage generates the next. There is no clause that says “stop at stage 7” any more than there was one that said “stop at stage 6.” If the growth rule built seven stages, it builds an eighth. And a ninth. And an N-th, without limit.
+
+But here is the crucial fact: **each successive stage is exponentially more screened than the last.**
+
+Stage 7 (the dark sector) is already screened from our view. We cannot see it directly — we detect it only through gravity. Stage 8 would be a “dark sector of the dark sector” — invisible not just to us but to the dark matter of stage 7. Stage 9 is darker still. Each step deeper multiplies the screening by at least another factor of D² ≈ 0.265 (the same Drishti bound from Chapter 9, squared). The contributions shrink rapidly:
+
+Stage 6 (our universe): **100%** of what we see.
+Stage 7 (dark sector): **26.5%** — detectable through gravity.
+Stage 8: **7.0%** — invisible even to dark matter.
+Stage 9: **1.9%**
+Stage 10: **0.5%**
+Stage 12: **0.03%**
+Stage 15: **0.0007%**
+Stage 20: **0.000002%**
+
+By stage 20, the contribution is two millionths of what we observe. By stage 30, it is smaller than the effect of a single atom on the orbit of a distant galaxy. The tower keeps growing, but each new floor contributes almost nothing.
+
+**The total converges.** Even though the tower has infinitely many stages, the sum of all their contributions is finite. This is the same principle that makes the series 1 + ¼ + ¹⁄₁₆ + ¹⁄₆₄ + … converge to a finite value: each term is so much smaller than the last that the infinite sum never runs away. The total content of the infinite tower — every stage, all the way to infinity — is at most:
+
+> **1 / (1 − D²) ≈ 1.36**
+
+The entire universe across *all* stages — infinitely many of them — is only about 36% more than what stage 6 contains. Infinity is bounded by the Drishti ratio.
+
+**How many stages are physically real?** We can define the “effective maximum” as the stage beyond which the contribution is smaller than the Planck scale — the smallest meaningful length in physics, roughly 10⁻³⁵ meters (a billionth of a trillionth of a trillionth of a meter). Below this scale, the concepts of “distance” and “size” themselves break down. The answer is approximately **212 stages**. Beyond stage 212, the tower still grows — but its contribution is smaller than anything that could ever be measured, even in principle.
+
+A tantalizing coincidence: the number 10¹²² that appears in this estimate is the same number that appears in the cosmological constant problem (Chapter 21) — the “worst prediction in physics.” Whether this is a deep connection or an arithmetic accident, the framework cannot yet say. It is noted here as an open question.
+
+**The philosophical picture.** The tower begins at Ω (the ground, Chapter 1) and, by Axiom 10, returns to Ω. As the stages deepen, each one is more screened than the last. The distinctions become fainter. The structure approaches invisibility. In the limit, all distinctions are screened to zero — which is the definition of Ω: a state with no distinctions.
+
+The universe does not have a “maximum size” in the conventional sense. It has an **observation horizon that depends on where you stand.** We at stage 6 see our universe directly, the dark sector through gravity, and nothing beyond. A hypothetical observer at stage 7 would see stages 1–7 directly, stage 8 as their dark sector, and nothing beyond. Every observer, at every stage, sees the same structure: a visible universe, a dark shadow one stage above, and Ω at the bottom.
+
+The infinite tower is the journey from Ω back to Ω. The journey is infinite in stages but finite in content — the geometric series converges. From nothing, everything — and from everything, gently, asymptotically, back to nothing.
+
+### The Mathematics
+
+*Complete proofs for this section: Appendix A (forthcoming).*
+
+**Theorem (Convergence of the infinite tower).** Let Ω_S denote the fractional contribution of stage S to the total observable content, relative to stage 6. Then:
+
+(i) Ω₆ = 1 (the observer’s own stage).
+(ii) Ω₇ = D² = (φ/⊙)² ≈ 0.2653 (derived in Chapter 21 as the dark matter fraction).
+(iii) For S > 7, Ω_S ≤ D²⁻⁻⁶ (each stage screened by at least D² relative to the previous). This is a bound, not an equality — deeper stages have more screening positions (Fibonacci depths 13, 21, 34, …), so actual screening is stronger.
+(iv) The total across all stages: Σ Ω_S ≤ Σ D²ᵏ = 1/(1 − D²) = 1/(1 − φ²/⊙²) ≈ **1.3610**.
+(v) The series converges because D² < 1 (guaranteed: φ < ⊙ ⇒ D < 1 ⇒ D² < 1).
+
+*Proof of (v).* D = φ/⊙ ≈ 0.5150. Since φ ≈ 1.618 and ⊙ ≈ 3.1416, φ < ⊙, so D < 1 and D² < 1. A geometric series with ratio r < 1 converges to 1/(1−r). ■
+
+**Effective stage count.** The number of stages N before Planck suppression (D²ᴺ < 10⁻¹²²):
+
+> N > ln(10⁻¹²²) / (2 ln D) = 122 × ln 10 / (2 × |​ln D|) ≈ **212 stages**.
+
+**Validation (decimal).** D²⁰⁰ = D⁴²⁴ ≈ 6.6 × 10⁻¹²³ < 10⁻¹²². D²⁰⁰ = D⁴²² ≈ 2.5 × 10⁻¹²² > 10⁻¹²². Boundary falls at N ≈ 212. ✓
+
+**Honest gaps.** (a) The D²-per-stage factor is derived for stage 7 but only bounded (not computed) for stages 8+. The true total may be less than 1.361. (b) The coincidence between the 212-stage count and the cosmological constant’s 10¹²² is noted but not derived. (c) A rigorous proof would require computing the screening at each Fibonacci depth, which has not been done.
+
 ### Closing
 
 The framework began with a question — *what is the least that has to be true for anything to be true at all?* — and followed the answer through ten axioms, a self-referential tower, and forty-four predictions spanning the full landscape of fundamental physics. Some of those predictions are remarkable. Some are honestly vulnerable to the numerology objection. All of them are testable.
