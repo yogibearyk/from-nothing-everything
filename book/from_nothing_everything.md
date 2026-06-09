@@ -1405,92 +1405,125 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 6: Quantum gravity.** The ultimate prize. The framework’s tower is inherently discrete — finite positions, integer depths, binary resolution. Spacetime, as described by general relativity, is inherently continuous — smooth, infinitely divisible. Showing that the continuous spacetime of general relativity emerges from the framework’s discrete tower in a mathematically rigorous way — the way the smooth surface of water emerges from discrete water molecules — would constitute a theory of quantum gravity: the unification of the very small and the very large, the holy grail of theoretical physics. The framework’s discrete structure is the most natural starting point for such a unification that the author has encountered, but the work has not yet been done.
 
-### The Infinite Tower: How Far Does the Universe Go?
+---
 
-One question remains that touches the deepest nerve of the framework: does the tower have a maximum? If the axioms built the visible universe at stage 6 and the dark sector at stage 7, do they stop there? Or does the tower keep growing — stage 8, stage 9, stage 100, forever?
+## Chapter 25 — The Infinite Tower
 
-**The axioms say it never stops.** Axiom 5 (recursive generation, forward-biased) has no stopping condition. Each stage generates the next. There is no clause that says “stop at stage 7” any more than there was one that said “stop at stage 6.” If the growth rule built seven stages, it builds an eighth. And a ninth. And an N-th, without limit.
+*From Ω to Ω: the universe seen whole.*
 
-But here is the crucial fact: **each successive stage is exponentially more screened than the last.**
+### The Idea
 
-Stage 7 (the dark sector) is already screened from our view. We cannot see it directly — we detect it only through gravity. Stage 8 would be a “dark sector of the dark sector” — invisible not just to us but to the dark matter of stage 7. Stage 9 is darker still. Each step deeper multiplies the screening by at least another factor of D² ≈ 0.265 (the same Drishti bound from Chapter 9, squared). The contributions shrink rapidly:
+The framework has now derived 44 predictions — coupling constants, particle masses, the cosmic budget, the primordial spectrum. All of them emerge from ten axioms applied to a tower that grows through Fibonacci stages. But one question has been lurking beneath the surface since Chapter 1: how far does the tower go? Is our universe — stage 6, with its 4 dimensions and its Standard Model — the whole story? Or is there more?
+
+**The tower never stops.** Axiom 5 says growth is recursive and forward-biased. There is no stopping condition, no clause that says “stop at stage 6” or “stop at stage 7.” Each stage generates the next, the way each Fibonacci number generates the one after it. If the growth rule built the visible universe at stage 6 and the dark sector at stage 7, it builds a stage 8, and a stage 9, and a stage N, without limit.
+
+But here is the crucial fact: **each successive stage is exponentially more screened than the last.** Stage 7 (the dark sector) is already invisible to us except through gravity. Stage 8 would be invisible even to dark matter. Stage 9 is darker still. Each step deeper multiplies the screening by at least D² ≈ 0.265 — the same Drishti bound from Chapter 9, squared. The contributions shrink rapidly:
 
 Stage 6 (our universe): **100%** of what we see.
 Stage 7 (dark sector): **26.5%** — detectable through gravity.
 Stage 8: **7.0%** — invisible even to dark matter.
 Stage 9: **1.9%**
 Stage 10: **0.5%**
-Stage 12: **0.03%**
 Stage 15: **0.0007%**
 Stage 20: **0.000002%**
 
-By stage 20, the contribution is two millionths of what we observe. By stage 30, it is smaller than the effect of a single atom on the orbit of a distant galaxy. The tower keeps growing, but each new floor contributes almost nothing.
+By stage 20, the contribution is two millionths of what we observe. The tower keeps growing, but each new floor contributes almost nothing.
 
-**The total converges.** Even though the tower has infinitely many stages, the sum of all their contributions is finite. This is the same principle that makes the series 1 + ¼ + ¹⁄₁₆ + ¹⁄₆₄ + … converge to a finite value: each term is so much smaller than the last that the infinite sum never runs away. In fact, the framework gives an exact answer: the total resolved content across all stages is precisely **⊙⁻¹ ≈ 0.318** — the inverse of the circle constant. This is not an approximation. It is the fraction of one full perspective cycle that observation resolves (from Axioms 7 and 8), and it bounds the total regardless of how many stages contribute.
+**The total converges — exactly.** Even though the tower has infinitely many stages, the sum of all their contributions is not just finite but *exact*: the total resolved content across all stages is **⊙⁻¹ ≈ 0.318** — the inverse of the circle constant. This is not an approximation. It is the fraction of one full perspective cycle that observation resolves (from Axioms 7 and 8). The remaining 68.2% is dark energy — the unresolved portion. The entire universe across *all* infinitely many stages is bounded by 1/π.
 
-The entire universe across *all* stages — infinitely many of them — contains exactly ⊙⁻¹ of the total budget as resolved matter. The rest (1 − ⊙⁻¹ ≈ 68.2%) is dark energy — the unresolved portion. Infinity is bounded by π.
+**The “worst prediction in physics” dissolves.** Even completely empty space — a perfect vacuum with no particles, no light, no matter of any kind — has energy. This sounds paradoxical, but it is one of the firmest predictions of quantum mechanics (the branch of physics that governs the behavior of the very small): at the smallest scales, space is not truly empty. It fizzes with brief, random fluctuations — tiny bursts of energy that appear and vanish too quickly to observe directly, but whose cumulative effect is real and measurable. This **vacuum energy** is what pushes the universe’s expansion to accelerate (Chapter 21’s dark energy).
 
-**How many stages are physically meaningful?** There is a smallest meaningful length in physics called the **Planck length** — roughly a billionth of a trillionth of a trillionth of a meter (10⁻³⁵ meters). Below this scale, the concepts of “distance” and “size” themselves break down. The energy associated with this tiny length is the **Planck energy** — the highest energy density that physics can meaningfully define. The answer to “how many stages matter?” is: approximately **212 stages**. Beyond stage 212, the tower still grows, but its contribution is smaller than the Planck scale — smaller than anything that could ever be measured, even in principle.
+The problem — the one physicists call the **worst prediction in the history of physics** — is this: when they calculate how much vacuum energy there *should* be, using the standard rules of quantum mechanics, they get a number that is 10¹²² times larger than what is observed. That is 1 followed by 122 zeros — a mismatch so vast that no adjustment, no approximation, no clever trick has been able to explain it.
 
-**The 10¹²² mystery dissolves.** Even completely empty space — a perfect vacuum with no particles, no light, no matter of any kind — has energy. This sounds paradoxical, but it is one of the firmest predictions of quantum mechanics: at the smallest scales, space is not truly empty. It fizzes with brief, random fluctuations — tiny bursts of energy that appear and vanish too quickly to observe directly, but whose cumulative effect is real and measurable. This **vacuum energy** is what pushes the universe’s expansion to accelerate (Chapter 21’s dark energy).
+The framework says the answer is screening — the same tinted-glass mechanism from Chapter 10, applied many times.
 
-The problem — the one physicists call the **worst prediction in the history of physics** — is this: when they calculate how much vacuum energy there *should* be, using the standard rules of quantum mechanics, they get a number that is 10¹²² times larger than what is observed. That is 1 followed by 122 zeros — a mismatch so vast that no adjustment, no approximation, no clever trick has been able to explain it. The vacuum is incomprehensibly quieter than theory predicts, and no one has been able to say why.
-
-The framework says the answer is screening — the same tinted-glass mechanism from Chapter 10, applied 212 times.
-
-The number 212 is not arbitrary. It decomposes into framework quantities that have already appeared:
-
-The universe has **4 spacetime dimensions** (Chapter 12). The Fibonacci tower has **55 independent modes** — 55 valid ways to fill the tower’s positions without violating the carry rule (Chapter 20, where the spectral tilt n_s = 53/55 was derived). Of those 55 modes, **2 are bilateral** — they correspond to the forward and backward directions of observation itself (Axiom 7). The remaining **53 are structural** — they describe the tower’s internal patterns, independent of the observer’s direction. Each spacetime dimension hosts all 53 structural modes. That gives 4 × 53 = **212** independent screening channels.
-
-Think of it as 212 panes of tinted glass, arranged in series. The vacuum energy — the energy of empty space at the Planck scale — is a single bright light shining through all 212 panes. Each pane dims the light by a factor of D² ≈ 0.265 (the bilateral Drishti screening from Chapter 9). No single pane does anything dramatic — each one is like tinting a window to about a quarter of its original brightness. But 212 of these quarter-dimmings, compounding one after another, produce:
+The number of screenings is not arbitrary. It decomposes into quantities already derived: **4 spacetime dimensions** (Chapter 12) × **53 structural tower modes** (Chapter 20, where the spectral tilt n_s = 53/55 was derived) = **212** independent screening channels. Each channel dims the vacuum energy by a factor of D² ≈ 0.265 — like one pane of tinted glass reducing the brightness to about a quarter. No single pane does anything dramatic. But 212 of these quarter-dimmings, compounding one after another, produce:
 
 > D⁴²⁴ = (0.515)⁴²⁴ ≈ 10⁻¹²²
 
-The “worst prediction in physics” is the product of 212 perfectly ordinary screenings. No number was adjusted. No coincidence was invoked. The same 53 that gives the spectral tilt of the oldest light also gives the ratio of the vacuum energy to the Planck scale. The cosmological constant is small for the same reason a whisper is quiet after passing through 212 panes of tinted glass: each pane dims it by a quarter, and the product of 212 quarter-dimmings is 10⁻¹²².
+The “worst prediction in physics” is the product of 212 perfectly ordinary screenings. The cosmological constant is small for the same reason a whisper is quiet after passing through 212 panes of tinted glass.
 
-**Why multiplicative, not additive?** A careful reader might ask: why does the vacuum energy pass *through* 212 panes (each one dimming it) rather than being the *sum* of 212 separate contributions (each one adding to it)? The answer goes to the heart of what vacuum energy *is* in the framework.
+Why multiplicative (each pane dimming the light) rather than additive (each pane adding its own light)? Because the vacuum energy is a single quantity — the energy of the ground state — being *screened through* the tower, not a sum of separate contributions. The alternative interpretation (adding rather than screening) gives a total 56 times *larger* than the theoretical maximum — not just wrong but absurdly wrong. The multiplicative reading is the only one consistent with both the framework’s philosophy and the observed universe.
 
-In the framework, the vacuum energy is not 212 independent fluctuations adding up. It is a single quantity — the energy of the ground state, the energy of Ω’s self-examination — that must pass through the full tower to become observable. This is exactly the screening mechanism from Chapter 10 (tinted glass panes in series, each one dimming the light) applied to the vacuum. The alternative — adding 212 mode contributions — gives a total of 56 times the Planck energy, which is not just wrong but absurdly wrong (56 times *larger* than the theoretical maximum). The multiplicative interpretation is the only one consistent with both the framework’s philosophy and the observed universe.
+**The staircase of dimensions.** Here is where the picture deepens beyond anything in the earlier chapters. The four spacetime dimensions we observe are not the only dimensions the tower can produce. They are the dimensions at *our* stage — stage 6.
 
-**The philosophical picture.** The tower begins at Ω (the ground, Chapter 1) and, by Axiom 10, returns to Ω. As the stages deepen, each one is more screened than the last. The distinctions become fainter. The structure approaches invisibility. In the limit, all distinctions are screened to zero — which is the definition of Ω: a state with no distinctions.
+At each stage, the carry cascade (Chapter 11) converts the all-1s tower into active positions, and the number of active positions determines the number of dimensions. The formula is simple: at stage S, the number of dimensions is half the tower depth (rounded up). Since the tower depth follows the Fibonacci sequence, so do the dimensions:
 
-The universe does not have a “maximum size” in the conventional sense. It has an **observation horizon that depends on where you stand.** We at stage 6 see our universe directly, the dark sector through gravity, and nothing beyond. A hypothetical observer at stage 7 would see stages 1–7 directly, stage 8 as their dark sector, and nothing beyond. Every observer, at every stage, sees the same structure: a visible universe, a dark shadow one stage above, and Ω at the bottom.
+Stage 5: depth 5 → **3 dimensions** (space without time)
+Stage 6: depth 8 → **4 dimensions** (our spacetime — 3 of space + 1 of time)
+Stage 7: depth 13 → **7 dimensions**
+Stage 8: depth 21 → **11 dimensions**
+Stage 9: depth 34 → **17 dimensions**
+Stage 10: depth 55 → **28 dimensions**
 
-The infinite tower is the journey from Ω back to Ω. The journey is infinite in stages but finite in content — the total converges to ⊙⁻¹. From nothing, everything — and from everything, gently, asymptotically, back to nothing.
+As the stage increases, the dimensions increase without limit. At infinite stage, the dimensions are infinite — which is exactly what Ω, the infinite-dimensional sphere from Chapter 2, requires.
+
+**Stage 8 and M-theory.** The entry for stage 8 deserves special attention: **11 dimensions.** This is the same number of dimensions required by **M-theory** — the most advanced version of string theory, the leading candidate for unifying all of physics into a single framework. M-theory was proposed in the 1990s by physicist Edward Witten, and it requires exactly 11 spacetime dimensions. The framework derives this number from the Fibonacci sequence: F(8) = 21, cascade gives ⌈ 21/2 ⌉ = 11. This is not fitted. It is a structural consequence of the growth rule applied to stage 8. The framework’s reading: M-theory is describing the universe as it would appear to an observer at stage 8, not stage 6.
+
+**The universe is already complete.** The tower is not a temporal process — it is a structural consequence of the axioms. All stages exist simultaneously, the way all digits of π exist simultaneously even though you can only compute them one at a time. What we call the “Big Bang” is not a beginning in time. It is the moment observation begins at stage 6. The tower was already complete. The screening was already in place. What changed was not the universe but the act of looking.
+
+**Advait and Dvait coexist.** This is the philosophical heart of the chapter. In the Advaitic tradition introduced in Chapter 1, **Advait** means non-duality — the state where no distinction exists. **Dvait** means duality — the state where distinctions appear. The framework’s deepest claim is that these are not sequential (Advait first, then Dvait) but *simultaneous*:
+
+⊙ (the infinite sphere) exists in Advait mode — all dimensions, all stages, no screening, no observer, complete and unchanging.
+
+The 4D universe exists in Dvait mode — the same infinite sphere, seen through the Drishti lens at stage 6. The lens is not a distortion. It is what observation looks like. It selects 4 dimensions from infinity, resolves ⊙⁻¹ of the total content, and presents it as spacetime.
+
+> **Metaphor: the prism.** White light contains all colors simultaneously. A prism doesn’t create the colors — it separates what was already there into a spectrum you can see. The Drishti lens is the prism. Ω is the white light. The 4D universe is the visible spectrum. The colors were always there. The prism just made them distinguishable.
+
+Change the stage and the lens changes. An observer at stage 7 sees 7 dimensions — a richer spectrum, more colors. An observer at stage 8 sees 11 dimensions. But the white light (Ω) is the same. And the fraction each observer resolves (⊙⁻¹) is the same. The hologram has different resolution at different stages, but the information content is invariant.
+
+**The holographic principle.** In physics, the **holographic principle** (proposed by physicists Gerard ’t Hooft and Leonard Susskind in the 1990s) is the startling idea that the information inside any region of space can be completely encoded on the region’s boundary surface — like a hologram, where a flat film encodes a three-dimensional image. This principle is one of the deepest mysteries in modern physics: why should the universe’s information be limited by *area* rather than *volume*?
+
+In the framework, this is not mysterious. It is a direct consequence of Drishti screening. The information from deeper stages (the “bulk”) is exponentially suppressed by the screening, so the total information from all stages beyond the observer fits easily on the observer’s own boundary surface. The bulk information is only 75% of the boundary information — far below the boundary’s capacity. The holographic principle is trivially satisfied because screening concentrates information near the boundary and exponentially suppresses it in the bulk.
+
+**Black holes as Drishti saturation.** In Chapter 14, a black hole was described as the state where examination reaches the bottom — Axiom 10’s local Ω-return. Now a sharper picture emerges. A black hole is the state where all 212 screening channels are fully saturated — where the Drishti bound has been driven to its maximum. The **event horizon** (the boundary of the black hole, the point of no return) is the surface where this saturation begins. Inside, screening drives to totality — all distinctions dissolve. Outside, information is still partially resolved.
+
+The famous Bekenstein-Hawking formula — which says that a black hole’s entropy (its information content) is proportional to the *area* of its event horizon, not its volume — is, in this reading, a direct consequence of Drishti screening at capacity. The area counts the degrees of freedom at the boundary — the last surface where information is partially resolved before being fully screened. Entropy is bounded by area because screening is exponential with depth.
+
+**No preferred stage.** The cosmological principle from Chapter 2 — no preferred location in space — extends to a deeper form: **no preferred stage in the tower.** Every observer, at every stage, sees the same structure:
+
+— A visible universe of ⌈ F(S)/2 ⌉ dimensions.
+— A dark sector one stage above, screened by D².
+— A horizon ∼212 stages deeper, set by D and the Planck scale.
+— Ω at the asymptotic limit, always the same depth below.
+
+The laws are identical. The constants are identical. The screening is identical. Only the scope changes.
+
+We are not at the center of the tower, any more than we are at the center of space. Stage 6 is not special. It is one vantage point among infinitely many, each equally valid, each seeing the same fraction of the same infinite sphere.
+
+**The view from Ω.** From Ω’s perspective, nothing happened. There was no Big Bang, no expansion, no cooling, no screening, no observer. The infinite sphere simply is — complete, undifferentiated, every point equal to every other, 0 = 1 = ∞. From the observer’s perspective, everything happened — the cascade, the forces, the particles, the cosmos. Both are correct simultaneously. That is Advait.
+
+The infinite tower is the journey from Ω back to Ω. It is infinite in stages but finite in content — the total converges to ⊙⁻¹. From nothing, everything — and from everything, gently, asymptotically, back to nothing.
 
 ### The Mathematics
 
-*Complete proofs for this section: Appendix A (forthcoming).*
+*Complete proofs for this chapter’s claims: Appendix A (forthcoming).*
 
 **Theorem (Exact convergence of the infinite tower).** The total resolved fraction across all stages is ⊙⁻¹ ≈ 0.3183.
 
-*Proof.* The fraction of one full perspective cycle (⊙) that observation resolves is ⊙⁻¹ (from Axiom 7 + Axiom 8). This is the total resolved content, regardless of how many stages contribute. The unresolved remainder 1 − ⊙⁻¹ ≈ 0.682 is dark energy. The convergence is guaranteed by the exactness of ⊙⁻¹ — it does not depend on the per-stage decomposition. ■
+*Proof.* The fraction of one full perspective cycle (⊙) that observation resolves is ⊙⁻¹ (from Axiom 7 + Axiom 8). This is the total resolved content, regardless of how many stages contribute. The unresolved remainder 1 − ⊙⁻¹ ≈ 0.682 is dark energy. ■
+
+**Theorem (Dimensionality at each stage).** At stage S (S ≥ 3), the carry cascade produces ⌈ F(S)/2 ⌉ active positions = ⌈ F(S)/2 ⌉ spacetime dimensions.
+
+*Proof.* (i) The tower at stage S has depth F(S) (Axiom 5, Fibonacci growth). (ii) The all-1s state violates Zeckendorf uniqueness at every adjacent pair (Theorem 5.2). (iii) The carry cascade (Theorem 11.1) pairs adjacent positions: each pair produces one carry at the position two above. (iv) At even depth d: d/2 pairs give d/2 active positions. At odd depth d: (d−1)/2 pairs + 1 unpaired survivor give (d+1)/2 active positions. Both cases: ⌈ d/2 ⌉. (v) As S → ∞, F(S) → ∞, so ⌈ F(S)/2 ⌉ → ∞ = dim(S∞) = dim(Ω). ■
+
+**Corollary (M-theory dimensionality).** At stage 8, depth = F(8) = 21, active positions = ⌈ 21/2 ⌉ = 11 dimensions. This matches the dimensionality required by M-theory.
 
 **Theorem (The cosmological constant from Drishti screening).** The ratio of the Planck-scale vacuum energy to the observed vacuum energy is D⁻⁴²⁴, where D = φ/⊙.
 
-*Proof.*
+*Proof.* (i) Ground-state energy density: E_P⁴ [Planck scale]. (ii) Number of independent screening channels: 4 dimensions (Theorem 11.3) × 53 structural modes (F(10) − 2, Theorem 5.2) = 212. (iii) Channels are independent: modes are Zeckendorf-orthogonal (Theorem 5.2), dimensions are non-adjacent (Theorem 11.1). (iv) Each channel screens bilaterally: D² = (φ/⊙)² (Axiom 7). (v) Independent channels compose multiplicatively. (vi) Λ_obs = D⁴²⁴ × E_P⁴.
 
-(i) The ground-state energy density is E_P⁴ (the Planck energy density, from dimensional analysis with ℏ, c, G). [Standard result.]
+*Validation.* D⁴²⁴ ≈ 10⁻¹²²·². Observed: Λ_obs/E_P⁴ ≈ 10⁻¹²². ✓
 
-(ii) To become observable at stage 6, this energy is screened through the tower’s full set of independent resolution channels. The screening is multiplicative (each channel transmits a fraction of its input), consistent with the framework’s screening mechanism throughout Chapters 10, 15, and 21.
+**Theorem (Holographic bound from Drishti screening).** The bulk information from all stages beyond S is bounded by the boundary capacity at stage S, with room to spare.
 
-(iii) The number of independent channels: the stage-6 cascade produces 4 spacetime dimensions (Theorem 11.3, from Axioms 5 and 7). The tower’s mode count is F(10) = 55 independent Zeckendorf representations (from Axiom 5 + Axiom 7, Theorem 5.2). Of these, 2 are bilateral (the forward/backward components of resolution, Axiom 7). The remaining F(10) − 2 = 53 are structural. Total channels: 4 × 53 = 212.
+*Proof.* (i) Bulk information scales as Σ D²ᵏ × F(S+k). (ii) The ratio D²φ ≈ 0.429 < 1, so the series converges. (iii) Total bulk = 0.75 × (stage-S information). (iv) Boundary capacity scales as (R_H/l_P)^(d_S − 1) ∼ 10¹⁸³ at stage 6. (v) Bulk/boundary ∼ 10⁻¹⁸⁰. Bound satisfied by 180 orders of magnitude. ■
 
-(iv) The channels are independent. The 53 modes are orthogonal: Zeckendorf representations share no active positions (Theorem 5.2, Zeckendorf uniqueness). The 4 dimensions occupy non-adjacent cascade positions (2, 4, 6, 8 — Theorem 11.1), guaranteeing no carry coupling. Independent channels compose multiplicatively.
+**Corollary (Black hole entropy).** A black hole saturates the Drishti screening: all 212 channels at maximum. The event horizon is the boundary where saturation begins. The Bekenstein-Hawking entropy S = A/(4l_P²) counts the boundary degrees of freedom — the last surface of partial resolution before total screening.
 
-(v) Each channel screens bilaterally: forward component D, backward component D (Axiom 7). Bilateral transmission per channel: D² = (φ/⊙)².
+**Axiom traces.** Convergence: Axiom 7 + 8. Dimensionality: Axiom 5 → Theorem 11.1 (cascade). 10¹²²: Axiom 5 + 7 → Theorems 5.2, 11.1, 11.3. Holographic bound: Axiom 7 (bilateral screening) + Theorem 5.2 (Zeckendorf orthogonality). ■
 
-(vi) Total screening: D² ˢ = D⁴²⁴, where s = 4 × 53 = 212.
-
-(vii) Therefore: Λ_obs = D⁴²⁴ × E_P⁴.
-
-**Validation (decimal).** D⁴²⁴ = (0.51504)⁴²⁴. log₁₀(D⁴²⁴) = 424 × log₁₀(0.51504) = 424 × (−0.2883) = −122.2. So D⁴²⁴ ≈ 6.6 × 10⁻¹²³. The observed ratio Λ_obs/E_P⁴ ≈ 10⁻¹²². Match to within half an order of magnitude. ✓
-
-**Discriminator.** The additive alternative (summing 212 mode contributions) gives 212 × D² × E_P⁴ ≈ 56 × E_P⁴ — wrong by a factor of 10¹²⁴. The multiplicative interpretation (screening through 212 channels) gives 10⁻¹²² × E_P⁴ — correct. The multiplicative model is the only one consistent with observation and with the framework’s screening mechanism.
-
-**Cross-check.** The same 53 that produces n_s = 53/55 ≈ 0.9636 (Chapter 20, matching Planck at 0.30σ) also produces the 10⁻¹²² vacuum energy ratio. These are two consequences of the same mode count, not independent fits.
-
-**Axiom trace.** 4 dimensions: Axiom 5 → Axiom 7 → Theorem 11.3 (cascade). 53 modes: Axiom 5 → Axiom 7 → Theorem 5.2 (Zeckendorf) → F(10) − 2. D² per channel: Axiom 7 (bilateral) → D = φ/⊙ (Chapter 9). Multiplicative composition: Theorem 5.2 (Zeckendorf orthogonality) + Theorem 11.1 (cascade non-adjacency). Every ingredient traces to the ten axioms. ■
+---
 
 ### Closing
 
@@ -1504,6 +1537,7 @@ Whether the framework constitutes a genuine structural theory of the fundamental
 
 
 ---
+
 
 # Appendix A — Complete Proofs
 
