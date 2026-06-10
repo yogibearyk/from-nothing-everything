@@ -2,6 +2,46 @@
 
 ### What Happens When Wholeness Looks Inward
 
+
+## Contents
+
+- [Part 0 — The Questions Behind the Questions](#part-0-the-questions-behind-the-questions)
+- [Part I — The Pre-Geometric Ground](#part-i-the-pre-geometric-ground)
+  - [Chapter 1 — The Ground: Ω](#chapter-1-the-ground-ω)
+  - [Chapter 2 — The First Distinction, and the Birth of ⊙](#chapter-2-the-first-distinction-and-the-birth-of)
+  - [Chapter 3 — Growth, and Why It Is Fibonacci](#chapter-3-growth-and-why-it-is-fibonacci)
+  - [Chapter 4 — The Only Ratio: φ](#chapter-4-the-only-ratio-φ)
+  - [Chapter 5 — The Universe’s Own Language: Maya Math](#chapter-5-the-universe’s-own-language-maya-math)
+  - [Chapter 6 — The Triangle: The First Closed Structure](#chapter-6-the-triangle-the-first-closed-structure)
+  - [Chapter 7 — The Circle: ⊙ from Fibonacci Refinement](#chapter-7-the-circle-from-fibonacci-refinement)
+  - [Chapter 8 — The Continuous Limit: Euler’s e](#chapter-8-the-continuous-limit-euler’s-e)
+  - [Chapter 9 — The View from the Whole: Chakra Math and the Drishti Bridge](#chapter-9-the-view-from-the-whole-chakra-math-and-the-drishti-bridge)
+  - [Chapter 10 — The Screening Tower](#chapter-10-the-screening-tower)
+  - [Chapter 11 — The Great Carry Cascade](#chapter-11-the-great-carry-cascade)
+  - [The Ten Axioms — Collected](#the-ten-axioms-collected)
+- [Part II — The Birth of Spacetime](#part-ii-the-birth-of-spacetime)
+  - [Chapter 12 — The Higgs Resolution: Four Dimensions](#chapter-12-the-higgs-resolution-four-dimensions)
+  - [Chapter 13 — The Speed of Light: A Theorem, Not a Postulate](#chapter-13-the-speed-of-light-a-theorem-not-a-postulate)
+  - [Chapter 14 — Time and Its Arrow](#chapter-14-time-and-its-arrow)
+- [Part III — The Forces Take Shape](#part-iii-the-forces-take-shape)
+  - [Chapter 15 — The Coupling Constants](#chapter-15-the-coupling-constants)
+  - [Chapter 16 — The Mass Spectrum](#chapter-16-the-mass-spectrum)
+  - [Chapter 16b — The Lepton Masses](#chapter-16b-the-lepton-masses)
+  - [Chapter 17 — The Mixing Matrices](#chapter-17-the-mixing-matrices)
+  - [Chapter 18 — Neutrino Masses](#chapter-18-neutrino-masses)
+- [Part IV — The Dark Universe](#part-iv-the-dark-universe)
+  - [Chapter 19 — The Dark Sector](#chapter-19-the-dark-sector)
+  - [Chapter 20 — The Primordial Spectrum](#chapter-20-the-primordial-spectrum)
+  - [Chapter 21 — The Energy Budget](#chapter-21-the-energy-budget)
+- [Part V — Reflections](#part-v-reflections)
+  - [Chapter 22 — The Scorecard](#chapter-22-the-scorecard)
+  - [Chapter 23 — Is This Numerology?](#chapter-23-is-this-numerology)
+  - [Chapter 24 — The Open Frontier](#chapter-24-the-open-frontier)
+  - [Chapter 25 — The Infinite Tower](#chapter-25-the-infinite-tower)
+- [Appendix A — Complete Proofs](#appendix-a-complete-proofs)
+
+---
+
 > *શૂન્ય માંથી બધું સર્જાયું*
 
 ---
