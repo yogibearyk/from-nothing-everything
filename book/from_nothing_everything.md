@@ -2631,6 +2631,48 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 | 11. SU(3) × SU(2) × U(1) | Synthesis | Result 9 + existing results |
 | Continuum → SM Lagrangian | Standard | All above + universality |
 
+### The Explicit Lattice Action
+
+#### The Idea
+
+Imagine you have a complete list of ingredients and exact quantities for a dish — but no recipe. You know *what* goes in, but not *how* to combine it. That is the situation Milestone 3 left us in: the particle content is established (quarks, leptons, gauge bosons), the numbers are derived (coupling constants, masses, mixing angles), and the lattice structure is identified (sites for matter, links for forces). The missing piece is the *recipe* — the single mathematical expression that tells you exactly how all the ingredients combine.
+
+That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, it is derived from the 10 axioms, with *zero* free parameters.
+
+The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by **D² = (φ/⊚)²** — the square of the Drishti bound from Chapter 9. The strength of all forces at the lattice scale is determined by a single number: α = D²/(4π) ≈ 1/47.4. Running this prediction down to the energies we can access in particle accelerators, the SU(2) and SU(3) coupling constants match the framework’s prediction to better than 1%.
+
+#### The Mathematics
+
+**Theorem (lattice gauge coupling).** The bare gauge coupling at the lattice (ultraviolet) scale is:
+
+> g² = D² = φ²/⊚²
+
+*Proof.* (i) The bridge hopping amplitude is D = φ/⊚ (Milestone 3, Result 3: the symmetrized transfer matrix T_sym = [[1, D], [D, 0]] has off-diagonal elements D). (ii) The 3 bridges carry SU(3) color (Result 10: bridge modes in the spatial lattice determine SU(3) via spatial isotropy). (iii) In the lattice gauge theory, the link variable U_{x,μ} represents the parallel transport through bridge μ from tower x to tower x + ê_μ. The amplitude for the bridge to carry a gauge excitation is D. (iv) Therefore, the gauge fluctuation amplitude at the lattice scale is g = D, giving g² = D². □
+
+**Corollary (bare fine structure constant).**
+
+> α = g²/(4⊚) = D²/(4⊚) = φ²/(4⊚³)
+> 1/α = 4⊚³/φ² ≈ 47.37
+
+**The explicit action.** The Wilson plaquette coupling for gauge group SU(N) is β_N = 2N/g² = 2N/D². The full lattice action is:
+
+> S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + (2/D²) Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
+
+Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Every parameter is determined by D = φ/⊚:
+
+| Parameter | Formula | Value |
+|-----------|---------|-------|
+| g² | D² = φ²/⊚² | 0.2653 |
+| α | D²/(4⊚) | 1/47.37 |
+| β_{SU(3)} | 6/D² = 6⊚²/φ² | 22.62 |
+| β_{SU(2)} | 4/D² = 4⊚²/φ² | 15.08 |
+| β_{U(1)} | 2/D² = 2⊚²/φ² | 7.54 |
+| m | (√(1+4D²)−1)/2 | 0.2178 |
+
+Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (β_c ≈ 5.7), confirming the theory is in the perturbative regime at the lattice scale.
+
+**Fermion doubling — partial resolution.** In standard lattice gauge theory, the naive lattice Dirac equation produces spurious copies of every fermion (the "doubling problem"). This is usually fixed by adding an ad hoc correction term (the Wilson term). In the Maya framework, the Zeckendorf constraint (no adjacent active positions) naturally suppresses the alternating-sign mode within each tower: the transfer matrix element T₁₁ = 0 forbids consecutive active positions, killing the within-tower doubler exactly. Whether the carry-overflow lattice geometry also resolves the spatial lattice doublers (the standard 2⁴ = 16 species in 4 dimensions) remains open and connects to the fermion dispersion relation (Priority 3).
+
 ### Consistency Check: Coupling Unification
 
 The lattice gauge theory from Milestone 3 makes a testable prediction: the bare coupling at the lattice (ultraviolet) scale should be α_GUT = D²/(4π) = φ²/(4⊙³), giving 1/α_GUT = 47.37. This can be checked against the known running of the Standard Model couplings.
