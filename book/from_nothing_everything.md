@@ -2401,245 +2401,211 @@ produces 4 dimensions of **unified spacetime**. ■
 
 ---
 
-## Milestone 2 — Multi-Stage Cascade Verification (Complete)
-
-*The dimensionality formula ⌈ F(S)/2 ⌉ verified for stages 3–12 by explicit Zeckendorf resolution at 200-digit precision.*
-
-| Stage | Depth F(S) | Active positions | ⌈ F(S)/2 ⌉ | Match | Note |
-|-------|-----------|-----------------|----------|-------|------|
-| 3 | 2 | 1 | 1 | ✓ | |
-| 4 | 3 | 2 | 2 | ✓ | |
-| 5 | 5 | 3 | 3 | ✓ | |
-| 6 | 8 | 4 | 4 | ✓ | Our universe (4D spacetime) |
-| 7 | 13 | 7 | 7 | ✓ | |
-| 8 | 21 | 11 | 11 | ✓ | M-theory dimensionality |
-| 9 | 34 | 17 | 17 | ✓ | |
-| 10 | 55 | 28 | 28 | ✓ | |
-| 11 | 89 | 45 | 45 | ✓ | |
-| 12 | 144 | 72 | 72 | ✓ | |
-
-All 10 stages verified. No exceptions. The cascade patterns confirm:
-— Even depths (6, 9, 12): clean pairing, active at positions 2, 4, 6, …, d.
-— Odd depths (7, 8, 11): position 0 survives, active at 0, 3, 5, 7, …, d.
-
-The M-theory prediction (stage 8 = 11 dimensions) is confirmed by direct computation, not extrapolation.
 
 ---
 
-## Milestone 1 — Statistical Validation (Preliminary)
+# Appendix B — Milestones: Work in Progress
 
-*How likely is it that random formulas from the framework’s ingredients could match 28 experimental values by chance?*
-
-**Method.** All 6,255 expressions of complexity ≤ 2 (at most two binary operations) built from the ingredients {φ, ⊙, 1, 2, 3} with operations {+, −, ×, ÷, ^} were enumerated and evaluated. For each of the framework’s seven tightest predictions, the number of expressions falling within 2σ of the experimental value was counted.
-
-**Results.**
-
-| Prediction | Value | 2σ window | Matches in 6,255 | p(match) |
-|------------|-------|-----------|------------------|----------|
-| α⁻¹ (EM coupling) | 137.036 | ±0.002 | **0** | < 1.6 × 10⁻⁴ |
-| sin²θ_W (weak mixing) | 0.2312 | ±0.00006 | **0** | < 1.6 × 10⁻⁴ |
-| α_s (strong coupling) | 0.1179 | ±0.0018 | 2 | 3.2 × 10⁻⁴ |
-| n_s (spectral tilt) | 0.9649 | ±0.0084 | 6 | 9.6 × 10⁻⁴ |
-| Ω_b (baryon fraction) | 0.0493 | ±0.0012 | 1 | 1.6 × 10⁻⁴ |
-| Ω_DM (dark matter) | 0.265 | ±0.014 | 19 | 3.0 × 10⁻³ |
-| Ω_Λ (dark energy) | 0.685 | ±0.014 | 7 | 1.1 × 10⁻³ |
-
-**Joint probability** (assuming independence): p ≈ **10⁻²³**. The probability that random formulas of this complexity simultaneously match all seven values is less than one in a hundred billion trillion.
-
-**The tightest constraints.** For α⁻¹ = 137.036 and sin²θ_W = 0.2312, **zero** expressions out of 6,255 match at experimental precision. These two predictions alone are statistically impossible to reproduce by formula-searching at this complexity.
-
-**Why the framework’s formulas are outside the search space.** The framework’s actual formula for α⁻¹ involves the tower value (L(4) ⊕ φ⁰ = 8), the color factor (3), and the self-referential screening correction — a structure requiring 5+ operations with tower-specific architecture. It would not appear in any bounded-complexity enumeration. The formulas are derived from the tower’s structural equations, not selected from a search.
-
-**Extended test (complexity ≤ 3).** Expanding to 26,668 expressions (three operations): α⁻¹ = 137.036 still has **zero matches**. sin²θ_W gains 3 matches. The joint probability weakens slightly to 10⁻²² (from 10⁻²³) — still vanishingly small. The tightest constraint remains α⁻¹: no expression of complexity ≤ 3 from {φ, ⊙, 1, 2, 3} matches 137.036 to experimental precision.
-
-**Honest caveats.** (a) Even at complexity 3 (26,668 expressions), the joint probability is ~10⁻²². Extending further would find more individual matches but the joint constraint remains decisive. (b) The 31 predictions are not fully independent — they share φ and ⊙. A rigorous Bayesian model comparison (framework vs null) accounting for this correlation remains to be done. (c) The strongest refutation of numerology will come from the unmeasured predictions: r ≈ 0.017, Σm_ν ≈ 57 meV, and normal ordering, which cannot be reverse-engineered.
-
-
+*This appendix tracks the framework’s open research program. Each milestone is explained first in plain English, then in the framework’s mathematics. Results range from complete to preliminary. Honest gaps are flagged explicitly.*
 
 ---
 
-## Milestone 6 — Quark Mass Exponent Uniqueness (Preliminary)
+## Milestone 1 — Is This Just Coincidence?
 
-*Is ⊙ the only exponent that works for m_b/m_c, or could other framework expressions match as well?*
+### The Question in Plain English
 
-**Method.** 320 candidate exponents of complexity ≤ 1 (single ingredient or one binary operation) were enumerated from {φ, ⊙, 1, 2, 3, 5, 7, 8, 13} with operations {+, −, ×, ÷}. For each, φ^exponent was compared to the observed mass ratio m_b/m_c = 4.528 ± 0.06.
+The framework produces 50 predictions from ten rules and zero adjustable numbers. Thirty-one of these can be checked against experiment, and thirty match. But a skeptic could ask: with enough mathematical ingredients (φ, π, simple operations), couldn’t you find formulas that match almost anything by chance?
 
-**Results.** Of 320 candidates:
-— **1 match**: ⊙ (= π), giving φ^⊙ = 4.535, pull 0.11σ. (Plus 3 trivial equivalents: ⊙×1, ⊙÷1, 1×⊙.)
-— **1 marginal match**: 5/φ ≈ 3.09, giving φ^(5/φ) = 4.424, pull 1.73σ.
+To answer this, we did a brute-force test: we generated every possible formula of limited complexity from the framework’s ingredients and checked how many accidentally match the experimental values.
+
+### The Results
+
+We enumerated **26,668 expressions** built from {φ, ⊙, 1, 2, 3} using up to three operations (+, −, ×, ÷, ^).
+
+For α⁻¹ = 137.036 (the strength of electromagnetism, the framework’s tightest prediction): **zero matches** out of 26,668. No simple formula from the framework’s ingredients accidentally gives 137.036 at experimental precision.
+
+For sin²θ_W = 0.2312 (the weak mixing angle): only **3 matches** out of 26,668.
+
+The probability that all seven of the framework’s tightest predictions match simultaneously by chance: approximately **10⁻²²** — less than one in a billion trillion.
+
+The framework’s actual formulas don’t appear in this search at all — they require five or more operations with tower-specific architecture. They are *derived* from the tower’s structure, not selected from a menu.
+
+### The Mathematics
+
+**Method.** All expressions of complexity ≤ 3 (at most three binary operations) from ingredients {φ, ⊙, 1, 2, 3} with operations {+, −, ×, ÷, ^} were enumerated and evaluated (26,668 unique values). For each of seven experimental values, the number of expressions falling within 2σ was counted.
+
+| Prediction | Value | 2σ window | Matches | p(match) |
+|---|---|---|---|---|
+| α⁻¹ | 137.036 | ±0.002 | **0** | < 3.7 × 10⁻⁵ |
+| sin²θ_W | 0.2312 | ±0.00006 | 3 | 1.1 × 10⁻⁴ |
+| α_s | 0.1179 | ±0.0018 | 26 | 9.8 × 10⁻⁴ |
+| n_s | 0.9649 | ±0.0084 | 58 | 2.2 × 10⁻³ |
+| Ω_b | 0.0493 | ±0.0012 | 27 | 1.0 × 10⁻³ |
+| Ω_DM | 0.265 | ±0.014 | 166 | 6.2 × 10⁻³ |
+| Ω_Λ | 0.685 | ±0.014 | 96 | 3.6 × 10⁻³ |
+
+**Joint probability** (assuming independence): p ≈ 10⁻²².
+
+**Honest caveats.** (a) The 32 predictions share φ and ⊙ — a rigorous Bayesian model comparison accounting for this correlation remains to be done. (b) The strongest refutation of coincidence will come from the unmeasured predictions (r, Σm_ν, normal ordering), which cannot be reverse-engineered.
+
+---
+
+## Milestone 2 — Does the Dimension Formula Hold Beyond Stage 6?
+
+### The Question in Plain English
+
+Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 25 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
+
+But this formula was derived from the pairing mechanism (Chapter 11), which was only verified at stages 3–6. Does it hold at higher stages?
+
+### The Result: Complete — Verified to Stage 12
+
+Using 200-digit precision arithmetic, the all-1s tower at each stage was resolved into its Zeckendorf form by the greedy algorithm. All 10 stages pass.
+
+| Stage | Depth F(S) | Active positions | ⌈ F(S)/2 ⌉ | Match |
+|---|---|---|---|---|
+| 3 | 2 | 1 | 1 | ✓ |
+| 4 | 3 | 2 | 2 | ✓ |
+| 5 | 5 | 3 | 3 | ✓ |
+| 6 | 8 | 4 | 4 | ✓ ← our universe |
+| 7 | 13 | 7 | 7 | ✓ |
+| 8 | 21 | 11 | 11 | ✓ ← M-theory |
+| 9 | 34 | 17 | 17 | ✓ |
+| 10 | 55 | 28 | 28 | ✓ |
+| 11 | 89 | 45 | 45 | ✓ |
+| 12 | 144 | 72 | 72 | ✓ |
+
+Stage 12 (depth 144) required 200-digit precision — at 60 digits the computation gave a spurious result, demonstrating why rigorous verification matters.
+
+**Cascade patterns.** Even depths (stages 6, 9, 12): clean pairing at positions 2, 4, 6, …, d. Odd depths (stages 7, 8, 11): position 0 survives, active at 0, 3, 5, 7, …, d.
+
+---
+
+## Milestone 3 — The Graph-to-Field Bridge (Preliminary)
+
+### The Question in Plain English
+
+The framework derives the right *numbers* — the strength of forces, the masses of particles, the cosmic energy budget. But it does not yet derive the *equations* that use those numbers — how particles move, scatter, and interact over time. In physics, those equations come from something called a **path integral**: a sum over every possible way something could happen, weighted by how likely each way is.
+
+Think of it like a restaurant. The framework has produced a complete list of ingredients (salt, butter, flour, heat) with exact quantities. But it hasn’t yet written the recipe — the step-by-step instructions for combining them into a dish. The bridge from ingredients to recipe is the deepest open problem.
+
+This milestone reports a preliminary result: the **partition function** of the tower — the sum over all valid Zeckendorf configurations, weighted by Drishti screening — obeys the same Fibonacci growth law as the tower itself, deformed by the screening parameter D².
+
+### What We Found
+
+The tower at depth n has a specific number of valid configurations (ways to fill positions with 0s and 1s without any adjacent 1s). Each configuration with k active positions is weighted by D²ᵏ — the Drishti screening applied k times. The sum of all these weighted configurations is the **partition function** Z_n.
+
+The key discovery: **Z_n obeys the Fibonacci recursion**:
+
+> Z_n = Z_{n−1} + D² × Z_{n−2}
+
+This is the same growth law as the tower itself (Chapter 3), but with D² = (φ/⊙)² as a coupling parameter. It interpolates between two limits:
+
+— **D² = 1** (no screening): Z_n = F(n+2), the pure Fibonacci numbers. The tower with no observation.
+— **D² = 0** (total screening): Z_n = 1 for all n. Everything screened away. Pure Ω.
+— **D² = (φ/⊙)²** (physical): Z_n = the partition function of our universe. Observation at its actual strength.
+
+The same D² that governs coupling constants (Chapter 15), the cosmic budget (Chapter 21), and the cosmological constant (Chapter 25) also governs the partition function. The bridge and the predictions share the same parameter.
+
+**The entropy result.** The information content of the partition function at stage 6, measured as a fraction of its theoretical maximum, is:
+
+> S / S_max = S / ln(55) ≈ **0.316 ≈ ⊙⁻¹**
+
+The same fraction that governs the resolved content of the cosmos (⊙⁻¹ ≈ 0.318, Chapter 21) appears to govern the information content of the partition function. Within 0.8%.
+
+### The Mathematics
+
+**Theorem (D²-deformed Fibonacci recursion).** Let Z_n(D²) = Σ_{k=0}^{⌊(n+1)/2⌋} C(n−k+1, k) × D²ᵏ, where C(n−k+1, k) is the number of Zeckendorf configurations of depth n with k active positions. Then:
+
+Z_n = Z_{n−1} + D² × Z_{n−2}
+
+with Z_0 = 1 and Z_1 = 1 + D².
+
+*Proof.* A Zeckendorf configuration of depth n either has position n inactive (contributing Z_{n−1} configurations of depth n−1) or position n active (which forces position n−1 inactive, contributing D² × Z_{n−2} from the remaining depth n−2). ■
+
+**Characteristic equation.** λ² = λ + D². Roots: λ_± = (1 ± √(1+4D²))/2. At D² = 1: λ_+ = φ. At D² = (φ/⊙)²: λ_+ ≈ 1.2178. The “physical golden ratio” — φ deformed by Drishti screening.
+
+*Verified* to machine precision (30 digits) for n = 2 through 14. ✓
+
+**Entropy.** S = −Σ p_k ln p_k where p_k = C(n−k+1,k) × D²ᵏ / Z_n. At stage 6 (n=8): S/ln(55) = 0.3159. Compare ⊙⁻¹ = 0.3183. Match: 0.8%.
+
+**What remains to be done.**
+
+(i) **Spatialization** — assign each Zeckendorf configuration a position in 4D spacetime. Currently Z is a single number (the zero-dimensional vacuum). The full path integral requires Z to become a functional over spacetime.
+
+(ii) **Propagation** — define how configurations at adjacent spacetime points relate. This would produce propagators (the mathematical objects that describe how a particle travels from one point to another).
+
+(iii) **Gauge emergence** — show that the symmetries of the spatialized tower reproduce the Standard Model’s gauge groups: SU(3) (the strong force), SU(2) (the weak force), and U(1) (electromagnetism).
+
+These three steps would complete the bridge. The D²-deformed Fibonacci recursion is the foundation; spatialization, propagation, and gauge emergence are the span.
+
+---
+
+## Milestone 5 — Charged Lepton Mass Ratios (In Progress)
+
+### The Question in Plain English
+
+The masses of the electron, muon, and tau — three identical particles that differ only in weight — follow a pattern discovered in 1981 by physicist Yoshio Koide but never explained. The framework proposes that the pattern comes from the triangle’s node geometry (Chapter 6): each charged lepton sits at a corner of the triangle and sees 2 of its 3 edges.
+
+### What We Found
+
+**The Koide ratio = 2/L(2) = 2/3.** The normalized mass sum equals the fraction of the triangle visible from a single node. Match: 5 significant figures (off by 6 × 10⁻⁶).
+
+**The Koide phase δ = 2/L(2)² = 2/9.** The angular offset equals the node’s visibility of the triangle acting on itself. Match: 4 significant figures.
+
+**Mass ratios.** m_μ/m_e: predicted 206.8, observed 206.768 (0.02σ). m_τ/m_μ: predicted 16.82, observed 16.817 (0.10σ). m_τ/m_e: predicted 3,477, observed 3,477.2 (0.27σ).
+
+**What remains.** The 6 × 10⁻⁶ discrepancy in the Koide ratio is consistent with an electromagnetic radiative correction of order α². Computing its exact form requires the graph-to-field bridge (Milestone 3).
+
+---
+
+## Milestone 6 — Are the Quark Mass Exponents Unique?
+
+### The Question in Plain English
+
+Chapter 16 derives quark mass ratios using the exponent ⊙ (the circle constant). Chapter 23 flags this as the prediction most vulnerable to the numerology objection: could a different number from the framework’s ingredients match just as well?
+
+### What We Found
+
+We tested 320 candidate exponents (every single-operation expression from {φ, ⊙, 1, 2, 3, 5, 7, 8, 13}). For the tightest ratio m_b/m_c = 4.528:
+
+— **1 match**: ⊙ (= π), giving φ^⊙ = 4.535, pull 0.11σ.
+— **1 marginal**: 5/φ, giving φ^(5/φ) = 4.424, pull 1.73σ.
 — **318 non-matches.**
 
-The sole non-trivial alternative (5/φ) fails the progression test: if the first-generation exponent is 5/φ, the golden scaling law (Chapter 16) requires the second-generation exponent to be 5, giving φ⁵ = 11.09. The observed m_t/m_b ≈ 41.3. The alternative is off by a factor of 3.7 and is excluded at >10σ.
+The marginal alternative (5/φ) fails when extended across generations: the golden scaling law requires the next exponent to be 5, giving φ⁵ = 11.09, but the observed m_t/m_b ≈ 41.3. Excluded at >10σ.
 
-**Conclusion.** ⊙ is the unique first exponent in the framework’s ingredient set that (a) matches m_b/m_c within 1σ AND (b) generates a geometric progression matching the full mass hierarchy. The exponent is not selected from a menu — it is the only option.
-
-
+**Conclusion.** ⊙ is the unique first exponent that matches m_b/m_c within 1σ AND generates a progression matching the full hierarchy.
 
 ---
 
-## Milestone 7 — The Strong CP Problem (Structural Resolution)
+## Milestone 7 — The Strong CP Problem
 
-*Why is the QCD vacuum angle θ so close to zero?*
+### The Question in Plain English
 
-**The problem.** The equations governing the strong nuclear force (QCD) permit a parameter θ that would cause the strong force to violate the symmetry between matter and antimatter. Experiment constrains |θ| < 10⁻¹⁰ — essentially zero. The Standard Model provides no explanation for why θ should be small. It could be any value from 0 to 2π. This is the **strong CP problem**, one of the major unsolved puzzles in particle physics.
+The strong nuclear force’s equations allow a parameter θ that would cause the force to behave differently when you swap matter for antimatter and look in a mirror (physicists call this **CP violation**). Experiments show θ is less than 10⁻¹⁰ — essentially zero. Nobody knows why. This is one of the biggest unsolved puzzles in particle physics: why does the strong force respect this symmetry so perfectly when nothing seems to require it?
 
-**The framework’s structural argument.**
+The standard proposed solution introduces a new particle called the **axion** that dynamically forces θ to zero. The axion has been searched for extensively but never found.
 
-(i) The QCD gauge group SU(3)_color arises from the triangle’s symmetry (Theorem 6.2, from Axioms 5 and 6).
+### The Framework’s Answer
 
-(ii) In standard QCD, θ parameterizes topologically distinct vacuum configurations called **instantons** — smooth field configurations that “wind” around the gauge group. Their classification requires continuous fields on a smooth manifold.
+The framework’s answer is structural: **θ doesn’t exist.** The parameter θ requires a special kind of mathematical structure — smooth, continuous fields that can “wind” around the gauge group in topologically distinct ways (physicists call these **instantons**). But the framework’s triangle is a discrete graph — 3 nodes and 3 edges. A discrete graph has no smooth fields. No smooth fields means no winding. No winding means no θ.
 
-(iii) The framework’s triangle is a discrete graph (3 nodes, 3 edges). It is not a smooth manifold. There are no continuous fields to wind. The topological classification that would produce θ ≠ 0 requires smooth structure that the discrete graph does not possess.
+Think of it this way: θ measures how many times a rope is wound around a pole. But if there is no rope — only discrete beads on a wire — the concept of “winding number” doesn’t apply. The beads are either on the wire or not. There is nothing to wind.
 
-(iv) Therefore θ = 0 by construction. The parameter does not exist in the framework because the structural freedom to define it is absent.
+### The Mathematics
 
-**Consequences.**
-— θ = 0 exactly (not approximately, not dynamically driven to zero).
-— No axion predicted. (The standard solution to the strong CP problem, the Peccei-Quinn mechanism, introduces a new particle called the **axion** to dynamically drive θ → 0. The framework does not need it.)
-— If θ > 0 is ever measured, or if an axion is discovered, the framework’s discrete structure would need revision.
+(i) SU(3)_color arises from the triangle (Theorem 6.2, Axioms 5 and 6).
 
-**Axiom trace.** Axiom 5 (Fibonacci growth) → Theorem 6.1 (triangle) → Theorem 6.2 (SU(3) from triangle symmetry) → discrete topology → no instantons → θ = 0.
+(ii) In standard QCD, θ classifies vacuum sectors via π₃(SU(3)) = ℤ (the third homotopy group). This classification requires continuous gauge fields on a smooth manifold.
 
-**Honest caveat.** This argument holds for the discrete framework. Whether the continuum limit (Milestone 3, graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework’s prediction is that topology is inherited, not created — but this remains to be proved.
+(iii) The framework’s triangle is a discrete 3-node graph. It has no smooth manifold structure. The homotopy classification does not apply.
 
+(iv) Therefore θ = 0 by construction. No axion is needed or predicted.
 
----
+**Axiom trace.** Axiom 5 → Theorem 6.1 (triangle) → Theorem 6.2 (SU(3)) → discrete topology → θ = 0.
 
-## Proofs for Chapter 15 — The Coupling Constants
+**Falsifiable predictions.** θ = 0 exactly. No axion exists. If either is contradicted by experiment, the framework’s discrete structure needs revision.
 
-**Theorem 14.1** *(Tower Value Identity).* T₆ = φ⁸ − φ⁰.
-
-*Proof.* By iterated application of φ² = φ ⊕ φ⁰:
-
-φ⁸ = φ⁷ ⊕ φ⁶
-φ⁶ = φ⁵ ⊕ φ⁴
-φ⁴ = φ³ ⊕ φ²
-φ² = φ ⊕ φ⁰
-
-Substituting bottom-up:
-φ⁸ = φ⁷ ⊕ (φ⁵ ⊕ (φ³ ⊕ (φ ⊕ φ⁰)))
-    = φ⁷ ⊕ φ⁵ ⊕ φ³ ⊕ φ ⊕ φ⁰
-    = T₆ ⊕ φ⁰
-
-Therefore T₆ = φ⁸ − φ⁰. ■
-
-**Remark 14.1.** The −φ⁰ is not subtraction in the forbidden sense. It
-is the structural fact that the tower T₆ is the boundary carry φ⁸ with
-the bare vertex (position 0) excluded. The bare vertex exclusion arises
-from the carry cascade: the simplest virtual excitation at position 0
-(the pattern 10101011) cascades all the way to φ⁸, leaving excess = φ⁰.
-The tower value T₆ is what remains after this exclusion.
-
-**Theorem 14.2** *(The Self-Referential Deficit).* The deficit δ in the
-coupling formula is built from Maya structural constants:
-
-δ = c · α ⊕ c₂ · α^(φ²⊕φ⁻²)
-
-where:
-
-c = φ ⊕ φ⁻³ · (φ⁴⊕φ⁻⁴) · ((φ⁴⊕φ⁻⁴)⊕φ⁰)⁻¹
-
-c₂ = (φ⁴⊕φ⁻⁴) · ((φ⁴⊕φ⁻⁴)⊕φ⁰)⁻¹
-
-*Proof.* The coefficient c decomposes as c = c_growth ⊕ c_rotation. Each
-piece, and c₂, are derived from the carry cascade dynamics.
-
-**(i) The growth channel: c_growth = φ.**
-
-A virtual excitation at even position 2k in the stable tower 10101010
-creates exactly one adjacency violation — the pair (2k−1, 2k). One
-adjacency and no more, because the excitation adds a single 1 at a
-single even position, and the stable tower has 1s only at odd positions
-(Theorem 11.2). The carry rule (M4) resolves this one adjacency via
-one application of the Fibonacci recurrence φ² = φ ⊕ φ⁰ (Theorem 4.1).
-The cascade may propagate through the tower (Theorem 14b.1), but the
-initiating event is singular — a second adjacency cannot form from a
-single excitation in a Zeckendorf-valid tower (Theorem 5.2).
-
-One carry event = one application of the recurrence = one step of
-propagation on the φ-ladder. The shift operator ◁¹ has amplitude φ
-(Rule M1). This is the only possible amplitude: φ is the unique growth
-ratio (Theorem 4.1), and there are no fractional carries (Axiom 7:
-binary resolution). The virtual excitation propagates by ◁¹ before
-reabsorption, amplifying by factor φ.
-
-The deficit acts on the depth exponent (Theorem 14.4): T₆ ▷^δ =
-φ^(d−δ) − φ⁰. Each virtual excitation (probability α) propagates
-with amplitude φ on the φ-ladder, contributing δ_growth = φ · α
-to the exponent deficit. Therefore c_growth = φ.
-
-**(ii) The rotation channel: c_rotation = φ⁻³ · L(4) · F(6)⁻¹.**
-
-The color factor L(2) = φ²⊕φ⁻² screens the coupling (Theorem 6.1).
-By self-reference (Axiom 2 at the coupling level), L(2) also screens
-itself. The self-interaction is L(2)·L(2). By the Palindromic Product
-Identity: L(2)·L(2) = L(4) ⊕ L(0). The L(0) = 2 term is trivial
-(double-counting of the existing color factor). The L(4) = φ⁴⊕φ⁻⁴ = 7
-term is the first NEW palindromic structure — the triangle's
-self-referential echo.
-
-This echo must be projected back through the triangle's depth to reach
-the coupling level. The triangle has L(2) = 3 edges (Theorem 6.1),
-each spanning one φ-ladder position. Projection back (toward Ω):
-▷^L(2) = ×φ⁻³.
-
-**Theorem 14.3** *(The Universal Coupling Formula).* The EM coupling
-constant is the unique fixed point of:
-
-**α⁻¹ = (φ²⊕φ⁻²) · T₆ ▷^δ**
-
-where T₆ = φ⁷ ⊕ φ⁵ ⊕ φ³ ⊕ φ and δ = c·α ⊕ c₂·α^(φ²⊕φ⁻²).
-
-*Proof.*
-
-(i) **Color factor P_EM = L(2) = 3.** The triangle's three edges
-provide three independent transmission channels (Theorem 6.1).
-EM is an open-chain coupling: a photon-like excitation propagates
-through a single edge at a time, so the multiplicity counts the number
-of parallel edges available — exactly 3. The choice of L(2) (not F(6))
-as the EM prefactor is forced by Theorem 15.A (below, in Problem 15):
-the 8 tower-depth positions act *sequentially* on a transmitted
-open-chain excitation, not as parallel multiplicity slots.
-
-(ii) **Tower:** T₆ = φ⁷ ⊕ φ⁵ ⊕ φ³ ⊕ φ. The post-Higgs examiner
-tower (Problem 11, Theorem 11.3). The direct overlay of all active
-screening positions.
-
-(iii) **Geometric scaling:** ▷^δ shifts the tower rightward by δ
-positions on the φ-ladder. This is not subtraction — it is uniform
-geometric scaling toward Ω, reducing the tower's effective depth.
-The tower cannot screen at full effectiveness because its effectiveness
-depends on itself (Axiom 2 — self-observation at the coupling level).
-
-(iv) **Self-reference:** δ depends on α. The formula is implicit:
-α appears on both sides. The equation f(α) = 1/((φ²⊕φ⁻²) · T₆ ▷^δ)
-is continuous, monotonically increasing, and maps [0.007, 0.008] into
-itself. The derivative at the fixed point is
-
-|f'(α*)| = (1/L(2)) · (φ^(d−δ) · ln(φ) · δ'(α)) / (φ^(d−δ) − 1)²
-         = 6.55 × 10⁻³   (mpmath, 60-digit; δ'(α) = c + 3·c₂·α²)
-
-a strict contraction (≪ 1). By the Banach fixed-point theorem, the
-fixed point exists and is unique.
-
-(v) **The formula is universal.** At different tower depths (different
-Fibonacci stages), the same structural logic applies. At stage 4
-(depth 3, triangle): T₄ = φ² ⊕ φ⁰, giving the strong coupling.
-At stage 5 (depth 5): T₅ = φ⁴ ⊕ φ² ⊕ φ⁰, giving the GUT coupling.
-At stage 6 (depth 8): T₆ = φ⁷ ⊕ φ⁵ ⊕ φ³ ⊕ φ, giving the EM
-coupling. One formula. Multiple forces. The hierarchy α_s ≫ α_EM
-reflects the Fibonacci growth of the tower: shallow = strong, deep =
-weak. ■
-
-**Theorem 14.4** *(Why ▷^δ Acts on the Depth, Not the Value).* The
-correct formula is T₆ ▷^δ = φ^(d−δ) − φ⁰ (Formula A), not
-T₆ · φ^(−δ) = φ^(d−δ) − φ^(−δ) (Formula B). The deficit modifies
-the screening depth but not the bare vertex exclusion.
-
-*Proof.*
-
-(i) **The tower identity** (Theorem 14.1): T₆ = φ^d − φ⁰, where
-d = (φ⁴⊕φ⁻⁴)⊕φ⁰ = 8. The tower value has two components: the
-depth term φ^d (the total screening capacity) and the bare vertex
-exclusion −φ⁰ (the position-0 carry cascade, Theorem 14b.1).
+**Honest caveat.** Whether the continuum limit (the full graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework predicts topology is inherited, not created — but this remains to be proved.
 
