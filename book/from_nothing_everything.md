@@ -1212,6 +1212,14 @@ The critical threshold is approximately 8.05 species. With 8 species, the genera
 
 **The dark matter candidate.** Because the generation force confines, the dark fermions are permanently bound into composite particles — just as quarks are permanently bound into protons and neutrons. The dark matter candidate is a **dark baryon**: a bound state of dark fermions from all three generations, so that the total generation charge cancels out (just as a proton is a bound state of three quarks whose color charges cancel out). These composites are massive (heavy enough to clump gravitationally), electrically neutral (they carry no charge that our instruments can detect), and absolutely stable (the conservation law that keeps them bound — generation-neutrality — is exact, not approximate). This is the framework’s dark matter.
 
+**A completely separate force structure.** A crucial question arose from the graph-to-field bridge (Chapter 25, Appendix B): does the dark sector share the same strong nuclear force as ordinary matter, or does it have its own? If the dark quarks felt our strong force, they would change how it behaves at high energies — and this change would destroy the framework’s coupling constant predictions (Chapter 15). Even one extra species of colored particle worsens the match sixfold; the full set of 8 dark quarks would eliminate the SU(2)–SU(3) coupling unification entirely.
+
+The answer comes from the spatial lattice (Chapter 25, Appendix B, Milestone 3). The strong force’s SU(3) symmetry arises from 3 bridge positions serving as links between neighboring towers in the lattice of space. These bridges are a stage-6 structure — positions 3, 5, and 7 of an 8-position tower. The dark sector’s positions (8 through 12) sit *above* this spatial infrastructure. They are internal to each tower, like an attic above the main floors. The dark fermions do not hop through the spatial bridges and therefore do not feel the spatial force.
+
+Instead, the same triangle structure (Chapter 6) generates a separate **dark color force** at stage 7 — structurally identical to our strong force, but acting only on dark particles. Think of two apartment buildings constructed from the same blueprints: the wiring and plumbing follow identical plans, but the wiring in Building A does not power appliances in Building B. Each building is self-contained.
+
+The dark sector’s full force structure is: dark color (binding dark quarks), dark electroweak (giving mass to dark particles), and the generation force (binding particles across generations). All three are completely separate from the corresponding forces in ordinary matter. The only connections between the two sectors are gravity (which is universal — it acts on all energy, regardless of sector) and potentially the Higgs field (Chapter 12), the one particle that might couple to both.
+
 **The falsifiable prediction.** Many dark matter theories predict a “dark photon” — a new particle that mixes slightly with ordinary light, making it potentially detectable. The framework predicts the mixing is **exactly zero** — not small, but identically absent. The reason: at stage 7, there is no observer to distinguish between different types of dark force carriers, so the mixing that would connect them to our photon cannot be structurally defined. If any experiment ever detects dark photon mixing, the framework is refuted. This is one of the sharpest falsifiable predictions the framework makes.
 
 ### The Mathematics
@@ -1222,7 +1230,17 @@ The critical threshold is approximately 8.05 species. With 8 species, the genera
 
 Since b₁ > 0, no Banks-Zaks infrared fixed point exists, and the theory confines. The margin is razor-thin: for SM QCD (N_f = 6), b₁ = 26. For the generation force, b₁ = 2/3. Adding one more flavor (N_f = 9) would give b₁ = −12, flipping the theory into the conformal window. The ratio of confinement strengths is b₁(QCD)/b₁(gen) = 39 = L(2) × F(7) = 3 × 13 — the triangle count times the stage-7 Fibonacci number.
 
-**Theorem (dark boson spectrum).** Stage 7 produces F(8) = 21 dark gauge bosons, of which 4 are massive (W_D± ≈ 408 GeV, Z_D ≈ 441 GeV, H_D ≈ 604 GeV) and 17 are massless dark gluons of SU(3)_gen.
+**Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (Milestone 3, Result 10). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Non-abelian gauge groups cannot kinetically mix (the Jacobi identity for the gauge algebra forbids it), so the two SU(3)s are completely decoupled.
+
+*Consistency check:* with SU(3)_c sharing, the 8 extra colored fermions slow the strong force’s running (b₀ drops from 7 to 5/3), and the SU(2)–SU(3) coupling unification disappears. With stage isolation, the SM running is unmodified and the match to D²/(4π) is preserved at better than 1%.
+
+**Theorem (dark boson spectrum).** Stage 7 produces F(8) = 21 dark gauge bosons, decomposing as F(6) + F(5) + F(6) = 8 + 5 + 8:
+
+> 8 dark color gluons (SU(3)_D, from the triangle at stage 7 — separate from SM gluons)
+> 5 dark electroweak bosons (SU(2)_D × U(1)_D + dark Higgs)
+> 8 generation gluons (SU(3)_gen, from the triangle’s edge-cycle at stage 7)
+
+Of these, 4 are massive (W_D± ≈ 408 GeV, Z_D ≈ 441 GeV, H_D ≈ 604 GeV) and 17 are massless. The full dark gauge group is SU(3)_D × SU(2)_D × U(1)_D × SU(3)_gen.
 
 **Theorem (dark photon kinetic mixing).** The kinetic mixing parameter ε between the SM photon and any dark U(1) is:
 
@@ -2629,7 +2647,9 @@ Running the three couplings to high energy using 2-loop SM equations:
 
 However, the framework's natural position may be that triple unification is **not required**. The three gauge factors have separate structural origins: SU(3) from the bridges, SU(2) from the binary, U(1)_Y from the triangle's edge/node distinction. They are not unified into a single group. The SU(2)–SU(3) near-unification reflects a deeper structural relationship (both come from the tower's internal degrees of freedom), while U(1) is genuinely different (it comes from the triangle's topology).
 
-**Status:** The SU(2)–SU(3) match (1.4%) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing (setting the Planck scale) connects to Milestone 8. Open question: whether the dark sector's SU(3) quarks share the SM's SU(3)_color (which would modify the QCD running above the dark threshold).
+**Status:** The SU(2)–SU(3) match (1.4%) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing (setting the Planck scale) connects to Milestone 8.
+
+**Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 19 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by the gauge algebra's Jacobi identity. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 1.4% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
 
 ## Milestone 5 — Charged Lepton Mass Ratios (In Progress)
 
