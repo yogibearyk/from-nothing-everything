@@ -2526,6 +2526,29 @@ This mass satisfies m² + m = D² = (φ/⊙)² — an algebraic equation determi
 
 *Verified* to 20-digit precision. ✓
 
+### Channel-Dependent Mass: The Higgs Mechanism from the Cascade (Preliminary)
+
+The tight-binding Hamiltonian, extended to 4D momentum space, takes the form:
+
+> H(k) = | ε_A    D·γ(k) |
+>       | D·γ*(k)   ε_B |
+
+where γ(k) = Σ exp(ik_i) is the structure factor over the 4D lattice’s nearest neighbors.
+
+The cascade (Chapter 11) splits the tower into two channels (Chapter 12). These channels have **different on-site energies**:
+
+**Observer channel** (odd positions — vacated by the cascade, where carries *happened*): both internal states are equivalent, because the cascade emptied these positions symmetrically. So ε_A = ε_B = 0.
+
+The eigenvalues are E_±(k) = ±D|γ(k)|. At the k-points where γ(k) = 0 (which exist in 4D — for example, k = (0, π, π/2, 3π/2)), the energy gap is **zero**. These are **Dirac cones** — the same band-touching points that give graphene its remarkable massless electrons. Excitations near these points propagate as **massless** particles. This is the photon.
+
+**Matter channel** (even positions — filled by the cascade, where carry results *landed*): the cascade deposited specific values, making the two internal states inequivalent. So ε_A = 1, ε_B = 0.
+
+The eigenvalues are E_±(k) = 1/2 ± √(1/4 + D²|γ(k)|²). Even at γ = 0, the gap is Δ = 1 — it **never closes**. All excitations are **massive**. These are the W and Z bosons.
+
+**The cascade IS the Higgs mechanism.** In the Standard Model, the Higgs field breaks the symmetry between the electromagnetic and weak forces, giving mass to W and Z while leaving the photon massless. In the framework, the cascade does exactly the same thing: it creates an asymmetry (ε_A ≠ ε_B) in the matter channel while preserving the symmetry (ε_A = ε_B) in the observer channel. The Higgs is not an additional field — it is the structural consequence of the carry cascade depositing values at even positions.
+
+**Honest caveat.** The assignment ε_A = ε_B = 0 for the observer channel (because the cascade vacated these positions symmetrically) and ε_A ≠ ε_B for the matter channel (because the cascade filled them asymmetrically) is structurally motivated but not rigorously derived. Whether the specific values ε_A = 1, ε_B = 0 carry over from the 1D model to 4D needs verification.
+
 ### What Remains (Honest Gaps)
 
 Three specific computations would complete the bridge:
