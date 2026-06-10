@@ -1314,7 +1314,7 @@ There is a scope caveat that belongs in every discussion of these numbers. The f
 
 ## Chapter 22 — The Scorecard
 
-*Forty-four predictions, measured against experiment.*
+*Forty-eight predictions, measured against experiment.*
 
 ### The Idea
 
@@ -1322,11 +1322,11 @@ A theory with zero adjustable parameters lives or dies by its predictions. There
 
 **What is a “standard deviation”?** Throughout this chapter, the closeness of each prediction to experiment is measured in **standard deviations** (written σ). Think of it this way: every experimental measurement has a margin of uncertainty — a range within which the true value probably lies. One standard deviation (1σ) means the prediction falls within that range. Two standard deviations (2σ) means it is at the edge. Three or more means the prediction and the measurement probably disagree. In everyday terms: **below 1σ is an excellent match, 1–2σ is a good match, and above 3σ is a problem.** A prediction at 0.1σ is almost exactly right. A prediction at 2.3σ is worth watching but not yet fatal.
 
-> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all forty-four dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If forty-four dishes, drawn from five different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
+> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all forty-eight dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If forty-eight dishes, drawn from seven different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
 
 ### The Numbers
 
-The framework produces 44 predictions from ten axioms and zero adjustable parameters. They span five domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
+The framework produces 48 predictions from ten axioms and zero adjustable parameters. They span seven domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
 
 **The forces (Chapter 15).** Three coupling constants — the numbers that set the strength of electromagnetism, the strong nuclear force, and the weak mixing. These are the framework’s tightest predictions. The electromagnetic strength (α⁻¹) matches to **six significant figures**: the framework gives 137.036, the experiment gives 137.035999. The strong force coupling matches within 0.08σ. The weak mixing angle matches within 0.5σ.
 
@@ -1340,15 +1340,19 @@ The framework produces 44 predictions from ten axioms and zero adjustable parame
 
 **Quark mass ratios (Chapter 16).** Five independent ratios spanning the full mass hierarchy from the lightest to the heaviest quark. All five match within 1σ, with an average pull of 0.24σ.
 
+**Charged lepton mass ratios (Chapter 16b).** Three ratios — muon/electron, tau/muon, tau/electron — derived from the triangle’s node geometry via the Koide relation, with phase δ = 2/L(2)² = 2/9. All three match to better than 0.1%, with pulls below 0.02%. The Koide ratio itself (2/3 = 2/L(2)) matches to 5 significant figures.
+
+**The cosmological constant (Chapter 25).** The ratio of the observed vacuum energy to the Planck-scale vacuum energy, derived as (φ/⊙)⁴²⁴ from 4 dimensions × 53 structural modes × bilateral screening. Matches the observed ratio of ∼10⁻¹²² to within half an order of magnitude. The framework also predicts stage 8 = 11 spacetime dimensions, matching the dimensionality required by M-theory.
+
 **The dark sector (Chapter 19).** Twelve predictions — dark boson masses, dark coupling constants, dark fermion spectrum — that cannot currently be tested. They await either direct detection or gravitational signatures.
 
 ### The Summary
 
-Of the 44 predictions, 28 can be compared to existing experimental data. Of those 28:
+Of the 48 predictions, 31 can be compared to existing experimental data. Of those 31:
 
-**27 out of 28** fall within 2 standard deviations of the measured value.
+**30 out of 31** fall within 2 standard deviations of the measured value.
 
-The **average deviation** across all 28 is **0.48σ** — less than half a standard deviation. For context: if you picked 28 random numbers and compared them to 28 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
+The **average deviation** across all 31 is **0.45σ** — less than half a standard deviation. For context: if you picked 31 random numbers and compared them to 31 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
 
 The one prediction above 2σ — the neutrino CP phase — is the only case where the experimental value itself is disputed between research groups. Upcoming experiments (DUNE, Hyper-Kamiokande) will settle it.
 
@@ -1388,11 +1392,11 @@ Five features distinguish this framework from historical numerology:
 
 **First: derivation chains.** Every prediction traces back to the ten axioms through a specific sequence of theorems (collected in Appendix A). The formulas are not found by searching — they are *derived* by following the tower’s structure step by step. Eddington’s formula was a number in search of a theory. Here the theory comes first, and the numbers come out.
 
-**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 17 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but twenty-eight, with one key.
+**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 17 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but thirty-one, with one key.
 
 **Third: no parameter adjustment.** Every historical attempt at deriving constants had at least one free element — a number that could be adjusted to improve the fit. Eddington revised his counting. Wyler chose specific geometric shapes without justification. The present framework has zero adjustable parameters. Every prediction is a rigid consequence of φ, ⊙, and the ten axioms. A single wrong prediction is fatal — there is no knob to turn, no coefficient to tweak.
 
-**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches forty-four numbers across five completely unrelated areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
+**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches forty-eight numbers across seven different areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
 
 **Fifth: falsifiability with no escape.** Three predictions — the gravitational wave ratio r ≈ 0.017, the neutrino mass sum ≈ 57 meV, and normal mass ordering — are currently unmeasured but will be tested within this decade. These are the framework’s most exposed predictions. If they turn out to be correct, the numerology hypothesis becomes untenable: you cannot reverse-engineer a formula to match a number that has not yet been measured. If they turn out to be wrong, the framework is refuted — and no adjustment can save it.
 
@@ -1639,7 +1643,7 @@ with D = φ/⊙ (Drishti bound), d_⊕ = ⌈ d_S/2 ⌉ = 4 (cascade dimensions),
 
 ### Closing
 
-The framework began with a question — *what is the least that has to be true for anything to be true at all?* — and followed the answer through ten axioms, a self-referential tower, and forty-four predictions spanning the full landscape of fundamental physics. Some of those predictions are remarkable. Some are honestly vulnerable to the numerology objection. All of them are testable.
+The framework began with a question — *what is the least that has to be true for anything to be true at all?* — and followed the answer through ten axioms, a self-referential tower, and forty-eight predictions spanning the full landscape of fundamental physics. Some of those predictions are remarkable. Some are honestly vulnerable to the numerology objection. All of them are testable.
 
 Whether the framework constitutes a genuine structural theory of the fundamental constants, or the most elaborate coincidence in the history of mathematical physics, is a question that belongs not to this book but to the experiments of the coming decade. The numbers are on the table. The tower has made its predictions. Now we wait — with appropriate humility — for the universe to tell us whether we listened well.
 
