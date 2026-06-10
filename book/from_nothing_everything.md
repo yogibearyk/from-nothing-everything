@@ -70,7 +70,7 @@ But the tower does not stop there. The growth rule has no stop clause. At stage 
 
 The rearranged tower has a property that no one expected. Its internal self-referential loops — equations where the coupling appears in its own formula — have specific fixed points: numbers where the loop closes consistently. Those fixed points turn out to be the coupling constants of the three fundamental forces. The same tower structure, examined from different angles, yields the masses of quarks, the mass ratios of the electron, muon, and tau (via a forty-year-old empirical formula whose structural origin the framework explains), the mixing patterns of neutrinos, the fraction of the universe that is dark matter, and the tilt of the primordial power spectrum. Forty-eight numbers in total, spanning seven domains of physics — from the strength of the forces to the masses of the leptons to the energy budget of the cosmos.
 
-The framework produces these forty-eight predictions from ten axioms and zero adjustable parameters — no knobs are turned to make the numbers come out right. When compared to experiment, the average disagreement is *half a standard error*. Thirty of thirty-one testable predictions land within two standard deviations of the measured values. Whether this constitutes a genuine discovery or the most elaborate coincidence in mathematical history is an honest open question. Several predictions target quantities not yet measured (including the total mass of neutrinos and the strength of primordial gravitational waves), and those will be the decisive tests. If the predictions for numbers that have *not yet been observed* turn out to be correct, the coincidence hypothesis becomes very difficult to maintain. If they are wrong, the framework is dead — because there are no knobs to turn.
+The framework produces these fifty predictions from ten axioms and zero adjustable parameters — no knobs are turned to make the numbers come out right. When compared to experiment, the average disagreement is *half a standard error*. Thirty of thirty-one testable predictions land within two standard deviations of the measured values. Whether this constitutes a genuine discovery or the most elaborate coincidence in mathematical history is an honest open question. Several predictions target quantities not yet measured (including the total mass of neutrinos and the strength of primordial gravitational waves), and those will be the decisive tests. If the predictions for numbers that have *not yet been observed* turn out to be correct, the coincidence hypothesis becomes very difficult to maintain. If they are wrong, the framework is dead — because there are no knobs to turn.
 
 The philosophical through-line matters. This is not a story about physicists tinkering with formulas until they fit. It is a story about *what self-examination forces*. The tradition says that self-knowledge creates the universe. The framework asks: does it create *this* universe, with *these* specific numbers? The answer, so far, is: remarkably, yes — or remarkably, it appears to. And the framework’s deepest claim — explored in the final chapter — is that the infinite-dimensional sphere of Ω and the four-dimensional spacetime of our experience coexist simultaneously, the way white light and the visible spectrum coexist: the prism doesn’t create the colors, it separates what was already there. The book’s job is to lay out the argument, flag every weakness, and let the reader decide.
 
@@ -1362,15 +1362,15 @@ There is a scope caveat that belongs in every discussion of these numbers. The f
 
 ### The Idea
 
-A theory with zero adjustable parameters lives or dies by its predictions. There are no knobs to turn, no “let me tweak this number to fit the data.” Either the numbers match experiment or they don’t. This chapter lays all forty-eight predictions on the table and looks at them honestly.
+A theory with zero adjustable parameters lives or dies by its predictions. There are no knobs to turn, no “let me tweak this number to fit the data.” Either the numbers match experiment or they don’t. This chapter lays all fifty predictions on the table and looks at them honestly.
 
 **What is a “standard deviation”?** Throughout this chapter, the closeness of each prediction to experiment is measured in **standard deviations** (written σ). Think of it this way: every experimental measurement has a margin of uncertainty — a range within which the true value probably lies. One standard deviation (1σ) means the prediction falls within that range. Two standard deviations (2σ) means it is at the edge. Three or more means the prediction and the measurement probably disagree. In everyday terms: **below 1σ is an excellent match, 1–2σ is a good match, and above 3σ is a problem.** A prediction at 0.1σ is almost exactly right. A prediction at 2.3σ is worth watching but not yet fatal.
 
-> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all forty-eight dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If forty-eight dishes, drawn from seven different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
+> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all fifty dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If fifty dishes, drawn from seven different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
 
 ### The Numbers
 
-The framework produces 48 predictions from ten axioms and zero adjustable parameters. They span seven domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
+The framework produces 50 predictions from ten axioms and zero adjustable parameters. They span seven domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
 
 **The forces (Chapter 15).** Three coupling constants — the numbers that set the strength of electromagnetism, the strong nuclear force, and the weak mixing. These are the framework’s tightest predictions. The electromagnetic strength (α⁻¹) matches to **six significant figures**: the framework gives 137.036, the experiment gives 137.035999. The strong force coupling matches within 0.08σ. The weak mixing angle matches within 0.5σ.
 
@@ -1392,7 +1392,7 @@ The framework produces 48 predictions from ten axioms and zero adjustable parame
 
 ### The Summary
 
-Of the 48 predictions, 31 can be compared to existing experimental data. Of those 31:
+Of the 50 predictions, 31 can be compared to existing experimental data. Of those 31:
 
 **30 out of 31** fall within 2 standard deviations of the measured value.
 
@@ -1403,7 +1403,7 @@ The one prediction above 2σ — the neutrino CP phase — is the only case wher
 
 ### The Complete Table
 
-For reference, all 48 predictions in one place. *FW* = framework value, *Exp* = experimental value, *Pull* = deviation in standard deviations. Predictions awaiting measurement are marked “—”.
+For reference, all 50 predictions in one place. *FW* = framework value, *Exp* = experimental value, *Pull* = deviation in standard deviations. Predictions awaiting measurement are marked “—”.
 
 **Coupling constants (Chapter 15)**
 
@@ -1412,6 +1412,7 @@ For reference, all 48 predictions in one place. *FW* = framework value, *Exp* = 
 | α⁻¹ (EM strength) | 137.036 | 137.035999 ± 0.000001 | 0.06σ |
 | α_s (strong strength) | 0.1179 | 0.1180 ± 0.0009 | 0.08σ |
 | sin²θ_W (weak mixing) | 0.2312 | 0.23122 ± 0.00003 | 0.5σ |
+| θ_QCD (strong CP) | 0 (exact) | < 10⁻¹⁰ | 0σ |
 
 **Quark mass ratios (Chapter 16)**
 
@@ -1480,7 +1481,7 @@ For reference, all 48 predictions in one place. *FW* = framework value, *Exp* = 
 
 **Dark sector (Chapter 19) — 12 predictions awaiting measurement**
 
-Dark boson masses, coupling constants, fermion spectrum, and zero kinetic mixing. See Chapter 19 for details.
+Dark boson masses, coupling constants, fermion spectrum, zero kinetic mixing, and no axion. See Chapter 19 for details.
 
 **What should the reader make of this?** The honest answer: the predictions are remarkable, but they are not fully independent — they share the same constants (φ, ⊙) and the same tower structure. A rigorous statistical test against the possibility of coincidence has not been performed. Chapter 23 takes this question seriously.
 
@@ -1522,7 +1523,7 @@ Five features distinguish this framework from historical numerology:
 
 **Third: no parameter adjustment.** Every historical attempt at deriving constants had at least one free element — a number that could be adjusted to improve the fit. Eddington revised his counting. Wyler chose specific geometric shapes without justification. The present framework has zero adjustable parameters. Every prediction is a rigid consequence of φ, ⊙, and the ten axioms. A single wrong prediction is fatal — there is no knob to turn, no coefficient to tweak.
 
-**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches forty-eight numbers across seven different areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
+**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches fifty numbers across seven different areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
 
 **Fifth: falsifiability with no escape.** Three predictions — the gravitational wave ratio r ≈ 0.017, the neutrino mass sum ≈ 57 meV, and normal mass ordering — are currently unmeasured but will be tested within this decade. These are the framework’s most exposed predictions. If they turn out to be correct, the numerology hypothesis becomes untenable: you cannot reverse-engineer a formula to match a number that has not yet been measured. If they turn out to be wrong, the framework is refuted — and no adjustment can save it.
 
@@ -1588,7 +1589,7 @@ Five predictions are testable within the current decade. Each comes with a speci
 
 The framework in its current form is a set of remarkable predictions. To become a complete theory of fundamental physics, it must cross twelve milestones, listed here in order of dependency — each one enabling the ones that follow. The first two can begin immediately. The third — the graph-to-field bridge — is the gateway: nearly everything after it depends on it.
 
-**Milestone 1: Statistical validation.** The framework produces 48 predictions with zero adjustable parameters, and 30 of the 31 testable ones match experiment within 2σ. But a rigorous statistical test — quantifying how likely it is that an unrelated set of formulas using φ and ⊙ could achieve similar matches by chance — has not been performed. Until this is done, the numerology question from Chapter 23 remains formally open. This milestone requires no new physics, only careful mathematics: define the space of possible formulas, count the matches, compute the probability. It can begin immediately. A preliminary analysis is presented in Appendix A.
+**Milestone 1: Statistical validation.** The framework produces 50 predictions with zero adjustable parameters, and 30 of the 31 testable ones match experiment within 2σ. But a rigorous statistical test — quantifying how likely it is that an unrelated set of formulas using φ and ⊙ could achieve similar matches by chance — has not been performed. Until this is done, the numerology question from Chapter 23 remains formally open. This milestone requires no new physics, only careful mathematics: define the space of possible formulas, count the matches, compute the probability. It can begin immediately. A preliminary analysis is presented in Appendix A.
 
 **Milestone 2: Multi-stage cascade verification.** The carry cascade has been computed explicitly for stages 3–6 (Chapters 11–12), confirming the dimensionality formula ⌈ F(S)/2 ⌉ at each stage. But stages 7 and beyond have not been verified by direct Zeckendorf resolution. Confirming that the formula holds for stages 7–12 — including the prediction that stage 8 gives 11 dimensions (Chapter 25) — is a concrete computation that has been completed through stage 12 (see Appendix A). All ten stages verify the formula exactly, including the stage-8 prediction of 11 dimensions.
 
@@ -1600,7 +1601,7 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 6: Quark mass ratio uniqueness.** (Preliminary result in Appendix A.) Chapter 16 derives five quark mass ratios using exponents built from ⊙ and φ (⊙, φ⊙, φ²⊙). These are motivated by the tower structure but Chapter 23 flags them as the predictions most vulnerable to the numerology objection. Proving that these exponents are the *only* solution the tower produces — that no other combination of framework ingredients gives similar matches — would close the vulnerability.
 
-**Milestone 7: The strong CP problem.** One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
+**Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
 
 **Milestone 8: Absolute masses and the gravitational constant.** The framework currently derives mass *ratios* but not absolute masses. Two numbers convert the framework’s pure ratios into kilograms: the Higgs field’s baseline value (which sets particle masses) and Newton’s gravitational constant G (which sets the strength of gravity). Currently both are taken from experiment. Deriving either from the ten axioms — and ideally both — would mean every mass and every force strength could be calculated from first principles with no experimental input.
 
@@ -1623,7 +1624,7 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 ### The Idea
 
-The framework has now derived 48 predictions — coupling constants, particle masses, the cosmic budget, the primordial spectrum. All of them emerge from ten axioms applied to a tower that grows through Fibonacci stages. But one question has been lurking beneath the surface since Chapter 1: how far does the tower go? Is our universe — stage 6, with its 4 dimensions and its Standard Model — the whole story? Or is there more?
+The framework has now derived 50 predictions — coupling constants, particle masses, the cosmic budget, the primordial spectrum. All of them emerge from ten axioms applied to a tower that grows through Fibonacci stages. But one question has been lurking beneath the surface since Chapter 1: how far does the tower go? Is our universe — stage 6, with its 4 dimensions and its Standard Model — the whole story? Or is there more?
 
 **The tower never stops.** Axiom 5 says growth is recursive and forward-biased. There is no stopping condition, no clause that says “stop at stage 6” or “stop at stage 7.” Each stage generates the next, the way each Fibonacci number generates the one after it. If the growth rule built the visible universe at stage 6 and the dark sector at stage 7, it builds a stage 8, and a stage 9, and a stage N, without limit.
 
@@ -1769,7 +1770,7 @@ with D = φ/⊙ (Drishti bound), d_⊕ = ⌈ d_S/2 ⌉ = 4 (cascade dimensions),
 
 ### Closing
 
-The framework began with a question — *what is the least that has to be true for anything to be true at all?* — and followed the answer through ten axioms, a self-referential tower, and forty-eight predictions spanning the full landscape of fundamental physics. Some of those predictions are remarkable. Some are honestly vulnerable to the numerology objection. All of them are testable.
+The framework began with a question — *what is the least that has to be true for anything to be true at all?* — and followed the answer through ten axioms, a self-referential tower, and fifty predictions spanning the full landscape of fundamental physics. Some of those predictions are remarkable. Some are honestly vulnerable to the numerology objection. All of them are testable.
 
 Whether the framework constitutes a genuine structural theory of the fundamental constants, or the most elaborate coincidence in the history of mathematical physics, is a question that belongs not to this book but to the experiments of the coming decade. The numbers are on the table. The tower has made its predictions. Now we wait — with appropriate humility — for the universe to tell us whether we listened well.
 
@@ -2471,6 +2472,35 @@ The M-theory prediction (stage 8 = 11 dimensions) is confirmed by direct computa
 The sole non-trivial alternative (5/φ) fails the progression test: if the first-generation exponent is 5/φ, the golden scaling law (Chapter 16) requires the second-generation exponent to be 5, giving φ⁵ = 11.09. The observed m_t/m_b ≈ 41.3. The alternative is off by a factor of 3.7 and is excluded at >10σ.
 
 **Conclusion.** ⊙ is the unique first exponent in the framework’s ingredient set that (a) matches m_b/m_c within 1σ AND (b) generates a geometric progression matching the full mass hierarchy. The exponent is not selected from a menu — it is the only option.
+
+
+
+---
+
+## Milestone 7 — The Strong CP Problem (Structural Resolution)
+
+*Why is the QCD vacuum angle θ so close to zero?*
+
+**The problem.** The equations governing the strong nuclear force (QCD) permit a parameter θ that would cause the strong force to violate the symmetry between matter and antimatter. Experiment constrains |θ| < 10⁻¹⁰ — essentially zero. The Standard Model provides no explanation for why θ should be small. It could be any value from 0 to 2π. This is the **strong CP problem**, one of the major unsolved puzzles in particle physics.
+
+**The framework’s structural argument.**
+
+(i) The QCD gauge group SU(3)_color arises from the triangle’s symmetry (Theorem 6.2, from Axioms 5 and 6).
+
+(ii) In standard QCD, θ parameterizes topologically distinct vacuum configurations called **instantons** — smooth field configurations that “wind” around the gauge group. Their classification requires continuous fields on a smooth manifold.
+
+(iii) The framework’s triangle is a discrete graph (3 nodes, 3 edges). It is not a smooth manifold. There are no continuous fields to wind. The topological classification that would produce θ ≠ 0 requires smooth structure that the discrete graph does not possess.
+
+(iv) Therefore θ = 0 by construction. The parameter does not exist in the framework because the structural freedom to define it is absent.
+
+**Consequences.**
+— θ = 0 exactly (not approximately, not dynamically driven to zero).
+— No axion predicted. (The standard solution to the strong CP problem, the Peccei-Quinn mechanism, introduces a new particle called the **axion** to dynamically drive θ → 0. The framework does not need it.)
+— If θ > 0 is ever measured, or if an axion is discovered, the framework’s discrete structure would need revision.
+
+**Axiom trace.** Axiom 5 (Fibonacci growth) → Theorem 6.1 (triangle) → Theorem 6.2 (SU(3) from triangle symmetry) → discrete topology → no instantons → θ = 0.
+
+**Honest caveat.** This argument holds for the discrete framework. Whether the continuum limit (Milestone 3, graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework’s prediction is that topology is inherited, not created — but this remains to be proved.
 
 
 ---
