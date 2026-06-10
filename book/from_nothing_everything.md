@@ -2485,84 +2485,50 @@ Stage 12 (depth 144) required 200-digit precision — at 60 digits the computati
 
 ### The Question in Plain English
 
-The framework derives the right *numbers* — the strength of forces, the masses of particles, the cosmic energy budget. But it does not yet derive the *equations* that use those numbers — how particles move, scatter, and interact over time.
+The framework derives the right *numbers* but not the *equations* that use them. Think of it like having a complete list of ingredients with exact quantities, but not the recipe. The bridge from ingredients to recipe is the deepest open problem.
 
-Think of it like a recipe. The framework has produced a complete list of ingredients with exact quantities. But it hasn’t yet written the cooking instructions — the step-by-step process for combining them. The bridge from ingredients to instructions is the deepest open problem.
+### What Survives Three Rounds of Peer Review
 
-### What We Found
+**1. The tower is a hard-core lattice gas.** The binary positions (0 or 1) with the Zeckendorf constraint (no adjacent 1s) and Drishti weighting (D²ᵏ for k active sites) are exactly a hard-core lattice gas — one of the best-studied models in statistical mechanics. This is an exact identification, not an analogy.
 
-**The tower is a lattice gas.** The tower’s binary positions (0 or 1), with the Zeckendorf constraint (no adjacent 1s) and Drishti weighting (D²ᵏ for k active sites), are exactly a **hard-core lattice gas** — one of the best-studied models in statistical mechanics. This is not an analogy. It is an exact mathematical identification.
+**2. The partition function obeys the Fibonacci recursion.** Z_n = Z_{n−1} + D² × Z_{n−2}. The same growth law as the tower (Chapter 3), deformed by D² = (φ/⊙)². At D² = 1: pure Fibonacci. At D² = 0: trivial. At D² = (φ/⊙)²: our universe.
 
-**The partition function obeys the Fibonacci recursion.** Z_n = Z_{n−1} + D² × Z_{n−2}, the same growth law as the tower itself (Chapter 3), deformed by D² = (φ/⊙)². When D² = 1 (no screening): Z gives the Fibonacci numbers. When D² = 0 (total screening): Z = 1 (trivial). At D² = (φ/⊙)² (physical): Z gives the partition function of our universe.
+**3. The Hermitian tight-binding Hamiltonian.** The symmetrized transfer matrix T_sym = [[1, D], [D, 0]] is real and symmetric — the Hamiltonian is Hermitian and time evolution is unitary. D = φ/⊙ is the quantum hopping amplitude between the “inactive” (unresolved) and “active” (resolved) states. Observation is quantum tunneling with amplitude D.
 
-**The Drishti bound is the quantum hopping amplitude.** The transfer matrix that propagates the partition function along the tower can be written in a symmetric form:
+**4. The mass gap.** m = (√(1 + 4D²) − 1)/2 ≈ 0.218, satisfying m² + m = D². This is an algebraic equation determined entirely by the Drishti bound — the mass is not a free parameter.
 
-> T_sym = | 1   D |
->      | D   0 |
+**5. The entropy matches ⊙⁻¹.** S/S_max ≈ 0.316 at stage 6. Compare ⊙⁻¹ = 0.318. Match: 0.8%.
 
-where D = φ/⊙. This is a standard **tight-binding Hamiltonian** in condensed matter physics — the simplest model of a quantum particle hopping between two sites. Site 0 is the “inactive” state (unresolved). Site 1 is the “active” state (resolved by observation). The hopping amplitude between them is D — the Drishti bound. Observation, in this picture, is quantum tunneling: a position tunnels from unresolved to resolved with amplitude D = φ/⊙.
+**6. Site/link decomposition from the cascade.** The cascade activates even positions (matter, the products of carrying) and vacates odd positions (the processes of carrying). In lattice gauge theory, matter fields live on sites and gauge fields live on links. The cascade naturally assigns:
 
-Because T_sym is real and symmetric, the corresponding Hamiltonian is **Hermitian** — meaning the time evolution is unitary (probability-preserving), as required by quantum mechanics.
+— Even positions (2, 4, 6, 8) = **sites** (where matter lives)
+— Odd positions (3, 5, 7) = **links** (how sites connect)
 
-**The mass gap.** The two eigenvalues of T_sym are λ₊ ≈ 1.218 and λ₋ ≈ −0.218, giving a mass gap:
+The Zeckendorf constraint (no adjacent 1s) means a site and its adjacent link cannot both be active — a mutual exclusion structurally analogous to the gauge constraint in lattice gauge theory.
 
-> m = (√(1 + 4D²) − 1) / 2 ≈ 0.218
-
-This mass satisfies m² + m = D² = (φ/⊙)² — an algebraic equation determined entirely by the Drishti bound. The mass is not a free parameter. It is fixed by D.
-
-**The entropy matches ⊙⁻¹.** The information content of the partition function at stage 6, measured as a fraction of its theoretical maximum, is S/S_max ≈ 0.316. Compare ⊙⁻¹ = 0.318. Match: 0.8%. The same fraction that governs the resolved content of the cosmos (Chapter 21) governs the information content of the partition function.
-
-### The Mathematics
-
-**Theorem (Tower = hard-core lattice gas).** The tower of depth n with binary positions, Zeckendorf constraint, and weight D²ᵏ for k active sites is isomorphic to the hard-core lattice gas on a 1D chain of n sites with fugacity z = D² = (φ/⊙)². ■
-
-**Theorem (D²-deformed Fibonacci recursion).** Z_n = Z_{n−1} + D² Z_{n−2}, with Z_0 = 1, Z_1 = 1 + D².
-
-*Proof.* A valid configuration of depth n either has position n inactive (Z_{n−1} configurations of depth n−1) or position n active and position n−1 forced inactive (D² × Z_{n−2} configurations of depth n−2). ■
-
-**Theorem (Hermitian transfer matrix).** In the symmetrized basis (S = diag(D, 1)), the transfer matrix T_sym = [[1, D], [D, 0]] is real and symmetric, with eigenvalues λ² − λ − D² = 0. The corresponding Hamiltonian H = −ln(T_sym) is Hermitian. ■
-
-**Theorem (Mass gap).** m = (√(1 + 4D²) − 1)/2 satisfies m² + m = D². Correlation length: ξ = 1/ln(λ₊/|λ₋|) ≈ 0.581 lattice units.
-
-*Verified* to 20-digit precision. ✓
-
-### Channel-Dependent Mass: The Higgs Mechanism from the Cascade (Preliminary)
-
-The tight-binding Hamiltonian, extended to 4D momentum space, takes the form:
-
-> H(k) = | ε_A    D·γ(k) |
->       | D·γ*(k)   ε_B |
-
-where γ(k) = Σ exp(ik_i) is the structure factor over the 4D lattice’s nearest neighbors.
-
-The cascade (Chapter 11) splits the tower into two channels (Chapter 12). These channels have **different on-site energies**:
-
-**Observer channel** (odd positions — vacated by the cascade, where carries *happened*): both internal states are equivalent, because the cascade emptied these positions symmetrically. So ε_A = ε_B = 0.
-
-The eigenvalues are E_±(k) = ±D|γ(k)|. At the k-points where γ(k) = 0 (which exist in 4D — for example, k = (0, π, π/2, 3π/2)), the energy gap is **zero**. These are **Dirac cones** — the same band-touching points that give graphene its remarkable massless electrons. Excitations near these points propagate as **massless** particles. This is the photon.
-
-**Matter channel** (even positions — filled by the cascade, where carry results *landed*): the cascade deposited specific values, making the two internal states inequivalent. So ε_A = 1, ε_B = 0.
-
-The eigenvalues are E_±(k) = 1/2 ± √(1/4 + D²|γ(k)|²). Even at γ = 0, the gap is Δ = 1 — it **never closes**. All excitations are **massive**. These are the W and Z bosons.
-
-**The cascade IS the Higgs mechanism.** In the Standard Model, the Higgs field breaks the symmetry between the electromagnetic and weak forces, giving mass to W and Z while leaving the photon massless. In the framework, the cascade does exactly the same thing: it creates an asymmetry (ε_A ≠ ε_B) in the matter channel while preserving the symmetry (ε_A = ε_B) in the observer channel. The Higgs is not an additional field — it is the structural consequence of the carry cascade depositing values at even positions.
-
-**Honest caveat.** The assignment ε_A = ε_B = 0 for the observer channel (because the cascade vacated these positions symmetrically) and ε_A ≠ ε_B for the matter channel (because the cascade filled them asymmetrically) is structurally motivated but not rigorously derived. Whether the specific values ε_A = 1, ε_B = 0 carry over from the 1D model to 4D needs verification.
-
-### What Remains (Honest Gaps)
-
-Three specific computations would complete the bridge:
-
-**(i) The 4D continuum limit.** The tight-binding Hamiltonian on a 1D chain needs to be extended to the 4D cascade lattice (positions 2, 4, 6, 8 as spacetime coordinates). The continuum limit of this 4D lattice Hamiltonian would produce the field equations. This requires a Chapman-Enskog or similar multi-scale analysis — a specific, well-defined computation.
-
-**(ii) Gauge emergence.** The symmetries of the 4D lattice Hamiltonian must reproduce the Standard Model’s gauge groups: SU(3) from the triangle (Chapter 6), SU(2) from the doublet structure (Chapter 12), and U(1) from the residual symmetry. The lattice’s symmetry group needs explicit computation.
-
-**(iii) Channel-dependent mass.** The observer channel (odd positions, Chapter 12) should produce massless excitations (photons), while the matter channel (even positions) should produce massive excitations (W, Z bosons). Deriving this from the bipartite structure of the cascade lattice is the remaining step.
+**7. Three equivalent bridges.** The 3 internal link positions (3, 5, 7) are structurally equivalent after the cascade: all vacated, all mediating the same coupling D. Three binary link variables give Z₂³ = Z₂ × Z₂ × Z₂, which has 8 elements — matching SU(3)’s 8 generators.
 
 ### Claims Withdrawn After Peer Review
 
-— “The forward bias gives the Dirac equation.” Not supported. The transfer matrix’s asymmetry (in the unsymmetrized basis) gives dissipation, not the Dirac equation. Withdrawn.
-— “The mass equation is self-referential like Chapter 15’s coupling.” Overstated. The mass equation m² + m = D² is algebraic (solvable in closed form), unlike Chapter 15’s transcendental fixed-point equation. Corrected.
+— **“Forward bias → Dirac equation.”** Not supported. The transfer matrix’s asymmetry gives dissipation, not the Dirac equation. Withdrawn.
+
+— **“Self-referential mass.”** Overstated. m² + m = D² is algebraic (solvable in closed form), unlike Chapter 15’s transcendental fixed-point coupling. Corrected to “algebraically determined mass.”
+
+— **“The cascade IS the Higgs mechanism.”** The cascade breaks the even/odd symmetry (a mathematical fact) and this breaking is structurally *analogous* to the Higgs mechanism. But the specific claim that different channels have different on-site energies is not derivable from the transfer matrix — the Hamiltonian is the same for all positions. Weakened to “structural analogy.”
+
+— **“Z₂³ → SU(3) through Zeckendorf non-commutativity.”** Explicitly checked: the Zeckendorf-preserving bridge operations COMMUTE when properly defined (activating a bridge forces deactivation of adjacent sites, and the combined operations commute regardless of order). The non-abelian structure does NOT emerge at the discrete level. Withdrawn.
+
+### What Remains Open
+
+Four specific computations, each well-defined:
+
+**(i) Z₂³ → SU(3) in the continuum limit.** The discrete Z₂³ has the right counting (8 elements for 8 generators) and the right structural equivalence (3 colors). But Z₂³ is abelian while SU(3) is non-abelian. The promotion requires renormalization group flow to a critical point — the same mechanism by which the Ising model (Z₂) produces a continuous scalar field in its continuum limit. This is a specific computation in the 4D lattice gauge theory.
+
+**(ii) Inter-tower spatial coupling.** The tower describes the internal structure at one spacetime point. How towers at adjacent spacetime points couple to each other — the spatial hopping matrix — has not been derived from the axioms.
+
+**(iii) SU(2) × U(1).** The 3 bridges suggest SU(3), but the Standard Model’s gauge group is SU(3) × SU(2) × U(1). Where SU(2) (the weak force) and U(1) (electromagnetism) come from in the tower’s structure has not been identified.
+
+**(iv) The 4D continuum limit.** What partial differential equation does the 4D lattice Hamiltonian produce? This requires a Chapman-Enskog or multi-scale analysis on the specific lattice — a well-defined but substantial computation.
 
 ## Milestone 5 — Charged Lepton Mass Ratios (In Progress)
 
