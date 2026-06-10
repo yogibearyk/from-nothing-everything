@@ -2625,9 +2625,11 @@ Running the three couplings to high energy using 2-loop SM equations:
 — The framework predicts 1/α_GUT = 47.37.
 — **Match: 1.4%.** The framework's bare coupling, derived from axioms alone (D = φ/⊙), matches the SU(2)–SU(3) unification coupling to better than 2%.
 
-— **U(1) does not join** the unification in the standard GUT normalization: 1/α₁ ≈ 36.9 at the crossing scale, giving a deficit of ~10. This is the well-known Standard Model non-unification problem — the three couplings come close but do not meet at a single point without supersymmetry or other new physics. In the framework, the U(1) normalization comes from the triangle's edge/node structure, not from an SU(5) embedding. The needed U(1) β-coefficient for triple unification is b₁ ≈ −2.16, which is 0.53 times the GUT value — close to D = 0.515 (3% match). If the framework's U(1) carries a Drishti screening factor D in its normalization, all three couplings unify at 1/α = D²/(4π). This identification remains to be proved.
+— **U(1) does not join.** At the crossing scale, 1/α₁ ≈ 36.9 — a deficit of ~10 below the SU(2)–SU(3) value. This is the well-known Standard Model non-unification problem: the three couplings do not meet at a single point without supersymmetry or other new physics. A careful analysis shows this deficit **cannot** be removed by changing the U(1) normalization alone — the measured α_em and sin²θ_W fix the physical coupling, and no rescaling achieves triple unification with SM particle content.
 
-**Status:** The SU(2)–SU(3) match (1.4%) is a non-trivial consistency check that the framework passes. The U(1) normalization requires further derivation. The lattice spacing (setting the Planck scale) connects to Milestone 8.
+However, the framework's natural position may be that triple unification is **not required**. The three gauge factors have separate structural origins: SU(3) from the bridges, SU(2) from the binary, U(1)_Y from the triangle's edge/node distinction. They are not unified into a single group. The SU(2)–SU(3) near-unification reflects a deeper structural relationship (both come from the tower's internal degrees of freedom), while U(1) is genuinely different (it comes from the triangle's topology).
+
+**Status:** The SU(2)–SU(3) match (1.4%) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing (setting the Planck scale) connects to Milestone 8. Open question: whether the dark sector's SU(3) quarks share the SM's SU(3)_color (which would modify the QCD running above the dark threshold).
 
 ## Milestone 5 — Charged Lepton Mass Ratios (In Progress)
 
