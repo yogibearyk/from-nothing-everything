@@ -2630,6 +2630,7 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 | 10. SU(3) gauge symmetry | Proved | Result 9 + spatial isotropy |
 | 11. SU(3) × SU(2) × U(1) | Synthesis | Result 9 + existing results |
 | Continuum → SM Lagrangian | Standard | All above + universality |
+| 12. Explicit lattice action | Derived | g² = D², β = 2N/D², α = D²/(4⊚) |
 
 ### The Explicit Lattice Action
 
