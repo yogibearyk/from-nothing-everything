@@ -1392,11 +1392,11 @@ The framework produces 50 predictions from ten axioms and zero adjustable parame
 
 ### The Summary
 
-Of the 50 predictions, 31 can be compared to existing experimental data. Of those 31:
+Of the 50 predictions, 31 can be compared to existing experimental data. Of those 32:
 
-**30 out of 31** fall within 2 standard deviations of the measured value.
+**31 out of 32** fall within 2 standard deviations of the measured value.
 
-The **average deviation** across all 31 is **0.45σ** — less than half a standard deviation. For context: if you picked 31 random numbers and compared them to 31 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
+The **average deviation** across all 32 is **0.44σ** — less than half a standard deviation. For context: if you picked 32 random numbers and compared them to 32 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
 
 The one prediction above 2σ — the neutrino CP phase — is the only case where the experimental value itself is disputed between research groups. Upcoming experiments (DUNE, Hyper-Kamiokande) will settle it.
 
@@ -1519,7 +1519,7 @@ Five features distinguish this framework from historical numerology:
 
 **First: derivation chains.** Every prediction traces back to the ten axioms through a specific sequence of theorems (collected in Appendix A). The formulas are not found by searching — they are *derived* by following the tower’s structure step by step. Eddington’s formula was a number in search of a theory. Here the theory comes first, and the numbers come out.
 
-**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 17 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but thirty-one, with one key.
+**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 17 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but thirty-two, with one key.
 
 **Third: no parameter adjustment.** Every historical attempt at deriving constants had at least one free element — a number that could be adjusted to improve the fit. Eddington revised his counting. Wyler chose specific geometric shapes without justification. The present framework has zero adjustable parameters. Every prediction is a rigid consequence of φ, ⊙, and the ten axioms. A single wrong prediction is fatal — there is no knob to turn, no coefficient to tweak.
 
