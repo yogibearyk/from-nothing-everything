@@ -2632,7 +2632,7 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 | 10. SU(3) gauge symmetry | Proved | Result 9 + spatial isotropy |
 | 11. SU(3) × SU(2) × U(1) | Synthesis | Result 9 + existing results |
 | Continuum → SM Lagrangian | Standard | All above + universality |
-| 12. Explicit lattice action | Derived | g² = D², β = 2N/D², α = D²/(4⊚) |
+| 12. Explicit lattice action | Conditional on g=D | β = 2N/D², α = D²/(4⊚), 1.4% match |
 
 ### The Explicit Lattice Action
 
@@ -2640,7 +2640,7 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 
 Imagine you have a complete list of ingredients and exact quantities for a dish — but no recipe. You know *what* goes in, but not *how* to combine it. That is the situation Milestone 3 left us in: the particle content is established (quarks, leptons, gauge bosons), the numbers are derived (coupling constants, masses, mixing angles), and the lattice structure is identified (sites for matter, links for forces). The missing piece is the *recipe* — the single mathematical expression that tells you exactly how all the ingredients combine.
 
-That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, it is derived from the 10 axioms, with *zero* free parameters.
+That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, the gauge structure and all dimensionless couplings are derived from the 10 axioms, conditional on a single conjectured identification (g = D).
 
 The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the SU(2)–SU(3) coupling crossing to 1.4% at 2-loop. This match is the primary evidence for the identification g = D.
 
@@ -2682,7 +2682,7 @@ Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (�
 
 Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (β_c ≈ 5.7), confirming the theory is in the perturbative regime at the lattice scale.
 
-**U(1) caveat.** The SU(3) and SU(2) sectors are governed by the same hopping amplitude D (from bridges and binary respectively). Note: running g₃ = g₂ = D to M_Z gives 1/α_s ≈ 8.8 (observed 8.5) and 1/α₂ ≈ 29.9 (observed 29.6); these apparent low-energy matches (3.7%, 1.1%) are not independent tests — they are the single UV coupling mismatch Δ(1/α) ≈ 0.35, propagated to different energy scales with different magnification factors.
+**U(1) caveat.** The SU(3) coupling is identified with the bridge hopping amplitude D; the SU(2) coupling is assumed equal (g₂ = g₃ = D), supported by the crossing match but not independently derived from the binary. Note: running g₃ = g₂ = D to M_Z gives 1/α_s ≈ 8.8 (observed 8.5) and 1/α₂ ≈ 29.9 (observed 29.6); these apparent low-energy matches (3.7%, 1.1%) are not independent tests — they are the single UV coupling mismatch Δ(1/α) ≈ 0.35, propagated to different energy scales with different magnification factors.
 
 The U(1) hypercharge coupling arises from the triangle’s edge/node distinction (Chapter 16) — a structurally different origin. If g₁ = D were imposed, the low-energy prediction 1/α₁ ≈ 85 would miss the observed value 98.4 by 14%. This is the standard non-unification problem of non-SUSY GUTs. The framework’s position is that triple unification is not required: SU(3) and SU(2) share a bare coupling, but U(1) may not. The U(1) plaquette coupling β_{U(1)} is therefore left undetermined pending a derivation of the hypercharge coupling from the triangle structure.
 
@@ -2704,7 +2704,7 @@ Running the three couplings to high energy using 2-loop SM equations:
 
 — **SU(2) and SU(3) cross** at μ ≈ 5 × 10¹⁶ GeV, with 1/α₂₃ ≈ 46.72.
 — The framework predicts 1/α_GUT = 47.37.
-— **Match: 1.4%.** The framework's bare coupling, derived from axioms alone (D = φ/⊙), matches the SU(2)–SU(3) unification coupling to better than 2%.
+— **Match: 1.4%.** The framework's conjectured bare coupling (g = D = φ/⊙) matches the SU(2)–SU(3) unification coupling to better than 2%.
 
 — **U(1) does not join.** At the crossing scale, 1/α₁ ≈ 36.9 — a deficit of ~10 below the SU(2)–SU(3) value. This is the well-known Standard Model non-unification problem: the three couplings do not meet at a single point without supersymmetry or other new physics. A careful analysis shows this deficit **cannot** be removed by changing the U(1) normalization alone — the measured α_em and sin²θ_W fix the physical coupling, and no rescaling achieves triple unification with SM particle content.
 
