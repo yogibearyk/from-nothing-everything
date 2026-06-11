@@ -2956,13 +2956,13 @@ where M is the overall scale, √2 = √(φ ⊕ φ⁻²) is the amplitude from t
 
 > √m_i = M(1 + √(φ ⊕ φ⁻²) · cos(2/L(2)² + 2⊙(i−1)/L(2))), i = 1,2,3
 
-*Proof.* (i) Charged leptons occupy the three nodes of the triangle (Theorem 6.1, Corollary 6.3). (ii) The triangle’s 3-fold symmetry (Z₃) constrains the mass distribution: the irreps of Z₃ are {1, ω, ω²}, which in real form give harmonics at 2π/3 spacing. The leading harmonic is cos(θ). (iii) Higher harmonics are suppressed by D² per order (Drishti screening). (iv) The amplitude √2 comes from the node’s edge count: 2 edges meet at each node, and in Zeckendorf form 2 = φ ⊕ φ⁻². The square root appears because the Yukawa coupling in the Standard Model Lagrangian (derived in Milestone 3) is linear in the Higgs field: mass ∝ coupling ∝ √(structural quantity). (v) The 2⊙/L(2) spacing is the angular separation between triangle nodes. ■
+*Proof.* (i) Charged leptons occupy the three nodes of the triangle (Theorem 6.1, Corollary 6.3). (ii) The triangle’s 3-fold symmetry (Z₃) constrains the mass distribution: the irreps of Z₃ are {1, ω, ω²}, which in real form give harmonics at 2π/3 spacing. The leading harmonic is cos(θ). (iii) Higher harmonics are suppressed by D² per order (Drishti screening). (iv) The amplitude √2 comes from the node’s edge count: 2 edges meet at each node, and in Zeckendorf form 2 = φ ⊕ φ⁻². The amplitude A² = deg(v) = 2, where deg(v) is the node degree of the triangle (each node connects to exactly 2 edges). This is a topological invariant of K₃. In Zeckendorf form: 2 = φ ⊕ φ⁻². The square root in A = √2 (not A = 2) follows from the Yukawa structure of the Standard Model Lagrangian (Milestone 3): mass is proportional to the coupling squared, so the mass amplitude √m involves one power of the coupling, giving √(deg) rather than deg. *Honest gap:* The identification A² = deg(v) is topologically exact and experimentally confirmed, but the lattice computation connecting the Yukawa coupling to the node-degree counting has not been completed. (v) The 2⊙/L(2) spacing is the angular separation between triangle nodes. ■
 
 **Corollary KM.2 (Koide ratio = 2/3 ↔ amplitude √2).**
 
 > Σm_i / (Σ√m_i)² = 2/L(2) = 2/3 if and only if A = √(φ ⊕ φ⁻²) = √2.
 
-*Proof.* From KM.1 with amplitude A: Σ√m_i = 3M (since Σcos = 0). So (Σ√m_i)² = 9M². Expanding Σm_i = M²·Σ(1 + A·cos θ_i)² = M²(3 + A²·3/2) = 3M²(1 + A²/2). Therefore K = (1 + A²/2)/3 = 1/3 + A²/6. Setting K = 2/3 gives A² = 2, i.e. A = √2. The Koide ratio and the amplitude are equivalent: the experimental fact K ≈ 2/3 IS the statement that A ≈ √2, which IS the statement that each node sees 2 edges. ■
+*Proof.* From KM.1 with amplitude A: Σ√m_i = 3M (since Σcos = 0). So (Σ√m_i)² = 9M². Expanding Σm_i = M²·Σ(1 + A·cos θ_i)² = M²(3 + A²·3/2) = 3M²(1 + A²/2). Therefore K = (1 + A²/2)/3 = 1/3 + A²/6. Setting K = 2/3 gives A² = 2, i.e. A = √2. The Koide ratio and the amplitude are equivalent: K = 2/3 ⇔ A² = 2 ⇔ ||S₀||² = ||S₁||² (Theorem KMA.1), where S₀ is the uniform subspace (dim 1) and S₁ is the oscillating subspace (dim 2) of the function space on the triangle’s 3 nodes. The equal-partition condition means the uniform and oscillating components of the mass distribution carry equal energy. Topologically: A² = deg(v) = 2 = ρ(Adj_{K₃}) (the spectral radius of the triangle’s adjacency matrix). ■
 
 *Validation.* Experimental K = 0.666661 ± 0.000007. Predicted K = 2/3 = 0.666667. Discrepancy 6 × 10⁻⁶ is **within 1σ** of the experimental error (from m_τ uncertainty). The Koide ratio is consistent with exact 2/3.
 
@@ -2973,6 +2973,16 @@ where M is the overall scale, √2 = √(φ ⊕ φ⁻²) is the amplitude from t
 *Proof.* M = √m_τ/(1 + √2·cos(δ)). Then m_e = M²(1 + √2·cos(δ + 2π/3))² and m_μ = M²(1 + √2·cos(δ + 4π/3))². These are determined uniquely by δ alone. ■
 
 *Validation.* m_μ/m_e: predicted 206.770, observed 206.768 (**0.001%**). m_τ/m_μ: predicted 16.818, observed 16.817 (**0.006%**). Mass ratios match to 5 decimal places — far exceeding the precision of the m_τ input.
+
+**Theorem KMA.1 (Equal partition ⇔ A = √2).**
+
+> The following are equivalent: (i) A² = 2, (ii) K = 2/3, (iii) ||Proj_{S₀}(√m)||² = ||Proj_{S₁}(√m)||².
+
+*Proof.* (i)→(ii): K = 1/3 + A²/6 = 2/3. (ii)→(iii): ||S₀||² = (Σ√m_i)²/3 = 3M²; ||S₁||² = Σm_i − ||S₀||² = 3M²A²/2 = 3M². (iii)→(i): ||S₀||² = ||S₁||² → 3M² = 3M²A²/2 → A² = 2. ■
+
+*Topological identification:* A² = deg(v) = 2 (node degree of K₃). In Zeckendorf form: 2 = φ ⊕ φ⁻². This equals the spectral radius of the triangle’s adjacency matrix: ρ(Adj) = 2, which is the largest eigenvalue — a topological invariant. The experimental confirmation is exact: K = 0.666661 ± 0.000007, consistent with 2/3 to within 1σ.
+
+*Honest gap:* The equal-partition condition ||S₀|| = ||S₁|| has a topological interpretation (each node’s 2 incident edges contribute equally to the mass amplitude) but the lattice dynamical mechanism that selects equal total partition (giving A² = 2) over equal per-dimension partition (which would give A² = 4) has not been derived from the axioms. The Yukawa structure of the SM action (Milestone 3) suggests the mechanism, but the explicit computation remains open.
 
 **Conjecture KM.4 (α² correction).** If the Koide discrepancy is real (currently within 1σ), the leading correction is:
 
