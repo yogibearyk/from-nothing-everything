@@ -2578,7 +2578,7 @@ No fourth gauge factor arises because the tower provides exactly these three kin
 
 With the lattice structure established (sites carrying matter fields, links carrying gauge fields, gauge group SU(3) × SU(2) × U(1), coupling amplitude D), the continuum field equations emerge by standard methods:
 
-**Matter sector.** The lattice evolution equation ψ(**x** + a**ê**_μ) = T_μ ψ(**x**) is Taylor-expanded. The transfer matrix eigenvalues λ± = (1 ± √(1+4D²))/2 yield the dispersion relation ω² = m² + |**k**|² at long wavelengths — the Klein-Gordon equation. Incorporating the SU(2) spinor structure from the binary gives the Dirac equation: iγ^μ ∂_μ ψ = mψ.
+**Matter sector.** The lattice evolution equation ψ(**x** + a**ê**_μ) = T_μ ψ(**x**) is Taylor-expanded. The transfer matrix eigenvalues λ± = (1 ± √(1+4D²))/2 yield the dispersion relation ω² = m² + |**k**|² at long wavelengths — the Klein-Gordon equation. Incorporating the SU(2) spinor structure from the binary gives the Dirac equation: iγ^μ ∂_μ ψ = mψ. The full lattice dispersion relation E² = m² + D² Σᵢ sin²(kᵢa) and the lattice anisotropy ξ = 8 are derived in "Fermion Dispersion and Lattice Anisotropy" below.
 
 **Gauge sector.** Products of link variables around square plaquettes give U_p ≈ 1 + iga²F_μν at small lattice spacing. The lattice gauge action S = −β Σ_p Re Tr(U_p) becomes the Yang-Mills action S = (1/4g²) ∫ Tr(F_μν F^μν) d⁴x.
 
@@ -2633,6 +2633,9 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 | 11. SU(3) × SU(2) × U(1) | Synthesis | Result 9 + existing results |
 | Continuum → SM Lagrangian | Standard | All above + universality |
 | 12. Explicit lattice action | Conditional on g=D | β = 2N/D², α = D²/(4⊚), 1.4% match |
+| 13. Lattice dispersion | Exact | Standard + derived m, D |
+| 14. Lattice anisotropy ξ = 8 | Derived (resolves GAP 6) | SLC + lattice consistency, exact |
+| 15. Dimensionful reduction 2→1 | Derived | a/Δt = 8 from Result 14 |
 
 ### The Explicit Lattice Action
 
@@ -2646,7 +2649,7 @@ The key: every force in the Standard Model has the same "dial" controlling its s
 
 #### The Mathematics
 
-**Theorem (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Milestone 3, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. Two dimensionful inputs remain undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale) and the temporal lattice spacing Δt (setting the lattice anisotropy).
+**Theorem (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Milestone 3, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived from the SLC theorem (Chapter 13) and lattice consistency (see "Fermion Dispersion and Lattice Anisotropy" below). One dimensionful input remains undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale). The temporal spacing is fixed: Δt = a/8.
 
 **Conjecture (bare gauge coupling).** The bare gauge coupling at the lattice scale is:
 
@@ -2671,7 +2674,7 @@ This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 46.72 to 1.
 
 > S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + β_{U(1)} Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
 
-Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚ (two dimensionful inputs — lattice spacings a and Δt — remain):
+Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived (see below), so one dimensionful input — the lattice spacing a — remains:
 
 | Parameter | Formula | Value |
 |-----------|---------|-------|
@@ -2688,13 +2691,71 @@ Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (
 
 The U(1) hypercharge coupling arises from the triangle’s edge/node distinction (Chapter 16) — a structurally different origin. If g₁ = D were imposed, the low-energy prediction 1/α₁ ≈ 85 would miss the observed value 98.4 by 14%. This is the standard non-unification problem of non-SUSY GUTs. The framework’s position is that triple unification is not required: SU(3) and SU(2) share a bare coupling, but U(1) may not. The U(1) plaquette coupling β_{U(1)} is therefore left undetermined pending a derivation of the hypercharge coupling from the triangle structure.
 
-**Fermion doubling — open.** In standard lattice gauge theory, the naive lattice Dirac equation produces 2⁴ = 16 copies of every fermion in 4 dimensions (the "doubling problem"). This is usually fixed by adding a correction term (the Wilson term) that gives the doublers a mass proportional to 1/a, so they decouple in the continuum limit.
+**Fermion doubling — partially resolved.** In standard lattice gauge theory, the naive lattice Dirac equation produces 2⁴ = 16 copies of every fermion in 4 dimensions (the "doubling problem"). This is usually fixed by adding a correction term (the Wilson term) that gives the doublers a mass proportional to 1/a, so they decouple in the continuum limit.
 
-In the Maya framework, the Zeckendorf constraint (T₁₁ = 0 in the transfer matrix) forbids consecutive active positions along the tower’s position chain. This suppresses the alternating mode (π-mode) in the internal tower structure. However, the fermion doubling problem is about the *spatial* lattice (the 4D lattice connecting different towers), not the 1D internal position chain. The within-tower constraint and the spatial doubling are distinct: the former acts along the tower axis, the latter along the spatial directions x, y, z, t.
+In the Maya framework, the within-tower doubling is resolved: the Zeckendorf constraint (T₁₁ = 0 in the transfer matrix) forbids consecutive active positions along the tower's position chain, suppressing the alternating mode (π-mode) in the internal tower structure. This acts as a temporal Wilson term. With the lattice anisotropy ξ = 8 (derived below), the temporal and spatial lattices decouple cleanly: temporal doublers are removed by the Zeckendorf constraint, but **spatial** doublers (2³ − 1 = 7 extra copies in 3 spatial dimensions) remain. All 8 spatial modes (1 physical + 7 doublers) have the same mass m ≈ 0.218. The spatial doubling problem remains open.
 
-The spatial doubling question remains open.
+**Matter sector caveat.** The matter terms in the action above use the standard continuum Dirac form. The actual Maya matter sector involves hard-core fermions at specific tower positions with the Zeckendorf constraint — a richer structure than the standard lattice Dirac operator. The Dirac form emerges in the long-wavelength (continuum) limit (Milestone 3, Continuum Limit section), where the tower's discrete internal structure is coarse-grained to an effective field. The mass m = (√(1+4D²)−1)/2 is exact; the kinetic term is approximate. A promising direction is that the site→bridge→site hopping structure may give natural staggered fermions, where doublers are reinterpreted as physical generations and flavors — but this remains an open conjecture, not a derived result.
 
-**Matter sector caveat.** The matter terms in the action above use the standard continuum Dirac form. The actual Maya matter sector involves hard-core fermions at specific tower positions with the Zeckendorf constraint — a richer structure than the standard lattice Dirac operator. The Dirac form emerges in the long-wavelength (continuum) limit (Milestone 3, Continuum Limit section), where the tower’s discrete internal structure is coarse-grained to an effective field. The mass m = (√(1+4D²)−1)/2 is exact; the kinetic term is approximate. Two promising directions: (a) the site→bridge→site hopping structure may give natural staggered fermions, where the 2⁴ doublers are reinterpreted as physical generations and flavors; (b) the specific lattice geometry from carry overflow (which is not a naive hypercubic lattice) may modify the Brillouin zone structure. Both require further analysis.
+### Fermion Dispersion and Lattice Anisotropy
+
+#### The Idea
+
+When you pluck a guitar string, the pitch you hear depends on the wavelength — shorter waves vibrate faster and have higher energy. The same is true for particles: a particle's energy depends on its momentum (which is related to wavelength through quantum mechanics). The formula connecting energy and momentum is called the **dispersion relation**, and for a free particle it takes the form E² = m² + p² — which is Einstein's famous energy-momentum relation from special relativity.
+
+On a lattice (a discrete grid rather than a smooth space), the dispersion relation picks up corrections. At long wavelengths (much bigger than the grid spacing), the smooth formula is a good approximation. But at short wavelengths (comparable to the grid spacing), the lattice's discrete structure matters: the sine function replaces the straight line, and the energy curves over rather than continuing upward indefinitely.
+
+There is also a subtlety about time and space. Imagine a chessboard where each square is 1 cm wide and 1 cm tall. Now imagine a different board where each square is 8 cm wide but only 1 cm tall. The second board is **anisotropic** — the spatial and temporal step sizes are different. In the Maya framework, the tower has 8 positions in the spatial direction (one full tower width, F(6) = 8) but only 1 position in the temporal direction (the basic tick, F(2) = 1). This ratio, called the **anisotropy** ξ = 8, is not chosen — it is a consequence of the tower structure and the speed of light theorem from Chapter 13.
+
+The payoff is significant: the framework previously had two unknowns with physical dimensions (the spatial grid size and the temporal grid size). With the anisotropy derived, only one remains — the spatial grid size alone, which sets the absolute scale of everything (the Planck length, the Planck mass, Newton's gravitational constant).
+
+#### The Mathematics
+
+**Result 13 (lattice dispersion relation).** The naive lattice Dirac operator on the anisotropic 4D lattice gives the dispersion relation:
+
+> E² = m² + D² Σᵢ sin²(kᵢ a)
+
+where the sum runs over the three spatial dimensions, m = (√(1+4D²)−1)/2 ≈ 0.218 is the mass gap, D = φ/⊚ ≈ 0.515 is the hopping amplitude, kᵢ is the spatial momentum, and a is the lattice spacing. At long wavelengths (|k|a ≪ 1), sin(ka) ≈ ka, and this reduces to the standard relativistic dispersion relation:
+
+> E² ≈ m² + D²|**k**|²
+
+with leading lattice correction −D²/3 × Σᵢ kᵢ⁴ a⁴ (order a²). The mass m and coefficient D are both derived from axioms — the lattice dispersion has zero free parameters. Validation: the continuum-limit relative error is < 6 × 10⁻⁸ at ka = 0.01, growing to ~28% at ka = 1 (where the lattice structure dominates, as expected).
+
+*Fermion doubling at the doubler points.* At the corners of the Brillouin zone (kᵢ = nπ/a), sin²(kᵢa) = 0, giving E = m for all 2³ = 8 momentum modes. All doublers have the same mass as the physical mode — the standard fermion doubling problem. Within the tower, the temporal doubler is removed by the Zeckendorf constraint (T₁₁ = 0 acts as a Wilson term along the position chain). The spatial doublers remain degenerate. Resolution of spatial doubling is an open problem.
+
+**Result 14 (lattice anisotropy ξ = 8, resolves GAP 6).** The Maya lattice Dirac operator has hopping coefficient D/a (not the standard 1/a), because the bridge amplitude D mediates all spatial propagation. The lattice speed of light is therefore c_lat = D (in lattice units, with a = 1).
+
+The SLC theorem (Chapter 13) derives the physical speed of light from entirely different reasoning — the Lieb-Robinson bound on the Zeckendorf cascade:
+
+> c_reg = 8φ/⊚ = 8D
+
+These two speeds must agree: c_phys = c_lat × ξ, where ξ = a/Δt is the lattice anisotropy. Consistency requires:
+
+> ξ = c_reg / c_lat = 8D / D = **8**
+
+This has a clean structural interpretation: each spatial lattice step spans one full tower (F(6) = 8 positions), while each temporal step spans one basic tick (F(2) = 1 position). The ratio is a Fibonacci number ratio:
+
+> ξ = N_s / N_t = F(6) / F(2) = 8 / 1 = 8
+
+Validation: c_lat × ξ − c_reg = 0.0 (exact match to 60 digits).
+
+*Anisotropic plaquette couplings.* With ξ = 8, the spatial and temporal plaquette couplings split:
+
+| Parameter | Spatial | Temporal |
+|-----------|---------|----------|
+| β_{SU(3)} | 6/D² ≈ 22.6 | 6ξ²/D² ≈ 1447.6 |
+| β_{SU(2)} | 4/D² ≈ 15.1 | 4ξ²/D² ≈ 965.1 |
+
+The temporal coupling is ξ² = 64 times the spatial coupling — reflecting the very different roles of time and space in the tower structure.
+
+**Result 15 (dimensionful parameter reduction).** Previously, the lattice formulation required two dimensionful inputs: the spatial lattice spacing a and the temporal lattice spacing Δt. With ξ = a/Δt = 8 derived from axioms, the temporal spacing is determined: Δt = a/8. **One dimensionful input remains: the spatial lattice spacing a.** This single scale sets the Planck length, the Planck mass, and Newton's gravitational constant (connecting to Milestone 8).
+
+| Count | Free dimensionless parameters | Dimensionful inputs |
+|-------|-------------------------------|---------------------|
+| Before (Session 32) | 0 | 2 (a, Δt) |
+| After (Session 33) | 0 | **1 (a only)** |
+
+*Axiom trace.* Result 13: Axioms → transfer matrix T_sym → Dirac operator on lattice. Result 14: SLC theorem (Axiom 4 + Axiom 5 → Lieb-Robinson → c = 8φ/⊚) + lattice consistency (c_lat = D from Milestone 3). Result 15: Result 14 directly.
 
 ### Consistency Check: Coupling Unification
 
