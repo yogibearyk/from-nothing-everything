@@ -1230,7 +1230,9 @@ The dark sector’s full force structure is: dark color (binding dark quarks), d
 
 Since b₁ > 0, no Banks-Zaks infrared fixed point exists, and the theory confines. The margin is razor-thin: for SM QCD (N_f = 6), b₁ = 26. For the generation force, b₁ = 2/3. Adding one more flavor (N_f = 9) would give b₁ = −12, flipping the theory into the conformal window. The ratio of confinement strengths is b₁(QCD)/b₁(gen) = 39 = L(2) × F(7) = 3 × 13 — the triangle count times the stage-7 Fibonacci number.
 
-**Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (Milestone 3, Result 10). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Non-abelian gauge groups cannot kinetically mix (the Jacobi identity for the gauge algebra forbids it), so the two SU(3)s are completely decoupled.
+**Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (Milestone 3, Result 10). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Gauge invariance of the non-abelian kinetic term forbids cross-group mixing at the renormalizable level, so the two SU(3)s are completely decoupled.
+
+*Bridge symmetry restoration.* A concern: the Zeckendorf constraint n₇ × n₈ = 0 specifically affects bridge 7 (adjacent to stage-7 position 8). Could this break the S₃ symmetry between bridges 3, 5, 7 that generates SU(3)_c? The answer is no — it does the opposite. At pure stage 6, bridge 7 sits at the chain endpoint with only one internal constraint (from site 6), while bridges 3 and 5 each have two. This gives bridge 7 an 18% higher occupation probability than bridge 3. Stage-7 modes provide bridge 7 with its “missing” second constraint (n₇ × n₈ = 0), reducing the asymmetry from 16.5% to 0.10% — a 165-fold improvement. The residual 0.1% is a finite-depth lattice artifact (bridge 3 is closer to the tower boundary than bridges 5 and 7) that vanishes in the continuum limit by standard universality arguments.
 
 *Consistency check:* with SU(3)_c sharing, the 8 extra colored fermions slow the strong force’s running (b₀ drops from 7 to 5/3), and the SU(2)–SU(3) coupling unification disappears. With stage isolation, the SM running is unmodified and the match to D²/(4π) is preserved at better than 1%.
 
@@ -2640,26 +2642,32 @@ Imagine you have a complete list of ingredients and exact quantities for a dish 
 
 That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, it is derived from the 10 axioms, with *zero* free parameters.
 
-The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by **D² = (φ/⊚)²** — the square of the Drishti bound from Chapter 9. The strength of all forces at the lattice scale is determined by a single number: α = D²/(4π) ≈ 1/47.4. Running this prediction down to the energies we can access in particle accelerators, the SU(2) and SU(3) coupling constants match the framework’s prediction to better than 1%.
+The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the measured running of the SU(2) and SU(3) coupling constants to better than 1%. This match is the primary evidence for the identification g = D.
 
 #### The Mathematics
 
-**Theorem (lattice gauge coupling).** The bare gauge coupling at the lattice (ultraviolet) scale is:
+**Theorem (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Milestone 3, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. Two dimensionful inputs remain undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale) and the temporal lattice spacing Δt (setting the lattice anisotropy).
+
+**Conjecture (bare gauge coupling).** The bare gauge coupling at the lattice scale is:
 
 > g² = D² = φ²/⊚²
 
-*Proof.* (i) The bridge hopping amplitude is D = φ/⊚ (Milestone 3, Result 3: the symmetrized transfer matrix T_sym = [[1, D], [D, 0]] has off-diagonal elements D). (ii) The 3 bridges carry SU(3) color (Result 10: bridge modes in the spatial lattice determine SU(3) via spatial isotropy). (iii) In the lattice gauge theory, the link variable U_{x,μ} represents the parallel transport through bridge μ from tower x to tower x + ê_μ. The amplitude for the bridge to carry a gauge excitation is D. (iv) Therefore, the gauge fluctuation amplitude at the lattice scale is g = D, giving g² = D². □
+*Argument.* (i) D is the bridge hopping amplitude (Result 3). (ii) The bridges carry SU(3) color (Result 10). (iii) In lattice gauge theory, the link variable U_{x,μ} represents parallel transport through the bridge. The amplitude for the bridge to carry a gauge excitation is D. (iv) Identifying the gauge fluctuation amplitude with the bridge hopping amplitude gives g = D.
 
-**Corollary (bare fine structure constant).**
+*Status.* Step (iv) equates two quantities — the bridge activation amplitude and the gauge coupling — that are related but not obviously identical. A rigorous derivation would require computing the effective plaquette coupling from the Maya partition function in gauge-theoretic variables. The identification g = D is the simplest possibility consistent with dimensional analysis (both are dimensionless, both are O(1)), and it is strongly supported by numerical evidence:
+
+**Numerical evidence (bare fine structure constant).**
 
 > α = g²/(4⊚) = D²/(4⊚) = φ²/(4⊚³)
 > 1/α = 4⊚³/φ² ≈ 47.37
+
+This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 47.02 to 0.75% (see Consistency Check below). Alternative identifications (g² = 2D², g² = D, etc.) give 1/α values that do not match any known coupling crossing.
 
 **The explicit action.** The Wilson plaquette coupling for gauge group SU(N) is β_N = 2N/g² = 2N/D². The full lattice action is:
 
 > S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + (2/D²) Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
 
-Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Every parameter is determined by D = φ/⊚:
+Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚ (two dimensionful inputs — lattice spacings a and Δt — remain):
 
 | Parameter | Formula | Value |
 |-----------|---------|-------|
@@ -2672,7 +2680,11 @@ Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (�
 
 Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (β_c ≈ 5.7), confirming the theory is in the perturbative regime at the lattice scale.
 
-**Fermion doubling — partial resolution.** In standard lattice gauge theory, the naive lattice Dirac equation produces spurious copies of every fermion (the "doubling problem"). This is usually fixed by adding an ad hoc correction term (the Wilson term). In the Maya framework, the Zeckendorf constraint (no adjacent active positions) naturally suppresses the alternating-sign mode within each tower: the transfer matrix element T₁₁ = 0 forbids consecutive active positions, killing the within-tower doubler exactly. Whether the carry-overflow lattice geometry also resolves the spatial lattice doublers (the standard 2⁴ = 16 species in 4 dimensions) remains open and connects to the fermion dispersion relation (Priority 3).
+**Fermion doubling — open.** In standard lattice gauge theory, the naive lattice Dirac equation produces 2⁴ = 16 copies of every fermion in 4 dimensions (the "doubling problem"). This is usually fixed by adding a correction term (the Wilson term) that gives the doublers a mass proportional to 1/a, so they decouple in the continuum limit.
+
+In the Maya framework, the Zeckendorf constraint (T₁₁ = 0 in the transfer matrix) forbids consecutive active positions along the tower’s position chain. This suppresses the alternating mode (π-mode) in the internal tower structure. However, the fermion doubling problem is about the *spatial* lattice (the 4D lattice connecting different towers), not the 1D internal position chain. The within-tower constraint and the spatial doubling are distinct: the former acts along the tower axis, the latter along the spatial directions x, y, z, t.
+
+The spatial doubling question remains open. Two promising directions: (a) the site→bridge→site hopping structure may give natural staggered fermions, where the 2⁴ doublers are reinterpreted as physical generations and flavors; (b) the specific lattice geometry from carry overflow (which is not a naive hypercubic lattice) may modify the Brillouin zone structure. Both require further analysis.
 
 ### Consistency Check: Coupling Unification
 
