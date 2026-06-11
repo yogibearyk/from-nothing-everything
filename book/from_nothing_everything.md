@@ -1639,7 +1639,7 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
 
-**Milestone 8: The gravitational constant from axioms.** The lattice formulation (Milestone 3, Appendix B) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. The coupling unification analysis (Result 16) determines a ≈ 85 Planck lengths, placing the lattice scale at roughly 10¹⁷ GeV. Given *a*, every mass ratio and coupling constant is determined — but not Newton’s gravitational constant *G*. Chapter 14 derives the Schwarzschild metric structurally from the Drishti bound but does not yet extract the numerical value of *G*. Computing *G* from the ten axioms would eliminate the last experimental input, meaning every mass and every force strength could be calculated from first principles.
+**Milestone 8: The gravitational constant from axioms.** Substantially advanced (Appendix B). The lattice formulation (Milestone 3) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. Theorem G.1 proves that the **Planck stage** is S_P = 11 — the smallest cascade stage at which the VEV tower first exceeds the Planck mass (v₁₁/M_P ≈ 1.71, while v₁₀/M_P ≈ 10⁻⁷). Conjecture G.2 proposes that the lattice spacing equals exactly **F(11) = 89 Planck lengths** — the Fibonacci number at the Planck stage. If confirmed, this eliminates the last experimental input: Newton’s gravitational constant in register units becomes G_reg = 16φ·ln(φ)/(F(11)²·π), and every mass and every force strength follows from the ten axioms alone. Consistency checks pass: running the unified coupling down from Λ_UV = M_P/89 predicts α_s(M_Z) within 0.66σ of experiment, and F(11) = 89 falls squarely in the range [63, 92] allowed by separate SU(2) and SU(3) determinations. The remaining gap is a rigorous structural proof of why a/l_P = F(S_P).
 
 **Milestone 9: Force unification scale.** In standard physics, the three coupling constants (electromagnetic, strong, weak) change with energy and appear to nearly converge at a very high energy called the **GUT scale** (roughly 10¹⁶ times the energy of a proton). Whether they truly converge — and at what energy — is one of the major predictions any unified theory must make. The framework should be able to derive the unification scale from the tower’s screening structure.
 
@@ -2836,6 +2836,48 @@ Physical quantities in lattice units:
 **The honest boundary.** Result 16 is a *consistency check*, not a prediction: it uses measured couplings at M_Z as inputs and verifies that the framework's bare coupling is consistent with standard RG running. The 0.75–1.27% match is non-trivial (arbitrary choices of g would not land near any crossing) but is not parameter-free — it depends on experimental inputs. The lattice spacing a ≈ 85 ℓ_P is an output of the matching, not a derived quantity. Deriving a from axioms would require Milestone 8 (the gravitational sector).
 
 *Axiom trace.* g = D traces to Axiom 9 (Drishti bound). Particle content (3 gen, 1 Higgs) traces to the tower cascade (Axioms 5 and 7). RG running uses standard SM perturbation theory (assumed via universality from the continuum limit).
+
+### The Gravitational Scale (Milestone 8)
+
+#### The Idea
+
+The lattice spacing *a* is the last remaining free input in the framework. The coupling unification analysis (above) constrains it to about 85 Planck lengths, but does not derive it from axioms. If *a* could be derived, Newton's gravitational constant *G* would follow, and the framework would have zero free parameters.
+
+The VEV tower provides a structural clue. The tower's energy scale grows double-exponentially through cascade stages: v_S = K·φ^F(S). The growth is so rapid that the Planck mass — the energy scale at which gravity dominates — is crossed cleanly between two stages: stage 10 falls seven orders of magnitude below the Planck mass, while stage 11 overshoots it by a factor of about φ. The Planck mass sits squarely at **stage 11** — the "Planck stage."
+
+The conjecture: the lattice spacing equals exactly **F(11) = 89 Planck lengths**. The Fibonacci number at the Planck stage counts the gravitational degrees of freedom per lattice cell — the cascade depth from the lattice (stage 6) to gravitational saturation (stage 11).
+
+If confirmed, this eliminates the framework's last input: Newton's gravitational constant in register units becomes G_reg = 16φ·ln(φ)/(89²·π), and every mass, every coupling constant, and every force strength follows from the ten axioms and the single dimensionful anchor v = 246 GeV (the Higgs vacuum expectation value).
+
+#### The Mathematics
+
+**Theorem G.1 (Planck Stage Identification).** The Planck stage S_P is the smallest cascade stage S such that v_S > M_P. From the VEV tower (Theorem VEV.1, Chapter 25):
+
+> v_S = K · φ^F(S),  where K = v/φ^F(6) ≈ 5.24 GeV
+
+Evaluation at successive stages:
+- v₁₀ = K·φ⁵⁵: v₁₀/M_P ≈ 1.34 × 10⁻⁷ (seven orders of magnitude below Planck)
+- **v₁₁ = K·φ⁸⁹: v₁₁/M_P ≈ 1.709** (first exceeds Planck)
+- v₁₂ = K·φ¹⁴⁴: v₁₂/M_P ≈ 5.33 × 10¹¹ (eleven orders above Planck)
+
+The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is immense. M_P falls unambiguously at stage 11. Notably, v₁₁/M_P ≈ φ^1.11 ≈ φ — the Planck mass lies within one golden ratio of the stage-11 VEV. ■
+
+*Axiom trace.* Axiom 5 (tower growth → Fibonacci cascade → VEV tower). Axiom 10 (Drishti bound → K = v/φ^F(6)). Theorem VEV.1 (v_S formula).
+
+**Conjecture G.2 (Lattice-Planck Ratio).** The lattice spacing satisfies a/l_P = F(S_P) = **F(11) = 89**. Equivalently, Λ_UV = M_P/89 ≈ 1.37 × 10¹⁷ GeV.
+
+*Consistency checks:* Running the unified coupling α_UV = D²/(4π) down from Λ_UV = M_P/89 using 1-loop SM beta functions gives:
+- α_s(M_Z) = 0.1185 (experiment: 0.1179 ± 0.0009, pull = **0.66σ**) ✓
+- 1/α₂(M_Z) = 29.76 (experiment: 29.58, **0.6% discrepancy**) ✓
+- F(11) = 89 falls in the allowed range [63, 92] from separate SU(2) and SU(3) scale determinations ✓
+
+*Structural motivation:* 89 is a Fibonacci number (irreducible in Zeckendorf representation). The Planck stage S_P = 11 has F(11) = 89 tower positions. The cascade from the spatial lattice (stage 6) to gravitational saturation (stage 11) has depth F(S_P), counting the gravitational degrees of freedom per lattice cell.
+
+*If confirmed, Newton's constant in register units:*
+
+> G_reg = ℏ_M · c_reg / F(11)² = (2 ln φ) · (8φ/π) / 89² = 16φ ln(φ) / (F(11)² · π) ≈ 5.01 × 10⁻⁴
+
+*Gap status:* **OPEN.** The rigorous structural argument for WHY a/l_P = F(S_P) has not been found. The strongest evidence is the 0.66σ coupling consistency and the Fibonacci structure. Proving this conjecture is Milestone 8's remaining challenge.
 
 ## Milestone 4 — The Neutrino Seesaw from Axioms
 
