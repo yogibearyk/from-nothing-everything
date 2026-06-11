@@ -2652,7 +2652,9 @@ The key: every force in the Standard Model has the same "dial" controlling its s
 
 > g² = D² = φ²/⊚²
 
-*Argument.* (i) D is the bridge hopping amplitude (Result 3). (ii) The bridges carry SU(3) color (Result 10). (iii) In lattice gauge theory, the link variable U_{x,μ} represents parallel transport through the bridge. The amplitude for the bridge to carry a gauge excitation is D. (iv) Identifying the gauge fluctuation amplitude with the bridge hopping amplitude gives g = D.
+*Argument.* (i) D is the bridge hopping amplitude (Result 3). (ii) The bridges carry SU(3) color (Result 10). (iii) In lattice gauge theory, the link variable U_{x,μ} represents parallel transport through the bridge. The amplitude for the bridge to carry a gauge excitation is D. (iv) Identifying the gauge fluctuation amplitude with the bridge hopping amplitude gives g₃ = D for SU(3).
+
+*SU(2) coupling.* The SU(2) gauge group arises from the binary M₁↔M₂ (Result 11), not from bridge hopping. The argument above applies directly to SU(3) only. The assumption g₂ = g₃ = D (SU(2) and SU(3) sharing the same bare coupling) is supported by the coupling crossing match but not independently derived from the binary structure. Deriving the SU(2) coupling from the binary’s axiom-level dynamics remains open.
 
 *Status.* Step (iv) equates two quantities — the bridge activation amplitude and the gauge coupling — that are related but not obviously identical. A rigorous derivation would require computing the effective plaquette coupling from the Maya partition function in gauge-theoretic variables. The identification g = D is the simplest possibility consistent with dimensional analysis (both are dimensionless, both are O(1)), and it is strongly supported by numerical evidence:
 
@@ -2661,7 +2663,7 @@ The key: every force in the Standard Model has the same "dial" controlling its s
 > α = g²/(4⊚) = D²/(4⊚) = φ²/(4⊚³)
 > 1/α = 4⊚³/φ² ≈ 47.37
 
-This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 47.02 to 0.75% (see Consistency Check below). Alternative identifications (g² = 2D², g² = D, etc.) give 1/α values that do not match any known coupling crossing.
+This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 46.72 to 1.4% at 2-loop (see Consistency Check below). Alternative identifications (g² = 2D², g² = D, etc.) give 1/α values that do not match any known coupling crossing.
 
 **The explicit action.** The Wilson plaquette coupling for gauge group SU(N) is β_N = 2N/g² = 2N/D². The full lattice action is:
 
@@ -2680,13 +2682,17 @@ Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (�
 
 Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (β_c ≈ 5.7), confirming the theory is in the perturbative regime at the lattice scale.
 
-**U(1) caveat.** The SU(3) and SU(2) couplings arise from bridge modes and the binary, respectively, both governed by the hopping amplitude D. Assuming g₃ = g₂ = D and running to M_Z gives 1/α_s ≈ 8.8 (observed 8.5, match 3.7%) and 1/α₂ ≈ 29.9 (observed 29.6, match 1.1%). However, the U(1) hypercharge coupling arises from the triangle’s edge/node distinction (Chapter 16) — a structurally different origin. If g₁ = D were imposed, the low-energy prediction 1/α₁ ≈ 85 would miss the observed value 98.4 by 14%. This is the standard non-unification problem of non-SUSY GUTs. The framework’s position (Milestone 3 Consistency Check) is that triple unification is not required: SU(3) and SU(2) share a bare coupling, but U(1) may not. The U(1) plaquette coupling β_{U(1)} is therefore left undetermined pending a derivation of the hypercharge coupling from the triangle structure.
+**U(1) caveat.** The SU(3) and SU(2) sectors are governed by the same hopping amplitude D (from bridges and binary respectively). Note: running g₃ = g₂ = D to M_Z gives 1/α_s ≈ 8.8 (observed 8.5) and 1/α₂ ≈ 29.9 (observed 29.6); these apparent low-energy matches (3.7%, 1.1%) are not independent tests — they are the single UV coupling mismatch Δ(1/α) ≈ 0.35, propagated to different energy scales with different magnification factors.
+
+The U(1) hypercharge coupling arises from the triangle’s edge/node distinction (Chapter 16) — a structurally different origin. If g₁ = D were imposed, the low-energy prediction 1/α₁ ≈ 85 would miss the observed value 98.4 by 14%. This is the standard non-unification problem of non-SUSY GUTs. The framework’s position is that triple unification is not required: SU(3) and SU(2) share a bare coupling, but U(1) may not. The U(1) plaquette coupling β_{U(1)} is therefore left undetermined pending a derivation of the hypercharge coupling from the triangle structure.
 
 **Fermion doubling — open.** In standard lattice gauge theory, the naive lattice Dirac equation produces 2⁴ = 16 copies of every fermion in 4 dimensions (the "doubling problem"). This is usually fixed by adding a correction term (the Wilson term) that gives the doublers a mass proportional to 1/a, so they decouple in the continuum limit.
 
 In the Maya framework, the Zeckendorf constraint (T₁₁ = 0 in the transfer matrix) forbids consecutive active positions along the tower’s position chain. This suppresses the alternating mode (π-mode) in the internal tower structure. However, the fermion doubling problem is about the *spatial* lattice (the 4D lattice connecting different towers), not the 1D internal position chain. The within-tower constraint and the spatial doubling are distinct: the former acts along the tower axis, the latter along the spatial directions x, y, z, t.
 
-The spatial doubling question remains open. Two promising directions: (a) the site→bridge→site hopping structure may give natural staggered fermions, where the 2⁴ doublers are reinterpreted as physical generations and flavors; (b) the specific lattice geometry from carry overflow (which is not a naive hypercubic lattice) may modify the Brillouin zone structure. Both require further analysis.
+The spatial doubling question remains open.
+
+**Matter sector caveat.** The matter terms in the action above use the standard continuum Dirac form. The actual Maya matter sector involves hard-core fermions at specific tower positions with the Zeckendorf constraint — a richer structure than the standard lattice Dirac operator. The Dirac form emerges in the long-wavelength (continuum) limit (Milestone 3, Continuum Limit section), where the tower’s discrete internal structure is coarse-grained to an effective field. The mass m = (√(1+4D²)−1)/2 is exact; the kinetic term is approximate. Two promising directions: (a) the site→bridge→site hopping structure may give natural staggered fermions, where the 2⁴ doublers are reinterpreted as physical generations and flavors; (b) the specific lattice geometry from carry overflow (which is not a naive hypercubic lattice) may modify the Brillouin zone structure. Both require further analysis.
 
 ### Consistency Check: Coupling Unification
 
