@@ -1232,7 +1232,7 @@ Since b₁ > 0, no Banks-Zaks infrared fixed point exists, and the theory confin
 
 **Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (Milestone 3, Result 10). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Gauge invariance of the non-abelian kinetic term forbids cross-group mixing at the renormalizable level, so the two SU(3)s are completely decoupled.
 
-*Bridge symmetry restoration.* A concern: the Zeckendorf constraint n₇ × n₈ = 0 specifically affects bridge 7 (adjacent to stage-7 position 8). Could this break the S₃ symmetry between bridges 3, 5, 7 that generates SU(3)_c? The answer is no — it does the opposite. At pure stage 6, bridge 7 sits at the chain endpoint with only one internal constraint (from site 6), while bridges 3 and 5 each have two. This gives bridge 7 an 18% higher occupation probability than bridge 3. Stage-7 modes provide bridge 7 with its “missing” second constraint (n₇ × n₈ = 0), reducing the asymmetry from 16.5% to 0.10% — a 165-fold improvement. The residual 0.1% is a finite-depth lattice artifact (bridge 3 is closer to the tower boundary than bridges 5 and 7) that vanishes in the continuum limit by standard universality arguments.
+*Bridge symmetry restoration.* A concern: the Zeckendorf constraint n₇ × n₈ = 0 specifically affects bridge 7 (adjacent to stage-7 position 8). Could this break the S₃ symmetry between bridges 3, 5, 7 that generates SU(3)_c? The answer is no — it does the opposite. At pure stage 6, bridge 7 sits at the chain endpoint with only one internal constraint (from site 6), while bridges 3 and 5 each have two. This gives bridge 7 an 18% higher occupation probability than bridge 3. The mechanism is a standard result from 1D statistical mechanics: in a hard-core lattice gas, occupation probabilities are uniform throughout the bulk and deviate only near chain boundaries. At stage 6, bridge 7 sits at the boundary; at stage 7, it is pushed 5 positions into the interior. Quantitatively, the asymmetry drops from 16.5% to 0.10% — a 165-fold improvement. The residual 0.1% reflects bridge 3’s proximity to the opposite boundary (position 0) and vanishes in the continuum limit.
 
 *Consistency check:* with SU(3)_c sharing, the 8 extra colored fermions slow the strong force’s running (b₀ drops from 7 to 5/3), and the SU(2)–SU(3) coupling unification disappears. With stage isolation, the SM running is unmodified and the match to D²/(4π) is preserved at better than 1%.
 
@@ -2642,7 +2642,7 @@ Imagine you have a complete list of ingredients and exact quantities for a dish 
 
 That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, it is derived from the 10 axioms, with *zero* free parameters.
 
-The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the measured running of the SU(2) and SU(3) coupling constants to better than 1%. This match is the primary evidence for the identification g = D.
+The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the SU(2)–SU(3) coupling crossing to 1.4% at 2-loop. This match is the primary evidence for the identification g = D.
 
 #### The Mathematics
 
@@ -2665,7 +2665,7 @@ This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 47.02 to 0.
 
 **The explicit action.** The Wilson plaquette coupling for gauge group SU(N) is β_N = 2N/g² = 2N/D². The full lattice action is:
 
-> S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + (2/D²) Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
+> S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + β_{U(1)} Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
 
 Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚ (two dimensionful inputs — lattice spacings a and Δt — remain):
 
@@ -2675,10 +2675,12 @@ Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (�
 | α | D²/(4⊚) | 1/47.37 |
 | β_{SU(3)} | 6/D² = 6⊚²/φ² | 22.62 |
 | β_{SU(2)} | 4/D² = 4⊚²/φ² | 15.08 |
-| β_{U(1)} | 2/D² = 2⊚²/φ² | 7.54 |
+| β_{U(1)} | undetermined | see note |
 | m | (√(1+4D²)−1)/2 | 0.2178 |
 
 Note: β_{SU(3)} ≈ 22.6 is well above the SU(3) deconfining phase transition (β_c ≈ 5.7), confirming the theory is in the perturbative regime at the lattice scale.
+
+**U(1) caveat.** The SU(3) and SU(2) couplings arise from bridge modes and the binary, respectively, both governed by the hopping amplitude D. Assuming g₃ = g₂ = D and running to M_Z gives 1/α_s ≈ 8.8 (observed 8.5, match 3.7%) and 1/α₂ ≈ 29.9 (observed 29.6, match 1.1%). However, the U(1) hypercharge coupling arises from the triangle’s edge/node distinction (Chapter 16) — a structurally different origin. If g₁ = D were imposed, the low-energy prediction 1/α₁ ≈ 85 would miss the observed value 98.4 by 14%. This is the standard non-unification problem of non-SUSY GUTs. The framework’s position (Milestone 3 Consistency Check) is that triple unification is not required: SU(3) and SU(2) share a bare coupling, but U(1) may not. The U(1) plaquette coupling β_{U(1)} is therefore left undetermined pending a derivation of the hypercharge coupling from the triangle structure.
 
 **Fermion doubling — open.** In standard lattice gauge theory, the naive lattice Dirac equation produces 2⁴ = 16 copies of every fermion in 4 dimensions (the "doubling problem"). This is usually fixed by adding a correction term (the Wilson term) that gives the doublers a mass proportional to 1/a, so they decouple in the continuum limit.
 
