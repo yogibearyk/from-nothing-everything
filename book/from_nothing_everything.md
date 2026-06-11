@@ -120,7 +120,7 @@ The phrase **zero free parameters** is the most testable property of this framew
 
 The framework aspires to be the second cook. Every coefficient in every formula traces, by a specific derivation, back to one of three sources: the golden ratio φ, the Chakra constant ⊙, or a small integer that *counts* something structural (the three edges of a triangle, the eight floors of a tower, the seven dimensions left after the Higgs takes one). No quantity in the theory was chosen to make a prediction come out right. That is what “zero free parameters” means, and it is the property that makes the whole enterprise testable: with no knobs to turn, a single wrong prediction would be fatal.
 
-There is one honest caveat, and the framework states it plainly. To speak to experiments at all, the theory needs **two dimensionful anchors** — the Higgs vacuum expectation value *v* and the Planck mass *M_P* — to convert its pure, dimensionless numbers into kilograms and electron-volts. These are unit conventions, the choice of what to measure *against*, not tuning knobs: they set the scale, not the ratios. Every *ratio* the framework predicts is parameter-free.
+There is one honest caveat, and the framework states it plainly. To speak to experiments at all, the theory needs **two dimensionful anchors** — the Higgs vacuum expectation value *v* and the Planck mass *M_P* — to convert its pure, dimensionless numbers into kilograms and electron-volts. These are unit conventions, the choice of what to measure *against*, not tuning knobs: they set the scale, not the ratios. Every *ratio* the framework predicts is parameter-free. (Strictly, the lattice formulation shows these two anchors are not independent: the ratio v/M_P is in principle determined by the axioms, leaving only **one** dimensionful input — the lattice spacing. But this reduction requires completing the gravitational sector, Milestone 8 in Part V.)
 
 ## The ground, and why “before t = 0” is the wrong question
 
@@ -1623,7 +1623,7 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
 
-**Milestone 8: Absolute masses and the gravitational constant.** The framework currently derives mass *ratios* but not absolute masses. Two numbers convert the framework’s pure ratios into kilograms: the Higgs field’s baseline value (which sets particle masses) and Newton’s gravitational constant G (which sets the strength of gravity). Currently both are taken from experiment. Deriving either from the ten axioms — and ideally both — would mean every mass and every force strength could be calculated from first principles with no experimental input.
+**Milestone 8: The gravitational constant from axioms.** The lattice formulation (Milestone 3, Appendix B) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. The coupling unification analysis (Result 16) determines a ≈ 85 Planck lengths, placing the lattice scale at roughly 10¹⁷ GeV. Given *a*, every mass ratio and coupling constant is determined — but not Newton’s gravitational constant *G*. Chapter 14 derives the Schwarzschild metric structurally from the Drishti bound but does not yet extract the numerical value of *G*. Computing *G* from the ten axioms would eliminate the last experimental input, meaning every mass and every force strength could be calculated from first principles.
 
 **Milestone 9: Force unification scale.** In standard physics, the three coupling constants (electromagnetic, strong, weak) change with energy and appear to nearly converge at a very high energy called the **GUT scale** (roughly 10¹⁶ times the energy of a proton). Whether they truly converge — and at what energy — is one of the major predictions any unified theory must make. The framework should be able to derive the unification scale from the tower’s screening structure.
 
@@ -2632,10 +2632,11 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 | 10. SU(3) gauge symmetry | Proved | Result 9 + spatial isotropy |
 | 11. SU(3) × SU(2) × U(1) | Synthesis | Result 9 + existing results |
 | Continuum → SM Lagrangian | Standard | All above + universality |
-| 12. Explicit lattice action | Conditional on g=D | β = 2N/D², α = D²/(4⊚), 1.4% match |
+| 12. Explicit lattice action | Conditional on g=D | β = 2N/D², α = D²/(4⊚), 0.8–1.3% match |
 | 13. Lattice dispersion | Exact | Standard + derived m, D |
 | 14. Lattice anisotropy ξ = 8 | Derived (resolves GAP 6) | SLC + lattice consistency, exact |
 | 15. Dimensionful reduction 2→1 | Derived | a/Δt = 8 from Result 14 |
+| 16. Lattice scale from coupling unification | Computed | g²=D² + SM running + PDG inputs |
 
 ### The Explicit Lattice Action
 
@@ -2645,7 +2646,7 @@ Imagine you have a complete list of ingredients and exact quantities for a dish 
 
 That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, the gauge structure and all dimensionless couplings are derived from the 10 axioms, conditional on a single conjectured identification (g = D).
 
-The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the SU(2)–SU(3) coupling crossing to 1.4% at 2-loop. This match is the primary evidence for the identification g = D.
+The key: every force in the Standard Model has the same "dial" controlling its strength at the most fundamental scale. That dial is set by the Drishti bound D = φ/⊚ from Chapter 9. Since D is the framework’s only dimensionless parameter, the bare gauge coupling must be a function of D alone: g = f(D). The simplest identification — g = D, giving α = D²/(4π) ≈ 1/47.4 — produces a prediction that matches the SU(2)–SU(3) coupling crossing to within 1.3% (see Consistency Check below). This match is the primary evidence for the identification g = D.
 
 #### The Mathematics
 
@@ -2668,7 +2669,7 @@ Note: the screened bridge occupation ⟨n⟩ ≈ 0.15 is NOT the coupling — it
 > α = g²/(4⊚) = D²/(4⊚) = φ²/(4⊚³)
 > 1/α = 4⊚³/φ² ≈ 47.37
 
-This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 46.72 to 1.4% at 2-loop (see Consistency Check below). Alternative identifications (g² = 2D², g² = D, etc.) give 1/α values that do not match any known coupling crossing.
+This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 47.0 (1-loop) or 48.0 (2-loop), to 0.8–1.3% (see Consistency Check below). Alternative identifications (g² = 2D², g² = D, etc.) give 1/α values that do not match any known coupling crossing.
 
 **The explicit action.** The Wilson plaquette coupling for gauge group SU(N) is β_N = 2N/g² = 2N/D². The full lattice action is:
 
@@ -2763,19 +2764,62 @@ The lattice gauge theory from Milestone 3 makes a testable prediction: the bare 
 
 The three SM gauge couplings (measured at the Z-boson mass scale, 91.2 GeV) evolve with energy according to the renormalization group equations. The framework derives the same 1-loop β-function coefficients as the SM: b₀(QCD) = L(4) = 7 for SU(3), b₀(SU2) = 19/6 for SU(2), b₀(U1_Y) = −41/6 for U(1)_Y. These match the SM because the framework has the same particle content (3 generations, 1 Higgs doublet) — but in the framework, the coefficients are expressed in terms of tower structural constants (L(4), L(2), F(6)), not treated as inputs.
 
-Running the three couplings to high energy using 2-loop SM equations:
+Running the three couplings to high energy using the SM renormalization group equations (starting from measured values 1/α₁ = 59.0, 1/α₂ = 29.6, 1/α₃ = 8.5 at M_Z, with GUT normalization for U(1)):
 
-— **SU(2) and SU(3) cross** at μ ≈ 5 × 10¹⁶ GeV, with 1/α₂₃ ≈ 46.72.
+— **SU(2) and SU(3) cross** at μ ≈ 10¹⁷ GeV, with 1/α₂₃ ≈ 47.0 (1-loop) or 48.0 (2-loop).
 — The framework predicts 1/α_GUT = 47.37.
-— **Match: 1.4%.** The framework's conjectured bare coupling (g = D = φ/⊙) matches the SU(2)–SU(3) unification coupling to better than 2%.
+— **Match: 0.8% (1-loop), 1.3% (2-loop).** The framework value sits between the 1-loop and 2-loop crossing values, suggesting higher-loop or threshold corrections may improve the match further. This is a non-trivial consistency check that the framework passes.
 
-— **U(1) does not join.** At the crossing scale, 1/α₁ ≈ 36.9 — a deficit of ~10 below the SU(2)–SU(3) value. This is the well-known Standard Model non-unification problem: the three couplings do not meet at a single point without supersymmetry or other new physics. A careful analysis shows this deficit **cannot** be removed by changing the U(1) normalization alone — the measured α_em and sin²θ_W fix the physical coupling, and no rescaling achieves triple unification with SM particle content.
+— **U(1) does not join.** At the crossing scale, 1/α₁ ≈ 36 — a deficit of ~12 below the SU(2)–SU(3) value. This is the well-known Standard Model non-unification problem: the three couplings do not meet at a single point without supersymmetry or other new physics. A careful analysis shows this deficit **cannot** be removed by changing the U(1) normalization alone — the measured α_em and sin²θ_W fix the physical coupling, and no rescaling achieves triple unification with SM particle content.
 
 However, the framework's natural position may be that triple unification is **not required**. The three gauge factors have separate structural origins: SU(3) from the bridges, SU(2) from the binary, U(1)_Y from the triangle's edge/node distinction. They are not unified into a single group. The SU(2)–SU(3) near-unification reflects a deeper structural relationship (both come from the tower's internal degrees of freedom), while U(1) is genuinely different (it comes from the triangle's topology).
 
-**Status:** The SU(2)–SU(3) match (1.4%) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing (setting the Planck scale) connects to Milestone 8.
+**Status:** The SU(2)–SU(3) match (0.8–1.3%, depending on loop order) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing determines the Planck scale (see "The Lattice Scale" below and Milestone 8).
 
-**Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 19 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by gauge invariance of the kinetic term. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 1.4% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
+**Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 19 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by gauge invariance of the kinetic term. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 0.8–1.3% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
+
+### The Lattice Scale
+
+#### The Idea
+
+The lattice formulation from Milestone 3 has one remaining free input: the lattice spacing *a*, the distance between adjacent grid points. Everything else — every coupling constant, every mass ratio, every particle property — is determined by the axioms. The lattice spacing is the single ruler that converts the framework's pure numbers into meters and kilograms.
+
+How large is this ruler? The coupling unification analysis gives the answer. The framework says the bare coupling at the lattice scale should be g² = D², giving 1/α = 47.37. Standard physics tells us how the three gauge couplings evolve with energy. Running them upward from their measured values at 91 GeV (where accelerators measure them), the SU(2) and SU(3) couplings converge and cross. The scale where this crossing happens — and the coupling value where it occurs — pins down the lattice spacing.
+
+The result: the crossing happens at an energy of roughly 10¹⁷ GeV, with a coupling value within 1.3% of the framework's 47.37. The lattice spacing this implies is about 85 times the Planck length — roughly 10⁻³³ meters. The lattice is fine-grained, but the Planck scale (the smallest meaningful length in physics) sits about two orders of magnitude below it. Bridging that last gap — deriving Newton's gravitational constant from the axioms — is Milestone 8.
+
+One number captures the deepest puzzle: the Higgs vacuum expectation value in lattice units is v × a ≈ 10⁻¹⁵. This is the **hierarchy problem** — the fact that the electroweak scale (where particles get their mass) is fifteen orders of magnitude below the lattice scale (where the fundamental laws are defined). The framework inherits this problem from the Standard Model. Whether the tower structure can explain it remains open.
+
+#### The Mathematics
+
+**Result 16 (lattice scale from coupling unification).** The 2-loop Standard Model renormalization group equations, with the framework's bare coupling α_bare = D²/(4⊙) as boundary condition, determine the lattice spacing a in physical units.
+
+Starting from PDG inputs at M_Z = 91.2 GeV (1/α₁ = 59.0, 1/α₂ = 29.6, 1/α₃ = 8.5, with GUT normalization for U(1)), the 2-loop numerical solution gives:
+
+| Quantity | 1-loop | 2-loop |
+|----------|--------|--------|
+| SU(2)–SU(3) crossing scale | 9.6 × 10¹⁶ GeV | 3.4 × 10¹⁷ GeV |
+| 1/α at crossing | 47.02 | 47.97 |
+| Match to framework (47.37) | 0.75% | 1.27% |
+| U(1) deficit at crossing | −10.6 | −12.1 |
+
+The framework value 1/α = 47.37 sits between the 1-loop and 2-loop crossing values, suggesting that higher-order or threshold corrections may sharpen the match. Sensitivity to α_s(M_Z): a ±0.001 shift moves the match between 1.1% and 1.4%.
+
+The lattice spacing, from the geometric mean of SU(3) and SU(2) matching scales (where each individually reaches 1/α = 47.37):
+
+> **Λ_UV = 1/a ≈ 1.4 × 10¹⁷ GeV**
+> **a ≈ 1.4 × 10⁻³³ m ≈ 85 Planck lengths**
+
+Physical quantities in lattice units:
+- Planck mass: M_P × a ≈ 85
+- Higgs VEV: v × a ≈ 1.7 × 10⁻¹⁵ (the hierarchy)
+- Mass gap: m × Λ_UV ≈ 3.2 × 10¹⁶ GeV (GUT-scale; physical fermion masses arise via the Higgs mechanism at the electroweak scale, not from the lattice mass gap)
+
+**What the single input a determines.** Given a (equivalently, any one physical mass), the framework predicts all gauge couplings at any energy scale (via RG running from 1/α = 47.37 at Λ_UV = 1/a), all fermion mass ratios (Chapters 16–18), all mixing angles and CP phases (Chapters 17–18), and the Higgs mass relative to the electroweak scale (Chapter 12). What a does not determine: absolute masses (these require knowing a itself), Newton's gravitational constant G (Milestone 8), and the ratio M_P/v (the hierarchy, derivable in principle once the gravitational sector is complete).
+
+**The honest boundary.** Result 16 is a *consistency check*, not a prediction: it uses measured couplings at M_Z as inputs and verifies that the framework's bare coupling is consistent with standard RG running. The 0.75–1.27% match is non-trivial (arbitrary choices of g would not land near any crossing) but is not parameter-free — it depends on experimental inputs. The lattice spacing a ≈ 85 ℓ_P is an output of the matching, not a derived quantity. Deriving a from axioms would require Milestone 8 (the gravitational sector).
+
+*Axiom trace.* g = D traces to Axiom 9 (Drishti bound). Particle content (3 gen, 1 Higgs) traces to the tower cascade (Axioms 5 and 7). RG running uses standard SM perturbation theory (assumed via universality from the continuum limit).
 
 ## Milestone 5 — Charged Lepton Mass Ratios (In Progress)
 
