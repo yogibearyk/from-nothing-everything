@@ -2997,11 +2997,13 @@ One quantity never changes: **G × M_P² = 1**. The coupling times the mass squa
 
 All of this can sound abstract — towers, stages, modes, Fibonacci numbers. So let us hold something real. Pick up a glass of water.
 
-**What is a tower?** A tower is the internal structure of one *lattice cell* — the smallest unit of spacetime. Think of space as a grid, too fine to see, with cells roughly 10⁻³³ meters across (89 Planck lengths). Each cell has one tower: 89 positions, organized by the Fibonacci cascade. The tower is not a particle. It is not an object in space. It is the *architecture* of space itself at that point — 89 channels through which energy, matter, and forces can exist.
+**What is a tower?** A tower is the internal structure of one *lattice cell* — the smallest unit of spacetime. Think of space as a grid, too fine to see, with cells roughly 10⁻³³ meters across (89 Planck lengths). Each cell has one tower — and the tower has **infinitely many positions**, organized by the Fibonacci cascade, extending through all stages to infinity. The tower does not stop. It is the same infinite structure described in Chapter 25.
 
-Every cell in the universe has the same tower. Same 89 positions. Same Fibonacci structure. Same golden ratio. Like a crystal where every atom has the same electron shell, or a honeycomb where every cell has the same hexagonal shape. The tower is the atom of spacetime.
+But gravity cannot see all of it. Gravity resolves the first **89 positions** (stages 1 through 11) — the modes whose energy is below the Planck mass. Positions 90 and beyond are trans-Planckian: they exist, but they are past gravity's horizon. The number 89 is not a structural limit on the tower. It is gravity's horizon — the boundary of what gravity can perturbatively resolve. The tower is the ocean; gravity's view of it is 89 pixels wide.
 
-**A glass of water, tower by tower.** That glass you are holding (about 250 mL) occupies a region of space containing roughly **10⁹⁵ lattice cells** — that is a 1 followed by 95 zeros. Each cell has one tower with 89 positions. The glass contains about 7.5 × 10⁹⁶ tower positions in total. These are not visible or tangible. They are the hidden scaffolding on which everything you can see is built.
+Every cell in the universe has the same tower — the same infinite Fibonacci structure, the same gravitational horizon at 89 positions. Like a crystal where every atom has the same infinite electron spectrum, though only finitely many levels are occupied. The tower is the atom of spacetime.
+
+**A glass of water, tower by tower.** That glass you are holding (about 250 mL) occupies a region of space containing roughly **10⁹⁵ lattice cells** — that is a 1 followed by 95 zeros. Each cell has one tower extending infinitely, of which gravity resolves 89 positions. The gravitationally accessible structure of the glass contains about 89 × 10⁹⁵ ≈ 10⁹⁷ resolved tower positions. Beyond those, infinitely more positions exist in each cell — past gravity's horizon but structurally present.
 
 **What the water is made of, in tower language.** A water molecule (H₂O) has two hydrogen atoms and one oxygen atom. Each atom has a nucleus (protons and neutrons, each made of three quarks bound by gluons) and a cloud of electrons. In tower language:
 
@@ -3037,11 +3039,9 @@ Check: 10²⁶ nucleons × 10⁵⁴ cells per nucleon = 10⁸⁰ — this is onl
 
 So the proton's 10⁵³ cells are enormous in lattice units but still a speck inside the molecule's 10⁷⁰. And the molecule's 10⁷⁰ cells, multiplied by 10²⁵ molecules, fill the glass exactly. Everything fits.
 
-**How gravity works in the glass.** Now bring gravity back in. Every tower in the glass — whether it contains a quark, an electron, or nothing at all — has 89 gravitational modes. Gravity does not care whether a tower is excited or quiet. It counts them all the same (the equivalence principle). The total gravitational content of the glass is the sum across all 10⁹⁵ towers, with each tower contributing 1/89 of the whole per mode.
+**How gravity works in the glass.** Every tower in the glass has infinitely many positions, but gravity resolves only the first 89. Gravity does not care whether a tower is excited or quiet — it counts every resolved mode the same (the equivalence principle). The total gravitational content of the glass is the sum across all 10⁹⁵ towers, with each tower contributing through its 89 resolved modes. Newton's constant G = 1/89² reflects this horizon: the whole (Ω = 1) divided into 89 resolved parts, each carrying fraction 1/89, gravity being the fraction squared.
 
-Newton's constant G = 1/89² determines how much that total gravitational content curves the spacetime around the glass. It is tiny (about 0.013% of the whole), which is why the glass does not noticeably bend the space around it. But it is not zero — the glass does have mass, it does fall when you drop it, and it does (immeasurably slightly) attract you toward it.
-
-**The key picture.** When you hold a glass of water, you are holding 10⁹⁵ copies of the same 89-position tower, with a specific pattern of excitations that your senses interpret as "wet, clear, cool." The hydrogen, the oxygen, the molecular bonds, the surface tension — all of it is patterns in towers. And the mass of the glass — the tug you feel when you lift it — comes from gravity reaching through all 89 levels of every tower, counting them all equally, assigning each the same fraction 1/89 of the whole.
+**The key picture.** When you hold a glass of water, you are holding 10⁹⁵ copies of the same infinite tower, each with a specific pattern of excitations that your senses interpret as "wet, clear, cool." The hydrogen, the oxygen, the molecular bonds, the surface tension — all of it is patterns in towers. And the mass of the glass — the tug you feel when you lift it — comes from gravity resolving 89 modes of every tower, counting them all equally, assigning each the same fraction 1/89 of the whole. The tower goes infinitely deeper than gravity can see. The 89 is gravity's horizon, not the tower's edge.
 
 #### The Lattice, the Expanding Universe, and What Coexists
 
@@ -3059,9 +3059,10 @@ Chapter 25 answered this already: *all stages exist simultaneously. The tower is
 - **Positions 22–34** (stage 9): Three layers (2% transmission)
 - **Positions 35–55** (stage 10): Four layers — a whisper (0.5%)
 - **Positions 56–89** (stage 11): The Planck shell — where gravity saturates
-- **Positions 90 and beyond** (stages 12+): Trans-Planckian — already present, but past the reach of perturbative gravity
+- **Positions 90–144** (stage 12): Trans-Planckian — present but past gravity's horizon
+- **Positions 145 and beyond** (stages 13, 14, 15, ...): The tower continues to infinity. These positions exist in every cell but are invisible to perturbative gravity. They are the infinite depth beyond the gravitational horizon.
 
-All 89 positions (and the infinitely many beyond) are present in every cell, at every point in space, right now. The stages do not "intersect" because they were never separate. Asking whether stage 7 intersects stage 6 is like asking whether the bass notes intersect the treble notes on a piano — they come from the same instrument, played at the same time.
+All positions — the 89 within gravity's horizon AND the infinitely many beyond — are present in every cell, at every point in space, right now. The stages do not "intersect" because they were never separate. The tower is one infinite structure; gravity can only see the first 89 floors.
 
 **What expansion really means.** When the universe was very young and very hot, the available energy was high enough to excite all stages up to 11. As the universe cooled:
 
