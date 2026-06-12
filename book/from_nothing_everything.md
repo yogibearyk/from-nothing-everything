@@ -2902,6 +2902,19 @@ where ℏ_M = (φ³ + φ⁻³)·ln(φ)/(φ + φ⁻¹) and c_reg = (φ⁶ − φ�
 
 *A note on the minus sign.* In the Maya framework, subtraction does not mean removal — the graph only grows (Axiom 5). The expression φ⁶ − φ⁻⁶ is *decomposition*: a higher structure broken into additive parts. The key: φ − φ⁻¹ = 1 (the difference between forward and backward perspectives is exactly unity). This means φ⁶ − φ⁻⁶ = (φ⁵ + φ⁻⁵) + (φ³ + φ⁻³) + (φ + φ⁻¹) — a pure sum, no subtraction needed. The minus sign appears only for *even* stages (like stage 6, the spatial lattice), encoding directionality — spatial propagation has a direction. *Odd* stages (like 1, 3, 11) use only addition (φⁿ + φ⁻ⁿ) — they are symmetric, directionless. Gravity lives entirely in odd stages: it has no preferred direction. This is not imposed; it follows from the parity of the Planck stage (11 is odd).
 
+*Parity structure — the complete picture:*
+
+| Quantity | Maya math expression | Stages | Structure |
+|----------|---------------------|--------|-----------|
+| g_grav | (φ + φ⁻¹) / (φ¹¹ + φ⁻¹¹) | 1, 11 | symmetric (additive) |
+| G | (φ + φ⁻¹)² / (φ¹¹ + φ⁻¹¹)² | 1, 11 | symmetric (additive) |
+| M_P | (φ¹¹ + φ⁻¹¹) / (φ + φ⁻¹) | 11, 1 | symmetric (additive) |
+| ℏ_M | (φ³ + φ⁻³) · ln(φ) / (φ + φ⁻¹) | 3, 1 | symmetric (additive) |
+| c_reg | (φ⁶ − φ⁻⁶) · φ / [(φ + φ⁻¹) · ⊙] | 6, 1 | decomposition (directional) |
+| G_reg | (φ³ + φ⁻³)(φ⁶ − φ⁻⁶) · φ · ln(φ) / [⊙ · (φ¹¹ + φ⁻¹¹)²] | 3, 6, 11, 1 | mixed |
+
+The gravitational quantities (g_grav, G, M_P) are purely symmetric — no minus signs, no direction, just φ and stage numbers. The spatial lattice enters only through c_reg, where the even-stage decomposition carries the lattice's spatial direction. In the decomposed form, even c_reg becomes a pure sum: replace φ⁶ − φ⁻⁶ with (φ⁵ + φ⁻⁵) + (φ³ + φ⁻³) + (φ + φ⁻¹).
+
 *Decimal validation:*
 - φ + φ⁻¹ = 2.2361;  (φ + φ⁻¹)² = 5
 - φ³ + φ⁻³ = 4.4721;  (φ³ + φ⁻³)/(φ + φ⁻¹) = 2
