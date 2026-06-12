@@ -2965,6 +2965,66 @@ One quantum of gravitational binding — no more, no less. This is the minimal n
 
 *Status:* **Theorem (structural).** The Gravitational Democracy argument, reinforced by the virial condition, provides a structural derivation of a/l_P = F(S_P) from Axioms 1, 2, 5, 8, and 10. The weakest link is step (ii), but two independent physical arguments (energy additivity and virial condition) converge on the same result, and the data rule out all alternatives at high significance.
 
+### Gravity and the Infinite Tower
+
+#### The Idea
+
+Everything above derives one number: the gravitational constant for an observer at our stage of the tower, seeing 89 modes. But the tower doesn't stop at stage 11. It goes on forever (Chapter 25). What happens to gravity as you see deeper?
+
+Think of it this way. You are standing in a dark room holding a flashlight. The flashlight illuminates 89 tiles on the floor. You divide what you see equally among the 89 tiles: each tile is 1/89 of your visible world. The strength of gravity — how much each tile pulls on every other tile — comes from that fraction: (1/89)² ≈ 0.00013. Gravity is weak because you can see many tiles.
+
+Now imagine a better flashlight that illuminates 233 tiles (stage 13). Each tile is now 1/233 of what you see. Gravity becomes (1/233)² ≈ 0.000018 — seven times weaker. See more, and each part is a smaller fraction of the whole. Gravity weakens.
+
+A flashlight that illuminates 10,946 tiles (stage 21)? Gravity is (1/10946)² ≈ 10⁻⁸ — almost nothing.
+
+A flashlight that illuminates *everything* — all infinitely many tiles? Each tile is an infinitely small fraction of the whole: 1/∞ = 0. Gravity vanishes entirely.
+
+**This is the deepest meaning of the gravitational constant.** It is not a fixed property of the universe. It is a measure of how *finite* our observation is. We see 89 modes out of infinitely many. That finiteness — that incompleteness of vision — *is* gravity. The 1/89 per mode is our fraction of the whole. Gravity is the curvature created by what we are not seeing.
+
+At Ω — the undivided whole, where all stages are seen at once — there is no gravity. No curvature. No distinction between "here" and "there." This is Advait: the state where separation itself dissolves. Gravity is the residual illusion of separation that comes from looking at the infinite through a finite window.
+
+And the converse: at the very beginning — the earliest moment of the tower (stage 3, the minimum for spacetime) — the flashlight illuminates only 2 tiles. Each is 1/2 of everything. Gravity is (1/2)² = 1/4 — enormous. One quarter of all interactions are gravitational. This is the "Big Bang" in the framework's language: not an explosion, but the moment of maximum finitude, maximum curvature, maximum distinction.
+
+Our universe sits between these extremes. With 89 visible modes, gravity is 0.013% of the whole — strong enough to shape galaxies and bend light, weak enough to let atoms and chemistry and life exist. The number 89 is not special to the universe. It is special to *us*, to the depth at which our instruments can see.
+
+Every two additional stages weaken gravity by a factor of φ⁴ ≈ 6.85 — the fourth power of the golden ratio. This is the rate at which observation erodes the illusion of separation. It is the same golden ratio that built the tower in the first place, now running it in reverse.
+
+One quantity never changes: **G × M_P² = 1**. The coupling times the mass squared always equals unity — the whole. As you see deeper, G shrinks and M_P grows, but their product stays at 1. The whole is always the whole, no matter how finely you slice it.
+
+#### The Mathematics
+
+**Theorem G.3 (Generalized Gravitational Coupling).** For an observer whose Planck stage is N (odd), the gravitational coupling is:
+
+> G(N) = (φ + φ⁻¹)² / (φᴺ + φ⁻ᴺ)²
+
+with Planck mass M_P(N) = (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹) and the invariant:
+
+> G(N) × M_P(N)² = 1  (for all N)
+
+*Proof.* At Planck stage N, the tower has (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹) positions (Binet form of F(N) for odd N). The whole is 1. By Gravitational Democracy (Theorem G.2), each position's amplitude is (φ + φ⁻¹)/(φᴺ + φ⁻ᴺ). Newton's constant: G(N) = amplitude² = (φ + φ⁻¹)²/(φᴺ + φ⁻ᴺ)². The invariant: G × M_P² = [(φ + φ⁻¹)²/(φᴺ + φ⁻ᴺ)²] × [(φᴺ + φ⁻ᴺ)/(φ + φ⁻¹)]² = 1. ■
+
+*Limiting behavior:*
+- G(3) = (φ + φ⁻¹)²/(φ³ + φ⁻³)² = 1/4 (maximum gravity, minimum observation)
+- G(11) = (φ + φ⁻¹)²/(φ¹¹ + φ⁻¹¹)² = 1/89² (our universe)
+- G(N → ∞) = 0 (no gravity at Ω — complete observation)
+
+*Decay rate:* G(N+2)/G(N) → 1/φ⁴ as N → ∞. Each pair of additional stages weakens gravity by φ⁴ ≈ 6.854.
+
+*Decimal validation:*
+
+| Planck stage N | Modes F(N) | G(N) = 1/F(N)² | G(N)/G(N−2) |
+|---|---|---|---|
+| 3 | 2 | 0.25 | — |
+| 5 | 5 | 0.04 | 0.160 |
+| 7 | 13 | 5.92 × 10⁻³ | 0.148 |
+| 9 | 34 | 8.65 × 10⁻⁴ | 0.146 |
+| **11** | **89** | **1.26 × 10⁻⁴** | **0.146** |
+| 13 | 233 | 1.84 × 10⁻⁵ | 0.146 |
+| 15 | 610 | 2.69 × 10⁻⁶ | 0.146 |
+| ∞ | ∞ | 0 | 1/φ⁴ = 0.146 |
+
+*Axiom trace.* Same as G.2, with the generalization that N is any odd integer ≥ 3. The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
+
 ## Milestone 4 — The Neutrino Seesaw from Axioms
 
 ### The Question in Plain English
