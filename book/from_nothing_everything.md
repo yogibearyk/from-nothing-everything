@@ -2847,7 +2847,9 @@ The VEV tower provides a structural clue. The tower's energy scale grows double-
 
 The key insight is what we call *Gravitational Democracy*. In the gauge sector (electromagnetism, the strong and weak forces), the Drishti bound screens interactions: each deeper position in the tower contributes less and less, suppressed by the factor D ≈ 0.515 per position. Gravity is fundamentally different. The equivalence principle — Einstein's great insight that gravity couples to *all* forms of energy equally — means that every tower position contributes to gravity with equal weight. No screening. No suppression. Every position counts the same.
 
-At the Planck stage, the tower has **F(11) = 89 positions**. Each position is one independent "gravitational mode" — one degree of freedom that gravity can resolve. The Planck mass arises when all 89 modes participate simultaneously in a gravitational interaction, each contributing the maximum energy (the UV cutoff Λ_UV). The Planck mass is therefore a *collective* phenomenon: it takes all 89 positions working together to reach the energy where gravity becomes strong.
+At the Planck stage, the tower has **F(11) = 89 positions**. Each position is one independent "gravitational mode" — one degree of freedom that gravity can resolve. Energy is an additive quantity — it sums linearly, not like amplitudes that can cancel or interfere. The total energy when all 89 modes are at the UV cutoff is simply 89 times the cutoff energy. The Planck mass is where this total energy reaches the threshold for gravity to become strong. So M_P = 89 × Λ_UV.
+
+An important subtlety: gravity couples to the tower's *mode structure*, not to which positions happen to be "occupied" at a given moment. The Zeckendorf constraint (adjacent positions cannot be simultaneously filled) limits the occupation pattern, but even unfilled modes contribute gravitationally — just as empty space has gravitational zero-point energy. All 89 modes count.
 
 This means the lattice spacing is exactly **89 Planck lengths**. Each Planck length corresponds to one tower position's gravitational contribution. Newton's gravitational constant follows immediately: G = 1/89² in natural lattice units. The framework's last free input is eliminated.
 
@@ -2872,7 +2874,7 @@ The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is imme
 
 *(i) Gauge-gravity contrast.* Gauge interactions are screened: the coupling at cascade depth n falls as D^n (Axiom 10, Drishti bound). Gravity couples universally to all energy (Axiom 8, equivalence principle). Each tower position contributes to the gravitational sector with equal weight, independently of its cascade depth.
 
-*(ii) Gravitational mode count and Planck mass.* At the Planck stage S_P = 11 (Theorem G.1), the tower contains F(S_P) = 89 positions. Each is an independent gravitational degree of freedom. Gravity becomes non-perturbative (strong) when all 89 positions participate simultaneously, each contributing the UV cutoff energy Λ_UV. The Planck mass is the total energy of this collective excitation:
+*(ii) Energy additivity and the Planck mass.* At the Planck stage S_P = 11 (Theorem G.1), the tower contains F(S_P) = 89 positions. Each is one independent mode that carries energy and therefore couples gravitationally (by step i). The maximum energy per mode is the UV cutoff Λ_UV. Energy is an additive conserved charge: the total energy in one lattice cell is the linear sum (not the quadratic sum) of all modes' contributions. When all 89 modes are at the UV cutoff, the total energy is F(S_P) · Λ_UV. The Planck mass is the energy at which the gravitational coupling reaches unity. Setting this equal to the total:
 
 > M_P = F(S_P) · Λ_UV
 
@@ -2884,7 +2886,7 @@ The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is imme
 
 *Axiom trace.* Axioms 1, 2 → φ, F(n). Axiom 5 → VEV tower (G.1). Axiom 8 → gravitational democracy (equivalence principle). Axiom 10 → D (gauge-gravity contrast).
 
-*Weakest step.* Step (ii): the claim M_P = F(S_P)·Λ_UV rests on each position contributing one unit of UV energy to the collective gravitational excitation. This follows from the equivalence principle (equal coupling) and maximal excitation at the Planck scale, but is not independently derivable from the axioms alone. It is a structural argument — strong but not a tight deduction.
+*Weakest step.* Step (ii): the claim M_P = F(S_P)·Λ_UV rests on (a) identifying tower positions with gravitational modes, and (b) the UV completion condition — that gravity saturates exactly when all F(S_P) modes are at maximum energy. Part (a) follows from the equivalence principle; part (b) is well-supported by the data but not a tight deduction from the axioms alone.
 
 *Consistency checks:* Running the unified coupling α_UV = D²/(4⊙) down from Λ_UV = M_P/89 using 1-loop SM beta functions gives:
 - α_s(M_Z) = 0.1185 (experiment: 0.1179 ± 0.0009, pull = **+0.66σ**) ✓
@@ -2893,13 +2895,23 @@ The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is imme
 
 The 2-loop analysis confirms consistency: the bare coupling 47.37 sits between the 1-loop (47.02) and 2-loop (47.97) SM crossing values. The U(1) non-unification (known SM feature) does not affect the SU(2)–SU(3) analysis.
 
+*Power-law discriminant.* A critical peer review question: why does M_P scale LINEARLY with N = F(S_P), rather than as √N (as the quantum gravity "species bound" would suggest)? The answer: the coupling constant running discriminates sharply between power laws. With a/l_P = N^p:
+- p = 1 (linear, energy additivity): α_s pull = +0.66σ ✓
+- p = 1/2 (square root, species bound): α_s pull = +56σ ✗
+- p = 2/3: α_s pull = +33σ ✗
+- p = 3/2: α_s pull = −29σ ✗
+
+Only the linear scaling — which corresponds to energy adding linearly, as a conserved charge should — is consistent with measured couplings. The species bound Λ_species = M_P/√89 applies to the gravitational *strong coupling scale*, not the lattice UV cutoff. Both are present: Λ_UV (10¹⁷ GeV) < Λ_species (10¹⁸ GeV) < M_P (10¹⁹ GeV), confirming that gravity is perturbative on the lattice.
+
+*Uniqueness.* The best-fit N from coupling constants alone (ignoring structure) is 92. The 1σ allowed band is N ∈ [88, 98] — and **F(11) = 89 is the only Fibonacci number in this band**, indeed the only one in the entire 2σ band [83, 104]. No alternative structural function of stage 11 (Lucas number 199, prime 11², power 2¹¹) falls within 2σ. The Zeckendorf-limited count N ≈ 45 (maximum simultaneous occupation) gives +13.7σ — confirming that gravity couples to all modes, not just occupied ones.
+
 *Newton's constant in register units:*
 
 > G_reg = ℏ_M · c_reg / F(11)² = (2 ln φ) · (8φ/π) / 89² = 16φ ln(φ) / (F(11)² · π) ≈ 5.01 × 10⁻⁴
 
 In natural lattice units (ℏ = c = a = 1): G_nat = 1/89² ≈ 1.262 × 10⁻⁴.
 
-*Status:* **Theorem (structural).** The Gravitational Democracy argument provides a rigorous structural derivation of a/l_P = F(S_P) from Axioms 1, 2, 5, 8, and 10. The weakest link is step (ii), which is well-motivated but not a tight axiomatic deduction. The 0.66σ coupling consistency, the Fibonacci structure (89 is irreducible in Zeckendorf representation), and the elegant elimination of the framework's last free parameter all support the result.
+*Status:* **Theorem (structural).** The Gravitational Democracy argument provides a structural derivation of a/l_P = F(S_P) from Axioms 1, 2, 5, 8, and 10. The weakest link is step (ii), which is well-motivated but not a tight axiomatic deduction. The power-law discriminant provides strong independent evidence: only linear scaling (energy additivity) is consistent with data, ruling out alternatives at >29σ. F(11) = 89 is the unique Fibonacci number in the RG-allowed band, and the 0.66σ coupling consistency confirms the result.
 
 ## Milestone 4 — The Neutrino Seesaw from Axioms
 
