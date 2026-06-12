@@ -3026,6 +3026,17 @@ This is the lattice spacing — Theorem G.2. The Planck length l_P is measured; 
 
 The pattern: divide the object's size by the lattice spacing, cube the result. The numbers are enormous because the lattice cells are so unimaginably small — a billion billion times smaller than a proton.
 
+**Do the numbers actually fit?** A proton spanning 10⁵³ cells sounds enormous — how can 10²⁵ molecules, each with 10 protons, fit inside 10⁹⁵ cells? The answer: a proton is a tiny dense knot at the center of a *vastly* larger electron cloud. The proton is to its molecule as a grain of sand is to a football stadium:
+
+- A water molecule (electron cloud): **10⁷⁰ cells**
+- A proton (nucleus): **10⁵³ cells** — ten million billion times smaller
+
+Check: 10²⁵ molecules × 10⁷⁰ cells per molecule = 10⁹⁵ — this fills the glass. Water is a dense liquid with molecules packed shoulder to shoulder, so the molecular volumes add up to the total volume. ✓
+
+Check: 10²⁶ nucleons × 10⁵⁴ cells per nucleon = 10⁸⁰ — this is only 10⁻¹⁵ of the glass. The nuclei occupy a millionth of a billionth of a percent of the volume. Atoms really are that empty. ✓
+
+So the proton's 10⁵³ cells are enormous in lattice units but still a speck inside the molecule's 10⁷⁰. And the molecule's 10⁷⁰ cells, multiplied by 10²⁵ molecules, fill the glass exactly. Everything fits.
+
 **How gravity works in the glass.** Now bring gravity back in. Every tower in the glass — whether it contains a quark, an electron, or nothing at all — has 89 gravitational modes. Gravity does not care whether a tower is excited or quiet. It counts them all the same (the equivalence principle). The total gravitational content of the glass is the sum across all 10⁹⁵ towers, with each tower contributing 1/89 of the whole per mode.
 
 Newton's constant G = 1/89² determines how much that total gravitational content curves the spacetime around the glass. It is tiny (about 0.013% of the whole), which is why the glass does not noticeably bend the space around it. But it is not zero — the glass does have mass, it does fall when you drop it, and it does (immeasurably slightly) attract you toward it.
