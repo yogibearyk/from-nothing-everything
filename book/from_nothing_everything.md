@@ -2900,6 +2900,8 @@ In words: the expression φⁿ + φ⁻ⁿ measures the "whole" as seen from stag
 
 where ℏ_M = (φ³ + φ⁻³)·ln(φ)/(φ + φ⁻¹) and c_reg = (φ⁶ − φ⁻⁶)·φ/[(φ + φ⁻¹)·⊙]. Every quantity is built from φ, ⊙, and ln(φ). The only integers are stage numbers (1, 3, 6, 11) appearing as exponents.
 
+*A note on the minus sign.* In the Maya framework, subtraction does not mean removal — the graph only grows (Axiom 5). The expression φ⁶ − φ⁻⁶ is *decomposition*: a higher structure broken into additive parts. The key: φ − φ⁻¹ = 1 (the difference between forward and backward perspectives is exactly unity). This means φ⁶ − φ⁻⁶ = (φ⁵ + φ⁻⁵) + (φ³ + φ⁻³) + (φ + φ⁻¹) — a pure sum, no subtraction needed. The minus sign appears only for *even* stages (like stage 6, the spatial lattice), encoding directionality — spatial propagation has a direction. *Odd* stages (like 1, 3, 11) use only addition (φⁿ + φ⁻ⁿ) — they are symmetric, directionless. Gravity lives entirely in odd stages: it has no preferred direction. This is not imposed; it follows from the parity of the Planck stage (11 is odd).
+
 *Decimal validation:*
 - φ + φ⁻¹ = 2.2361;  (φ + φ⁻¹)² = 5
 - φ³ + φ⁻³ = 4.4721;  (φ³ + φ⁻³)/(φ + φ⁻¹) = 2
