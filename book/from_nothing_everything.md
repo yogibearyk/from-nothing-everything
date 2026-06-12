@@ -2973,19 +2973,21 @@ Everything above derives one number: the gravitational constant for an observer 
 
 Think of it this way. You are standing in a dark room holding a flashlight. The flashlight illuminates 89 tiles on the floor. You divide what you see equally among the 89 tiles: each tile is 1/89 of your visible world. The strength of gravity — how much each tile pulls on every other tile — comes from that fraction: (1/89)² ≈ 0.00013. Gravity is weak because you can see many tiles.
 
-Now imagine a better flashlight that illuminates 233 tiles (stage 13). Each tile is now 1/233 of what you see. Gravity becomes (1/233)² ≈ 0.000018 — seven times weaker. See more, and each part is a smaller fraction of the whole. Gravity weakens.
+Now imagine a *different* universe — one whose tower reaches a deeper Planck stage (stage 13 instead of 11). That universe's room has 233 tiles. Each tile is 1/233 of the whole. Gravity there is (1/233)² ≈ 0.000018 — seven times weaker than ours. A deeper tower means more modes, a smaller fraction per mode, weaker gravity.
 
-A flashlight that illuminates 10,946 tiles (stage 21)? Gravity is (1/10946)² ≈ 10⁻⁸ — almost nothing.
+A universe at stage 21? 10,946 tiles. Gravity is (1/10946)² ≈ 10⁻⁸ — almost nothing.
 
-A flashlight that illuminates *everything* — all infinitely many tiles? Each tile is an infinitely small fraction of the whole: 1/∞ = 0. Gravity vanishes entirely.
+A universe that sees *everything* — all infinitely many tiles? Each tile is an infinitely small fraction of the whole: 1/∞ = 0. Gravity vanishes entirely.
 
-**This is the deepest meaning of the gravitational constant.** It is not a fixed property of the universe. It is a measure of how *finite* our observation is. We see 89 modes out of infinitely many. That finiteness — that incompleteness of vision — *is* gravity. The 1/89 per mode is our fraction of the whole. Gravity is the curvature created by what we are not seeing.
+**An important clarification.** The number 89 is not something we chose or could change by building better instruments. It is a structural property of our universe — fixed by the tower's architecture, as immovable as the number of dimensions or the value of the golden ratio. We cannot "get a better flashlight." The 89 tiles are the tiles our universe HAS, not the tiles we happen to see. The different entries in the table below describe different *possible* universes with different tower architectures, not different experiments in our universe.
+
+**What the gravitational constant means.** Gravity and the finiteness of observation both arise from the same structural fact: our tower has 89 accessible modes at the Planck stage. The gravitational coupling 1/89² and the mode count 89 are two faces of a single architectural truth. Neither causes the other — they are the same thing described two ways. The 1/89 per mode is our universe's fraction of the whole.
 
 At Ω — the undivided whole, where all stages are seen at once — there is no gravity. No curvature. No distinction between "here" and "there." This is Advait: the state where separation itself dissolves. Gravity is the residual illusion of separation that comes from looking at the infinite through a finite window.
 
 And the converse: at the very beginning — the earliest moment of the tower (stage 3, the minimum for spacetime) — the flashlight illuminates only 2 tiles. Each is 1/2 of everything. Gravity is (1/2)² = 1/4 — enormous. One quarter of all interactions are gravitational. This is the "Big Bang" in the framework's language: not an explosion, but the moment of maximum finitude, maximum curvature, maximum distinction.
 
-Our universe sits between these extremes. With 89 visible modes, gravity is 0.013% of the whole — strong enough to shape galaxies and bend light, weak enough to let atoms and chemistry and life exist. The number 89 is not special to the universe. It is special to *us*, to the depth at which our instruments can see.
+Our universe sits between these extremes. With 89 modes at the Planck stage, gravity is 0.013% of the whole — strong enough to shape galaxies and bend light, weak enough to let atoms and chemistry and life exist. The number 89 is a structural property of the tower — as fundamental as the golden ratio itself.
 
 Every two additional stages weaken gravity by a factor of φ⁴ ≈ 6.85 — the fourth power of the golden ratio. This is the rate at which observation erodes the illusion of separation. It is the same golden ratio that built the tower in the first place, now running it in reverse.
 
@@ -3013,7 +3015,7 @@ with Planck mass M_P(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹). For odd N this equal
 
 *Decay rate:* G(N+2)/G(N) → 1/φ⁴ as N → ∞. Each pair of additional stages weakens gravity by φ⁴ ≈ 6.854.
 
-*Decimal validation:*
+*Decimal validation (each row describes a hypothetical universe with Planck stage N — not a different energy in our universe; for us, N = 11 is the only physical row):*
 
 | Planck stage N | Modes F(N) | G(N) = 1/F(N)² | G(N)/G(N−2) |
 |---|---|---|---|
