@@ -2855,6 +2855,8 @@ This means the lattice spacing is exactly **89 Planck lengths**. Each Planck len
 
 #### The Mathematics
 
+*(Session 42 note: this proof was subsequently strengthened — the "one quantum of binding" condition was shown to be an algebraic identity given energy additivity, the seed value √5 an exact golden-ratio identity (bilateral/count), and the screening exponent an instance of the same fixed-point calculus that produces the fine-structure constant. See the update section below.)*
+
 **Theorem G.1 (Planck Stage Identification).** The Planck stage S_P is the smallest cascade stage S such that v_S > M_P. From the VEV tower (Theorem VEV.1, Chapter 25):
 
 > v_S = K · φ^F(S),  where K = v/φ^F(6) ≈ 5.24 GeV
