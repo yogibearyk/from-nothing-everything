@@ -3011,7 +3011,20 @@ Every cell in the universe has the same tower. Same 89 positions. Same Fibonacci
 
 - The molecule itself — with its particular shape, its polarity, its ability to dissolve salt and sustain life — is a specific arrangement of tower excitations across roughly **10⁷⁰ cells**. Everything you experience about water (wetness, clarity, coolness, the way it beads on glass) is the collective behavior of tower patterns.
 
-**What is "empty" space?** Here is a remarkable fact: 99.93% of the lattice cells in your glass of water contain no matter at all. They are vacuum — the spaces between and inside atoms. But *they are not empty*. Every one of those "empty" cells still has a tower with 89 positions. The vacuum is not nothing. It is 10⁹⁵ towers in their ground state — the quietest possible configuration, but still architecturally complete. Every position is present. Every mode can be excited. The vacuum is silence, not absence.
+**What is "empty" space?** Atoms are mostly empty space — each nucleus is 100,000 times smaller than its electron cloud. But at the lattice level, the distinction between "matter" and "empty" blurs. Electromagnetic fields extend through every cell. Quantum fluctuations ripple through the vacuum. Every cell has a tower; every tower is complete. The vacuum is not nothing — it is the ground state, the quietest possible configuration, but architecturally whole. Silence, not absence.
+
+**Where do the big numbers come from?** Every number above traces back to one equation and simple division:
+
+> a = 89 × l_P = 89 × 1.616 × 10⁻³⁵ m = 1.44 × 10⁻³³ m
+
+This is the lattice spacing — Theorem G.2. The Planck length l_P is measured; the 89 is derived from the axioms. From here:
+
+- *Volume of one cell:* a³ = (1.44 × 10⁻³³)³ ≈ 3 × 10⁻⁹⁹ m³
+- *Cells in a glass (250 mL = 2.5 × 10⁻⁴ m³):* 2.5 × 10⁻⁴ / 3 × 10⁻⁹⁹ ≈ **10⁹⁵ cells**
+- *Cells across a proton (radius 8.75 × 10⁻¹⁶ m):* 8.75 × 10⁻¹⁶ / 1.44 × 10⁻³³ ≈ 6 × 10¹⁷, so the proton fills (6 × 10¹⁷)³ ≈ **10⁵³ cells**
+- *Cells in a water molecule (size 2.75 × 10⁻¹⁰ m):* (2.75 × 10⁻¹⁰ / 1.44 × 10⁻³³)³ ≈ **10⁷⁰ cells**
+
+The pattern: divide the object's size by the lattice spacing, cube the result. The numbers are enormous because the lattice cells are so unimaginably small — a billion billion times smaller than a proton.
 
 **How gravity works in the glass.** Now bring gravity back in. Every tower in the glass — whether it contains a quark, an electron, or nothing at all — has 89 gravitational modes. Gravity does not care whether a tower is excited or quiet. It counts them all the same (the equivalence principle). The total gravitational content of the glass is the sum across all 10⁹⁵ towers, with each tower contributing 1/89 of the whole per mode.
 
