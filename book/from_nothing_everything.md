@@ -1639,7 +1639,7 @@ The framework in its current form is a set of remarkable predictions. To become 
 
 **Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
 
-**Milestone 8: The gravitational constant from axioms.** Substantially advanced (Appendix B). The lattice formulation (Milestone 3) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. Theorem G.1 proves that the **Planck stage** is S_P = 11 — the smallest cascade stage at which the VEV tower first exceeds the Planck mass (v₁₁/M_P ≈ 1.71, while v₁₀/M_P ≈ 10⁻⁷). Theorem G.2 ("Gravitational Democracy") derives that the lattice spacing equals exactly **F(11) = 89 Planck lengths** — the Fibonacci number at the Planck stage. The argument: gauge forces are screened (each position suppressed by D per depth), but gravity couples to all energy equally (the equivalence principle). The 89 tower positions at the Planck stage are 89 independent gravitational degrees of freedom; the Planck mass arises as the collective excitation of all 89 modes at the UV cutoff energy. This eliminates the last experimental input: Newton’s gravitational constant in register units becomes G_reg = 16φ·ln(φ)/(F(11)²·π), and every mass and every force strength follows from the ten axioms alone. Consistency checks pass: running the unified coupling down from Λ_UV = M_P/89 predicts α_s(M_Z) within 0.66σ of experiment, and F(11) = 89 falls squarely in the range [63, 92] allowed by separate SU(2) and SU(3) determinations. The weakest step is structural rather than tightly axiomatic, but the 0.66σ consistency and Fibonacci structure strongly support the result.
+**Milestone 8: The gravitational constant from axioms.** Substantially advanced (Appendix B). The lattice formulation (Milestone 3) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. Theorem G.1 proves that the **Planck stage** is S_P = 11 — the smallest cascade stage at which the VEV tower first exceeds the Planck mass (v₁₁/M_P ≈ 1.71, while v₁₀/M_P ≈ 10⁻⁷). Theorem G.2 ("Gravitational Democracy") derives that the lattice spacing equals exactly **F(11) = 89 Planck lengths** — the Fibonacci number at the Planck stage. The argument: gauge forces are screened (each position suppressed by D per depth), but gravity couples to all energy equally (the equivalence principle). The 89 tower positions at the Planck stage are 89 independent gravitational degrees of freedom; the Planck mass arises as the collective excitation of all 89 modes at the UV cutoff energy. This eliminates the last experimental input: Newton’s gravitational constant in register units becomes G_reg = (φ³ + φ⁻³)(φ⁶ − φ⁻⁶)·φ·ln(φ)/[⊙·(φ¹¹ + φ⁻¹¹)²], and every mass and every force strength follows from the ten axioms alone. Consistency checks pass: running the unified coupling down from Λ_UV = M_P/89 predicts α_s(M_Z) within 0.66σ of experiment, and F(11) = 89 falls squarely in the range [63, 92] allowed by separate SU(2) and SU(3) determinations. The weakest step is structural rather than tightly axiomatic, but the 0.66σ consistency and Fibonacci structure strongly support the result.
 
 **Milestone 9: Force unification scale.** In standard physics, the three coupling constants (electromagnetic, strong, weak) change with energy and appear to nearly converge at a very high energy called the **GUT scale** (roughly 10¹⁶ times the energy of a proton). Whether they truly converge — and at what energy — is one of the major predictions any unified theory must make. The framework should be able to derive the unification scale from the tower’s screening structure.
 
@@ -2884,7 +2884,7 @@ In words: the expression φⁿ + φ⁻ⁿ measures the "whole" as seen from stag
 
 *(iii) Newton's constant.* Coupling = amplitude² (standard quantum field theory):
 
-> G = g_grav² = (φ + φ⁻¹)² / (φ¹¹ + φ⁻¹¹)² = 5 / (φ¹¹ + φ⁻¹¹)²
+> G = g_grav² = (φ + φ⁻¹)² / (φ¹¹ + φ⁻¹¹)²
 
 *(iv) Planck mass and lattice-Planck ratio.* In natural lattice units (ℏ = c = a = 1):
 
@@ -2896,14 +2896,17 @@ In words: the expression φⁿ + φ⁻ⁿ measures the "whole" as seen from stag
 
 *Newton's constant in register units:*
 
-> G_reg = 2ln(φ) · (8φ/⊙) · 5 / (φ¹¹ + φ⁻¹¹)² = 80φ·ln(φ) / [⊙ · (φ¹¹ + φ⁻¹¹)²]
+> G_reg = (φ³ + φ⁻³)(φ⁶ − φ⁻⁶) · φ · ln(φ) / [⊙ · (φ¹¹ + φ⁻¹¹)²]
+
+where ℏ_M = (φ³ + φ⁻³)·ln(φ)/(φ + φ⁻¹) and c_reg = (φ⁶ − φ⁻⁶)·φ/[(φ + φ⁻¹)·⊙]. Every quantity is built from φ, ⊙, and ln(φ). The only integers are stage numbers (1, 3, 6, 11) appearing as exponents.
 
 *Decimal validation:*
-- φ + φ⁻¹ = 2.2361 = √5
-- φ¹¹ + φ⁻¹¹ = 199.005
-- (φ¹¹ + φ⁻¹¹)/(φ + φ⁻¹) = **89** (mode count at Planck stage) ✓
-- g_grav = 1/89 = 0.01124 ✓
-- G = 5/(199.005)² = 1.262 × 10⁻⁴ = 1/89² ✓
+- φ + φ⁻¹ = 2.2361;  (φ + φ⁻¹)² = 5
+- φ³ + φ⁻³ = 4.4721;  (φ³ + φ⁻³)/(φ + φ⁻¹) = 2
+- φ⁶ − φ⁻⁶ = 17.889;  (φ⁶ − φ⁻⁶)/(φ + φ⁻¹) = 8
+- φ¹¹ + φ⁻¹¹ = 199.005;  (φ¹¹ + φ⁻¹¹)/(φ + φ⁻¹) = **89** ✓
+- g_grav = (φ + φ⁻¹)/(φ¹¹ + φ⁻¹¹) = 0.01124 = 1/89 ✓
+- G = (φ + φ⁻¹)²/(φ¹¹ + φ⁻¹¹)² = 1.262 × 10⁻⁴ = 1/89² ✓
 - a/l_P = **89** ✓
 - Λ_UV = M_P/89 ≈ 1.37 × 10¹⁷ GeV ✓
 - G_reg ≈ 5.01 × 10⁻⁴ ✓
@@ -2931,7 +2934,7 @@ Only the linear scaling — which corresponds to energy adding linearly, as a co
 
 *Newton's constant in register units:*
 
-> G_reg = ℏ_M · c_reg / F(11)² = (2 ln φ) · (8φ/π) / 89² = 16φ ln(φ) / (F(11)² · π) ≈ 5.01 × 10⁻⁴
+> G_reg = (φ³ + φ⁻³)(φ⁶ − φ⁻⁶) · φ · ln(φ) / [⊙ · (φ¹¹ + φ⁻¹¹)²] ≈ 5.01 × 10⁻⁴
 
 In natural lattice units (ℏ = c = a = 1): G_nat = 1/89² ≈ 1.262 × 10⁻⁴.
 
