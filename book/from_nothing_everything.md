@@ -2874,11 +2874,11 @@ The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is imme
 
 *(i) Gauge-gravity contrast.* Gauge interactions are screened: the coupling at cascade depth n falls as D^n (Axiom 10, Drishti bound). Gravity couples universally to all energy (Axiom 8, equivalence principle). Each tower position contributes to the gravitational sector with equal weight, independently of its cascade depth.
 
-*(ii) Energy additivity and the Planck mass.* At the Planck stage S_P = 11 (Theorem G.1), the tower contains F(S_P) = 89 positions. Each is one independent mode that carries energy and therefore couples gravitationally (by step i). The maximum energy per mode is the UV cutoff Λ_UV. Energy is an additive conserved charge: the total energy in one lattice cell is the linear sum (not the quadratic sum) of all modes' contributions. When all 89 modes are at the UV cutoff, the total energy is F(S_P) · Λ_UV. The Planck mass is the energy at which the gravitational coupling reaches unity. Setting this equal to the total:
+*(ii) Democratic amplitude and the gravitational coupling.* At the Planck stage S_P = 11 (Theorem G.1), the tower contains 89 positions. Each couples gravitationally with equal weight (step i). In the gauge sector, the Drishti bound gives each position coupling D ≈ 0.515 — a local, screened property (Axiom 10). In the gravitational sector, the coupling per position is 1/89 — a global, democratic property (Axiom 8). The key physical input: the total gravitational coupling of the cell equals 1 in lattice units. This is equivalent to saying the cell is the Planck-scale object — its gravitational self-interaction is exactly at the threshold where gravity becomes strong. Each position then has amplitude 1/89, and Newton's constant (coupling = amplitude²) is:
 
-> M_P = F(S_P) · Λ_UV
+> G = (1/89)² = 1/F(S_P)²
 
-*(iii) Lattice-Planck ratio.* In natural lattice units (ℏ = c = a = 1), M_P = F(S_P) = 89 and l_P = 1/M_P = 1/89. Therefore:
+*(iii) Lattice-Planck ratio.* In natural lattice units (ℏ = c = a = 1), M_P = 1/√G = F(S_P) = 89 and l_P = 1/M_P = 1/89. Therefore:
 
 > a/l_P = F(S_P) = F(11) = 89  ■
 
@@ -2886,7 +2886,7 @@ The gap v₁₁/v₁₀ = φ^(F(11)−F(10)) = φ³⁴ ≈ 1.28 × 10⁷ is imme
 
 *Axiom trace.* Axioms 1, 2 → φ, F(n). Axiom 5 → VEV tower (G.1). Axiom 8 → gravitational democracy (equivalence principle). Axiom 10 → D (gauge-gravity contrast).
 
-*Weakest step.* Step (ii): the claim M_P = F(S_P)·Λ_UV rests on (a) identifying tower positions with gravitational modes, and (b) the UV completion condition — that gravity saturates exactly when all F(S_P) modes are at maximum energy. Part (a) follows from the equivalence principle; part (b) is well-supported by the data but not a tight deduction from the axioms alone.
+*The irreducible gap.* The condition "the cell's total gravitational coupling equals 1" is the single additional physical input beyond the ten axioms. It cannot currently be derived from them, but four independent arguments support it: (1) the Gravitational Virial Condition (see below), (2) the power-law discriminant (only this value is consistent with coupling constants, at >29σ over alternatives), (3) energy additivity (the cell's total UV energy defines the Planck mass), and (4) the species bound non-applicability (see below). The gap could be fully closed by computing the gravitational partition function on the Maya lattice — extracting Newton's constant from the lattice dynamics rather than from counting arguments.
 
 *Consistency checks:* Running the unified coupling α_UV = D²/(4⊙) down from Λ_UV = M_P/89 using 1-loop SM beta functions gives:
 - α_s(M_Z) = 0.1185 (experiment: 0.1179 ± 0.0009, pull = **+0.66σ**) ✓
