@@ -3073,6 +3073,34 @@ The higher stages did not disappear. They are still there in every cell, still c
 
 The tower is the instrument. Physics is the music. The instrument does not change when the music changes key.
 
+**What about the stages below us?** We have described stages 7 through 11 as the layers *above* our stage 6 — the dark sector, the deep dark, the Planck shell. But the tower also has layers *below*: stages 1 through 5. Where are they?
+
+They are right here. They are the *foundation* of stage 6, not a previous universe that was demolished to build ours. Think of a building: the basement, the ground floor, and the upper floors all exist at the same time. You cannot remove the foundation and keep the building standing. The same is true of the tower — stages 1 through 5 are the inner structure on which our 4D spacetime rests.
+
+What do these inner stages correspond to?
+
+- **Stage 1** (1 position): The golden ratio φ. The concept of *proportion* itself — the ability to divide something into parts that relate to the whole. Without this, no structure is possible. This is the seed.
+
+- **Stage 2** (1 position): Duality. The first pairing — φ and its mirror φ⁻¹. This is why our universe has pairs: particle and antiparticle, left and right, positive and negative charge. Without stage 2, there would be no distinction.
+
+- **Stage 3** (2 positions → 1 dimension): The first spatial extent. The concept of *length* — a line, a path, a distance between two points. Every time you measure how far apart two things are, you are using the structure that stage 3 provides. This is why edges, strings, and paths exist.
+
+- **Stage 4** (3 positions → 2 dimensions): The first surface. The concept of *area* — a membrane, a boundary, a horizon. Every surface you see (the skin of an apple, the surface of the ocean, the event horizon of a black hole) is a stage-4 structure embedded in the higher stages. This is why boundaries exist.
+
+- **Stage 5** (5 positions → 3 dimensions): Full three-dimensional space. The concept of *volume* — you can now have solid objects, rooms, clouds, planets. Everything you think of as "space" is the stage-5 structure. But notice: there is no time yet. Stage 5 is a frozen sculpture — all of space, but no change, no motion, no before-and-after.
+
+- **Stage 6** (8 positions → 4 dimensions): Time joins space. Now things can move, change, evolve. Light can propagate. Causes can precede effects. THIS is where physics as we know it begins — and it requires all five stages below it as prerequisites.
+
+The stages are nested, not sequential. Stage 6 *contains* stages 1–5 the way a cube contains its edges, faces, and vertices. You cannot have area without length, volume without area, or spacetime without space. The inner stages are the geometric building blocks:
+
+> Length (stage 3) → Area (stage 4) → Volume (stage 5) → Spacetime (stage 6)
+
+This is why our universe has all these geometric concepts — lines, surfaces, volumes, intervals. They are not separate phenomena. They are the inner stages of the same tower, each one a prerequisite for the next, all present in every cell.
+
+When a physicist draws a line on a chalkboard, that line is a stage-3 structure. When a soap bubble forms a spherical surface, that surface is a stage-4 structure. When you fill a glass with water, the volume it occupies is a stage-5 structure. And the fact that the water sloshes when you move the glass — that motion through time — is stage 6.
+
+They are all here. They were never elsewhere. The tower holds all of them, from the seed of proportion (stage 1) to the Planck shell (stage 11) to the infinite reaches beyond, in every cell, at every point, always.
+
 #### The Mathematics
 
 **Corollary G.3 (Generalized Gravitational Coupling).** For an observer whose Planck stage is N (any integer ≥ 3), the gravitational coupling is:
