@@ -2993,18 +2993,21 @@ One quantity never changes: **G × M_P² = 1**. The coupling times the mass squa
 
 #### The Mathematics
 
-**Theorem G.3 (Generalized Gravitational Coupling).** For an observer whose Planck stage is N (odd), the gravitational coupling is:
+**Corollary G.3 (Generalized Gravitational Coupling).** For an observer whose Planck stage is N (any integer ≥ 3), the gravitational coupling is:
 
-> G(N) = (φ + φ⁻¹)² / (φᴺ + φ⁻ᴺ)²
+> G(N) = (φ + φ⁻¹)² / (φᴺ − ψᴺ)²    where ψ = −φ⁻¹
 
-with Planck mass M_P(N) = (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹) and the invariant:
+with Planck mass M_P(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹). For odd N this equals (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹); for even N it equals (φᴺ − φ⁻ᴺ)/(φ + φ⁻¹). The product:
 
-> G(N) × M_P(N)² = 1  (for all N)
+> G(N) × M_P(N)² = 1    (the ratio principle: the whole is always one)
 
-*Proof.* At Planck stage N, the tower has (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹) positions (Binet form of F(N) for odd N). The whole is 1. By Gravitational Democracy (Theorem G.2), each position's amplitude is (φ + φ⁻¹)/(φᴺ + φ⁻ᴺ). Newton's constant: G(N) = amplitude² = (φ + φ⁻¹)²/(φᴺ + φ⁻ᴺ)². The invariant: G × M_P² = [(φ + φ⁻¹)²/(φᴺ + φ⁻ᴺ)²] × [(φᴺ + φ⁻ᴺ)/(φ + φ⁻¹)]² = 1. ■
+*Proof.* At Planck stage N, the tower has F(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹) positions (Binet form, all N). The whole is 1. By Gravitational Democracy (Theorem G.2), each position's amplitude is 1/F(N). Newton's constant: G(N) = 1/F(N)². This is a corollary of G.2 applied at arbitrary stage N, assuming Chapter 25's "no preferred stage" principle. ■
+
+*Caveat.* The formula is mathematically valid for all N ≥ 3, but gravity in fewer than 4 spacetime dimensions is qualitatively different (no propagating gravitons). The cascade produces 4 dimensions at stage 6 (our universe). For stages 3–5, G(N) is formally defined but not physically comparable to 4D gravity.
 
 *Limiting behavior:*
-- G(3) = (φ + φ⁻¹)²/(φ³ + φ⁻³)² = 1/4 (maximum gravity, minimum observation)
+- G(6) = 1/F(6)² = 1/64 (minimum 4D gravity)
+- G(3) = 1/F(3)² = 1/4 (maximum gravity — but only 1 dimension, formal limit)
 - G(11) = (φ + φ⁻¹)²/(φ¹¹ + φ⁻¹¹)² = 1/89² (our universe)
 - G(N → ∞) = 0 (no gravity at Ω — complete observation)
 
@@ -3023,7 +3026,7 @@ with Planck mass M_P(N) = (φᴺ + φ⁻ᴺ)/(φ + φ⁻¹) and the invariant:
 | 15 | 610 | 2.69 × 10⁻⁶ | 0.146 |
 | ∞ | ∞ | 0 | 1/φ⁴ = 0.146 |
 
-*Axiom trace.* Same as G.2, with the generalization that N is any odd integer ≥ 3. The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
+*Axiom trace.* Same as G.2, plus Chapter 25 (no preferred stage). The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
 
 ## Milestone 4 — The Neutrino Seesaw from Axioms
 
