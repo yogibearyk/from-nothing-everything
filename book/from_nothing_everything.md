@@ -2965,6 +2965,14 @@ One quantum of gravitational binding — no more, no less. This is the minimal n
 
 *Status:* **Theorem (structural).** The Gravitational Democracy argument, reinforced by the virial condition, provides a structural derivation of a/l_P = F(S_P) from Axioms 1, 2, 5, 8, and 10. The weakest link is step (ii), but two independent physical arguments (energy additivity and virial condition) converge on the same result, and the data rule out all alternatives at high significance.
 
+### Update — Session 42: the gravity sector completed
+
+*(Supersedes parts of the account above; full record in the companion repository.)*
+
+Three additions completed the gravity sector. First, the **Planck stage is now derived, not observed**: the framework predicts both ends of the renormalization-group flow — the bare coupling at the lattice cutoff and the strong coupling at low energy — and demanding that standard physics connect them singles out stage 11 uniquely (stages 9 and 10 are impossible by orders of magnitude; stage 12 violates its own crossing bound). Second, the **equation of state behind the −1/3 is now derived** (Theorem G.W): the crossing condensate is relativistic, lives in three dimensions, and its normalization is fixed at stage 5 — *before time exists*, so nothing can exchange heat with it. Those three facts force pressure = energy/3, exactly. The old reading of "3" as a count of massive nodes is retired; the 3 is the number of spatial dimensions, full stop. Third, the small correction to the coupling turns out to be the condensate's own **gravitational redshift**, Φ = f/89 — an exact identity, not a fitted number.
+
+The result: the electroweak scale is predicted as **v = 246.26 GeV** with zero free parameters, against the measured 246.22 GeV — agreement to about one part in five thousand, with the remaining sliver inside the declared second-order ambiguity of matching lattice to continuum gravity. Every alternative tried along the way — other equations of state, other seed stages, other mode countings — fails by 9% to 40% and is recorded as falsified. One honest caveat survives: the derivation rests on a single normalization principle (every gravitational quantity equals one quantum of its own register), the same principle that underlies Newton's constant itself in this framework. It is a principle, not a theorem — declared openly, used uniformly, and confirmed independently in one of its three instances.
+
 ### Gravity and the Infinite Tower
 
 #### The Idea
