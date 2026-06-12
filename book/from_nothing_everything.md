@@ -3043,6 +3043,36 @@ Newton's constant G = 1/89² determines how much that total gravitational conten
 
 **The key picture.** When you hold a glass of water, you are holding 10⁹⁵ copies of the same 89-position tower, with a specific pattern of excitations that your senses interpret as "wet, clear, cool." The hydrogen, the oxygen, the molecular bonds, the surface tension — all of it is patterns in towers. And the mass of the glass — the tug you feel when you lift it — comes from gravity reaching through all 89 levels of every tower, counting them all equally, assigning each the same fraction 1/89 of the whole.
 
+#### The Lattice, the Expanding Universe, and What Coexists
+
+A natural question: if the universe is expanding, is the lattice expanding too? Are new stages being built? Do different stages live in separate universes that might or might not overlap?
+
+Chapter 25 answered this already: *all stages exist simultaneously. The tower is already complete.*
+
+**The lattice does not change.** The tower is not our universe's "current state" — it is the permanent architecture of spacetime. Every cell, everywhere, at every moment in cosmic history, has the same 89-position tower. The lattice is the graph paper. What changes is the *drawing* on the graph paper — the matter, the light, the metric, the pattern of which modes are excited. Cosmological expansion stretches the drawing, not the paper.
+
+**Stages are layers, not separate universes.** Stage 7 does not "come after" stage 6 in time or in space. It is here now, in every cell, right alongside stage 6. Think of an atom: the nucleus and the electron shells coexist in the same space. You do not "reach" the next shell by traveling somewhere — it is already there, overlapping with everything else. The stages are the same:
+
+- **Positions 1–8** (stage 6): Our 4D spacetime — light, atoms, us
+- **Positions 9–13** (stage 7): The dark sector — dark matter candidates, screened from our direct view by one layer of Drishti glass (D² ≈ 27% transmission)
+- **Positions 14–21** (stage 8): Deeper dark physics — two layers of glass (7% transmission)
+- **Positions 22–34** (stage 9): Three layers (2% transmission)
+- **Positions 35–55** (stage 10): Four layers — a whisper (0.5%)
+- **Positions 56–89** (stage 11): The Planck shell — where gravity saturates
+- **Positions 90 and beyond** (stages 12+): Trans-Planckian — already present, but past the reach of perturbative gravity
+
+All 89 positions (and the infinitely many beyond) are present in every cell, at every point in space, right now. The stages do not "intersect" because they were never separate. Asking whether stage 7 intersects stage 6 is like asking whether the bass notes intersect the treble notes on a piano — they come from the same instrument, played at the same time.
+
+**What expansion really means.** When the universe was very young and very hot, the available energy was high enough to excite all stages up to 11. As the universe cooled:
+
+- Stage 11 excitations froze out first (highest energy threshold)
+- Then 10, 9, 8 — each freezing as the temperature dropped below its VEV
+- Today, only stage 6 is thermally accessible in everyday physics
+
+The higher stages did not disappear. They are still there in every cell, still counted by gravity (G = 1/89² includes all 89 modes), still structurally complete. They are simply not *thermally excited* anymore — like a piano whose highest keys have gone silent as the room cools, but the keys themselves remain in place, ready to sound if struck with enough energy.
+
+The tower is the instrument. Physics is the music. The instrument does not change when the music changes key.
+
 #### The Mathematics
 
 **Corollary G.3 (Generalized Gravitational Coupling).** For an observer whose Planck stage is N (any integer ≥ 3), the gravitational coupling is:
