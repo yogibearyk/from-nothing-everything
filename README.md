@@ -1,61 +1,63 @@
 # From Nothing, Everything
 
-### What Happens When Wholeness Looks Inward
+**What Happens When Wholeness Looks Inward**
 
-> *શૂન્ય માંથી બધું સર્જાયું*
+*By Yogi Kapadia*
 
----
+A book exploring what happens when you take the Advaitic (non-dual)
+insight — that reality begins as an undifferentiated wholeness examining
+itself — and push it through as rigorous mathematics.
 
-A book exploring how the act of self-observation — wholeness looking inward — may force the fundamental constants of nature. Starting from ten axioms rooted in Advaitic non-duality, the framework derives fifty numerical predictions spanning coupling constants, particle masses, cosmological parameters, neutrino mixing, and the strong CP problem — all with zero adjustable parameters.
+## Read the Book
 
-The book is written in two layers:
+The book is `book/from_nothing_everything.mdx` — readable as plain
+markdown on GitHub, with optional interactive visualizations.
 
-- **The Idea** — plain English, no physics or math background needed. Every term defined inline.
-- **The Mathematics** — derivations in the framework's native notation with decimal validation.
+**31 chapters** tell the story from the featureless ground Ω through
+the golden ratio, the Fibonacci tower, and the emergence of spacetime,
+to the derivation of every coupling constant, every particle mass, the
+full CMB power spectrum, and the expansion rate of the universe — all
+from ten axioms and zero free parameters.
 
-📖 **[Read the book →](book/from_nothing_everything.md)**
+Written so that a reader with no background in math or physics can
+follow every step. Every technical term explained in plain English.
 
----
+## Key Numbers
 
-### Key results
+From 10 axioms, the framework derives 50 predictions with zero
+adjustable parameters. The average disagreement with experiment
+is half a standard error. Selected highlights:
 
-| Domain | Predictions | Average pull |
-|--------|------------|-------------|
-| Coupling constants + strong CP | 4 | 0.05σ |
-| CKM mixing matrix | 5 | 0.27σ |
-| PMNS mixing + neutrino masses | 7 | 1.13σ |
-| Quark mass ratios | 5 | 0.24σ |
-| Charged lepton mass ratios | 3 | < 0.1σ |
-| Cosmological parameters | 5 | 0.43σ |
-| Primordial spectrum | 3 | 0.43σ |
-| **All measured predictions** | **32** | **0.44σ** |
+- Fine structure constant α⁻¹ = 137.036000 (8 significant figures)
+- Higgs mass = 125.25 GeV (within 0.08 standard deviations)
+- Electroweak scale = 246.2195 GeV (0.66 parts per million)
+- Hubble constant = 67.38 km/s/Mpc (0.03 standard deviations from Planck)
+- Full CMB power spectrum (2,500 data points, indistinguishable from Planck within cosmic variance)
 
-31 of 32 testable predictions within 2σ. Zero adjustable parameters.
+## Structure
 
-Additional structural predictions: cosmological constant derived as (φ/⊙)⁴²⁴; stage-8 cascade produces 11 dimensions (M-theory); holographic principle from Drishti screening; θ_QCD = 0 by construction (no axion).
+```
+book/
+  from_nothing_everything.mdx    ← the book (MDX format)
+  mdx/components/                ← interactive React visualizations
+  mdx/images/                    ← 25 SVG diagrams
+  archive/                       ← archived markdown version
+```
 
----
+## Interactive Visualizations
 
-### Testable this decade
+The book includes 2 interactive React components and 25 SVG diagrams.
+To run the interactive version locally:
 
-| Prediction | Value | Experiment |
-|-----------|-------|------------|
-| Gravitational wave ratio | r ≈ 0.017 | LiteBIRD, CMB-S4 |
-| Neutrino mass sum | Σm_ν ≈ 57 meV | DESI, Euclid |
-| Neutrino CP phase | δ_CP ≈ 222.5° | DUNE |
-| Neutrino mass ordering | Normal | JUNO, DUNE |
-| Dark photon mixing | Exactly zero | LHC, SHiP |
-| QCD vacuum angle | θ = 0 exactly | nEDM experiments |
+```bash
+cd book/mdx
+npm install
+npm run dev
+```
 
----
+The book is also fully readable as plain text on GitHub without
+any build system.
 
-### Companion papers
+## License
 
-- **Paper I** — *Coupling Constants from Ten Axioms* — [Zenodo](https://doi.org/10.5281/zenodo.20318574)
-- **Paper II** — *Predictions of the Maya/Chakra Framework* — [Zenodo](https://doi.org/10.5281/zenodo.20404472)
-
----
-
-### License
-
-This work is shared for reading and discussion. All rights reserved by the author.
+This work is shared for educational and research purposes.
