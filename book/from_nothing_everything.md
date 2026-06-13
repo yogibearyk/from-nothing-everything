@@ -39,6 +39,7 @@
   - [Chapter 24 — The Open Frontier](#chapter-24-the-open-frontier)
   - [Chapter 25 — The Infinite Tower](#chapter-25-the-infinite-tower)
   - [Chapter 26 — The Last Free Number](#chapter-26-the-last-free-number)
+  - [Chapter 27 — The Hardest Test](#chapter-27-the-hardest-test)
 - [Appendix A — Complete Proofs](#appendix-a-complete-proofs)
 
 ---
@@ -2530,6 +2531,99 @@ produces 4 dimensions of **unified spacetime**. ■
 
 ---
 
+## Chapter 27 — The Hardest Test
+
+Chapter 26 closed the last free number. That is a claim about *one* measurement — the electroweak scale, one number, 246 GeV. This chapter tells the story of what happened when the framework faced *two thousand five hundred* measurements at once — and what we learned when the answer came back not quite right.
+
+### What a theory actually has to do
+
+A theory that predicts one number correctly might be lucky. A theory that predicts ten might be clever. But a theory that predicts the detailed *shape* of a signal — every bump and valley across thousands of data points — with no dials to turn, is either right or spectacularly wrong. There is no room for luck when you cannot adjust anything.
+
+The signal in question is the **cosmic microwave background** — the ancient light described in Chapter 20. That light is almost uniform, but not quite: it has tiny ripples, some spots slightly warmer, others cooler. Chapters 20 and 21 showed that the framework predicts three headline numbers about those ripples: how tilted they are (the spectral tilt, matching to 0.30σ), how loud they are (the amplitude, matching to 1.0σ), and how much gravitational-wave rumble accompanies them (the tensor ratio, not yet measured). Three numbers, three matches.
+
+But the Planck satellite did not measure three numbers. It measured the ripples at **2,500 different angular scales** — from patterns as wide as the whole sky down to patterns half a degree across. Each scale is labeled by a number called ℓ (the multipole moment), running from ℓ = 2 to ℓ = 2500. At each ℓ, the satellite measured how strong the ripples are, and the result is a curve — the **power spectrum** — that looks like a series of peaks and valleys, like the overtones of a bell.
+
+The framework predicts not just the three headline numbers but all six parameters that determine the shape of that curve. If it gets any of them wrong, the predicted curve and the measured curve will disagree — not at one point, but across hundreds.
+
+### The screening calculus, verified at the deepest level
+
+Before the CMB test, one piece of the framework's machinery needed to be checked at a deeper level than before.
+
+The framework's central trick — the one that produces the fine-structure constant, the Higgs mass, and eventually the electroweak scale — is a **screening calculus**: a rule that says how much each layer of structure dims the effect of the layer below. Think of it as stacking filters on a camera lens. Each filter (each "rung" of the golden ladder) lets through a precise fraction of the light, and the total dimming is the product of all the fractions.
+
+This calculus had been *used* successfully — it produces α to eight significant figures — but the question was whether its internal gears worked the way we claimed. Three sessions of hostile review (Sessions 43–45 in the companion repository) tested this.
+
+The first gear: **the growth rate**. The framework says the ladder grows by a factor of φ (the golden ratio, about 1.618) per rung. This turned out to be derivable from the lattice's own constraint structure — the same "no two adjacent 1s" rule that creates the Fibonacci numbers also creates a transfer matrix whose dominant eigenvalue is exactly φ. Not approximately. Exactly. The growth rate is not an assumption; it is arithmetic.
+
+The second gear: **what the screening acts on**. A mass ratio — like the Higgs mass divided by the W boson mass — is a *propagator* quantity, a property of a traveling line. A traveling line crosses each rung of its interval exactly once, with no occupancy fraction to weight. This is a different object than a thermodynamic average over many configurations, and the difference matters: four alternative readings of the screening — thermodynamic averages at different weightings — were tested against the measured Higgs mass. The correct reading (one crossing per rung, the "rung-native" response) fits to −0.08σ. The alternatives miss by 7σ to 80σ.
+
+The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 26's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered Milestone-12 input, not a result.
+
+The net outcome: the screening calculus is now verified at the action level — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
+
+### Six numbers, 2,500 data points
+
+The framework derives six cosmological parameters from its axioms (plus one number borrowed from astrophysics — the optical depth τ, which measures how much the universe's later history reionized the primordial gas). The six derived values, with their sources:
+
+- **How much ordinary matter:** Ω_b = 0.04929, from the tower's baryon-photon counting.
+- **How much dark matter:** Ω_DM = D² ≈ 0.265, the square of the Drishti bound — the framework's observation limit itself becomes the dark matter fraction.
+- **How fast the universe expands:** H₀ = 68.2 km/s/Mpc, from a tower-counting exponent.
+- **How tilted the ripples are:** n_s = 53/55 ≈ 0.9636, a ratio of Fibonacci-adjacent numbers.
+- **How loud the ripples are:** A_s ≈ 2.131 × 10⁻⁹, from the bilateral Drishti bound raised to the eighth power.
+- **How much dark radiation:** ΔN_eff, from the dark sector's temperature ratio — the fraction of the tower that is "examined" (Axiom 3) raised to the fourth power.
+
+These six numbers were fed into **CAMB** — a standard, publicly available computer program that solves the equations governing how light, matter, and gravity interact in the early universe (the Boltzmann equations). CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
+
+### What happened
+
+The curve matched. At 2,500 angular scales, the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
+
+But this result came with a surprise, and the surprise is the real story of this chapter.
+
+### The rescue that almost wasn't
+
+When we first ran the numbers *without* the dark radiation, the framework's curve missed the data — badly. Not in overall shape, but in a very specific way: the positions of the peaks were shifted. The peaks in the CMB power spectrum are like the overtones of a bell, and their positions depend on the **acoustic scale** — the distance sound could travel in the primordial plasma before the universe cooled enough for light to escape. That distance is measured to extraordinary precision: θ* = 1.04109 ± 0.00030. The framework's parameter point, without dark radiation, predicted θ* = 1.04570 — off by **fifteen standard deviations**. In any other context, fifteen sigma would be a death sentence.
+
+Then we included the framework's *own* prediction of dark radiation — the ΔN_eff from the dark sector's temperature ratio, derived months earlier with no cosmological input whatsoever — and the tension dissolved. The required amount of dark radiation to fix the acoustic scale landed at ΔN_eff = 0.132, which sits at the upper edge of the framework's independently predicted range of 0.067 to 0.131. The edge, it turned out, is a robust place: the relevant counting of particle species (g* = 10.75) is a plateau of standard thermodynamics, constant across two decades of temperature, so no fine-tuning is needed — just "dark sector decoupled sometime in the MeV era."
+
+The framework had rescued itself with its own prior prediction. Three headline numbers became 2,500 — conditionally.
+
+### The crack
+
+Then we tested the condition.
+
+The dark radiation fix requires a specific **temperature ratio** between the dark sector and the ordinary sector: ξ = φ⁻² ≈ 0.382. The framework asserts this ratio from the "examined fraction" — the share of the tower's resolution that goes to the dark sector, set at formation by Axiom 3. But ΔN_eff is measured at **recombination**, 380,000 years after formation. Between formation and recombination, both sectors release entropy as their heavy particles annihilate — the ordinary sector when electrons and positrons annihilate, the dark sector when its own heavy bosons (around 400–600 GeV) decay into its 17 massless particles. These events happen at different times, and they change the temperature ratio.
+
+The question was: does the ratio survive?
+
+We computed it carefully (Session 50 in the companion repository). The ordinary sector's entropy release is a factor of about 27 (well known from standard cosmology). For the dark sector to preserve the ratio, it would need to release entropy in *exactly the same factor* — 27. But the dark sector has a completely different particle spectrum (different masses, different numbers of species), and a realistic count gives a factor closer to 3–6. The ratio doesn't survive. The honest prediction, after accounting for thermal history, is ΔN_eff ≈ 0.004–0.02 — about ten times too small to rescue the acoustic scale.
+
+The fifteen-sigma tension is reopened.
+
+### What this means — and what it doesn't
+
+It is important to be precise about what broke and what didn't.
+
+**What broke:** the specific mechanism — dark radiation at ΔN_eff ≈ 0.13 — that was rescuing the acoustic scale. The formation-era temperature ratio does not survive to recombination under standard thermal physics.
+
+**What did not break:** the 50 particle-physics predictions (coupling constants, masses, mixing angles) that form the framework's core. Those are ratios, tested against experiment one at a time, and they have nothing to do with the CMB's acoustic scale. The fine-structure constant is still correct to eight figures. The Higgs mass still matches. The electroweak scale is still derived with zero parameters.
+
+**What this points to:** the framework's **Hubble constant** H₀ = 68.2 km/s/Mpc. This is the parameter that drives the acoustic-scale tension — it is 1.2% higher than the Planck satellite's best-fit value of 67.36, and in the joint fit with the baryon and dark matter densities, that 1.2% becomes a 15σ problem. The real open question is whether the derivation of H₀ (Problem 8b in the source of truth: a tower-counting exponent involving 232 and the weak mixing angle times 89) is correct. If that number moves even slightly, the entire CMB fit cascades with it.
+
+This is the framework's most important remaining problem — not because it threatens the particle physics, but because it threatens the cosmology. And it would be dishonest to end a book called *From Nothing, Everything* without saying so, plainly, on the page.
+
+### The mathematics at a glance
+
+For readers who want the technical spine (full derivations in the companion repository, Sessions 43–50; proofs in Appendix A, "Proofs for Chapter 27"):
+
+- **Screening base (derived):** the hard-core constraint's transfer matrix [[1,1],[1,0]] has eigenvalue λ = φ exactly; the counting↔ladder identification is a declared measure postulate.
+- **Load typing (discriminated):** Theorem 17.2 under the rung-native reading gives M_H = 125.24 GeV (−0.08σ); four alternative ensemble readings are excluded at 7–80σ.
+- **κ = 1 (exact for the geometric response):** T → φ·e^(−s) makes the conversion constant unity to all orders; the arithmetic response T → φ·(1−s) is excluded by data at O(s²).
+- **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external).
+- **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
+- **The open problem:** re-examine Problem 8b (H₀ derivation). The framework's cosmological parameter point fails the most precise CMB observable; the particle-physics predictions are unaffected.
+
+
 ## Proofs for Chapter 26 — The Last Free Number
 
 The complete formal record for this chapter lives in two places: the detailed derivations with all referee rounds in the companion repository (current/proposition_G4prime_gravitational_seed.md and the notation-canonical master current/session42_gravity_canonical_notation.md, with all computations regenerable from scripts/session42/), and the structural mathematics in Appendix B's "The Gravitational Scale (Milestone 8)" section below, which contains Theorems G.1 and G.2 with full proofs. The chapter's chain, formally:
@@ -2546,7 +2640,61 @@ The complete formal record for this chapter lives in two places: the detailed de
 
 **The open coefficient.** R(Φ) = 1 − Φ + |k|Φ²; |k| = 2.2417 ± 0.138 (G-dominated), open by proof pending the Milestone-12 action term; hypothesis of record |k| = φ + φ⁻¹ (low evidential weight by the window-density analysis); falsification criteria pre-registered.
 
-\n# Appendix B — Milestones: Work in Progress
+
+
+## Proofs for Chapter 27 — The Hardest Test
+
+Full derivations with all hostile review rounds are in the companion repository
+(current/session43_kappa_gauge_lemma.md, session44_insertion_typing.md,
+session45_reversal_channel.md, session46_cmb_m10_first_deliverable.md,
+session48_mh7_and_neff_correction.md, session49_xi_thermal_attempt.md,
+session50_reheating_invariance.md; scripts in scripts/session42/ and
+scripts/session46/). Summary of the formal chain:
+
+**Lemma K-g (ladder base).** The counting transfer matrix of the hard-core
+register is T = [[1,1],[1,0]], with characteristic polynomial λ² − λ − 1 = 0
+⇒ λ₊ = φ exactly. The stationary occupation is ⟨n⟩ = φ⁻¹/(φ + φ⁻¹).
+Condition: counting↔ladder identification (declared measure postulate, R43.5).
+
+**Lemma K-g2 (insertion typing, cold-reviewed).** Fixed-point loads dress
+propagating lines (unit rung-multiplicity by directed traversal); loop
+determines magnitude, traversal determines multiplicity; per-rung independence
+(lattice 1PI) declared as third condition. Ensemble readings (⟨n⟩-weighted)
+are a category error for insertions. M_H discrimination: rung-native −0.08σ;
+site-native −16.1σ; inactive-diagonal −12.5σ to −7.0σ; inverse +79.6σ.
+
+**Session 45 (reversal channel).** Exact identity r = |λ₋/λ₊| = m/(1+m) =
+m²/D². Direction theorem (Jensen): variance reduces screening, raises v —
+correct sign. Bracket q_req ∈ [5×10⁻⁴, 5×10⁻³] vs ceiling r² = 0.032 (not
+excluded) and r⁴ = 1.0×10⁻³ (in-bracket, zero evidential weight). First-order
+tension resolved via cumulant calibration (mean absorbed in dressed load;
+variance = irreducible k-channel). M12 spec: k_load + k_reversal = 2.2417 ±
+0.138 + mean-consistency.
+
+**Session 46 (CMB, cold-reviewed).** Framework parameter point through CAMB
+1.6.6 (standard Boltzmann transfer): at ΔN_eff = 0.131, χ²(cosmic variance,
+f_sky = 0.7, ℓ = 2–2500) = 64 (TT), 154 (EE), 100 (TE) over ~2499 dof each.
+Polarization demand passed (H46.4). Without dark radiation: θ* = 1.04570
+(+15.4σ). g* frozen at 10.75; BBN consistent.
+
+**Sessions 47–48 (dark Higgs).** M_H7 ≈ 604 GeV (dark Theorem 17.2,
+structural from v₇ ≈ 2.7 TeV). Session 47's apparent sub-GeV demand
+WITHDRAWN (misread of N_eff.2's g*: it counts dark relativistic dof at
+recombination, not SM dof at thermal decoupling).
+
+**Session 49 (ξ thermal history).** Standard entropy dilution accommodates but
+does not force ξ = φ⁻²; the framework's claim is a formation-temperature
+statement (Theorem 9.4), not a thermal-history derivation.
+
+**Session 50 (reheating-invariance — DECISIVE).** Invariance requires the dark
+sector to release entropy in the same factor (~27) as the SM; realistic dark
+spectra (formation dof O(50–200)) give factors ~3–6. ξ_recomb ≪ φ⁻²;
+honest ΔN_eff ≲ 0.02 — ten times below the CMB-rescue requirement. The
+acoustic-scale tension is REOPENED. The real open item is upstream: Problem 8b
+(the H₀ derivation).
+
+
+# Appendix B — Milestones: Work in Progress
 
 *This appendix tracks the framework’s open research program. Each milestone is explained first in plain English, then in the framework’s mathematics. Results range from complete to preliminary. Honest gaps are flagged explicitly.*
 
