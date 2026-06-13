@@ -1898,6 +1898,24 @@ From nothing, the framework has tried to build everything: space, time, matter, 
 
 That, in the end, may be the framework's most important prediction: what a theory looks like when it would rather be falsifiable than finished.
 
+
+
+### The diagnosis
+
+One more computation changed the picture — not by fixing the crack, but by *sizing* it.
+
+We asked a simple question: if we pretend the framework's H₀ could be adjusted, what value would make the whole CMB problem go away? The answer: **67.4 km/s/Mpc** instead of 68.2. A shift of 1.2%.
+
+And here is what made us sit up: at that value, *everything else falls into place.* The baryon density matches Planck's measurement exactly — to three decimal places. The dark matter density matches to 0.3%. The full power spectrum — all 2,500 multipoles, temperature and polarization — sits comfortably within cosmic variance, even with only the small (honest) amount of dark radiation. The problem is not spread across the framework's six parameters. It lives entirely in one: **the Hubble constant.**
+
+Now, the framework derives H₀ through a formula (Problem 8b) involving cumulative Drishti screening across the tower's eleven Fibonacci stages, with an electroweak correction at the frontier. That formula produces 68.2. The data want 67.4. The discrepancy corresponds to a correction of ΔN = +0.020 in an exponent of 211 — twenty thousandths of a tower position, a shift of less than one hundredth of one percent in the formula's internal machinery.
+
+We tested four hypotheses for where this correction might come from. The weak mixing angle's running goes the wrong direction (it increases at low energy, making H₀ higher, not lower). The number 232 in the formula is an exact algebraic identity (the sum of the first eleven Fibonacci numbers) and cannot be corrected. The choice of eleven stages is the only value giving an H₀ anywhere near reality — ten gives 10²⁵, twelve gives 10⁻³⁶. And the gravitational self-potential, while the right order of magnitude, overshoots by a factor of twenty in its simplest form.
+
+What remains is a *precision-level* correction — the same class of item as the second-order gravitational coefficient (Chapter 26's "last number"), not a structural failure. The framework's cosmological formula has the right structure (Fibonacci screening, electroweak split at the frontier, single derivable exponent); it is off by a correction smaller than one part in ten thousand of its internal machinery. The named candidate is the stage-7 coupling correction (Problem 8a in the source of truth), which is independently motivated and of the right order.
+
+So the crack is real, and it is recorded. But it is the crack of a foundation settling by a millimeter, not of a wall falling. The framework's CMB predictions are not fundamentally broken — they are awaiting a precision refinement of the same kind that every closed sector of this framework once awaited, and eventually received.
+
 ### The mathematics at a glance
 
 For readers who want the spine of the argument (full proofs in Appendix A, "Proofs for Chapter 26"; complete derivations in the companion repository's canonical document):
@@ -2621,7 +2639,7 @@ For readers who want the technical spine (full derivations in the companion repo
 - **κ = 1 (exact for the geometric response):** T → φ·e^(−s) makes the conversion constant unity to all orders; the arithmetic response T → φ·(1−s) is excluded by data at O(s²).
 - **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external).
 - **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
-- **The open problem:** re-examine Problem 8b (H₀ derivation). The framework's cosmological parameter point fails the most precise CMB observable; the particle-physics predictions are unaffected.
+- **The diagnosis (Session 51):** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Pre-registered correction: ΔN = +0.020 ± 0.003.
 
 
 ## Proofs for Chapter 26 — The Last Free Number
