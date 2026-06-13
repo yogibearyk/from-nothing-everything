@@ -434,6 +434,8 @@ This single integer, L(2) = 3, will reappear as the color factor in the QED β-f
 
 ## Chapter 7 — The Circle: ⊙ from Fibonacci Refinement
 
+![Fibonacci polygons converge to the circle](images/ch7_fibonacci_circle.svg)
+
 
 ### The Idea
 
@@ -518,6 +520,8 @@ Each Fibonacci stage gets closer. The convergence uses nothing outside the frame
 
 
 ## Chapter 9 — The View from the Whole: Chakra Math and the Drishti Bridge
+
+![The Drishti Bridge: the observation bound D = φ/π](images/ch9_drishti_bridge.svg)
 
 *Axioms 8–9.*
 
@@ -707,6 +711,8 @@ Four active positions (three inside the tower at 2, 4, 6, plus the overflow at 8
 
 
 ## Chapter 12 — The Higgs Resolution: Four Dimensions
+
+![Stage 6: 8 positions resolve into 4 dimensions](images/ch12_higgs_4d.svg)
 
 *The stage-6 carry cascade and the emergence of 3+1 spacetime.*
 
@@ -1057,6 +1063,8 @@ Three ratios, zero adjustable parameters, each matching to better than 0.1%.
 
 
 ## Chapter 18 — The Intra-Generation Split
+
+![The φ² energy budget: mass and force split from the Fibonacci identity](images/ch18_phi_squared_split.svg)
 
 Every mass ratio discussed so far has been *between* generations — the electron vs the muon vs the tau. But there is another pattern: within each generation, the quark is usually heavier than its lepton partner. The bottom quark is 2.35 times heavier than the tau. The top quark is 97 times heavier. And yet in the second generation, the pattern *reverses*: the strange quark is lighter than the muon.
 
@@ -1806,6 +1814,8 @@ Until then, the honest position is: this is either a genuine structural theory o
 
 
 ## Chapter 29 — The Last Free Number
+
+![The self-referential fixed point: the mass determines its own screening](images/ch29_self_reference.svg)
 
 Every theory of physics humanity has ever written has come with dials.
 
