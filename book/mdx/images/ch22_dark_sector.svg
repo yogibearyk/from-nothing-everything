@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" font-family="Georgia, serif">
+  <rect width="500" height="250" fill="#fafafa"/>
+  <text x="250" y="25" text-anchor="middle" font-size="15" fill="#444">Two Sectors, One Tower</text>
+  <!-- Visible sector (stage 6) -->
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="150" height="140" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="2" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" font-size="14" fill="#1d4ed8" font-weight="bold">Stage 6</text>
+    <text x="75" y="45" text-anchor="middle" font-size="12" fill="#3b82f6">Our Universe</text>
+    <text x="75" y="65" text-anchor="middle" font-size="10" fill="#64748b">8 positions</text>
+    <text x="75" y="82" text-anchor="middle" font-size="10" fill="#64748b">3+1 dimensions</text>
+    <text x="75" y="99" text-anchor="middle" font-size="10" fill="#64748b">quarks, leptons, photons</text>
+    <text x="75" y="116" text-anchor="middle" font-size="10" fill="#64748b">SU(3)×SU(2)×U(1)</text>
+    <text x="75" y="133" text-anchor="middle" font-size="10" fill="#3b82f6">~15% of all matter</text>
+  </g>
+  <!-- Dark sector (stage 7) -->
+  <g transform="translate(280,60)">
+    <rect x="0" y="0" width="150" height="140" fill="#4f46e5" opacity="0.1" stroke="#4f46e5" stroke-width="2" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" font-size="14" fill="#3730a3" font-weight="bold">Stage 7</text>
+    <text x="75" y="45" text-anchor="middle" font-size="12" fill="#4f46e5">The Dark Sector</text>
+    <text x="75" y="65" text-anchor="middle" font-size="10" fill="#64748b">13 positions</text>
+    <text x="75" y="82" text-anchor="middle" font-size="10" fill="#64748b">screened by D² ≈ 0.27</text>
+    <text x="75" y="99" text-anchor="middle" font-size="10" fill="#64748b">dark quarks, dark bosons</text>
+    <text x="75" y="116" text-anchor="middle" font-size="10" fill="#64748b">SU(3)_D×SU(2)_D×U(1)_D</text>
+    <text x="75" y="133" text-anchor="middle" font-size="10" fill="#4f46e5">~85% of all matter</text>
+  </g>
+  <!-- Connection -->
+  <line x1="230" y1="130" x2="280" y2="130" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="255" y="125" text-anchor="middle" font-size="9" fill="#d97706">Higgs</text>
+  <text x="255" y="145" text-anchor="middle" font-size="9" fill="#d97706">portal</text>
+  <text x="250" y="230" text-anchor="middle" font-size="12" fill="#888">same axioms, same structure — one stage deeper in the tower</text>
+</svg>

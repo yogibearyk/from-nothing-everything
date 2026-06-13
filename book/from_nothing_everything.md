@@ -761,7 +761,9 @@ The 3+1 decomposition — three dimensions of space, one of time — is observer
 ---
 
 
-## Chapter 13 — The Speed of Light: A Theorem, Not a Postulate
+## Chapter 13 — The Speed of Light
+
+![The speed of light: finite, unique, invariant — derived from the lattice](images/ch13_speed_of_light.svg): A Theorem, Not a Postulate
 
 *Uses D (Chapter 9), the screening tower (Chapter 10), and the 3+1 spacetime structure (Chapter 12).*
 
@@ -872,6 +874,8 @@ From the outside, a black hole looks like destruction — matter falling in, los
 
 ## Chapter 15 — The Coupling Constants
 
+![The three forces: one tower, three screening depths](images/ch15_three_forces.svg)
+
 *α, α_s, and sin²θ_W from one formula and zero adjustable parameters.*
 
 ### The Idea
@@ -933,6 +937,8 @@ Three numbers. One formula. Zero adjustable parameters. Each traces through a sp
 
 
 ## Chapter 16 — The Mass Spectrum
+
+![The mass ladder: every rung from the same ratio](images/ch16_mass_ladder.svg)
 
 *Why quarks weigh what they do.*
 
@@ -996,6 +1002,8 @@ Five ratios, five matches within 1σ. Average pull: 0.24σ. Two structural mecha
 
 
 ## Chapter 17 — The Lepton Masses
+
+![The Koide relation: three masses, one formula](images/ch17_koide_relation.svg)
 
 *The electron, muon, and tau — from the triangle’s geometry.*
 
@@ -1260,6 +1268,8 @@ This sum is testable by DESI and Euclid within the current decade. It lies well 
 
 ## Chapter 22 — The Dark Sector
 
+![Two sectors, one tower: visible at stage 6, dark at stage 7](images/ch22_dark_sector.svg)
+
 *What the tower builds when it goes one step further.*
 
 ### The Idea
@@ -1384,6 +1394,8 @@ Three spatial dimensions, each contributing one factor of the bilateral Drishti.
 
 ## Chapter 24 — The Energy Budget
 
+![The energy budget: dark energy, dark matter, ordinary matter](images/ch24_energy_budget.svg)
+
 *Who gets what share of the cosmos.*
 
 ### The Idea
@@ -1461,6 +1473,8 @@ There is a scope caveat that belongs in every discussion of these numbers. The f
 
 
 ## Chapter 26 — The Infinite Tower
+
+![The infinite tower converging to 1/π](images/ch26_infinite_tower.svg)
 
 *From Ω to Ω: the universe seen whole.*
 
@@ -1625,6 +1639,8 @@ Whether the framework constitutes a genuine structural theory of the fundamental
 
 
 ## Chapter 27 — The Scorecard
+
+![The scorecard: 50 predictions clustering near zero pull](images/ch27_scorecard.svg)
 
 *Forty-eight predictions, measured against experiment.*
 
@@ -1966,6 +1982,8 @@ For readers who want the spine of the argument (full proofs in Appendix A, "Proo
 
 
 ## Chapter 30 — The Hardest Test
+
+![The hardest test: 2,500 data points, zero knobs](images/ch30_cmb_test.svg)
 
 Chapter 29 closed the last free number. That is a claim about *one* measurement — the electroweak scale, one number, 246 GeV. This chapter tells the story of what happened when the framework faced *two thousand five hundred* measurements at once — and what we learned when the answer came back not quite right.
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" font-family="Georgia, serif">
+  <rect width="500" height="200" fill="#fafafa"/>
+  <text x="250" y="25" text-anchor="middle" font-size="15" fill="#444">The Koide Relation: Three Masses, One Formula</text>
+  <!-- Three leptons as circles proportional to sqrt(mass) -->
+  <g transform="translate(250,100)">
+    <!-- Electron (tiny) -->
+    <circle cx="-130" cy="0" r="5" fill="#6366f1" opacity="0.8"/>
+    <text x="-130" y="30" text-anchor="middle" font-size="11" fill="#555">electron</text>
+    <text x="-130" y="45" text-anchor="middle" font-size="10" fill="#999">0.511 MeV</text>
+    <!-- Muon (medium) -->
+    <circle cx="0" cy="0" r="22" fill="#6366f1" opacity="0.6"/>
+    <text x="0" y="45" text-anchor="middle" font-size="11" fill="#555">muon</text>
+    <text x="0" y="60" text-anchor="middle" font-size="10" fill="#999">105.7 MeV</text>
+    <!-- Tau (large) -->
+    <circle cx="130" cy="0" r="38" fill="#6366f1" opacity="0.4"/>
+    <text x="130" y="55" text-anchor="middle" font-size="11" fill="#555">tau</text>
+    <text x="130" y="70" text-anchor="middle" font-size="10" fill="#999">1777 MeV</text>
+  </g>
+  <!-- The formula -->
+  <text x="250" y="175" text-anchor="middle" font-size="13" fill="#555">(√m_e + √m_μ + √m_τ)² / (m_e + m_μ + m_τ) = 2/3 — exact to 6 parts per million</text>
+  <text x="250" y="193" text-anchor="middle" font-size="11" fill="#888">the framework explains WHY: the tower's stage structure forces this ratio</text>
+</svg>
