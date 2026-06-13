@@ -38,6 +38,7 @@
   - [Chapter 23 — Is This Numerology?](#chapter-23-is-this-numerology)
   - [Chapter 24 — The Open Frontier](#chapter-24-the-open-frontier)
   - [Chapter 25 — The Infinite Tower](#chapter-25-the-infinite-tower)
+  - [Chapter 26 — The Last Free Number](#chapter-26-the-last-free-number)
 - [Appendix A — Complete Proofs](#appendix-a-complete-proofs)
 
 ---
@@ -1818,7 +1819,96 @@ Whether the framework constitutes a genuine structural theory of the fundamental
 ---
 
 
-# Appendix A — Complete Proofs
+## Chapter 26 — The Last Free Number
+
+Every theory of physics humanity has ever written has come with dials.
+
+A "free parameter" is a number a theory cannot explain — a dial that must be set by hand, by going out and measuring, before the theory can say anything. Newton's theory of gravity has one such dial: the strength of gravity itself, the number G, which Newton could describe but never derive. The Standard Model of particle physics — the most successful theory in history — has about nineteen. Nineteen numbers that, as far as that theory knows, could have been anything. Why is the electron's mass what it is? The Standard Model shrugs: *that is what the dial reads.*
+
+The wager of this entire book has been that there are no dials — that every number in physics is forced, the way the digits of π are forced, by structure alone. Chapter by chapter, the dials have fallen: the strengths of the forces, the ratios of the masses, the angles of mixing, the shape of the early universe. But through all of it, one dial quietly survived. Every prediction so far has been a *ratio* — this mass divided by that one, this strength compared to that. To say what anything weighs in kilograms, the framework still needed one measured number to set the overall scale. One last free number.
+
+This final chapter is the story of how that number fell — and, just as importantly, of the small piece the theory still owes. We will try to keep the tone this framework has tried to keep throughout: not triumphant, but curious, and honest about every place we were wrong along the way. There were several.
+
+### Gravity counts
+
+To remove the last dial, the framework had to confront the one force it had so far only circled: gravity.
+
+In this framework, gravity is not a force carried by particles, the way light carries electromagnetism. It is the shape of the bookkeeping itself — the bending of the great ledger of distinctions when energy piles up in one place. And gravity has one property no other force shares, a property Galileo glimpsed when (as the story goes) he dropped weights from a tower, and an astronaut confirmed when he dropped a hammer and a feather on the airless Moon and watched them land together: **gravity treats everything alike.** It does not care whether energy is locked in a quark or a photon or a thought. It couples to all of it, equally.
+
+The other forces are picky. As Chapter 25 described, they are *screened* — each layer of structure dims them a little, the way each pane of tinted glass dims the light passing through. Gravity is never dimmed. It does not weigh or filter or judge. It simply **counts**.
+
+And that single word turns out to be the key. At the Planck stage — the rung of the infinite tower where the tower's energy first exceeds the heaviest scale gravity can distinguish — the tower has a definite number of positions. The positions of each stage follow the Fibonacci numbers, the ancient counting sequence 1, 1, 2, 3, 5, 8, 13... in which each number is the sum of the two before it. At the Planck stage, the count is **89**.
+
+If gravity merely counts, and there are 89 things to count, then each position carries exactly 1/89 of the gravitational whole. And because in quantum physics the *strength* of an interaction is the square of its amplitude — the way the energy of a wave is the square of its height — the strength of gravity is:
+
+> **G = 1/89² (in the lattice's own units).**
+
+Newton's dial, the one he could never explain, becomes the answer to a child's question: *how many things are there to count?*
+
+A confession belongs here. For a while, this derivation leaned on an extra assumption — that the binding energy of a full cell equals exactly one quantum of energy, no more, no less. We treated it as a principle, defended it, even tested it. Then, in a late review, we did the algebra slowly and found it was not an assumption at all. It follows, line by line, from energies adding up — Einstein's equivalence principle doing all the work. We had been guarding a door that was never locked.
+
+### The stage that chooses itself
+
+But why stage 11? Why should the Planck crossing happen at the eleventh rung, with its 89 positions, rather than the tenth or the twelfth?
+
+Our first answer, candidly, was: *because the measured numbers said so.* That is a respectable way to identify something, but it is not a derivation, and for one uncomfortable afternoon the framework appeared to have traded its last smooth dial for a hidden notched one — a choice of stage.
+
+The resolution came from noticing that the framework predicts **both ends of a journey**. Forces in nature change strength with distance — examined very close up, a force looks different than from far away, the way a mountain is one thing under your boots and another from across the valley. Physicists call this *running*, and the rules for it are among the most precisely tested in science. The framework derives the strength of the strong force at everyday energies (one end of the journey) and also the bare strength at the lattice's smallest distances (the other end). The well-tested rules of running must connect the two — and the length of the journey between them depends on which stage is the Planck stage.
+
+Only one stage allows the connection. Stage 10 misses by a factor of millions. Stage 12 cannot complete the journey at all — the force blows up along the way. Stage 11 connects, comfortably within the stated uncertainties. And the crucial point, the one we check compulsively: **this selection never uses the measured scale we are trying to predict.** The stage chooses itself.
+
+### Two ways of counting
+
+With the stage chosen and gravity's strength derived, one question remained, and it was the hardest: *where does the tower's overall scale come from?* The answer arrived in two pieces — a starting value and a small correction — and each piece taught us humility.
+
+The starting value is a number close to 2.236 — the square root of five. For weeks we told ourselves a story about it: the fifth Fibonacci number is 5, the fifth stage is special (it is the last stage before time exists), and so √5 must be the fifth stage announcing itself. It was a tidy story. It was also wrong — or rather, it was a coincidence wearing a story's clothes, and a hostile review eventually made us take the clothes off and retire it in print.
+
+The truth is simpler and, we think, more beautiful. There are two natural ways to count the tower's positions. You can count them once each — a plain census. Or you can count them the way Axiom 7 insists everything is examined: **from both sides at once**, forward and backward, the seer and the seen. The golden ratio φ has the remarkable property that the ratio between these two counts — the two-sided count divided by the plain census — is *always the same number*, at every odd stage, forever:
+
+> **φ + 1/φ ≈ 2.236.**
+
+This is not physics yet; it is arithmetic, as fixed as 2 + 2 = 4. (It happens that (φ + 1/φ)² = 5, which is why our stage-five story fit so well for so long. Coincidences are seductive precisely because they fit.) The physics is the claim that the tower's raw, unscreened content carries the two-sided count, while gravity — the great democrat — carries the plain census. Their ratio, φ + 1/φ, is the seed from which the last scale grows.
+
+### Light at the boundary, and an echo
+
+The seed is then trimmed by gravity's own back-reaction, and the trimming has two parts.
+
+The first part asks: *what kind of stuff is doing the gravitating?* The content at the crossing sits exactly at the edge of what gravity can resolve — at the boundary described in Chapter 25 — and the framework's speed-of-light theorem says boundary content is **light-like**. Light pushes. Sunlight pushes hard enough that spacecraft have sailed on it. And light's push, its *pressure*, is exactly one-third of its energy — one share for each of the three directions of space. So the trimming strength is 1/3. We tested the alternatives the way a skeptic would: treat the content as dust (no push), as stiff matter, as pure vacuum energy. Dust misses the answer by thirty percent. Vacuum energy is worse than wrong — the equations simply have no solution at all, like asking for the corner of a circle.
+
+The second part is an echo. The content's own gravity slightly dims its own push — a voice muffled by the very air it must push through. This is gravitational redshift, the same effect that makes clocks tick measurably slower near heavy bodies (the GPS satellites above you correct for it every day, or your map would drift by kilometers). The size of the dimming is not chosen; it is the content's own gravitational potential, computed directly: a correction of about two percent.
+
+### The result
+
+Put the pieces together and they form a single, self-referential equation — a value that must agree with what it produces, the way a thermostat must settle at the temperature it itself creates. Such equations are called fixed points, and this one has exactly one solution. Solving it, and converting through gravity's derived strength:
+
+> **The electroweak scale comes out at 246.26 GeV. The measured value is 246.22.**
+
+It is worth pausing on what that number *is*. The electroweak scale sets the masses of the particles in your body. It is why atoms are the size they are, why chemistry happens at the temperatures it does, why matter is stable enough for planets and patient enough for life. The framework derives it from ten axioms with **zero free dials** — agreement to about one part in five thousand. The last free number has fallen.
+
+### What we owe
+
+And yet the agreement is not perfect, and this book will not end by hiding that.
+
+Two parts in ten thousand remain unexplained — a sliver, but a real one. Thirteen rounds of deliberately hostile review boiled the entire remaining mystery of the gravity sector down to a single number: the second-order coefficient of the gravitational echo. The data demand that this number be **2.24, give or take 0.14** — and here the universe supplies a final irony. The "give or take" comes almost entirely from how imprecisely humanity has measured Newton's constant G. Of all the fundamental constants, G is the one we know worst; it is still measured the way Cavendish measured it two centuries ago, with exquisitely delicate twisting balances, and the world's best laboratories disagree with each other at embarrassing levels.
+
+Inside that window of uncertainty sit at least seven simple mathematical constants, any of which could be the answer — including, eerily, φ + 1/φ once again, fitting the data to half a part per million. It would be easy to declare victory and circle it. The framework's own rules forbid this. Choosing a constant because it fits, when seven fit, is numerology — the very charge this book has spent twenty-six chapters earning the right to deny. So instead, the answer has been left blank, the candidates registered, and the test specified in advance: either the future chapters of this work derive gravity's full dynamics on the lattice and *compute* the number, or experimentalists measure G ten times better and the window itself decides. Whichever happens, the criteria for success and failure are already written down, where no one can quietly move them.
+
+From nothing, the framework has tried to build everything: space, time, matter, force, the constants of nature, and finally the scale of the world itself. It ends with one number deliberately left on the table — not because the work ran out, but because honesty did not.
+
+That, in the end, may be the framework's most important prediction: what a theory looks like when it would rather be falsifiable than finished.
+
+### The mathematics at a glance
+
+For readers who want the spine of the argument (full proofs in Appendix A, "Proofs for Chapter 26"; complete derivations in the companion repository's canonical document):
+
+- **Gravity's strength:** with the Planck-stage count N = (φ¹¹ + φ⁻¹¹)/(φ + φ⁻¹), the equivalence principle gives M_P = N·Λ and hence G = 1/N² in lattice units (N = 89 in decimals).
+- **Stage selection:** the bare coupling α_UV = D²/(4⊙) at Λ = M_P/N must connect, by standard running, to the framework's low-energy couplings; only S_P = 11 connects.
+- **The seed:** f_raw = (φ^{S_P} + φ^{−S_P})/N = φ + φ⁻¹, exactly, at every odd stage — the two-sided count over the census.
+- **The fixed point:** f = (φ + φ⁻¹) · φ^{−(1/3)(1 − Φ)f}, with Φ = f·(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}) the self-potential; unique solution by contraction.
+- **The result:** v/M_P = f · φ^{−[(φ¹¹ + φ⁻¹¹) − (φ⁶ − φ⁻⁶)]/(φ + φ⁻¹)}; in decimals, v = 246.26 GeV against the G_F-defined measurement 246.22 GeV.
+- **The open number:** the second-order echo coefficient, |k| = 2.24 ± 0.14 (uncertainty dominated by Newton's G), pre-registered for decision by future dynamics or better metrology.
+
+\n# Appendix A — Complete Proofs
 
 *Each proof below traces its result back to the ten axioms through explicit steps. They are organized by the chapter in which the result first appears. The Idea layers (earlier in the book) tell the story; these proofs let you verify every claim.*
 
@@ -2440,7 +2530,23 @@ produces 4 dimensions of **unified spacetime**. ■
 
 ---
 
-# Appendix B — Milestones: Work in Progress
+## Proofs for Chapter 26 — The Last Free Number
+
+The complete formal record for this chapter lives in two places: the detailed derivations with all referee rounds in the companion repository (current/proposition_G4prime_gravitational_seed.md and the notation-canonical master current/session42_gravity_canonical_notation.md, with all computations regenerable from scripts/session42/), and the structural mathematics in Appendix B's "The Gravitational Scale (Milestone 8)" section below, which contains Theorems G.1 and G.2 with full proofs. The chapter's chain, formally:
+
+**Theorem Q1′ (scale identity).** With M_P ≔ N·Λ (Axiom-8 additivity) and G ≔ 1/M_P², the cell's gravitational self-energy equals one quantum identically: G·(NΛ)²·Λ = Λ. The one-quantum condition is derived, not assumed.
+
+**Theorem G.5 (stage selection, canonical form).** α₃(Λ_UV) = c·D²/(4⊙) at Λ_UV = M_P/N, c = 1 within the declared band, connected by standard renormalization flow to the stage-six couplings, admits exactly one stage under f ∈ [1, φ + φ⁻¹]. The selection is independent of the measured electroweak scale.
+
+**Theorem S (the seed).** For odd S_P: (φ^{S_P} + φ^{−S_P}) / [(φ^{S_P} + φ^{−S_P})/(φ + φ⁻¹)] = φ + φ⁻¹, exactly — the bilateral measure (Axiom 7) over the democratic count (Axiom 8).
+
+**Lemma W (equation of state).** Boundary content is null (speed-of-light theorem); null content in d = 3 spatial dimensions (dimensionality theorem) has pressure/energy = 1/3. Alternatives are excluded: w = −1 admits no fixed point; w = 0 and w = 1 miss the result by 31% and 28%.
+
+**Theorem G.4″ (the fixed point).** f = (φ + φ⁻¹)·φ^{−(1/3)(1−Φ)f}, Φ = f(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}), is a contraction on a closed interval; its unique fixed point yields v/M_P = f·φ^{−[(φ^{S_P}+φ^{−S_P})−(φ⁶−φ⁻⁶)]/(φ+φ⁻¹)}. Theorem V fixes the comparison convention (the G_F-defined observable) from the zero-parameter principle, the eight-figure α anchor, and minimality.
+
+**The open coefficient.** R(Φ) = 1 − Φ + |k|Φ²; |k| = 2.2417 ± 0.138 (G-dominated), open by proof pending the Milestone-12 action term; hypothesis of record |k| = φ + φ⁻¹ (low evidential weight by the window-density analysis); falsification criteria pre-registered.
+
+\n# Appendix B — Milestones: Work in Progress
 
 *This appendix tracks the framework’s open research program. Each milestone is explained first in plain English, then in the framework’s mathematics. Results range from complete to preliminary. Honest gaps are flagged explicitly.*
 
