@@ -157,34 +157,33 @@ With the questions in place, we can begin exploring — at the only place the st
 
 ### The Idea
 
-To understand where this story begins, you have to start in a place that isn’t a place, at a time that isn’t a time.
+Part 0 described Ω in words. Now we begin building with it.
 
-Try to picture “before the universe.” Your mind will conjure up darkness — a vast, empty void stretching in every direction. But that picture is already wrong. Darkness requires the concept of light to define it. A void requires walls — or at least the idea of walls — to give it shape. “Stretching” requires distance. “Every direction” requires coordinates. Every image your mind produces smuggles in concepts that shouldn’t exist yet.
+The words did their job: you understand that Ω is a state with no structure — no space, no time, no distinction between zero and one. You understand that self-examination is not something Ω chooses to do but something it *is*. And you understand, at least in outline, that a self-examining wholeness with no external reference will be forced into a very specific shape.
 
-So strip all of that away. No darkness, because there’s no light to contrast it with. No emptiness, because “empty” is a description, and descriptions require a describer. No space, because space is geometric structure, and geometry hasn’t been invented yet. No time, because time requires events to separate, and nothing has happened. Not even “nothing” in the colloquial sense, because “nothing” is defined as the absence of “something,” and “something” doesn’t exist as a category yet.
+But understanding the idea and using it as a foundation are different things. A foundation has to bear weight. Every number this book derives — the strength of every force, the mass of every particle, the expansion rate of the universe — will trace back to this chapter's single claim: **Ω exists, and it contains no structure.**
 
-What remains? The framework calls this state **Ω**. It is the ground of everything, and its defining property is deeply strange: **in Ω, zero and one and infinity are all the same thing.**
+So let us be precise about what that claim does and does not say.
 
-This is not a mystical claim. It is a precise logical statement. Think about what it means for zero and one to be different from each other. To say “zero is not one,” you need a system that can tell them apart — a rule, a comparison, a distinction. But a distinction is itself a *thing*. It is a piece of structure. And in Ω, no structure exists. Without structure, there is no basis for telling anything apart from anything else. Zero, one, infinity, here, there, now, then — all of these differences require a framework of distinctions that hasn’t been created yet. So they are all indistinguishable. Not “equal” in the mathematical sense (mathematics requires distinctions too), but *the same*, because nothing exists to make them different.
+It does not say Ω is "empty" the way an empty room is empty. An empty room still has walls, a floor, dimensions, and the air inside it. Ω has none of these. It does not say Ω is "nothing." Nothing is the absence of something, and "something" is not yet a category. It does not say Ω is a point, because a point is a geometric object with a location, and geometry does not exist yet.
 
-This is, in the most precise sense, what the Advaitic tradition calls non-duality — Advait. Not “everything is one” as a slogan, but: distinction itself does not yet exist. There is no basis for two-ness of any kind. The framework takes this ancient insight and treats it as a formal starting condition.
+What it says is simpler and stranger: **Ω is what you get when you remove every distinction.** Not just the physical distinctions (up vs down, heavy vs light, here vs there), but the conceptual ones too (true vs false, same vs different, exists vs doesn't exist). Without any distinction at all, zero and one and infinity collapse into the same thing — not because they are "equal" (equality is a distinction), but because the machinery that would separate them is absent.
 
-The consequences are startling. You cannot do mathematics within Ω, because mathematics needs at minimum one distinction — the difference between “this” and “that.” You cannot have an observer or an observed, because that is two things. You cannot have time, because time requires a “before” and an “after.” Almost nothing can be said about Ω, except that it exists and that everything we will ever see emerges from within it.
+This is the ground. And its most important property is what it *cannot* do: it cannot supply anything from outside, because there is no outside. Whatever emerges from Ω must be built entirely from the act of self-examination itself — using no imported materials, no borrowed constants, no pre-existing mathematics. The first ratio will not be chosen from a menu of possibilities. It will be the *only* ratio consistent with a structure that must build itself from nothing.
 
-One question demands an answer before we move on: if Ω is this featureless, how does anything ever happen? Why does Ω examine itself rather than just sit there? The answer is that in Ω, “examining itself” and “sitting there” are the same thing. “Acting” and “not acting” are two different states — and Ω doesn’t have two different states. “Choosing to act” and “never acting” require a distinction between agency and passivity — and that distinction doesn’t exist. Even the question “when does it begin?” dissolves: “instantly,” “eventually,” and “after infinite time” are all the same answer when zero equals infinity. Self-examination is not something that happens *to* Ω. It is what Ω *is*. The way water is wet, Ω is self-examining.
+That constraint — **nothing from outside** — is what makes the rest of the book possible. If there were an outside, there would be choices. If there were choices, there would be parameters. If there were parameters, we would need experiments to measure them. By starting from a ground that genuinely contains nothing, the framework eliminates the possibility of free parameters at the root. Everything that follows is a consequence, not a choice.
 
-The most important thing Ω does for the theory is *negative*: by containing nothing, it guarantees that whatever comes next cannot borrow from outside. There is no outside. So the first act of distinction cannot import a ratio, a direction, or a unit from anywhere — it can only use what the act itself defines. This “no external supplier” constraint is what will force the golden ratio in Chapter 4. It all rests on Ω being genuinely empty.
+One last thing before we write the axiom. You might wonder: how can a ground with no structure be a starting point for mathematics? The answer is that Ω is not *inside* the mathematics — it is *underneath* it. Mathematics begins in Chapter 2, when the first distinction is drawn. Ω is what exists before that first line is drawn — the blank page, not the first word. Axiom 1 does not compute anything. It declares the page blank.
 
 ### The Mathematics
 
-*Complete proofs for this chapter’s claims: Appendix A, “Proofs for Chapter 1.”*
+*Complete proofs for this chapter's claims: Appendix A, "Proofs for Chapter 1."*
 
-
-In the formal language, Ω is a distinguished constant, *not* a member of the node set 𝒱. The axiom is stated as predicates over Ω rather than as an equation, precisely because no arithmetic is yet available:
+In the formal language, Ω is a distinguished constant, *not* a member of the node set 𝒱 that will be built in later chapters. The axiom is stated as predicates over Ω rather than as an equation, precisely because no arithmetic is yet available:
 
 > **Axiom 1 (Ground).** Ω exists, in which 0 = 1 = ∞. Pre-geometric: no shape, no dimensions.
 
-There is no Layer-2 proof and no decimal validation at this stage — and that absence is itself the content. Any derivation that *needs* a number here would be smuggling structure into the groundless ground. The first legitimate arithmetic appears only after the first distinction (Chapter 2).
+There is no derivation and no decimal validation at this stage — and that absence is itself the content. Any derivation that *needs* a number here would be smuggling structure into the groundless ground. The first legitimate arithmetic appears only after the first distinction (Chapter 2), and the first testable number — the golden ratio φ — arrives in Chapter 4. Until then, the mathematics is purely structural: what follows from the act of distinction itself, with no pre-existing tools.
 
 ---
 
