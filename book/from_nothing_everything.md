@@ -1339,6 +1339,8 @@ At stage 7, there is no observer to resolve the gauge decomposition — the dark
 
 ## Chapter 23 — The Primordial Spectrum
 
+![The primordial spectrum: three numbers from the tower](images/ch23_primordial_spectrum.svg)
+
 *What the universe sounded like at the beginning.*
 
 ### The Idea
@@ -1464,6 +1466,8 @@ There is a scope caveat that belongs in every discussion of these numbers. The f
 
 
 ## Chapter 25 — The Graph-to-Field Bridge
+
+![From discrete tower to continuous physics](images/ch25_lattice.svg)
 
 *(Integrated from Milestone 3. This is the framework's lattice construction — how the discrete tower produces continuous field equations.)*
 

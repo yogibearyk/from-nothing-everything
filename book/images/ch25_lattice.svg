@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 230" font-family="Georgia, serif">
+  <rect width="500" height="230" fill="#fafafa"/>
+  <text x="250" y="25" text-anchor="middle" font-size="15" fill="#444">The Lattice: From Discrete Tower to Continuous Physics</text>
+  <!-- Discrete lattice -->
+  <g transform="translate(50,60)">
+    <text x="60" y="-8" text-anchor="middle" font-size="12" fill="#999">the tower (discrete)</text>
+    <!-- Chain of cells -->
+    <g stroke="#94a3b8" stroke-width="1.5" fill="#e2e8f0">
+      <rect x="0" y="0" width="25" height="25" rx="3"/>
+      <rect x="30" y="0" width="25" height="25" rx="3" fill="#3b82f6"/><text x="42" y="17" text-anchor="middle" font-size="9" fill="white">1</text>
+      <rect x="60" y="0" width="25" height="25" rx="3"/>
+      <rect x="90" y="0" width="25" height="25" rx="3" fill="#3b82f6"/><text x="102" y="17" text-anchor="middle" font-size="9" fill="white">1</text>
+      <rect x="120" y="0" width="25" height="25" rx="3"/>
+    </g>
+    <text x="60" y="45" text-anchor="middle" font-size="10" fill="#888">hard-core: no two adjacent 1s</text>
+    <text x="60" y="58" text-anchor="middle" font-size="10" fill="#888">(the Zeckendorf constraint)</text>
+  </g>
+  <!-- Arrow -->
+  <g transform="translate(200,72)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#aaa" stroke-width="1.5" marker-end="url(#larrow)"/>
+    <defs><marker id="larrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#aaa"/></marker></defs>
+    <text x="40" y="-8" text-anchor="middle" font-size="10" fill="#999">continuum</text>
+    <text x="40" y="18" text-anchor="middle" font-size="10" fill="#999">limit</text>
+  </g>
+  <!-- Continuous physics -->
+  <g transform="translate(300,55)">
+    <text x="70" y="-5" text-anchor="middle" font-size="12" fill="#999">physics (continuous)</text>
+    <!-- Smooth wave -->
+    <path d="M0,25 Q20,5 40,25 Q60,45 80,25 Q100,5 120,25 Q140,45 150,25" fill="none" stroke="#3b82f6" stroke-width="2"/>
+    <text x="75" y="60" text-anchor="middle" font-size="10" fill="#888">fields, waves, particles</text>
+  </g>
+  <!-- Key insight -->
+  <g transform="translate(50,150)">
+    <rect x="0" y="0" width="400" height="55" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5" rx="8"/>
+    <text x="200" y="20" text-anchor="middle" font-size="12" fill="#166534">Jordan-Wigner map: lattice positions → fermionic modes</text>
+    <text x="200" y="38" text-anchor="middle" font-size="12" fill="#166534">3 bridge modes → SU(3) color → the Standard Model</text>
+  </g>
+  <text x="250" y="222" text-anchor="middle" font-size="11" fill="#888">the discrete tower produces continuous physics the way atoms produce smooth water</text>
+</svg>
