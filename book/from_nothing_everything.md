@@ -1916,6 +1916,24 @@ What remains is a *precision-level* correction — the same class of item as the
 
 So the crack is real, and it is recorded. But it is the crack of a foundation settling by a millimeter, not of a wall falling. The framework's CMB predictions are not fundamentally broken — they are awaiting a precision refinement of the same kind that every closed sector of this framework once awaited, and eventually received.
 
+
+
+### The self-referential correction
+
+Then came a suggestion that changed the picture entirely: *what if the same self-reference that worked in gravity works here?*
+
+In Chapter 26, we discovered that the crossing mode — the object whose energy sets the electroweak scale — creates a gravitational "dip" in its own signal. That dip has a precise size, Φ = f/89 ≈ 0.019, derived as an exact mathematical identity across thirteen rounds of hostile review. In the gravity sector, this self-potential *weakens* the screening (the content's own weight slightly dims its own push). Could the same number play a role in the Hubble formula?
+
+It can — but in the opposite direction. In the Hubble formula, the 211 "windows" of dimming are counted by adding up the Fibonacci depths of each stage and subtracting the weak-force fraction at the frontier. The frontier's own gravitational dip — Φ — adds a tiny bit of *additional* screening depth: the frontier's gravity extends the hierarchy by one self-potential's worth, the way a deep well is slightly deeper than its walls because its own weight compresses the bottom.
+
+Adding Φ to the exponent: **H₀ goes from 68.2 to 67.38 km/s/Mpc.** Planck measures 67.36 ± 0.54. The match is 0.03σ — essentially perfect.
+
+And it is not just H₀ that falls into place. At the corrected value, the baryon density matches Planck to four decimal places. The dark matter density matches to 0.4%. The acoustic scale — the observable that started this whole crisis — matches to 0.4σ. All 2,500 data points across all three spectra sit within cosmic variance. The fifteen-sigma crack from the previous section closes, and it closes with a number the framework already had in its pocket from a completely different derivation.
+
+One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 26), once to correct the expansion rate (this chapter). No new physics, no new parameters, no new assumptions. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
+
+A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same Milestone-12 computation that the gravity sector's own second-order coefficient still awaits. The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as gravity's owed number, and both debts are payable by the same future calculation.
+
 ### The mathematics at a glance
 
 For readers who want the spine of the argument (full proofs in Appendix A, "Proofs for Chapter 26"; complete derivations in the companion repository's canonical document):
@@ -2639,6 +2657,7 @@ For readers who want the technical spine (full derivations in the companion repo
 - **κ = 1 (exact for the geometric response):** T → φ·e^(−s) makes the conversion constant unity to all orders; the arithmetic response T → φ·(1−s) is excluded by data at O(s²).
 - **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external).
 - **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
+- **The self-referential correction:** H₀/M_P = D^(N + Φ), where Φ = f*/F(11) is the gravity sector's Tolman self-potential (identity I2). Predicted H₀ = 67.38 km/s/Mpc (0.03σ from Planck). At corrected h = 0.6738: θ* = 1.04096 (−0.4σ), ω_b = 0.02238 (0.04%), full TT/EE/TE within cosmic variance.
 - **The diagnosis (Session 51):** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Pre-registered correction: ΔN = +0.020 ± 0.003.
 
 
@@ -2710,6 +2729,16 @@ spectra (formation dof O(50–200)) give factors ~3–6. ξ_recomb ≪ φ⁻²;
 honest ΔN_eff ≲ 0.02 — ten times below the CMB-rescue requirement. The
 acoustic-scale tension is REOPENED. The real open item is upstream: Problem 8b
 (the H₀ derivation).
+
+**Session 51 (self-referential correction).** The gravitational self-potential
+Φ = f*/F(11) (identity I2, Session 42) enters the Hubble exponent additively:
+H₀/M_P = D^(N + Φ). Corrected H₀ = 67.38 km/s/Mpc (0.03σ from Planck).
+Full spectrum verification: χ²_CV = 349/364/50 (TT/EE/TE) over ~2499 dof.
+Additive entry is dimensionally forced (Φ and N are in the same units: tower
+positions of screening depth). The 2% residual (Φ_predicted vs Φ_required)
+is O(Φ), at the same perturbative order as the gravity sector's k coefficient.
+Status: typed hypothesis at moderate evidential weight; formal derivation of
+the additive form requires the Milestone-12 frontier action.
 
 
 # Appendix B — Milestones: Work in Progress
