@@ -175,6 +175,14 @@ That constraint — **nothing from outside** — is what makes the rest of the b
 
 One last thing before we write the axiom. You might wonder: how can a ground with no structure be a starting point for mathematics? The answer is that Ω is not *inside* the mathematics — it is *underneath* it. Mathematics begins in Chapter 2, when the first distinction is drawn. Ω is what exists before that first line is drawn — the blank page, not the first word. Axiom 1 does not compute anything. It declares the page blank.
 
+Before we turn the page, a word about where this is going — not the mathematics, but the picture.
+
+In the chapters ahead, each act of self-examination will build on the last, creating a structure the framework calls a **tower**. Think of it as a stack of nested lenses, each one containing the ones below: the first lens resolves one distinction, the next resolves two, the next three, then five, then eight — growing by the Fibonacci sequence, the same pattern behind the spiral of a sunflower and the chambers of a nautilus shell. Each lens screens what the one above can see, dimming it by a precise fraction. By the time you reach the eighth lens, most of the ground's content is hidden — screened away — and what remains visible is a thin, structured sliver: the particles and forces of the physical world.
+
+That is not a metaphor. In this framework, every particle — every electron orbiting an atom, every photon of light hitting your eye, every quark bound inside a proton — IS one of these towers, running the same self-examining arithmetic from the ground up. A single glass of water contains roughly ten trillion trillion of them (about 10²⁵), each one a self-similar structure built from the golden ratio, each one identical in architecture, differing only in which lens is active and how the content is arranged within it.
+
+The universe, in this picture, is not *made of* towers the way a wall is made of bricks. The universe IS towers — the way a symphony is sound waves, not a thing that *has* sound waves but a thing that *is* sound waves, all the way down. The ground Ω is the silence before the music. The first distinction, in the next chapter, is the first note.
+
 ### The Mathematics
 
 *Complete proofs for this chapter's claims: Appendix A, "Proofs for Chapter 1."*
