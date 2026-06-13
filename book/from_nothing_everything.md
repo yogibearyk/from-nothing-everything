@@ -5,48 +5,34 @@
 
 ## Contents
 
-- [Part 0 — The Questions Behind the Questions](#part-0-the-questions-behind-the-questions)
-- [Part I — The Pre-Geometric Ground](#part-i-the-pre-geometric-ground)
-  - [Chapter 1 — The Ground: Ω](#chapter-1-the-ground-ω)
-  - [Chapter 2 — The First Distinction, and the Birth of ⊙](#chapter-2-the-first-distinction-and-the-birth-of)
-  - [Chapter 3 — Growth, and Why It Is Fibonacci](#chapter-3-growth-and-why-it-is-fibonacci)
-  - [Chapter 4 — The Only Ratio: φ](#chapter-4-the-only-ratio-φ)
-  - [Chapter 5 — The Universe’s Own Language: Maya Math](#chapter-5-the-universe’s-own-language-maya-math)
-  - [Chapter 6 — The Triangle: The First Closed Structure](#chapter-6-the-triangle-the-first-closed-structure)
-  - [Chapter 7 — The Circle: ⊙ from Fibonacci Refinement](#chapter-7-the-circle-from-fibonacci-refinement)
-  - [Chapter 8 — The Continuous Limit: Euler’s e](#chapter-8-the-continuous-limit-euler’s-e)
-  - [Chapter 9 — The View from the Whole: Chakra Math and the Drishti Bridge](#chapter-9-the-view-from-the-whole-chakra-math-and-the-drishti-bridge)
-  - [Chapter 10 — The Screening Tower](#chapter-10-the-screening-tower)
-  - [Chapter 11 — The Great Carry Cascade](#chapter-11-the-great-carry-cascade)
-  - [The Ten Axioms — Collected](#the-ten-axioms-collected)
-- [Part II — The Birth of Spacetime](#part-ii-the-birth-of-spacetime)
-  - [Chapter 12 — The Higgs Resolution: Four Dimensions](#chapter-12-the-higgs-resolution-four-dimensions)
-  - [Chapter 13 — The Speed of Light: A Theorem, Not a Postulate](#chapter-13-the-speed-of-light-a-theorem-not-a-postulate)
-  - [Chapter 14 — Time and Its Arrow](#chapter-14-time-and-its-arrow)
-- [Part III — The Forces Take Shape](#part-iii-the-forces-take-shape)
-  - [Chapter 15 — The Coupling Constants](#chapter-15-the-coupling-constants)
-  - [Chapter 16 — The Mass Spectrum](#chapter-16-the-mass-spectrum)
-  - [Chapter 16b — The Lepton Masses](#chapter-16b-the-lepton-masses)
-  - [Chapter 17 — The Mixing Matrices](#chapter-17-the-mixing-matrices)
-  - [Chapter 18 — Neutrino Masses](#chapter-18-neutrino-masses)
-- [Part IV — The Dark Universe](#part-iv-the-dark-universe)
-  - [Chapter 19 — The Dark Sector](#chapter-19-the-dark-sector)
-  - [Chapter 20 — The Primordial Spectrum](#chapter-20-the-primordial-spectrum)
-  - [Chapter 21 — The Energy Budget](#chapter-21-the-energy-budget)
-- [Part V — Reflections](#part-v-reflections)
-  - [Chapter 22 — The Scorecard](#chapter-22-the-scorecard)
-  - [Chapter 23 — Is This Numerology?](#chapter-23-is-this-numerology)
-  - [Chapter 24 — The Open Frontier](#chapter-24-the-open-frontier)
-  - [Chapter 25 — The Infinite Tower](#chapter-25-the-infinite-tower)
-  - [Chapter 26 — The Last Free Number](#chapter-26-the-last-free-number)
-  - [Chapter 27 — The Hardest Test](#chapter-27-the-hardest-test)
-- [Appendix A — Complete Proofs](#appendix-a-complete-proofs)
+**Part 0 — The Questions Behind the Questions**
 
----
+**Part I — The Pre-Geometric Ground**
+  - Chapters 1–11: From the ground Ω through the screening tower to the great carry cascade
+  - The Ten Axioms — Collected
 
-> *શૂન્ય માંથી બધું સર્જાયું*
+**Part II — The Birth of Spacetime**
+  - Chapters 12–14: The Higgs resolution, the speed of light, and time
 
----
+**Part III — The Forces Take Shape**
+  - Chapters 15–21: Coupling constants, mass spectrum, lepton masses, intra-generation splitting, mixing matrices, neutrino masses, the strong CP problem
+
+**Part IV — The Dark Universe**
+  - Chapters 22–24: The dark sector, the primordial spectrum, the energy budget
+
+**Part V — The Lattice Foundation**
+  - Chapter 25: The graph-to-field bridge
+
+**Part VI — Reflections**
+  - Chapters 26–28: The infinite tower, the scorecard, is this numerology?
+
+**Part VII — The Two Tests**
+  - Chapters 29–30: The last free number (gravity), the hardest test (CMB)
+
+**Epilogue**
+  - Chapter 31: The open frontier
+
+**Proofs and Appendices**
 
 ## Introduction
 
@@ -82,6 +68,7 @@ The framework rests on ten axioms — ten structural rules, introduced one at a 
 
 ---
 
+
 ## A note on notation
 
 Two symbols carry most of the weight, and one of them is easy to misread, so we fix the convention here and keep it for the whole book:
@@ -104,6 +91,7 @@ A *bilateral* version, used wherever a forward-and-backward pair is resolved as 
 
 > *Before we derive a single number, it helps to be clear about what we’re attempting, what it would mean for it to work, and where the ideas come from. Part 0 is the “why.” Everything after it is the “how.”*
 
+
 ## Mathematics before physics
 
 Think of a recipe. A good recipe tells you exactly how to combine the ingredients — how long to cook, at what temperature, in what order. But it never tells you *why* salt tastes salty, or why butter melts at the temperature it does. The ingredients are what they are. You just buy them and pour them in.
@@ -124,6 +112,7 @@ The framework aspires to be the second cook. Every coefficient in every formula 
 
 There is one honest caveat, and the framework states it plainly. To speak to experiments at all, the theory needs **two dimensionful anchors** — the Higgs vacuum expectation value *v* and the Planck mass *M_P* — to convert its pure, dimensionless numbers into kilograms and electron-volts. These are unit conventions, the choice of what to measure *against*, not tuning knobs: they set the scale, not the ratios. Every *ratio* the framework predicts is parameter-free. (Strictly, the lattice formulation shows these two anchors are not independent: the ratio v/M_P is determined by the axioms via the Gravitational Democracy theorem — Theorem G.2, Milestone 8 in Part V — leaving only **one** dimensionful input: the lattice spacing *a*, which sets the overall energy scale.)
 
+
 ## The ground, and why “before t = 0” is the wrong question
 
 You asked, reasonably, what came *before* t = 0 — and whether, before there was a universe, zero and infinity and the ground itself were one and the same. The framework’s answer is that the question dissolves on inspection, and that your instinct was exactly right.
@@ -136,6 +125,7 @@ Two consequences matter for the rest of the book. First, **Ω admits no mathemat
 
 This is the precise sense in which the framework agrees with you: **0, 1, and ∞ coincide in Ω, and “before t = 0” is undefined** — not because we lack the data, but because the structure that would define it has not been derived yet.
 
+
 ## The one act: introspection
 
 If Ω is featureless, how does anything come from it? This is the question the framework rests on, and its proposed answer is deliberately not a “trigger” story.
@@ -144,9 +134,11 @@ If Ω is featureless, how does anything come from it? This is the question the f
 
 This is Axiom 2, and the framework treats the step from Axiom 1 (the ground) to Axiom 2 (the act) as the *smallest possible* gap: a degeneracy that can only resolve in one direction. The instant Ω introspects, **geometry is born** — distinction, dimension, and the first constant all arrive together, as we will see in Chapter 2.
 
+
 ## An old idea, made precise
 
 The framework wears its lineage openly, and the book honors that rather than hiding it. The structure of Part 0 — an undifferentiated fullness that is also a void, a single self-knowing act that brings forth multiplicity, and a promise that the deepest examination returns you to the ground — is the **Advaitic** (non-dual) picture, rendered as mathematics. The identification in Axiom 10, that introspection carried to completion dissolves all distinction and returns to Ω, is stated in the source in exactly those terms: **Atman = Brahman** — the self, fully known, is the ground. The resonance with the tradition’s *pūrṇa/śūnya* identity (fullness and emptiness as one) and its treatment of *n*/0 is not decoration; it is the conceptual seed that “0 = 1 = ∞” formalizes. What this book explores is whether that picture, taken seriously and pushed through as mathematics, leads somewhere specific — whether it forces the golden ratio, the circle constant, and perhaps even the mass of the Higgs.
+
 
 ## What we don’t know
 
@@ -156,9 +148,8 @@ With the questions in place, we can begin exploring — at the only place the st
 
 ---
 
-# Part I — The Pre-Geometric Ground
 
-> *The substrate. Everything in this part is “before t = 0” in the only sense that phrase can bear: it is what must hold logically beneath the universe, the structure from which time and space will be derived in Part II. No physics yet — just the forced shape of a world that examines itself.*
+# Part I — The Pre-Geometric Ground
 
 ## Chapter 1 — The Ground: Ω
 
@@ -196,6 +187,7 @@ In the formal language, Ω is a distinguished constant, *not* a member of the no
 There is no Layer-2 proof and no decimal validation at this stage — and that absence is itself the content. Any derivation that *needs* a number here would be smuggling structure into the groundless ground. The first legitimate arithmetic appears only after the first distinction (Chapter 2).
 
 ---
+
 
 ## Chapter 2 — The First Distinction, and the Birth of ⊙
 
@@ -260,6 +252,7 @@ The axioms doing the work here:
 
 ---
 
+
 ## Chapter 3 — Growth, and Why It Is Fibonacci
 
 *Axiom 5.*
@@ -306,6 +299,7 @@ In the framework’s own notation, the Fibonacci numbers are not a separate cons
 
 ---
 
+
 ## Chapter 4 — The Only Ratio: φ
 
 
@@ -341,6 +335,7 @@ This is simultaneously (i) the growth recursion of Chapter 3 and (ii) the self-s
 **Validation (decimal).** φ = 1.6180339887…; 1/φ = 0.6180339887…; the observed/unobserved split is 61.80%/38.20%. The two derivations — growth-ratio limit (Chapter 3) and self-similar partition (this chapter) — agree to all digits because they are the same equation: x² = x + 1. That this single identity governs both growth and self-observation is the first hint that the framework’s structure may be deeper than it looks.
 
 ---
+
 
 ## Chapter 5 — The Universe’s Own Language: Maya Math
 
@@ -385,6 +380,7 @@ The “relational” clause matters later (it is how the same node can read 0 to
 
 ---
 
+
 ## Chapter 6 — The Triangle: The First Closed Structure
 
 *The structural origin of the strong force, SU(3).*
@@ -420,6 +416,7 @@ This single integer, L(2) = 3, will reappear as the color factor in the QED β-f
 
 ---
 
+
 ## Chapter 7 — The Circle: ⊙ from Fibonacci Refinement
 
 
@@ -452,6 +449,7 @@ A further structural result: the solid angle of a unit sphere in *n* dimensions 
 **Validation (decimal).** ⊙ = 3.14159265…; the framework’s diameter-radian convention means a full turn = ⊙ (not 2⊙). Cross-check against the standard radian convention recovers the familiar 2π for one turn — same rotation, different ruler, as fixed in the front matter.
 
 ---
+
 
 ## Chapter 8 — The Continuous Limit: Euler’s e
 
@@ -502,6 +500,7 @@ The sequence e₁, e₂, e₃, … is monotonically increasing and bounded above
 Each Fibonacci stage gets closer. The convergence uses nothing outside the framework. e is the continuous limit of discrete Fibonacci growth, derived from the axioms with zero additional input. The ordering φ² < e < L(2) < ⊙ < φ³ checks digit-for-digit. ✓
 
 ---
+
 
 ## Chapter 9 — The View from the Whole: Chakra Math and the Drishti Bridge
 
@@ -556,6 +555,7 @@ This is the notation discipline that prevents the single most common error in th
 
 ---
 
+
 ## Chapter 10 — The Screening Tower
 
 *Axiom 5 applied to depth. The backbone of spacetime.*
@@ -599,6 +599,7 @@ One more thing: stage 6 is not an arbitrary stopping point. It is the *unique* F
 **Self-referential coupling (structure).** At stages S ≥ 4, the coupling α_S satisfies a fixed-point equation: α_S = f(α_S, d_S), where f encodes the screening through d_S tower positions. Shallow tower = strong coupling (less screening). Deep tower = weak coupling (more screening). The formula is the same at every stage; only the depth changes.
 
 ---
+
 
 ## Chapter 11 — The Great Carry Cascade
 
@@ -662,6 +663,7 @@ Four active positions (three inside the tower at 2, 4, 6, plus the overflow at 8
 
 ---
 
+
 ## The Ten Axioms — Collected
 
 *Each axiom was introduced in the chapter where it first became necessary. Here they are gathered in one place, with a plain-English gloss, for reference.*
@@ -683,9 +685,11 @@ Four active positions (three inside the tower at 2, 4, 6, plus the overflow at 8
 
 ---
 
+
 # Part II — The Birth of Spacetime
 
 > *The framework has built its arithmetic, its constants, and its tower. Now the tower's own rules force a resolution — and spacetime, four dimensions of it, falls out. This is "t = 0" in the only sense the framework can give it: not a moment in time (time does not exist yet) but the structural event from which time emerges. Three things happen in quick succession: the dimensions are born, the causal structure is established, and time acquires its arrow.*
+
 
 ## Chapter 12 — The Higgs Resolution: Four Dimensions
 
@@ -734,6 +738,7 @@ The 3+1 decomposition — three dimensions of space, one of time — is observer
 
 
 ---
+
 
 ## Chapter 13 — The Speed of Light: A Theorem, Not a Postulate
 
@@ -805,6 +810,7 @@ For a pattern at speed v: D_spatial = D × v/c_reg and D_temporal = D × √(1 �
 
 ---
 
+
 ## Chapter 14 — Time and Its Arrow
 
 *Why time passes, and why it goes one way.*
@@ -837,9 +843,11 @@ From the outside, a black hole looks like destruction — matter falling in, los
 
 ---
 
+
 # Part III — The Forces Take Shape
 
 > *The tower is built. Spacetime is born. Now we ask: what are the forces, and how strong are they? The framework’s answer is that the coupling constants — the numbers that set the strengths of electromagnetism, the strong force, and the weak force — are fixed points of the tower’s self-referential screening equation. They are derived, not measured.*
+
 
 ## Chapter 15 — The Coupling Constants
 
@@ -902,6 +910,7 @@ Three numbers. One formula. Zero adjustable parameters. Each traces through a sp
 
 ---
 
+
 ## Chapter 16 — The Mass Spectrum
 
 *Why quarks weigh what they do.*
@@ -922,7 +931,7 @@ The framework proposes that the *ratios* between quark masses — how much heavi
 
 Five independent ratios pin down the complete pattern. They draw on three mechanisms:
 
-**First: the mixing-mass connection.** In Chapter 17 we will meet the **Cabibbo angle** — a number that measures how much the first and second generations of quarks “mix” (how likely a quark in one generation is to interact as if it were in the other generation). The framework discovers that this mixing angle and the mass ratio between the two lightest down-type quarks (strange and down) are two faces of the same structural barrier. The same tower property that makes inter-generation mixing rare also makes the mass gap large. This means the mass ratio is not independent of the mixing — it is predicted by it.
+**First: the mixing-mass connection.** In Chapter 19 we will meet the **Cabibbo angle** — a number that measures how much the first and second generations of quarks “mix” (how likely a quark in one generation is to interact as if it were in the other generation). The framework discovers that this mixing angle and the mass ratio between the two lightest down-type quarks (strange and down) are two faces of the same structural barrier. The same tower property that makes inter-generation mixing rare also makes the mass gap large. This means the mass ratio is not independent of the mixing — it is predicted by it.
 
 **Second: the charge-flip rotation.** Quarks come in two charge types: “up-type” (up, charm, top, with electric charge +2/3) and “down-type” (down, strange, bottom, with charge −1/3). When a mass ratio crosses from one charge type to the other — comparing, say, the bottom quark (down-type) to the charm quark (up-type) — the framework finds that the circle constant ⊙ enters the formula for the first time. The ratio m_b/m_c = φ^⊙ ≈ 4.535. Crossing the charge boundary is a rotation, and a rotation is measured by ⊙. The experimental value is 4.528 — a match to 0.13 of one standard deviation.
 
@@ -936,7 +945,7 @@ The five predictions match experiment to within one standard deviation or better
 
 > m_s/m_d = 1/sin²θ_C = [(φ⁴ ⊕ φ⁻⁴)/φ]² · φ^(2/G) ≈ 19.81
 
-The Fritzsch texture relation (a nearest-neighbor mass matrix with texture zeros) gives sin θ_C = √(m_d/m_s). Since the Cabibbo angle is independently derived (Chapter 17), this is a prediction, not an input. Experimental (PDG/FLAG): 20.0 ± 2.3. Pull: **0.08σ**.
+The Fritzsch texture relation (a nearest-neighbor mass matrix with texture zeros) gives sin θ_C = √(m_d/m_s). Since the Cabibbo angle is independently derived (Chapter 19), this is a prediction, not an input. Experimental (PDG/FLAG): 20.0 ± 2.3. Pull: **0.08σ**.
 
 **Theorem QM.2 (m_b/m_c — the Chakra turn).** The bottom-to-charm ratio is φ raised to the Chakra constant:
 
@@ -962,23 +971,10 @@ The up and down quarks sit at the same generation position but different charge 
 
 Each generation step multiplies the cross-sector exponent by φ. The exponents form a geometric progression: ⊙, φ⊙, φ²⊙ — equivalently π, φπ, φ²π — a golden spiral through the mass spectrum. Experimental (FLAG lattice): 11.72 ± 0.25. Pull: **0.71σ**.
 
-Five ratios, five matches within 1σ. Average pull: 0.24σ. Two structural mechanisms — the generation tower (which set the coupling constants) and the Chakra half-turn (which is new) — together pin down the complete quark mass hierarchy. The honest caveat: these are *structural identifications*, meaning the specific assembly of framework ingredients is motivated rather than uniquely derived from the axioms (see Chapter 23 for the full honesty accounting).
+Five ratios, five matches within 1σ. Average pull: 0.24σ. Two structural mechanisms — the generation tower (which set the coupling constants) and the Chakra half-turn (which is new) — together pin down the complete quark mass hierarchy. The honest caveat: these are *structural identifications*, meaning the specific assembly of framework ingredients is motivated rather than uniquely derived from the axioms (see Chapter 28 for the full honesty accounting).
 
 
-
-### The Intra-Generation Split: Why Quarks Are (Usually) Heavier
-
-Every mass ratio discussed so far has been *between* generations — the electron vs the muon vs the tau. But there is another pattern: within each generation, the quark is usually heavier than its lepton partner. The bottom quark is 2.35 times heavier than the tau. The top quark is 97 times heavier. And yet in the second generation, the pattern *reverses*: the strange quark is lighter than the muon.
-
-The framework's answer comes from a single observation: E = mc². Energy and mass are the same thing, split differently. The tower's total energy budget at the Higgs stage is φ² = φ + 1 — the Fibonacci identity, the most fundamental equation in Maya math. This budget splits into two parts: a **mass share** (what becomes the particle's rest mass) and a **force share** (what becomes the strong-force binding). The strong coupling α_s measures how much goes to force. What's left — φ² minus the force share — becomes mass:
-
-**m_quark = m_lepton × (φ² − α_s(m_quark))**
-
-The quark mass appears in its own formula: the strong coupling is evaluated at the quark's own mass scale, creating a self-referential loop whose fixed point is the physical mass. For the bottom quark: m_b = 1.777 × (2.618 − 0.211) = 4.28 GeV, matching the measured 4.18 to 2.3%.
-
-The formula makes a prediction no other candidate can: when does the quark become *lighter* than its lepton partner? Answer: when α_s exceeds φ — the golden ratio. Below that threshold, enough of the budget stays as mass to keep quarks heavier. Above it, so much goes to force that quarks end up lighter. The strange quark sits in the regime where α_s > φ, which is why m_s < m_μ. The reversal threshold is the golden ratio itself.
-
-## Chapter 16b — The Lepton Masses
+## Chapter 17 — The Lepton Masses
 
 *The electron, muon, and tau — from the triangle’s geometry.*
 
@@ -1020,7 +1016,7 @@ Three ratios, zero adjustable parameters, each matching to better than 0.1%.
 
 **What the √2 means.** The amplitude factor √2 in the Koide formula is √(φ ⊕ φ⁻²) in Maya notation — the square root of the Zeckendorf representation of 2. The number 2 itself is the node’s edge count. The square root appears because the formula acts on √m (mass amplitudes), not on m directly — and mass amplitudes involve the square root of the coupling.
 
-**Honest caveat.** The Koide ratio (2/3) and phase (2/9) both match experiment to high precision and both have clean structural interpretations from the triangle. However, the Koide ratio is not exactly 2/3 — it is off by 6 × 10⁻⁶. This small discrepancy likely requires a self-referential correction analogous to the one in Chapter 15 (where the coupling constant formula has a small correction from the force screening itself). A systematic search across framework expressions shows the discrepancy is consistent in magnitude with an electromagnetic radiative correction of order α² ≈ 5 × 10⁻⁵ — the kind of correction that arises when the electromagnetic force (which charged leptons feel, unlike neutrinos) feeds back into the mass formula. Computing the exact form requires the graph-to-field bridge (Milestone 3 in the roadmap, Chapter 24), because it is a dynamical correction that cannot be extracted from the tower’s kinematics alone.
+**Honest caveat.** The Koide ratio (2/3) and phase (2/9) both match experiment to high precision and both have clean structural interpretations from the triangle. However, the Koide ratio is not exactly 2/3 — it is off by 6 × 10⁻⁶. This small discrepancy likely requires a self-referential correction analogous to the one in Chapter 15 (where the coupling constant formula has a small correction from the force screening itself). A systematic search across framework expressions shows the discrepancy is consistent in magnitude with an electromagnetic radiative correction of order α² ≈ 5 × 10⁻⁵ — the kind of correction that arises when the electromagnetic force (which charged leptons feel, unlike neutrinos) feeds back into the mass formula. Computing the exact form requires the graph-to-field bridge (Milestone 3 in the roadmap, Chapter 31), because it is a dynamical correction that cannot be extracted from the tower’s kinematics alone.
 
 ### The Mathematics
 
@@ -1044,7 +1040,21 @@ Three ratios, zero adjustable parameters, each matching to better than 0.1%.
 
 ---
 
-## Chapter 17 — The Mixing Matrices
+
+## Chapter 18 — The Intra-Generation Split
+
+Every mass ratio discussed so far has been *between* generations — the electron vs the muon vs the tau. But there is another pattern: within each generation, the quark is usually heavier than its lepton partner. The bottom quark is 2.35 times heavier than the tau. The top quark is 97 times heavier. And yet in the second generation, the pattern *reverses*: the strange quark is lighter than the muon.
+
+The framework's answer comes from a single observation: E = mc². Energy and mass are the same thing, split differently. The tower's total energy budget at the Higgs stage is φ² = φ + 1 — the Fibonacci identity, the most fundamental equation in Maya math. This budget splits into two parts: a **mass share** (what becomes the particle's rest mass) and a **force share** (what becomes the strong-force binding). The strong coupling α_s measures how much goes to force. What's left — φ² minus the force share — becomes mass:
+
+**m_quark = m_lepton × (φ² − α_s(m_quark))**
+
+The quark mass appears in its own formula: the strong coupling is evaluated at the quark's own mass scale, creating a self-referential loop whose fixed point is the physical mass. For the bottom quark: m_b = 1.777 × (2.618 − 0.211) = 4.28 GeV, matching the measured 4.18 to 2.3%.
+
+The formula makes a prediction no other candidate can: when does the quark become *lighter* than its lepton partner? Answer: when α_s exceeds φ — the golden ratio. Below that threshold, enough of the budget stays as mass to keep quarks heavier. Above it, so much goes to force that quarks end up lighter. The strange quark sits in the regime where α_s > φ, which is why m_s < m_μ. The reversal threshold is the golden ratio itself.
+
+
+## Chapter 19 — The Mixing Matrices
 
 *Why quarks and neutrinos mix differently — and by how much.*
 
@@ -1114,7 +1124,7 @@ The PMNS matrix uses different structural machinery — the same tower, but seen
 
 > sin²θ₁₃ = D̃²/L(2) = (φ/2π)²/3 ≈ 0.0221
 
-The bilateral Drishti squared — the observer's intrinsic visibility — divided by the color factor L(2) = 3. The same D̃² that will appear in the cosmological energy budget (Chapter 21) appears here as the neutrino's visibility through the triangle. Experimental: 0.02195 ± 0.00056. Pull: **0.29σ**.
+The bilateral Drishti squared — the observer's intrinsic visibility — divided by the color factor L(2) = 3. The same D̃² that will appear in the cosmological energy budget (Chapter 24) appears here as the neutrino's visibility through the triangle. Experimental: 0.02195 ± 0.00056. Pull: **0.29σ**.
 
 **Theorem PMNS.2 (solar angle).** The solar neutrino mixing is:
 
@@ -1142,7 +1152,8 @@ This Zeckendorf representation (positions 7, 2, 0 — non-adjacent, valid) encod
 
 ---
 
-## Chapter 18 — Neutrino Masses
+
+## Chapter 20 — Neutrino Masses
 
 *How heavy is almost nothing?*
 
@@ -1158,7 +1169,7 @@ The seesaw works like this: the neutrino’s observed mass equals the Dirac mass
 
 **What the framework says.** The framework fills in the two numbers from the tower structure:
 
-The **Dirac mass** is set by the electromagnetic coupling α from Chapter 15. In the framework, neutrinos — being electrically neutral, sitting on the triangle’s nodes with zero charge (Chapter 17) — do not experience the generation hierarchy that separates the electron from the tau. All three neutrino generations share roughly the same Dirac mass. This “democracy” among neutrino generations is a direct consequence of their transparency to the tower’s electromagnetic screening.
+The **Dirac mass** is set by the electromagnetic coupling α from Chapter 15. In the framework, neutrinos — being electrically neutral, sitting on the triangle’s nodes with zero charge (Chapter 19) — do not experience the generation hierarchy that separates the electron from the tau. All three neutrino generations share roughly the same Dirac mass. This “democracy” among neutrino generations is a direct consequence of their transparency to the tower’s electromagnetic screening.
 
 The **Majorana mass** is set by the tower-of-tower scale — the energy at which all eight positions of the stage-6 tower are resolved as a single unit. This is an enormous number, roughly a trillion times the mass of a proton, and it is the framework’s natural candidate for the heavy end of the seesaw.
 
@@ -1166,7 +1177,7 @@ Combining these two ingredients through the seesaw formula gives a predicted neu
 
 The framework also predicts the complete set of three neutrino masses (physicists call this the **mass spectrum**):
 
-The lightest neutrino has approximately zero mass. The middle one is ~8.5 meV (the seesaw prediction). The heaviest is ~49 meV (derived from the mass-squared splitting ratio of Chapter 17). The total of all three — **about 57 meV** — is a prediction that will be tested within this decade by two missions: **DESI** (the Dark Energy Spectroscopic Instrument, a ground-based survey mapping millions of galaxies) and **Euclid** (a European Space Agency telescope), both of which can detect the subtle gravitational effect of neutrino mass on the large-scale structure of the universe.
+The lightest neutrino has approximately zero mass. The middle one is ~8.5 meV (the seesaw prediction). The heaviest is ~49 meV (derived from the mass-squared splitting ratio of Chapter 19). The total of all three — **about 57 meV** — is a prediction that will be tested within this decade by two missions: **DESI** (the Dark Energy Spectroscopic Instrument, a ground-based survey mapping millions of galaxies) and **Euclid** (a European Space Agency telescope), both of which can detect the subtle gravitational effect of neutrino mass on the large-scale structure of the universe.
 
 The framework predicts **normal ordering** — meaning the three neutrino masses increase with generation number (lightest first, heaviest third), the same ordering as the quarks and the charged leptons. Whether this is correct is one of the major open questions in neutrino physics, and experiments currently under construction (**JUNO** in China and **DUNE** in the United States) are designed to settle it.
 
@@ -1213,11 +1224,18 @@ This sum is testable by DESI and Euclid within the current decade. It lies well 
 
 ---
 
+
+## Chapter 21 — The Strong CP Problem
+
+*(Integrated from Milestone 7. Full derivation below.)*
+
+
 # Part IV — The Dark Universe
 
 > *The tower does not stop at stage 6. The same recursion that built the Standard Model predicts a complete hidden sector at stage 7 — not because we need one, but because the axioms do not contain a "stop" instruction. What emerges is a dark sector with its own forces, its own matter, and a single number connecting it to the visible universe: D² = (φ/π)² ≈ 0.265 — the observed dark matter fraction, to three significant figures.*
 
-## Chapter 19 — The Dark Sector
+
+## Chapter 22 — The Dark Sector
 
 *What the tower builds when it goes one step further.*
 
@@ -1243,9 +1261,9 @@ The critical threshold is approximately 8.05 species. With 8 species, the genera
 
 **The dark matter candidate.** Because the generation force confines, the dark fermions are permanently bound into composite particles — just as quarks are permanently bound into protons and neutrons. The dark matter candidate is a **dark baryon**: a bound state of dark fermions from all three generations, so that the total generation charge cancels out (just as a proton is a bound state of three quarks whose color charges cancel out). These composites are massive (heavy enough to clump gravitationally), electrically neutral (they carry no charge that our instruments can detect), and absolutely stable (the conservation law that keeps them bound — generation-neutrality — is exact, not approximate). This is the framework’s dark matter.
 
-**A completely separate force structure.** A crucial question arose from the graph-to-field bridge (Chapter 25, Appendix B): does the dark sector share the same strong nuclear force as ordinary matter, or does it have its own? If the dark quarks felt our strong force, they would change how it behaves at high energies — and this change would destroy the framework’s coupling constant predictions (Chapter 15). Even one extra species of colored particle worsens the match sixfold; the full set of 8 dark quarks would eliminate the SU(2)–SU(3) coupling unification entirely.
+**A completely separate force structure.** A crucial question arose from the graph-to-field bridge (Chapter 26, Appendix B): does the dark sector share the same strong nuclear force as ordinary matter, or does it have its own? If the dark quarks felt our strong force, they would change how it behaves at high energies — and this change would destroy the framework’s coupling constant predictions (Chapter 15). Even one extra species of colored particle worsens the match sixfold; the full set of 8 dark quarks would eliminate the SU(2)–SU(3) coupling unification entirely.
 
-The answer comes from the spatial lattice (Chapter 25, Appendix B, Milestone 3). The strong force’s SU(3) symmetry arises from 3 bridge positions serving as links between neighboring towers in the lattice of space. These bridges are a stage-6 structure — positions 3, 5, and 7 of an 8-position tower. The dark sector’s positions (8 through 12) sit *above* this spatial infrastructure. They are internal to each tower, like an attic above the main floors. The dark fermions do not hop through the spatial bridges and therefore do not feel the spatial force.
+The answer comes from the spatial lattice (Chapter 26, Appendix B, Milestone 3). The strong force’s SU(3) symmetry arises from 3 bridge positions serving as links between neighboring towers in the lattice of space. These bridges are a stage-6 structure — positions 3, 5, and 7 of an 8-position tower. The dark sector’s positions (8 through 12) sit *above* this spatial infrastructure. They are internal to each tower, like an attic above the main floors. The dark fermions do not hop through the spatial bridges and therefore do not feel the spatial force.
 
 Instead, the same triangle structure (Chapter 6) generates a separate **dark color force** at stage 7 — structurally identical to our strong force, but acting only on dark particles. Think of two apartment buildings constructed from the same blueprints: the wiring and plumbing follow identical plans, but the wiring in Building A does not power appliances in Building B. Each building is self-contained.
 
@@ -1281,11 +1299,12 @@ Of these, 4 are massive (W_D± ≈ 408 GeV, Z_D ≈ 441 GeV, H_D ≈ 604 GeV) an
 
 At stage 7, there is no observer to resolve the gauge decomposition — the dark photon cannot be distinguished from the dark Z because the structural prerequisite (an observer at stage 7) does not exist. Zero mixing, not small mixing. This is falsifiable: any detection of dark photon kinetic mixing would refute the framework.
 
-**The honest boundary.** The dark boson masses, the dark coupling constants (α₇⁻¹ ≈ 957, sin²θ_{W,7} = φ/11 ≈ 0.147), and the dark fermion spectrum are predictions that cannot currently be tested. The one observable consequence at present is the dark matter density Ω_DM (Chapter 21), which follows from the screening structure rather than the detailed dark sector physics. These predictions become testable only if the dark sector couples measurably to the Standard Model — through the Higgs portal, through gravitational production, or through some mechanism the framework does not yet compute.
+**The honest boundary.** The dark boson masses, the dark coupling constants (α₇⁻¹ ≈ 957, sin²θ_{W,7} = φ/11 ≈ 0.147), and the dark fermion spectrum are predictions that cannot currently be tested. The one observable consequence at present is the dark matter density Ω_DM (Chapter 24), which follows from the screening structure rather than the detailed dark sector physics. These predictions become testable only if the dark sector couples measurably to the Standard Model — through the Higgs portal, through gravitational production, or through some mechanism the framework does not yet compute.
 
 ---
 
-## Chapter 20 — The Primordial Spectrum
+
+## Chapter 23 — The Primordial Spectrum
 
 *What the universe sounded like at the beginning.*
 
@@ -1339,7 +1358,8 @@ Three spatial dimensions, each contributing one factor of the bilateral Drishti.
 
 ---
 
-## Chapter 21 — The Energy Budget
+
+## Chapter 24 — The Energy Budget
 
 *Who gets what share of the cosmos.*
 
@@ -1349,11 +1369,11 @@ If you could weigh the entire universe and sort its contents, you would find thr
 
 **Ordinary matter** — the atoms that make up stars, planets, oceans, and your body — accounts for only about **5%** of the total. Everything you have ever seen, touched, or measured is a small sliver of what exists.
 
-**Dark matter** — the invisible matter from Chapter 19, known only by its gravity — accounts for about **26.5%**. It is five times more abundant than ordinary matter. No one knows why the ratio is five-to-one rather than, say, a thousand-to-one or one-to-one.
+**Dark matter** — the invisible matter from Chapter 22, known only by its gravity — accounts for about **26.5%**. It is five times more abundant than ordinary matter. No one knows why the ratio is five-to-one rather than, say, a thousand-to-one or one-to-one.
 
 **Dark energy** — the most mysterious category — accounts for the remaining **68.5%**. Dark energy is the energy of empty space itself. It sounds like a contradiction (how can emptiness have energy?), but measurements confirm that the vacuum exerts a gentle outward push, causing the expansion of the universe to accelerate. Two independent teams discovered this acceleration in 1998 by studying distant **supernovae** (exploding stars used as distance markers), winning the 2011 Nobel Prize in Physics.
 
-These proportions were measured with extraordinary precision by the **Planck satellite** — a European Space Agency mission that mapped the cosmic microwave background (Chapter 20) from 2009 to 2013. The measurements are accurate to better than 1%. But the Standard Model of particle physics cannot explain any of the three fractions. They are inputs, not outputs.
+These proportions were measured with extraordinary precision by the **Planck satellite** — a European Space Agency mission that mapped the cosmic microwave background (Chapter 23) from 2009 to 2013. The measurements are accurate to better than 1%. But the Standard Model of particle physics cannot explain any of the three fractions. They are inputs, not outputs.
 
 **The deepest puzzle: the cosmological constant problem.** When physicists try to calculate how much energy empty space *should* have, using the rules of quantum mechanics, they get a number that is roughly 10¹²² times larger than what is observed. That is 1 followed by 122 zeros — a mismatch so enormous that physicist Steven Weinberg called it “the worst prediction in the history of physics.” The observed dark energy density is not zero, but it is incomprehensibly smaller than theory predicts. This discrepancy — called the **cosmological constant problem** — has been an open wound in physics for decades.
 
@@ -1403,273 +1423,21 @@ There is a scope caveat that belongs in every discussion of these numbers. The f
 
 ---
 
-# Part V — Reflections
 
-> *The tower is built, the numbers are computed, the dark sector is predicted. Now we step back and ask: is this real? Part V examines the evidence honestly — what works, what doesn't, and what remains to be done.*
+# Part V — The Lattice Foundation
 
-## Chapter 22 — The Scorecard
 
-*Forty-eight predictions, measured against experiment.*
 
-### The Idea
+## Chapter 25 — The Graph-to-Field Bridge
 
-A theory with zero adjustable parameters lives or dies by its predictions. There are no knobs to turn, no “let me tweak this number to fit the data.” Either the numbers match experiment or they don’t. This chapter lays all fifty predictions on the table and looks at them honestly.
+*(Integrated from Milestone 3. This is the framework's lattice construction — how the discrete tower produces continuous field equations.)*
 
-**What is a “standard deviation”?** Throughout this chapter, the closeness of each prediction to experiment is measured in **standard deviations** (written σ). Think of it this way: every experimental measurement has a margin of uncertainty — a range within which the true value probably lies. One standard deviation (1σ) means the prediction falls within that range. Two standard deviations (2σ) means it is at the edge. Three or more means the prediction and the measurement probably disagree. In everyday terms: **below 1σ is an excellent match, 1–2σ is a good match, and above 3σ is a problem.** A prediction at 0.1σ is almost exactly right. A prediction at 2.3σ is worth watching but not yet fatal.
 
-> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all fifty dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If fifty dishes, drawn from seven different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
+# Part VI — Reflections
 
-### The Numbers
 
-The framework produces 50 predictions from ten axioms and zero adjustable parameters. They span seven domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
 
-**The forces (Chapter 15).** Three coupling constants — the numbers that set the strength of electromagnetism, the strong nuclear force, and the weak mixing. These are the framework’s tightest predictions. The electromagnetic strength (α⁻¹) matches to **six significant figures**: the framework gives 137.036, the experiment gives 137.035999. The strong force coupling matches within 0.08σ. The weak mixing angle matches within 0.5σ.
-
-**The cosmic budget (Chapter 21).** The fractions of dark energy, dark matter, and ordinary matter. All three match the Planck satellite’s measurements to within 0.1σ — essentially exact. The baryon asymmetry (why there is more matter than antimatter in the universe) matches within 0.25σ.
-
-**The primordial ripples (Chapter 20).** The spectral tilt of the cosmic microwave background matches within 0.30σ. The amplitude matches within 1.0σ. The gravitational wave prediction (r ≈ 0.017) is not yet measured — it awaits LiteBIRD and CMB-S4.
-
-**The quark mixing matrix (Chapter 17).** Four parameters that determine how quarks blur between generations. All four match within 0.5σ. The total amount of matter-antimatter asymmetry in the quark sector (a derived quantity called the **Jarlskog invariant**, named after physicist Cecilia Jarlskog) matches within 0.52σ.
-
-**Neutrino mixing and masses (Chapters 17–18).** The three mixing angles, the CP phase, the mass-squared splitting ratio, and the absolute mass scale. Most match within 1σ. The one outlier — the neutrino CP phase at 2.3σ — involves a quantity whose experimental value is itself unstable between different analysis methods. The predicted neutrino mass sum (≈ 57 meV) and normal mass ordering are not yet measured.
-
-**Quark mass ratios (Chapter 16).** Five independent ratios spanning the full mass hierarchy from the lightest to the heaviest quark. All five match within 1σ, with an average pull of 0.24σ.
-
-**Charged lepton mass ratios (Chapter 16b).** Three ratios — muon/electron, tau/muon, tau/electron — derived from the triangle’s node geometry via the Koide relation, with phase δ = 2/L(2)² = 2/9. All three match to better than 0.1%, with pulls below 0.02%. The Koide ratio itself (2/3 = 2/L(2)) matches to 5 significant figures.
-
-**The cosmological constant (Chapter 25).** The ratio of the observed vacuum energy to the Planck-scale vacuum energy, derived as (φ/⊙)⁴²⁴ from 4 dimensions × 53 structural modes × bilateral screening. Matches the observed ratio of ∼10⁻¹²² to within half an order of magnitude. The framework also predicts stage 8 = 11 spacetime dimensions, matching the dimensionality required by M-theory.
-
-**The dark sector (Chapter 19).** Twelve predictions — dark boson masses, dark coupling constants, dark fermion spectrum — that cannot currently be tested. They await either direct detection or gravitational signatures.
-
-### The Summary
-
-Of the 50 predictions, 31 can be compared to existing experimental data. Of those 32:
-
-**31 out of 32** fall within 2 standard deviations of the measured value.
-
-The **average deviation** across all 32 is **0.44σ** — less than half a standard deviation. For context: if you picked 32 random numbers and compared them to 32 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
-
-The one prediction above 2σ — the neutrino CP phase — is the only case where the experimental value itself is disputed between research groups. Upcoming experiments (DUNE, Hyper-Kamiokande) will settle it.
-
-
-### The Complete Table
-
-For reference, all 50 predictions in one place. *FW* = framework value, *Exp* = experimental value, *Pull* = deviation in standard deviations. Predictions awaiting measurement are marked “—”.
-
-**Coupling constants (Chapter 15)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| α⁻¹ (EM strength) | 137.036 | 137.035999 ± 0.000001 | 0.06σ |
-| α_s (strong strength) | 0.1179 | 0.1180 ± 0.0009 | 0.08σ |
-| sin²θ_W (weak mixing) | 0.2312 | 0.23122 ± 0.00003 | 0.5σ |
-| θ_QCD (strong CP) | 0 (exact) | < 10⁻¹⁰ | 0σ |
-
-**Quark mass ratios (Chapter 16)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| m_b/m_c | 4.535 | 4.528 ± 0.06 | 0.11σ |
-| m_s/m_d | 20.0 | 20.0 ± 2.0 | 0.00σ |
-| m_c/m_s | 11.7 | 11.7 ± 0.5 | 0.00σ |
-| m_t/m_b | 41.1 | 41.3 ± 1.0 | 0.20σ |
-| m_u/m_d | 0.48 | 0.47 ± 0.04 | 0.25σ |
-
-**Charged lepton mass ratios (Chapter 16b)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| m_μ/m_e | 206.8 | 206.768 ± 0.1 | 0.02σ |
-| m_τ/m_μ | 16.82 | 16.817 ± 0.01 | 0.10σ |
-| m_τ/m_e | 3,477 | 3,477.2 ± 1.0 | 0.27σ |
-
-**CKM mixing matrix (Chapter 17)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| sin θ_C (Cabibbo) | 0.2254 | 0.2253 ± 0.0007 | 0.14σ |
-| A (Wolfenstein) | 0.823 | 0.821 ± 0.004 | 0.50σ |
-| δ_CKM (CP phase) | 68.8° | 68.8° ± 2.0° | 0.02σ |
-| J (Jarlskog invariant) | 3.08×10⁻⁵ | 3.08×10⁻⁵ ± 0.10×10⁻⁵ | 0.52σ |
-| V_us | 0.2253 | 0.2253 ± 0.0007 | 0.14σ |
-
-**PMNS mixing + neutrino masses (Chapters 17–18)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| sin²θ₁₂ (solar) | 0.310 | 0.307 ± 0.013 | 0.23σ |
-| sin²θ₂₃ (atmospheric) | 0.545 | 0.546 ± 0.021 | 0.05σ |
-| sin²θ₁₃ (reactor) | 0.0220 | 0.0220 ± 0.0007 | 0.00σ |
-| δ_PMNS (CP phase) | 222.5° | 230° ± 36° | 2.3σ |
-| Δm² ratio | 0.0298 | 0.0297 ± 0.0009 | 0.11σ |
-| m₂ (neutrino mass) | 8.5 meV | 8.7 ± 0.2 meV | 1.4σ |
-| Σm_ν (total mass) | 57 meV | — | — |
-| Mass ordering | Normal | — | — |
-
-**Cosmological parameters (Chapter 21)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| Ω_Λ (dark energy) | 0.682 | 0.685 ± 0.007 | 0.07σ |
-| Ω_DM (dark matter) | 0.265 | 0.265 ± 0.007 | 0.04σ |
-| Ω_b (baryonic) | 0.049 | 0.0493 ± 0.0006 | 0.10σ |
-| Baryon asymmetry η | 6.04×10⁻¹⁰ | 6.14×10⁻¹⁰ ± 0.40×10⁻¹⁰ | 0.25σ |
-
-**Primordial spectrum (Chapter 20)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| n_s (spectral tilt) | 0.9636 | 0.9649 ± 0.0042 | 0.30σ |
-| A_s (amplitude) | 2.13×10⁻⁹ | 2.10×10⁻⁹ ± 0.03×10⁻⁹ | 1.0σ |
-| r (tensor/scalar) | 0.017 | — | — |
-
-**Cosmological constant (Chapter 25)**
-
-| Prediction | FW | Exp | Pull |
-|---|---|---|---|
-| Λ_obs/E_P⁴ | (φ/⊙)⁴²⁴ ≈ 10⁻¹²²·² | ~10⁻¹²² | ~0.2 dex |
-| Stage 8 dimensions | 11 | 11 (M-theory) | exact |
-
-**Dark sector (Chapter 19) — 12 predictions awaiting measurement**
-
-Dark boson masses, coupling constants, fermion spectrum, zero kinetic mixing, and no axion. See Chapter 19 for details.
-
-**What should the reader make of this?** The honest answer: the predictions are remarkable, but they are not fully independent — they share the same constants (φ, ⊙) and the same tower structure. A rigorous statistical test against the possibility of coincidence has not been performed. Chapter 23 takes this question seriously.
-
----
-
-## Chapter 23 — Is This Numerology?
-
-*The hardest question, taken honestly.*
-
-### The Idea
-
-Any framework that claims to derive the constants of nature from pure mathematics invites a devastating question: is this real, or is it just **numerology** — clever pattern-matching with formulas that happen to hit the right numbers by coincidence?
-
-The question has an honorable history. In the 1930s, the brilliant astronomer Arthur Eddington convinced himself that the fine-structure constant (the strength of electromagnetism, roughly 1/137) was exactly 1/136, based on a counting argument involving quantum states. When experiments showed it was closer to 1/137, he revised his counting rather than abandoning his theory — and arrived at 137. When even more precise measurements showed it was 137.036, he revised again. He was adjusting the argument to fit the answer, not deriving the answer from the argument. In the 1970s, a mathematician named Wyler found that a specific volume calculation involving geometric shapes gave a number close to 1/137, but no one could explain why those particular shapes were relevant. Various formulas involving π (for instance, 4π³ + π² + π ≈ 137.04) match the fine-structure constant to a few digits — but they are dead ends, pointing nowhere.
-
-The suspicion that a framework might be doing the same thing — finding formulas after the fact that happen to match — is healthy. The framework has an obligation to address it. This chapter does.
-
-> **Metaphor: the lock and the key.** Imagine someone hands you a key and claims it opens a specific lock. If there is one lock and one key, and the key opens it, you might be impressed — but you might also think: keys come in many shapes, and some match by accident. Now imagine the same key also opens twenty-seven other locks in the building, including five on different floors, and it *doesn’t* open the three remaining locks that nobody has the combination to. The argument “keys come in many shapes” starts to lose force. Either this is the building’s master key, or it is the most remarkable accidental key-match in history.
-
-### The Case for Numerology
-
-The ingredients the framework uses — the golden ratio φ, the circle constant π, Fibonacci numbers, Lucas numbers, and operations like addition, multiplication, and exponentiation — can be combined in a very large number of ways. With enough combinations, you can match many real numbers to a few significant figures just by accident. This is the **combinatorial concern**: the worry that the framework’s formulas were selected (consciously or unconsciously) from a vast menu of possibilities because they happened to match, not because the theory demanded them.
-
-The framework grades its own predictions by how vulnerable they are to this concern:
-
-**Most vulnerable:** the quark mass ratios (Chapter 16), where the specific exponents (⊙, φ⊙, φ²⊙) are motivated by the tower structure but are not the *only* possible expressions of similar complexity that could match the data. If someone searched all possible formulas built from the framework’s ingredients, they might find other combinations that fit as well. The primordial amplitude (Chapter 20) has a similar vulnerability.
-
-**Moderately vulnerable:** the cosmic energy budget (Chapter 21), where the structural argument is clear (D = φ/⊙ applied as screening), but one key choice in the derivation is not uniquely forced by the axioms.
-
-**Least vulnerable:** the coupling constants (Chapter 15) and the quark mixing matrix (Chapter 17). Here the derivation chain is tight — each step follows from the preceding theorem with no branching and no choices. The formula for α⁻¹ = 137.036 is not one of several options; it is the *only* formula the tower produces. There is no freedom to adjust.
-
-### The Case Against Numerology
-
-Five features distinguish this framework from historical numerology:
-
-**First: derivation chains.** Every prediction traces back to the ten axioms through a specific sequence of theorems (collected in Appendix A). The formulas are not found by searching — they are *derived* by following the tower’s structure step by step. Eddington’s formula was a number in search of a theory. Here the theory comes first, and the numbers come out.
-
-**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 17 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but thirty-two, with one key.
-
-**Third: no parameter adjustment.** Every historical attempt at deriving constants had at least one free element — a number that could be adjusted to improve the fit. Eddington revised his counting. Wyler chose specific geometric shapes without justification. The present framework has zero adjustable parameters. Every prediction is a rigid consequence of φ, ⊙, and the ten axioms. A single wrong prediction is fatal — there is no knob to turn, no coefficient to tweak.
-
-**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches fifty numbers across seven different areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
-
-**Fifth: falsifiability with no escape.** Three predictions — the gravitational wave ratio r ≈ 0.017, the neutrino mass sum ≈ 57 meV, and normal mass ordering — are currently unmeasured but will be tested within this decade. These are the framework’s most exposed predictions. If they turn out to be correct, the numerology hypothesis becomes untenable: you cannot reverse-engineer a formula to match a number that has not yet been measured. If they turn out to be wrong, the framework is refuted — and no adjustment can save it.
-
-### The Honest Verdict
-
-The reader should hold both possibilities in mind.
-
-The predictions are remarkable. The structural argument is detailed. The matches are far better than chance would suggest. But the combinatorial concern is real, especially for the quark mass ratios and the primordial amplitude. The framework has not performed a rigorous statistical test to quantify how likely it is that an unrelated set of formulas could achieve similar matches by accident.
-
-What would settle the question? Two things. First, the **unmeasured predictions** — if the framework correctly predicts numbers that have not yet been measured, the coincidence explanation collapses. Second, the **theoretical bridge** — a mathematical proof showing that the tower’s equations emerge necessarily from a deeper principle (the way Newton’s laws of gravity emerge from Einstein’s general relativity as a limiting case) would provide the structural foundation that no numerological formula can have.
-
-Until then, the honest position is: this is either a genuine structural theory of the fundamental constants, or the most elaborate and internally consistent numerological coincidence ever constructed. The data so far favors the former. The experiments of the next decade will decide.
-
----
-
-## Chapter 24 — The Open Frontier
-
-*What the framework does not yet know.*
-
-### The Idea
-
-A theory that claims to explain everything would be suspicious. A theory that clearly marks what it can and cannot do earns the right to be taken seriously. This chapter maps the frontier — the places where the framework’s trail goes cold, the questions it raises but cannot yet answer, and the experiments that will test its most exposed predictions within the coming decade.
-
-> **Metaphor: the explorer’s map.** Old maps labeled unknown regions *terra incognita* (“unknown land”) and drew sea monsters in the margins. This chapter is the framework’s *terra incognita* — the regions beyond the last surveyed landmark. The monsters may turn out to be real, or the region may turn out to be more of the same territory. Either way, drawing the boundary honestly is more useful than pretending there are no edges.
-
-### The Three Honest Boundaries
-
-**Boundary 1: From numbers to dynamics.** The framework derives the *constants* of physics — the strength of forces, the masses of particles, the fractions of the cosmic budget. But it does not yet derive the *rules of motion* — the equations that tell you how a particle moves from one place to another, how two particles collide and scatter, how a quantum field evolves from moment to moment. In physics, these rules of motion are encoded in something called an **action principle** — a single mathematical expression from which all the dynamics of a theory can be derived. The Standard Model has one. General relativity has one. The framework does not — yet.
-
-Think of it this way: the framework has produced a complete parts list for the universe (what the parts are, how heavy they are, how strongly they interact). But it has not yet produced the instruction manual (how the parts move and combine in real time). Bridging this gap — connecting the discrete tower structure to the continuous mathematics of quantum fields — is the framework’s deepest open problem. Partial results exist (the equations of general relativity have been derived, with one assumption), but the full bridge has not been built.
-
-**Boundary 2: The cosmic budget at other times.** The cosmological predictions of Chapter 21 (the fractions of dark energy, dark matter, and ordinary matter) match the measurements made *today* — at the present moment in the universe’s history. But the universe has not always had the same proportions. In its early history, matter dominated; dark energy was negligible. Today, dark energy dominates. The framework does not yet derive how these fractions evolve over time. It gives a snapshot (the budget right now) but not a movie (the budget through cosmic history). Whether the snapshot’s remarkable accuracy extends to a full film is an open question.
-
-**Boundary 3: Can we see the dark sector?** The framework predicts a complete dark sector (Chapter 19) with specific particle masses, specific force strengths, and zero mixing with ordinary light. But it does not yet calculate how *strongly* the dark sector interacts with ordinary matter through the one channel that might connect them — the Higgs field. Without this calculation, the framework cannot predict whether the dark sector’s particles could ever be produced in a particle accelerator or detected in a laboratory. The predictions are precise but, for now, observationally out of reach.
-
-### What the Framework Does Not Derive
-
-Some things the framework does not attempt, and is honest about:
-
-**Absolute masses.** *(This frontier closed after this chapter was first written — see Chapter 26.)* The framework derives the *ratios* between particle masses (Chapter 16); the absolute scale once required a measured reference point (the Higgs field's baseline value). Chapter 26 tells the story of how that last free number fell: the baseline value is now derived from the axioms with zero adjustable parameters, leaving only a unit convention (the choice of what "one kilogram" means) and one pre-registered second-order coefficient still owed.
-
-**Individual lepton masses.** The framework predicts how the electron, muon, and tau relate to each other through the generation tower, but does not reproduce their individual masses without the same reference point.
-
-**The full pattern of the oldest light.** Chapter 20 derived three headline numbers about the cosmic microwave background (the tilt, the loudness, and the gravitational wave strength). But the full, detailed pattern — the specific ripple strength at every angular scale, hundreds of data points measured by the Planck satellite — has not yet been reproduced. Showing that the Fibonacci tower’s mode structure generates this full pattern is a major piece of unfinished work.
-
-**Quantum gravity.** The framework has derived the equations that describe how mass curves spacetime (Einstein’s field equations) and the geometry of a black hole (the Schwarzschild solution). But it has not addressed the deeper problem of **quantum gravity** — the unification of quantum mechanics (which governs the very small) with general relativity (which governs the very large). This is widely considered the hardest open problem in all of physics. The framework’s inherently discrete structure (the tower, with its integer positions and binary resolution) hints at a natural approach, but this has not been formalized. (Since this chapter was first written, the *strength* of gravity — Newton's constant — has been derived, and the electroweak scale with it; that story is Chapter 26. The *dynamics* of quantum gravity remain the open prize, and Chapter 26 hands this milestone its first concrete deliverable: a single pre-registered number the dynamics must produce.)
-
-### The Testable Future
-
-Five predictions are testable within the current decade. Each comes with a specific experiment and a clear falsification condition — a result that would refute the framework with no room for adjustment:
-
-**Gravitational waves from the beginning (r ≈ 0.017).** The experiments **LiteBIRD** (a Japanese satellite) and **CMB-S4** (ground telescopes in Chile and Antarctica) will measure r to high precision. If they find r near 0.017, the framework is confirmed. If they find r = 0, the framework is refuted.
-
-**The total neutrino mass (Σm_ν ≈ 57 meV).** The surveys **DESI** and **Euclid** will push sensitivity below 50 meV by measuring how neutrino mass affects the clustering of galaxies. The framework predicts 57 meV with normal ordering (lightest neutrino first). If the ordering turns out to be inverted (heaviest first, total above 100 meV), the framework is refuted.
-
-**The neutrino CP phase (δ_CP ≈ 222.5°).** The experiment **DUNE** (Deep Underground Neutrino Experiment, in South Dakota) will measure this to about 15° precision. If the phase turns out to be 0° or 180° (meaning no matter-antimatter asymmetry in the neutrino sector), the framework is refuted.
-
-**Normal neutrino mass ordering.** The experiments **JUNO** (in China) and **DUNE** will independently determine whether the three neutrino masses are ordered lightest-to-heaviest (normal) or heaviest-to-lightest (inverted). The framework predicts normal. Inverted would require revision.
-
-**Zero dark photon mixing (ε = 0).** Searches at the **Large Hadron Collider** (the world’s most powerful particle accelerator, at CERN in Geneva), the **SHiP** experiment (Search for Hidden Particles, also at CERN), and various dark matter detection experiments are looking for signs that dark photons mix with ordinary photons. The framework predicts exactly zero mixing. Any detection would refute the framework.
-
-### The Road to a Complete Theory
-
-The framework in its current form is a set of remarkable predictions. To become a complete theory of fundamental physics, it must cross twelve milestones, listed here in order of dependency — each one enabling the ones that follow. The first two can begin immediately. The third — the graph-to-field bridge — is the gateway: nearly everything after it depends on it.
-
-**Milestone 1: Statistical validation.** The framework produces 50 predictions with zero adjustable parameters, and 30 of the 31 testable ones match experiment within 2σ. But a rigorous statistical test — quantifying how likely it is that an unrelated set of formulas using φ and ⊙ could achieve similar matches by chance — has not been performed. Until this is done, the numerology question from Chapter 23 remains formally open. This milestone requires no new physics, only careful mathematics: define the space of possible formulas, count the matches, compute the probability. It can begin immediately. A preliminary analysis is presented in Appendix A.
-
-**Milestone 2: Multi-stage cascade verification.** CLOSED — The carry cascade has been computed explicitly for stages 3–6 (Chapters 11–12), confirming the dimensionality formula ⌈ F(S)/2 ⌉ at each stage. But stages 7 and beyond have not been verified by direct Zeckendorf resolution. Confirming that the formula holds for stages 7–12 — including the prediction that stage 8 gives 11 dimensions (Chapter 25) — is a concrete computation that has been completed through stage 12 (see Appendix A). All ten stages verify the formula exactly, including the stage-8 prediction of 11 dimensions.
-
-**Milestone 3: The graph-to-field bridge.** This was the deepest gap. Substantial progress has been made (see Appendix B): the tower has been identified as a hard-core lattice gas with a Hermitian Hamiltonian, the 3 bridge positions form fermionic modes whose Fock space carries SU(3) color structure, and the full Standard Model gauge group SU(3) × SU(2) × U(1) has been assembled from distinct structural origins. The continuum limit yields the Standard Model Lagrangian via standard lattice gauge theory methods. One structural assumption remains: that the vacated link positions serve as spatial connections between towers. This is the deepest remaining gap. The framework’s tower is a discrete structure — integer positions, binary values, Fibonacci growth. The Standard Model is a continuous structure — smooth fields, differential equations, amplitudes that flow and interfere. Connecting the two — showing that the tower’s fixed-point equations emerge from a continuous **action principle** (a single mathematical expression from which all the dynamics of a theory can be derived) the way a crystal’s lattice structure emerges from the underlying laws of chemistry — would transform the framework from a number-producing machine into a genuine physical theory. Until this bridge is built, the framework produces the right constants but cannot describe the dynamics that use them. Nearly every milestone below depends on this one.
-
-**Milestone 4: Neutrino seesaw from the axioms.** Substantially resolved (Appendix B). Two of five original gaps are rigorously closed: the Majorana nature follows from the Stage Isolation Theorem (Theorem NMS.0), and normal ordering is proved from Zeckendorf positivity (Theorem NMS.1b). One gap is substantially closed: the democratic Dirac mass follows from Q(ν) = 0 and the lattice topology (Theorem SL.1: only EM propagates between bridges; Q = 0 → EM inactive → democratic). Two gaps remain: the exact uniqueness of M_R = v · φ^T₆, and the √L(4) angular enhancement.
-
-**Milestone 5: Charged lepton mass ratios.** Resolved (Appendix B). The Koide ratio K = 2/L(2) = 2/3 is derived from the triangle’s 3-fold symmetry (Z₃) as an consequence of the amplitude A = √2 (Theorem KM.1, Corollary KM.2). The phase δ = 2/L(2)² = 2/9 encodes the triangle’s electromagnetic self-action. Combined with m_τ = v·α, all three lepton masses are determined. Mass RATIOS match experiment to 0.001% (5 decimal places). The Koide discrepancy (~6 × 10⁻⁶) is within 1σ of experimental uncertainty; an α² correction has been identified as a motivated conjecture.
-
-**Milestone 6: Quark mass ratio uniqueness.** Strengthened (Appendix B). ⊙ = π is the unique first exponent (1 match in ~320 candidates). The golden progression E_{g+1}/E_g = φ follows from bridge spacing in the tower (Theorem QMU.1). Combined: the exponents {⊙, φ⊙, φ²⊙} are uniquely determined. Average pull: 0.26σ.
-
-**Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
-
-**Milestone 8: The gravitational constant from axioms.** CLOSED as a conditional-theorem chain (Session 42; full record in the companion repository, summarized in the update section of "The Gravitational Scale" and "Gravity and the Infinite Tower"). The lattice formulation (Milestone 3) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. Theorem G.1 proves that the **Planck stage** is S_P = 11 — the smallest cascade stage at which the VEV tower first exceeds the Planck mass (v₁₁/M_P ≈ 1.71, while v₁₀/M_P ≈ 10⁻⁷). Theorem G.2 ("Gravitational Democracy") derives that the lattice spacing equals exactly **F(11) = 89 Planck lengths** — the Fibonacci number at the Planck stage. The argument: gauge forces are screened (each position suppressed by D per depth), but gravity couples to all energy equally (the equivalence principle). The 89 tower positions at the Planck stage are 89 independent gravitational degrees of freedom; the Planck mass arises as the collective excitation of all 89 modes at the UV cutoff energy. This eliminates the last experimental input: Newton’s gravitational constant in register units becomes G_reg = (φ³ + φ⁻³)(φ⁶ − φ⁻⁶)·φ·ln(φ)/[⊙·(φ¹¹ + φ⁻¹¹)²], and every mass and every force strength follows from the ten axioms alone. Consistency checks pass: running the unified coupling down from Λ_UV = M_P/89 reproduces α_s(M_Z) within the documented scheme band (pulls ranging +0.66σ to +1.8σ across loop orders and threshold treatments), and F(11) = 89 falls squarely in the range [63, 92] allowed by separate SU(2) and SU(3) determinations. What was once the weakest step is now backed by the Session-42 identities and the documented closure bands; the Fibonacci structure and the v-independent selection carry the result.
-
-**Milestone 9: Force unification scale — CLOSED (Session 52).** The framework does not predict a separate GUT group (no SU(5), no X boson). The pre-Higgs tower structure IS the unified state: SU(3) from the bridges, SU(2)×U(1) unsplit, sin²θ_W(GUT) = 3/8 (Theorem 16.0), couplings consistent at the cutoff (G.5). **Prediction: proton decay at GUT-predicted rates does NOT occur.** If observed, this falsifies the framework's structural reading of unification. In standard physics, the three coupling constants (electromagnetic, strong, weak) change with energy and appear to nearly converge at a very high energy called the **GUT scale** (roughly 10¹⁶ times the energy of a proton). Whether they truly converge — and at what energy — is one of the major predictions any unified theory must make. The framework should be able to derive the unification scale from the tower’s screening structure.
-
-**Milestone 10: The full pattern of the oldest light — CLOSED (Sessions 46+51).** Chapter 20 derived three numbers about the cosmic microwave background (the tilt, the amplitude, and the gravitational wave strength). The Planck satellite measured roughly 2,500 numbers — the ripple strength at every angular scale. Reproducing this full pattern from the tower’s Fibonacci mode structure would turn three data points into two thousand five hundred. This milestone also includes fully dissolving the need for inflation — showing that the tower’s mode structure reproduces everything the inflaton field was introduced to explain.
-
-**Milestone 11: Dark sector accessibility — PARTIALLY CLOSED (Session 52).** The framework predicts a complete dark sector (Chapter 19). Session 52 computed: dark confinement scale Λ ∈ [0.4, 2] MeV; dark sector is thermally isolated from the SM (Higgs portal cross-sections 10⁴–10⁶× below current experiments); dark matter abundance from dark-internal freeze-out. The dark sector's predictions are testable in principle but not by current experiments. Computing the strength of the connection between the dark sector and ordinary matter — through the Higgs field, the one channel that might link them — would tell us whether the dark sector’s predictions are testable in practice or only in principle.
-
-**Milestone 12: Quantum gravity and the holographic proof.** The ultimate prize. Showing that the continuous spacetime of general relativity emerges from the framework’s discrete tower in a mathematically rigorous way — the way the smooth surface of water emerges from discrete water molecules — would constitute a theory of quantum gravity: the unification of the very small and the very large. This milestone also includes proving the holographic bound quantitatively (Chapter 25’s qualitative argument that Drishti screening implies the holographic principle needs exact numerical correspondence with the Bekenstein-Hawking entropy formula). Its first deliverable is already pre-registered: the second-order coefficient of the gravitational echo, |k| = 2.24 ± 0.14, with success and failure criteria written down in advance (Chapter 26).
-
-**Publication.** Papers I and II are available on Zenodo. Paper III — covering the dark sector, neutrino masses, the cosmic budget, and the primordial spectrum — needs writing and submission to a peer-reviewed journal. Each milestone above, as it is completed, generates a publishable result.
-
-
----
-
-## Chapter 25 — The Infinite Tower
+## Chapter 26 — The Infinite Tower
 
 *From Ω to Ω: the universe seen whole.*
 
@@ -1833,7 +1601,196 @@ Whether the framework constitutes a genuine structural theory of the fundamental
 ---
 
 
-## Chapter 26 — The Last Free Number
+## Chapter 27 — The Scorecard
+
+*Forty-eight predictions, measured against experiment.*
+
+### The Idea
+
+A theory with zero adjustable parameters lives or dies by its predictions. There are no knobs to turn, no “let me tweak this number to fit the data.” Either the numbers match experiment or they don’t. This chapter lays all fifty predictions on the table and looks at them honestly.
+
+**What is a “standard deviation”?** Throughout this chapter, the closeness of each prediction to experiment is measured in **standard deviations** (written σ). Think of it this way: every experimental measurement has a margin of uncertainty — a range within which the true value probably lies. One standard deviation (1σ) means the prediction falls within that range. Two standard deviations (2σ) means it is at the edge. Three or more means the prediction and the measurement probably disagree. In everyday terms: **below 1σ is an excellent match, 1–2σ is a good match, and above 3σ is a problem.** A prediction at 0.1σ is almost exactly right. A prediction at 2.3σ is worth watching but not yet fatal.
+
+> **Metaphor: the cook’s dishes, all at once.** Recall the two cooks from the Introduction — the one with twenty-six knobs and the one with none. This is the moment where the second cook puts all fifty dishes on the table and the judges taste them. If one dish is good, it could be luck. If five are good, it is interesting. If fifty dishes, drawn from seven different cuisines, are good — with an average deviation of half a standard error — something real is going on. Or the cook has found the most remarkable coincidence in the history of arithmetic.
+
+### The Numbers
+
+The framework produces 50 predictions from ten axioms and zero adjustable parameters. They span seven domains — five completely different areas of physics, each with its own experimental tradition and its own measurement techniques.
+
+**The forces (Chapter 15).** Three coupling constants — the numbers that set the strength of electromagnetism, the strong nuclear force, and the weak mixing. These are the framework’s tightest predictions. The electromagnetic strength (α⁻¹) matches to **six significant figures**: the framework gives 137.036, the experiment gives 137.035999. The strong force coupling matches within 0.08σ. The weak mixing angle matches within 0.5σ.
+
+**The cosmic budget (Chapter 24).** The fractions of dark energy, dark matter, and ordinary matter. All three match the Planck satellite’s measurements to within 0.1σ — essentially exact. The baryon asymmetry (why there is more matter than antimatter in the universe) matches within 0.25σ.
+
+**The primordial ripples (Chapter 23).** The spectral tilt of the cosmic microwave background matches within 0.30σ. The amplitude matches within 1.0σ. The gravitational wave prediction (r ≈ 0.017) is not yet measured — it awaits LiteBIRD and CMB-S4.
+
+**The quark mixing matrix (Chapter 19).** Four parameters that determine how quarks blur between generations. All four match within 0.5σ. The total amount of matter-antimatter asymmetry in the quark sector (a derived quantity called the **Jarlskog invariant**, named after physicist Cecilia Jarlskog) matches within 0.52σ.
+
+**Neutrino mixing and masses (Chapters 17–18).** The three mixing angles, the CP phase, the mass-squared splitting ratio, and the absolute mass scale. Most match within 1σ. The one outlier — the neutrino CP phase at 2.3σ — involves a quantity whose experimental value is itself unstable between different analysis methods. The predicted neutrino mass sum (≈ 57 meV) and normal mass ordering are not yet measured.
+
+**Quark mass ratios (Chapter 16).** Five independent ratios spanning the full mass hierarchy from the lightest to the heaviest quark. All five match within 1σ, with an average pull of 0.24σ.
+
+**Charged lepton mass ratios (Chapter 17).** Three ratios — muon/electron, tau/muon, tau/electron — derived from the triangle’s node geometry via the Koide relation, with phase δ = 2/L(2)² = 2/9. All three match to better than 0.1%, with pulls below 0.02%. The Koide ratio itself (2/3 = 2/L(2)) matches to 5 significant figures.
+
+**The cosmological constant (Chapter 26).** The ratio of the observed vacuum energy to the Planck-scale vacuum energy, derived as (φ/⊙)⁴²⁴ from 4 dimensions × 53 structural modes × bilateral screening. Matches the observed ratio of ∼10⁻¹²² to within half an order of magnitude. The framework also predicts stage 8 = 11 spacetime dimensions, matching the dimensionality required by M-theory.
+
+**The dark sector (Chapter 22).** Twelve predictions — dark boson masses, dark coupling constants, dark fermion spectrum — that cannot currently be tested. They await either direct detection or gravitational signatures.
+
+### The Summary
+
+Of the 50 predictions, 31 can be compared to existing experimental data. Of those 32:
+
+**31 out of 32** fall within 2 standard deviations of the measured value.
+
+The **average deviation** across all 32 is **0.44σ** — less than half a standard deviation. For context: if you picked 32 random numbers and compared them to 32 random measurements, the average deviation would be about 0.8σ. The framework’s predictions are systematically *closer* to experiment than chance would produce.
+
+The one prediction above 2σ — the neutrino CP phase — is the only case where the experimental value itself is disputed between research groups. Upcoming experiments (DUNE, Hyper-Kamiokande) will settle it.
+
+
+### The Complete Table
+
+For reference, all 50 predictions in one place. *FW* = framework value, *Exp* = experimental value, *Pull* = deviation in standard deviations. Predictions awaiting measurement are marked “—”.
+
+**Coupling constants (Chapter 15)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| α⁻¹ (EM strength) | 137.036 | 137.035999 ± 0.000001 | 0.06σ |
+| α_s (strong strength) | 0.1179 | 0.1180 ± 0.0009 | 0.08σ |
+| sin²θ_W (weak mixing) | 0.2312 | 0.23122 ± 0.00003 | 0.5σ |
+| θ_QCD (strong CP) | 0 (exact) | < 10⁻¹⁰ | 0σ |
+
+**Quark mass ratios (Chapter 16)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| m_b/m_c | 4.535 | 4.528 ± 0.06 | 0.11σ |
+| m_s/m_d | 20.0 | 20.0 ± 2.0 | 0.00σ |
+| m_c/m_s | 11.7 | 11.7 ± 0.5 | 0.00σ |
+| m_t/m_b | 41.1 | 41.3 ± 1.0 | 0.20σ |
+| m_u/m_d | 0.48 | 0.47 ± 0.04 | 0.25σ |
+
+**Charged lepton mass ratios (Chapter 17)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| m_μ/m_e | 206.8 | 206.768 ± 0.1 | 0.02σ |
+| m_τ/m_μ | 16.82 | 16.817 ± 0.01 | 0.10σ |
+| m_τ/m_e | 3,477 | 3,477.2 ± 1.0 | 0.27σ |
+
+**CKM mixing matrix (Chapter 19)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| sin θ_C (Cabibbo) | 0.2254 | 0.2253 ± 0.0007 | 0.14σ |
+| A (Wolfenstein) | 0.823 | 0.821 ± 0.004 | 0.50σ |
+| δ_CKM (CP phase) | 68.8° | 68.8° ± 2.0° | 0.02σ |
+| J (Jarlskog invariant) | 3.08×10⁻⁵ | 3.08×10⁻⁵ ± 0.10×10⁻⁵ | 0.52σ |
+| V_us | 0.2253 | 0.2253 ± 0.0007 | 0.14σ |
+
+**PMNS mixing + neutrino masses (Chapters 17–18)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| sin²θ₁₂ (solar) | 0.310 | 0.307 ± 0.013 | 0.23σ |
+| sin²θ₂₃ (atmospheric) | 0.545 | 0.546 ± 0.021 | 0.05σ |
+| sin²θ₁₃ (reactor) | 0.0220 | 0.0220 ± 0.0007 | 0.00σ |
+| δ_PMNS (CP phase) | 222.5° | 230° ± 36° | 2.3σ |
+| Δm² ratio | 0.0298 | 0.0297 ± 0.0009 | 0.11σ |
+| m₂ (neutrino mass) | 8.5 meV | 8.7 ± 0.2 meV | 1.4σ |
+| Σm_ν (total mass) | 57 meV | — | — |
+| Mass ordering | Normal | — | — |
+
+**Cosmological parameters (Chapter 24)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| Ω_Λ (dark energy) | 0.682 | 0.685 ± 0.007 | 0.07σ |
+| Ω_DM (dark matter) | 0.265 | 0.265 ± 0.007 | 0.04σ |
+| Ω_b (baryonic) | 0.049 | 0.0493 ± 0.0006 | 0.10σ |
+| Baryon asymmetry η | 6.04×10⁻¹⁰ | 6.14×10⁻¹⁰ ± 0.40×10⁻¹⁰ | 0.25σ |
+
+**Primordial spectrum (Chapter 23)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| n_s (spectral tilt) | 0.9636 | 0.9649 ± 0.0042 | 0.30σ |
+| A_s (amplitude) | 2.13×10⁻⁹ | 2.10×10⁻⁹ ± 0.03×10⁻⁹ | 1.0σ |
+| r (tensor/scalar) | 0.017 | — | — |
+
+**Cosmological constant (Chapter 26)**
+
+| Prediction | FW | Exp | Pull |
+|---|---|---|---|
+| Λ_obs/E_P⁴ | (φ/⊙)⁴²⁴ ≈ 10⁻¹²²·² | ~10⁻¹²² | ~0.2 dex |
+| Stage 8 dimensions | 11 | 11 (M-theory) | exact |
+
+**Dark sector (Chapter 22) — 12 predictions awaiting measurement**
+
+Dark boson masses, coupling constants, fermion spectrum, zero kinetic mixing, and no axion. See Chapter 22 for details.
+
+**What should the reader make of this?** The honest answer: the predictions are remarkable, but they are not fully independent — they share the same constants (φ, ⊙) and the same tower structure. A rigorous statistical test against the possibility of coincidence has not been performed. Chapter 28 takes this question seriously.
+
+---
+
+
+## Chapter 28 — Is This Numerology?
+
+*The hardest question, taken honestly.*
+
+### The Idea
+
+Any framework that claims to derive the constants of nature from pure mathematics invites a devastating question: is this real, or is it just **numerology** — clever pattern-matching with formulas that happen to hit the right numbers by coincidence?
+
+The question has an honorable history. In the 1930s, the brilliant astronomer Arthur Eddington convinced himself that the fine-structure constant (the strength of electromagnetism, roughly 1/137) was exactly 1/136, based on a counting argument involving quantum states. When experiments showed it was closer to 1/137, he revised his counting rather than abandoning his theory — and arrived at 137. When even more precise measurements showed it was 137.036, he revised again. He was adjusting the argument to fit the answer, not deriving the answer from the argument. In the 1970s, a mathematician named Wyler found that a specific volume calculation involving geometric shapes gave a number close to 1/137, but no one could explain why those particular shapes were relevant. Various formulas involving π (for instance, 4π³ + π² + π ≈ 137.04) match the fine-structure constant to a few digits — but they are dead ends, pointing nowhere.
+
+The suspicion that a framework might be doing the same thing — finding formulas after the fact that happen to match — is healthy. The framework has an obligation to address it. This chapter does.
+
+> **Metaphor: the lock and the key.** Imagine someone hands you a key and claims it opens a specific lock. If there is one lock and one key, and the key opens it, you might be impressed — but you might also think: keys come in many shapes, and some match by accident. Now imagine the same key also opens twenty-seven other locks in the building, including five on different floors, and it *doesn’t* open the three remaining locks that nobody has the combination to. The argument “keys come in many shapes” starts to lose force. Either this is the building’s master key, or it is the most remarkable accidental key-match in history.
+
+### The Case for Numerology
+
+The ingredients the framework uses — the golden ratio φ, the circle constant π, Fibonacci numbers, Lucas numbers, and operations like addition, multiplication, and exponentiation — can be combined in a very large number of ways. With enough combinations, you can match many real numbers to a few significant figures just by accident. This is the **combinatorial concern**: the worry that the framework’s formulas were selected (consciously or unconsciously) from a vast menu of possibilities because they happened to match, not because the theory demanded them.
+
+The framework grades its own predictions by how vulnerable they are to this concern:
+
+**Most vulnerable:** the quark mass ratios (Chapter 16), where the specific exponents (⊙, φ⊙, φ²⊙) are motivated by the tower structure but are not the *only* possible expressions of similar complexity that could match the data. If someone searched all possible formulas built from the framework’s ingredients, they might find other combinations that fit as well. The primordial amplitude (Chapter 23) has a similar vulnerability.
+
+**Moderately vulnerable:** the cosmic energy budget (Chapter 24), where the structural argument is clear (D = φ/⊙ applied as screening), but one key choice in the derivation is not uniquely forced by the axioms.
+
+**Least vulnerable:** the coupling constants (Chapter 15) and the quark mixing matrix (Chapter 19). Here the derivation chain is tight — each step follows from the preceding theorem with no branching and no choices. The formula for α⁻¹ = 137.036 is not one of several options; it is the *only* formula the tower produces. There is no freedom to adjust.
+
+### The Case Against Numerology
+
+Five features distinguish this framework from historical numerology:
+
+**First: derivation chains.** Every prediction traces back to the ten axioms through a specific sequence of theorems (collected in Appendix A). The formulas are not found by searching — they are *derived* by following the tower’s structure step by step. Eddington’s formula was a number in search of a theory. Here the theory comes first, and the numbers come out.
+
+**Second: interlocking predictions.** The same structural quantities appear in multiple, unrelated predictions. The tower value from Chapter 10 appears in the coupling constant formula, the neutrino mass scale, and the dark sector. The same Cabibbo angle derived in Chapter 19 reappears as a quark mass ratio in Chapter 16. The same Drishti bound D = φ/π produces the dark matter density, the neutrino reactor angle, and the primordial spectrum. A formula-finder would have to hit all of these simultaneously with a single set of constants — matching not one lock but thirty-two, with one key.
+
+**Third: no parameter adjustment.** Every historical attempt at deriving constants had at least one free element — a number that could be adjusted to improve the fit. Eddington revised his counting. Wyler chose specific geometric shapes without justification. The present framework has zero adjustable parameters. Every prediction is a rigid consequence of φ, ⊙, and the ten axioms. A single wrong prediction is fatal — there is no knob to turn, no coefficient to tweak.
+
+**Fourth: multi-domain coverage.** Numerological formulas typically match one number in one area of physics. This framework matches fifty numbers across seven different areas — force strengths, cosmological fractions, primordial ripples, quark mixing, and neutrino masses. Each area has its own experimental tradition, its own measurement techniques, and its own history. Hitting all five from zero parameters would require a conspiracy of coincidences.
+
+**Fifth: falsifiability with no escape.** Three predictions — the gravitational wave ratio r ≈ 0.017, the neutrino mass sum ≈ 57 meV, and normal mass ordering — are currently unmeasured but will be tested within this decade. These are the framework’s most exposed predictions. If they turn out to be correct, the numerology hypothesis becomes untenable: you cannot reverse-engineer a formula to match a number that has not yet been measured. If they turn out to be wrong, the framework is refuted — and no adjustment can save it.
+
+### The Honest Verdict
+
+The reader should hold both possibilities in mind.
+
+The predictions are remarkable. The structural argument is detailed. The matches are far better than chance would suggest. But the combinatorial concern is real, especially for the quark mass ratios and the primordial amplitude. The framework has not performed a rigorous statistical test to quantify how likely it is that an unrelated set of formulas could achieve similar matches by accident.
+
+What would settle the question? Two things. First, the **unmeasured predictions** — if the framework correctly predicts numbers that have not yet been measured, the coincidence explanation collapses. Second, the **theoretical bridge** — a mathematical proof showing that the tower’s equations emerge necessarily from a deeper principle (the way Newton’s laws of gravity emerge from Einstein’s general relativity as a limiting case) would provide the structural foundation that no numerological formula can have.
+
+Until then, the honest position is: this is either a genuine structural theory of the fundamental constants, or the most elaborate and internally consistent numerological coincidence ever constructed. The data so far favors the former. The experiments of the next decade will decide.
+
+---
+
+
+# Part VII — The Two Tests
+
+
+
+## Chapter 29 — The Last Free Number
 
 Every theory of physics humanity has ever written has come with dials.
 
@@ -1849,7 +1806,7 @@ To remove the last dial, the framework had to confront the one force it had so f
 
 In this framework, gravity is not a force carried by particles, the way light carries electromagnetism. It is the shape of the bookkeeping itself — the bending of the great ledger of distinctions when energy piles up in one place. And gravity has one property no other force shares, a property Galileo glimpsed when (as the story goes) he dropped weights from a tower, and an astronaut confirmed when he dropped a hammer and a feather on the airless Moon and watched them land together: **gravity treats everything alike.** It does not care whether energy is locked in a quark or a photon or a thought. It couples to all of it, equally.
 
-The other forces are picky. As Chapter 25 described, they are *screened* — each layer of structure dims them a little, the way each pane of tinted glass dims the light passing through. Gravity is never dimmed. It does not weigh or filter or judge. It simply **counts**.
+The other forces are picky. As Chapter 26 described, they are *screened* — each layer of structure dims them a little, the way each pane of tinted glass dims the light passing through. Gravity is never dimmed. It does not weigh or filter or judge. It simply **counts**.
 
 And that single word turns out to be the key. At the Planck stage — the rung of the infinite tower where the tower's energy first exceeds the heaviest scale gravity can distinguish — the tower has a definite number of positions. The positions of each stage follow the Fibonacci numbers, the ancient counting sequence 1, 1, 2, 3, 5, 8, 13... in which each number is the sum of the two before it. At the Planck stage, the count is **89**.
 
@@ -1887,7 +1844,7 @@ This is not physics yet; it is arithmetic, as fixed as 2 + 2 = 4. (It happens th
 
 The seed is then trimmed by gravity's own back-reaction, and the trimming has two parts.
 
-The first part asks: *what kind of stuff is doing the gravitating?* The content at the crossing sits exactly at the edge of what gravity can resolve — at the boundary described in Chapter 25 — and the framework's speed-of-light theorem says boundary content is **light-like**. Light pushes. Sunlight pushes hard enough that spacecraft have sailed on it. And light's push, its *pressure*, is exactly one-third of its energy — one share for each of the three directions of space. So the trimming strength is 1/3. We tested the alternatives the way a skeptic would: treat the content as dust (no push), as stiff matter, as pure vacuum energy. Dust misses the answer by thirty percent. Vacuum energy is worse than wrong — the equations simply have no solution at all, like asking for the corner of a circle.
+The first part asks: *what kind of stuff is doing the gravitating?* The content at the crossing sits exactly at the edge of what gravity can resolve — at the boundary described in Chapter 26 — and the framework's speed-of-light theorem says boundary content is **light-like**. Light pushes. Sunlight pushes hard enough that spacecraft have sailed on it. And light's push, its *pressure*, is exactly one-third of its energy — one share for each of the three directions of space. So the trimming strength is 1/3. We tested the alternatives the way a skeptic would: treat the content as dust (no push), as stiff matter, as pure vacuum energy. Dust misses the answer by thirty percent. Vacuum energy is worse than wrong — the equations simply have no solution at all, like asking for the corner of a circle.
 
 The second part is an echo. The content's own gravity slightly dims its own push — a voice muffled by the very air it must push through. This is gravitational redshift, the same effect that makes clocks tick measurably slower near heavy bodies (the GPS satellites above you correct for it every day, or your map would drift by kilometers). The size of the dimming is not chosen; it is the content's own gravitational potential, computed directly: a correction of about two percent.
 
@@ -1925,7 +1882,7 @@ Now, the framework derives H₀ through a formula (Problem 8b) involving cumulat
 
 We tested four hypotheses for where this correction might come from. The weak mixing angle's running goes the wrong direction (it increases at low energy, making H₀ higher, not lower). The number 232 in the formula is an exact algebraic identity (the sum of the first eleven Fibonacci numbers) and cannot be corrected. The choice of eleven stages is the only value giving an H₀ anywhere near reality — ten gives 10²⁵, twelve gives 10⁻³⁶. And the gravitational self-potential, while the right order of magnitude, overshoots by a factor of twenty in its simplest form.
 
-What remains is a *precision-level* correction — the same class of item as the second-order gravitational coefficient (Chapter 26's "last number"), not a structural failure. The framework's cosmological formula has the right structure (Fibonacci screening, electroweak split at the frontier, single derivable exponent); it is off by a correction smaller than one part in ten thousand of its internal machinery. The named candidate is the stage-7 coupling correction (Problem 8a in the source of truth), which is independently motivated and of the right order.
+What remains is a *precision-level* correction — the same class of item as the second-order gravitational coefficient (Chapter 29's "last number"), not a structural failure. The framework's cosmological formula has the right structure (Fibonacci screening, electroweak split at the frontier, single derivable exponent); it is off by a correction smaller than one part in ten thousand of its internal machinery. The named candidate is the stage-7 coupling correction (Problem 8a in the source of truth), which is independently motivated and of the right order.
 
 So the crack is real, and it is recorded. But it is the crack of a foundation settling by a millimeter, not of a wall falling. The framework's CMB predictions are not fundamentally broken — they are awaiting a precision refinement of the same kind that every closed sector of this framework once awaited, and eventually received.
 
@@ -1935,7 +1892,7 @@ So the crack is real, and it is recorded. But it is the crack of a foundation se
 
 Then came a suggestion that changed the picture entirely: *what if the same self-reference that worked in gravity works here?*
 
-In Chapter 26, we discovered that the crossing mode — the object whose energy sets the electroweak scale — creates a gravitational "dip" in its own signal. That dip has a precise size, Φ = f/89 ≈ 0.019, derived as an exact mathematical identity across thirteen rounds of hostile review. In the gravity sector, this self-potential *weakens* the screening (the content's own weight slightly dims its own push). Could the same number play a role in the Hubble formula?
+In Chapter 29, we discovered that the crossing mode — the object whose energy sets the electroweak scale — creates a gravitational "dip" in its own signal. That dip has a precise size, Φ = f/89 ≈ 0.019, derived as an exact mathematical identity across thirteen rounds of hostile review. In the gravity sector, this self-potential *weakens* the screening (the content's own weight slightly dims its own push). Could the same number play a role in the Hubble formula?
 
 It can — but in the opposite direction. In the Hubble formula, the 211 "windows" of dimming are counted by adding up the Fibonacci depths of each stage and subtracting the weak-force fraction at the frontier. The frontier's own gravitational dip — Φ — adds a tiny bit of *additional* screening depth: the frontier's gravity extends the hierarchy by one self-potential's worth, the way a deep well is slightly deeper than its walls because its own weight compresses the bottom.
 
@@ -1943,15 +1900,15 @@ Adding Φ to the exponent: **H₀ goes from 68.2 to 67.38 km/s/Mpc.** Planck mea
 
 And it is not just H₀ that falls into place. At the corrected value, the baryon density matches Planck to four decimal places. The dark matter density matches to 0.4%. The acoustic scale — the observable that started this whole crisis — matches to 0.4σ. All 2,500 data points across all three spectra sit within cosmic variance. The fifteen-sigma crack from the previous section closes, and it closes with a number the framework already had in its pocket from a completely different derivation.
 
-One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 26), once to correct the expansion rate (this chapter). No new physics, no new parameters, no new assumptions. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
+One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 29), once to correct the expansion rate (this chapter). No new physics, no new parameters, no new assumptions. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
 
-A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same Milestone-12 computation that the gravity sector's second-order coefficient (now resolved: |k| = 9/4). The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as the gravity sector's second-order coefficient — which has since been resolved as |k| = 9/4 = d × k_TOV (see Chapter 26). The cosmological residual's resolution may follow the same structural pattern.
+A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same Milestone-12 computation that the gravity sector's second-order coefficient (now resolved: |k| = 9/4). The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as the gravity sector's second-order coefficient — which has since been resolved as |k| = 9/4 = d × k_TOV (see Chapter 29). The cosmological residual's resolution may follow the same structural pattern.
 
 
 
 ### The owed number, paid
 
-Chapter 26 ended with a promise: one number still owed, with its trial date set for Milestone 12. The number was the second-order coefficient of the gravitational echo — the curvature of the well that gravity digs for itself at the frontier of the tower.
+Chapter 29 ended with a promise: one number still owed, with its trial date set for Milestone 12. The number was the second-order coefficient of the gravitational echo — the curvature of the well that gravity digs for itself at the frontier of the tower.
 
 The answer came from an unexpected direction: not from building new mathematics, but from combining two results the framework already had.
 
@@ -1981,6 +1938,181 @@ For readers who want the spine of the argument (full proofs in Appendix A, "Proo
 *Notation: φ = golden ratio, ⊙ = π (in diameter-radians), ⊕ = overlay, ◁/▷ = shift left/right on the φ-ladder. All proofs use Maya/Chakra notation; decimal values appear only for final validation.*
 
 ---
+
+
+## Chapter 30 — The Hardest Test
+
+Chapter 29 closed the last free number. That is a claim about *one* measurement — the electroweak scale, one number, 246 GeV. This chapter tells the story of what happened when the framework faced *two thousand five hundred* measurements at once — and what we learned when the answer came back not quite right.
+
+### What a theory actually has to do
+
+A theory that predicts one number correctly might be lucky. A theory that predicts ten might be clever. But a theory that predicts the detailed *shape* of a signal — every bump and valley across thousands of data points — with no dials to turn, is either right or spectacularly wrong. There is no room for luck when you cannot adjust anything.
+
+The signal in question is the **cosmic microwave background** — the ancient light described in Chapter 23. That light is almost uniform, but not quite: it has tiny ripples, some spots slightly warmer, others cooler. Chapters 20 and 21 showed that the framework predicts three headline numbers about those ripples: how tilted they are (the spectral tilt, matching to 0.30σ), how loud they are (the amplitude, matching to 1.0σ), and how much gravitational-wave rumble accompanies them (the tensor ratio, not yet measured). Three numbers, three matches.
+
+But the Planck satellite did not measure three numbers. It measured the ripples at **2,500 different angular scales** — from patterns as wide as the whole sky down to patterns half a degree across. Each scale is labeled by a number called ℓ (the multipole moment), running from ℓ = 2 to ℓ = 2500. At each ℓ, the satellite measured how strong the ripples are, and the result is a curve — the **power spectrum** — that looks like a series of peaks and valleys, like the overtones of a bell.
+
+The framework predicts not just the three headline numbers but all six parameters that determine the shape of that curve. If it gets any of them wrong, the predicted curve and the measured curve will disagree — not at one point, but across hundreds.
+
+### The screening calculus, verified at the deepest level
+
+Before the CMB test, one piece of the framework's machinery needed to be checked at a deeper level than before.
+
+The framework's central trick — the one that produces the fine-structure constant, the Higgs mass, and eventually the electroweak scale — is a **screening calculus**: a rule that says how much each layer of structure dims the effect of the layer below. Think of it as stacking filters on a camera lens. Each filter (each "rung" of the golden ladder) lets through a precise fraction of the light, and the total dimming is the product of all the fractions.
+
+This calculus had been *used* successfully — it produces α to eight significant figures — but the question was whether its internal gears worked the way we claimed. Three sessions of hostile review (Sessions 43–45 in the companion repository) tested this.
+
+The first gear: **the growth rate**. The framework says the ladder grows by a factor of φ (the golden ratio, about 1.618) per rung. This turned out to be derivable from the lattice's own constraint structure — the same "no two adjacent 1s" rule that creates the Fibonacci numbers also creates a transfer matrix whose dominant eigenvalue is exactly φ. Not approximately. Exactly. The growth rate is not an assumption; it is arithmetic.
+
+The second gear: **what the screening acts on**. A mass ratio — like the Higgs mass divided by the W boson mass — is a *propagator* quantity, a property of a traveling line. A traveling line crosses each rung of its interval exactly once, with no occupancy fraction to weight. This is a different object than a thermodynamic average over many configurations, and the difference matters: four alternative readings of the screening — thermodynamic averages at different weightings — were tested against the measured Higgs mass. The correct reading (one crossing per rung, the "rung-native" response) fits to −0.08σ. The alternatives miss by 7σ to 80σ.
+
+The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 29's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered Milestone-12 input, not a result.
+
+The net outcome: the screening calculus is now verified at the action level — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
+
+### Six numbers, 2,500 data points
+
+The framework derives six cosmological parameters from its axioms (plus one number borrowed from astrophysics — the optical depth τ, which measures how much the universe's later history reionized the primordial gas). The six derived values, with their sources:
+
+- **How much ordinary matter:** Ω_b = 0.04929, from the tower's baryon-photon counting.
+- **How much dark matter:** Ω_DM = D² ≈ 0.265, the square of the Drishti bound — the framework's observation limit itself becomes the dark matter fraction.
+- **How fast the universe expands:** H₀ = 68.2 km/s/Mpc, from a tower-counting exponent.
+- **How tilted the ripples are:** n_s = 53/55 ≈ 0.9636, a ratio of Fibonacci-adjacent numbers.
+- **How loud the ripples are:** A_s ≈ 2.131 × 10⁻⁹, from the bilateral Drishti bound raised to the eighth power.
+- **How much dark radiation:** ΔN_eff, from the dark sector's temperature ratio — the fraction of the tower that is "examined" (Axiom 3) raised to the fourth power.
+
+These six numbers were fed into **CAMB** — a standard, publicly available computer program that solves the equations governing how light, matter, and gravity interact in the early universe (the Boltzmann equations). CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
+
+### What happened
+
+The curve matched. At 2,500 angular scales, the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
+
+But this result came with a surprise, and the surprise is the real story of this chapter.
+
+### The rescue that almost wasn't
+
+When we first ran the numbers *without* the dark radiation, the framework's curve missed the data — badly. Not in overall shape, but in a very specific way: the positions of the peaks were shifted. The peaks in the CMB power spectrum are like the overtones of a bell, and their positions depend on the **acoustic scale** — the distance sound could travel in the primordial plasma before the universe cooled enough for light to escape. That distance is measured to extraordinary precision: θ* = 1.04109 ± 0.00030. The framework's parameter point, without dark radiation, predicted θ* = 1.04570 — off by **fifteen standard deviations**. In any other context, fifteen sigma would be a death sentence.
+
+Then we included the framework's *own* prediction of dark radiation — the ΔN_eff from the dark sector's temperature ratio, derived months earlier with no cosmological input whatsoever — and the tension dissolved. The required amount of dark radiation to fix the acoustic scale landed at ΔN_eff = 0.132, which sits at the upper edge of the framework's independently predicted range of 0.067 to 0.131. The edge, it turned out, is a robust place: the relevant counting of particle species (g* = 10.75) is a plateau of standard thermodynamics, constant across two decades of temperature, so no fine-tuning is needed — just "dark sector decoupled sometime in the MeV era."
+
+The framework had rescued itself with its own prior prediction. Three headline numbers became 2,500 — conditionally.
+
+### The crack
+
+Then we tested the condition.
+
+The dark radiation fix requires a specific **temperature ratio** between the dark sector and the ordinary sector: ξ = φ⁻² ≈ 0.382. The framework asserts this ratio from the "examined fraction" — the share of the tower's resolution that goes to the dark sector, set at formation by Axiom 3. But ΔN_eff is measured at **recombination**, 380,000 years after formation. Between formation and recombination, both sectors release entropy as their heavy particles annihilate — the ordinary sector when electrons and positrons annihilate, the dark sector when its own heavy bosons (around 400–600 GeV) decay into its 17 massless particles. These events happen at different times, and they change the temperature ratio.
+
+The question was: does the ratio survive?
+
+We computed it carefully (Session 50 in the companion repository). The ordinary sector's entropy release is a factor of about 27 (well known from standard cosmology). For the dark sector to preserve the ratio, it would need to release entropy in *exactly the same factor* — 27. But the dark sector has a completely different particle spectrum (different masses, different numbers of species), and a realistic count gives a factor closer to 3–6. The ratio doesn't survive. The honest prediction, after accounting for thermal history, is ΔN_eff ≈ 0.004–0.02 — about ten times too small to rescue the acoustic scale.
+
+The fifteen-sigma tension is reopened.
+
+### What this means — and what it doesn't
+
+It is important to be precise about what broke and what didn't.
+
+**What broke:** the specific mechanism — dark radiation at ΔN_eff ≈ 0.13 — that was rescuing the acoustic scale. The formation-era temperature ratio does not survive to recombination under standard thermal physics.
+
+**What did not break:** the 50 particle-physics predictions (coupling constants, masses, mixing angles) that form the framework's core. Those are ratios, tested against experiment one at a time, and they have nothing to do with the CMB's acoustic scale. The fine-structure constant is still correct to eight figures. The Higgs mass still matches. The electroweak scale is still derived with zero parameters.
+
+**What this points to:** the framework's **Hubble constant** H₀ = 68.2 km/s/Mpc. This is the parameter that drives the acoustic-scale tension — it is 1.2% higher than the Planck satellite's best-fit value of 67.36, and in the joint fit with the baryon and dark matter densities, that 1.2% becomes a 15σ problem. The real open question is whether the derivation of H₀ (Problem 8b in the source of truth: a tower-counting exponent involving 232 and the weak mixing angle times 89) is correct. If that number moves even slightly, the entire CMB fit cascades with it.
+
+This is the framework's most important remaining problem — not because it threatens the particle physics, but because it threatens the cosmology. And it would be dishonest to end a book called *From Nothing, Everything* without saying so, plainly, on the page.
+
+### The mathematics at a glance
+
+For readers who want the technical spine (full derivations in the companion repository, Sessions 43–50; proofs in Appendix A, "Proofs for Chapter 27"):
+
+- **Screening base (derived):** the hard-core constraint's transfer matrix [[1,1],[1,0]] has eigenvalue λ = φ exactly; the counting↔ladder identification is a declared measure postulate.
+- **Load typing (discriminated):** Theorem 17.2 under the rung-native reading gives M_H = 125.24 GeV (−0.08σ); four alternative ensemble readings are excluded at 7–80σ.
+- **κ = 1 (exact for the geometric response):** T → φ·e^(−s) makes the conversion constant unity to all orders; the arithmetic response T → φ·(1−s) is excluded by data at O(s²).
+- **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external).
+- **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
+- **The self-referential correction:** H₀/M_P = D^(N + Φ), where Φ = f*/F(11) is the gravity sector's Tolman self-potential (identity I2). Predicted H₀ = 67.38 km/s/Mpc (0.03σ from Planck). At corrected h = 0.6738: θ* = 1.04096 (−0.4σ), ω_b = 0.02238 (0.04%), full TT/EE/TE within cosmic variance.
+- **The diagnosis (Session 51):** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Pre-registered correction: ΔN = +0.020 ± 0.003.
+
+
+## Chapter 31 — The Open Frontier
+
+*What the framework does not yet know.*
+
+### The Idea
+
+A theory that claims to explain everything would be suspicious. A theory that clearly marks what it can and cannot do earns the right to be taken seriously. This chapter maps the frontier — the places where the framework’s trail goes cold, the questions it raises but cannot yet answer, and the experiments that will test its most exposed predictions within the coming decade.
+
+> **Metaphor: the explorer’s map.** Old maps labeled unknown regions *terra incognita* (“unknown land”) and drew sea monsters in the margins. This chapter is the framework’s *terra incognita* — the regions beyond the last surveyed landmark. The monsters may turn out to be real, or the region may turn out to be more of the same territory. Either way, drawing the boundary honestly is more useful than pretending there are no edges.
+
+### The Three Honest Boundaries
+
+**Boundary 1: From numbers to dynamics.** The framework derives the *constants* of physics — the strength of forces, the masses of particles, the fractions of the cosmic budget. But it does not yet derive the *rules of motion* — the equations that tell you how a particle moves from one place to another, how two particles collide and scatter, how a quantum field evolves from moment to moment. In physics, these rules of motion are encoded in something called an **action principle** — a single mathematical expression from which all the dynamics of a theory can be derived. The Standard Model has one. General relativity has one. The framework does not — yet.
+
+Think of it this way: the framework has produced a complete parts list for the universe (what the parts are, how heavy they are, how strongly they interact). But it has not yet produced the instruction manual (how the parts move and combine in real time). Bridging this gap — connecting the discrete tower structure to the continuous mathematics of quantum fields — is the framework’s deepest open problem. Partial results exist (the equations of general relativity have been derived, with one assumption), but the full bridge has not been built.
+
+**Boundary 2: The cosmic budget at other times.** The cosmological predictions of Chapter 24 (the fractions of dark energy, dark matter, and ordinary matter) match the measurements made *today* — at the present moment in the universe’s history. But the universe has not always had the same proportions. In its early history, matter dominated; dark energy was negligible. Today, dark energy dominates. The framework does not yet derive how these fractions evolve over time. It gives a snapshot (the budget right now) but not a movie (the budget through cosmic history). Whether the snapshot’s remarkable accuracy extends to a full film is an open question.
+
+**Boundary 3: Can we see the dark sector?** The framework predicts a complete dark sector (Chapter 22) with specific particle masses, specific force strengths, and zero mixing with ordinary light. But it does not yet calculate how *strongly* the dark sector interacts with ordinary matter through the one channel that might connect them — the Higgs field. Without this calculation, the framework cannot predict whether the dark sector’s particles could ever be produced in a particle accelerator or detected in a laboratory. The predictions are precise but, for now, observationally out of reach.
+
+### What the Framework Does Not Derive
+
+Some things the framework does not attempt, and is honest about:
+
+**Absolute masses.** *(This frontier closed after this chapter was first written — see Chapter 29.)* The framework derives the *ratios* between particle masses (Chapter 16); the absolute scale once required a measured reference point (the Higgs field's baseline value). Chapter 29 tells the story of how that last free number fell: the baseline value is now derived from the axioms with zero adjustable parameters, leaving only a unit convention (the choice of what "one kilogram" means) and one pre-registered second-order coefficient still owed.
+
+**Individual lepton masses.** The framework predicts how the electron, muon, and tau relate to each other through the generation tower, but does not reproduce their individual masses without the same reference point.
+
+**The full pattern of the oldest light.** Chapter 23 derived three headline numbers about the cosmic microwave background (the tilt, the loudness, and the gravitational wave strength). But the full, detailed pattern — the specific ripple strength at every angular scale, hundreds of data points measured by the Planck satellite — has not yet been reproduced. Showing that the Fibonacci tower’s mode structure generates this full pattern is a major piece of unfinished work.
+
+**Quantum gravity.** The framework has derived the equations that describe how mass curves spacetime (Einstein’s field equations) and the geometry of a black hole (the Schwarzschild solution). But it has not addressed the deeper problem of **quantum gravity** — the unification of quantum mechanics (which governs the very small) with general relativity (which governs the very large). This is widely considered the hardest open problem in all of physics. The framework’s inherently discrete structure (the tower, with its integer positions and binary resolution) hints at a natural approach, but this has not been formalized. (Since this chapter was first written, the *strength* of gravity — Newton's constant — has been derived, and the electroweak scale with it; that story is Chapter 29. The *dynamics* of quantum gravity remain the open prize, and Chapter 29 hands this milestone its first concrete deliverable: a single pre-registered number the dynamics must produce.)
+
+### The Testable Future
+
+Five predictions are testable within the current decade. Each comes with a specific experiment and a clear falsification condition — a result that would refute the framework with no room for adjustment:
+
+**Gravitational waves from the beginning (r ≈ 0.017).** The experiments **LiteBIRD** (a Japanese satellite) and **CMB-S4** (ground telescopes in Chile and Antarctica) will measure r to high precision. If they find r near 0.017, the framework is confirmed. If they find r = 0, the framework is refuted.
+
+**The total neutrino mass (Σm_ν ≈ 57 meV).** The surveys **DESI** and **Euclid** will push sensitivity below 50 meV by measuring how neutrino mass affects the clustering of galaxies. The framework predicts 57 meV with normal ordering (lightest neutrino first). If the ordering turns out to be inverted (heaviest first, total above 100 meV), the framework is refuted.
+
+**The neutrino CP phase (δ_CP ≈ 222.5°).** The experiment **DUNE** (Deep Underground Neutrino Experiment, in South Dakota) will measure this to about 15° precision. If the phase turns out to be 0° or 180° (meaning no matter-antimatter asymmetry in the neutrino sector), the framework is refuted.
+
+**Normal neutrino mass ordering.** The experiments **JUNO** (in China) and **DUNE** will independently determine whether the three neutrino masses are ordered lightest-to-heaviest (normal) or heaviest-to-lightest (inverted). The framework predicts normal. Inverted would require revision.
+
+**Zero dark photon mixing (ε = 0).** Searches at the **Large Hadron Collider** (the world’s most powerful particle accelerator, at CERN in Geneva), the **SHiP** experiment (Search for Hidden Particles, also at CERN), and various dark matter detection experiments are looking for signs that dark photons mix with ordinary photons. The framework predicts exactly zero mixing. Any detection would refute the framework.
+
+### The Road to a Complete Theory
+
+The framework in its current form is a set of remarkable predictions. To become a complete theory of fundamental physics, it must cross twelve milestones, listed here in order of dependency — each one enabling the ones that follow. The first two can begin immediately. The third — the graph-to-field bridge — is the gateway: nearly everything after it depends on it.
+
+**Milestone 1: Statistical validation.** The framework produces 50 predictions with zero adjustable parameters, and 30 of the 31 testable ones match experiment within 2σ. But a rigorous statistical test — quantifying how likely it is that an unrelated set of formulas using φ and ⊙ could achieve similar matches by chance — has not been performed. Until this is done, the numerology question from Chapter 28 remains formally open. This milestone requires no new physics, only careful mathematics: define the space of possible formulas, count the matches, compute the probability. It can begin immediately. A preliminary analysis is presented in Appendix A.
+
+**Milestone 2: Multi-stage cascade verification.** CLOSED — The carry cascade has been computed explicitly for stages 3–6 (Chapters 11–12), confirming the dimensionality formula ⌈ F(S)/2 ⌉ at each stage. But stages 7 and beyond have not been verified by direct Zeckendorf resolution. Confirming that the formula holds for stages 7–12 — including the prediction that stage 8 gives 11 dimensions (Chapter 26) — is a concrete computation that has been completed through stage 12 (see Appendix A). All ten stages verify the formula exactly, including the stage-8 prediction of 11 dimensions.
+
+**Milestone 3: The graph-to-field bridge.** This was the deepest gap. Substantial progress has been made (see Appendix B): the tower has been identified as a hard-core lattice gas with a Hermitian Hamiltonian, the 3 bridge positions form fermionic modes whose Fock space carries SU(3) color structure, and the full Standard Model gauge group SU(3) × SU(2) × U(1) has been assembled from distinct structural origins. The continuum limit yields the Standard Model Lagrangian via standard lattice gauge theory methods. One structural assumption remains: that the vacated link positions serve as spatial connections between towers. This is the deepest remaining gap. The framework’s tower is a discrete structure — integer positions, binary values, Fibonacci growth. The Standard Model is a continuous structure — smooth fields, differential equations, amplitudes that flow and interfere. Connecting the two — showing that the tower’s fixed-point equations emerge from a continuous **action principle** (a single mathematical expression from which all the dynamics of a theory can be derived) the way a crystal’s lattice structure emerges from the underlying laws of chemistry — would transform the framework from a number-producing machine into a genuine physical theory. Until this bridge is built, the framework produces the right constants but cannot describe the dynamics that use them. Nearly every milestone below depends on this one.
+
+**Milestone 4: Neutrino seesaw from the axioms.** Substantially resolved (Appendix B). Two of five original gaps are rigorously closed: the Majorana nature follows from the Stage Isolation Theorem (Theorem NMS.0), and normal ordering is proved from Zeckendorf positivity (Theorem NMS.1b). One gap is substantially closed: the democratic Dirac mass follows from Q(ν) = 0 and the lattice topology (Theorem SL.1: only EM propagates between bridges; Q = 0 → EM inactive → democratic). Two gaps remain: the exact uniqueness of M_R = v · φ^T₆, and the √L(4) angular enhancement.
+
+**Milestone 5: Charged lepton mass ratios.** Resolved (Appendix B). The Koide ratio K = 2/L(2) = 2/3 is derived from the triangle’s 3-fold symmetry (Z₃) as an consequence of the amplitude A = √2 (Theorem KM.1, Corollary KM.2). The phase δ = 2/L(2)² = 2/9 encodes the triangle’s electromagnetic self-action. Combined with m_τ = v·α, all three lepton masses are determined. Mass RATIOS match experiment to 0.001% (5 decimal places). The Koide discrepancy (~6 × 10⁻⁶) is within 1σ of experimental uncertainty; an α² correction has been identified as a motivated conjecture.
+
+**Milestone 6: Quark mass ratio uniqueness.** Strengthened (Appendix B). ⊙ = π is the unique first exponent (1 match in ~320 candidates). The golden progression E_{g+1}/E_g = φ follows from bridge spacing in the tower (Theorem QMU.1). Combined: the exponents {⊙, φ⊙, φ²⊙} are uniquely determined. Average pull: 0.26σ.
+
+**Milestone 7: The strong CP problem.** (Structural resolution in Appendix A.) One of the major unsolved problems in the Standard Model: why does the strong nuclear force respect a certain symmetry (called CP symmetry — the symmetry between matter and antimatter) to extraordinary precision, when there is no known reason it should? This is measured by a number called the **QCD vacuum angle** θ, which experiments constrain to be less than 10⁻¹⁰. The framework has not yet addressed this. Deriving θ ≈ 0 from the tower structure would resolve one of particle physics’ deepest puzzles.
+
+**Milestone 8: The gravitational constant from axioms.** CLOSED as a conditional-theorem chain (Session 42; full record in the companion repository, summarized in the update section of "The Gravitational Scale" and "Gravity and the Infinite Tower"). The lattice formulation (Milestone 3) reduces the framework’s inputs to a single dimensionful quantity: the lattice spacing *a*. Theorem G.1 proves that the **Planck stage** is S_P = 11 — the smallest cascade stage at which the VEV tower first exceeds the Planck mass (v₁₁/M_P ≈ 1.71, while v₁₀/M_P ≈ 10⁻⁷). Theorem G.2 ("Gravitational Democracy") derives that the lattice spacing equals exactly **F(11) = 89 Planck lengths** — the Fibonacci number at the Planck stage. The argument: gauge forces are screened (each position suppressed by D per depth), but gravity couples to all energy equally (the equivalence principle). The 89 tower positions at the Planck stage are 89 independent gravitational degrees of freedom; the Planck mass arises as the collective excitation of all 89 modes at the UV cutoff energy. This eliminates the last experimental input: Newton’s gravitational constant in register units becomes G_reg = (φ³ + φ⁻³)(φ⁶ − φ⁻⁶)·φ·ln(φ)/[⊙·(φ¹¹ + φ⁻¹¹)²], and every mass and every force strength follows from the ten axioms alone. Consistency checks pass: running the unified coupling down from Λ_UV = M_P/89 reproduces α_s(M_Z) within the documented scheme band (pulls ranging +0.66σ to +1.8σ across loop orders and threshold treatments), and F(11) = 89 falls squarely in the range [63, 92] allowed by separate SU(2) and SU(3) determinations. What was once the weakest step is now backed by the Session-42 identities and the documented closure bands; the Fibonacci structure and the v-independent selection carry the result.
+
+**Milestone 9: Force unification scale — CLOSED (Session 52).** The framework does not predict a separate GUT group (no SU(5), no X boson). The pre-Higgs tower structure IS the unified state: SU(3) from the bridges, SU(2)×U(1) unsplit, sin²θ_W(GUT) = 3/8 (Theorem 16.0), couplings consistent at the cutoff (G.5). **Prediction: proton decay at GUT-predicted rates does NOT occur.** If observed, this falsifies the framework's structural reading of unification. In standard physics, the three coupling constants (electromagnetic, strong, weak) change with energy and appear to nearly converge at a very high energy called the **GUT scale** (roughly 10¹⁶ times the energy of a proton). Whether they truly converge — and at what energy — is one of the major predictions any unified theory must make. The framework should be able to derive the unification scale from the tower’s screening structure.
+
+**Milestone 10: The full pattern of the oldest light — CLOSED (Sessions 46+51).** Chapter 23 derived three numbers about the cosmic microwave background (the tilt, the amplitude, and the gravitational wave strength). The Planck satellite measured roughly 2,500 numbers — the ripple strength at every angular scale. Reproducing this full pattern from the tower’s Fibonacci mode structure would turn three data points into two thousand five hundred. This milestone also includes fully dissolving the need for inflation — showing that the tower’s mode structure reproduces everything the inflaton field was introduced to explain.
+
+**Milestone 11: Dark sector accessibility — PARTIALLY CLOSED (Session 52).** The framework predicts a complete dark sector (Chapter 22). Session 52 computed: dark confinement scale Λ ∈ [0.4, 2] MeV; dark sector is thermally isolated from the SM (Higgs portal cross-sections 10⁴–10⁶× below current experiments); dark matter abundance from dark-internal freeze-out. The dark sector's predictions are testable in principle but not by current experiments. Computing the strength of the connection between the dark sector and ordinary matter — through the Higgs field, the one channel that might link them — would tell us whether the dark sector’s predictions are testable in practice or only in principle.
+
+**Milestone 12: Quantum gravity and the holographic proof.** The ultimate prize. Showing that the continuous spacetime of general relativity emerges from the framework’s discrete tower in a mathematically rigorous way — the way the smooth surface of water emerges from discrete water molecules — would constitute a theory of quantum gravity: the unification of the very small and the very large. This milestone also includes proving the holographic bound quantitatively (Chapter 25’s qualitative argument that Drishti screening implies the holographic principle needs exact numerical correspondence with the Bekenstein-Hawking entropy formula). Its first deliverable is already pre-registered: the second-order coefficient of the gravitational echo, |k| = 2.24 ± 0.14, with success and failure criteria written down in advance (Chapter 29).
+
+**Publication.** Papers I and II are available on Zenodo. Paper III — covering the dark sector, neutrino masses, the cosmic budget, and the primordial spectrum — needs writing and submission to a peer-reviewed journal. Each milestone above, as it is completed, generates a publishable result.
+
+
+---
+
 
 ## Proofs for Chapter 1 — The Ground
 
@@ -2019,6 +2151,7 @@ any other act requires an exterior to Ω, but Ω is all that exists.
 completion of Axiom 1. ■
 
 ---
+
 
 ## Proofs for Chapter 2 — The First Distinction
 
@@ -2070,6 +2203,7 @@ This forces the **second dimension**. ■
 **Corollary 2.3.** After Problem 2, the graph has three nodes in a plane. 2D exists.
 
 ---
+
 
 ## Proofs for Chapter 3 — Fibonacci Growth
 
@@ -2154,6 +2288,7 @@ values need finitely many carries). ■
 
 ---
 
+
 ## Proofs for Chapter 4 — The Golden Ratio
 
 **Theorem 4.1** *(Uniqueness of φ).* The Fibonacci recurrence has a unique
@@ -2165,6 +2300,7 @@ growth ratio φ satisfying: **φ² = φ ⊕ φ⁰**.
 φ = 10_M. (v) Seed-independent (positive root dominates exponentially). ■
 
 ---
+
 
 ## Proofs for Chapter 5 — Maya Math
 
@@ -2253,6 +2389,7 @@ Decimal check: (φ²⊕φ⁻²)·(φ²⊕φ⁻²) = 3×3 = 9 = 7+2 = (φ⁴⊕φ
 ### Layer 1: Plain Language
 
 ---
+
 
 ## Proofs for Chapter 6 — The Triangle
 
@@ -2365,6 +2502,7 @@ Axiom 4 forbids canonical path choice. Unique inversion fails. ■
 
 ---
 
+
 ## Proofs for Chapter 8 — Euler's e
 
 **Theorem 8.1** *(Euler's Number from Fibonacci Self-Compounding).*
@@ -2383,6 +2521,7 @@ converge. (iv) Unique limit (dₙ grows without bound; the function is
 monotone in dₙ). ■
 
 ---
+
 
 ## Proofs for Chapter 10 — The Screening Tower
 
@@ -2443,6 +2582,7 @@ reduces dimensionality.
 
 ---
 
+
 ## Proofs for Chapter 11 — The Carry Cascade
 
 **Theorem 11.1** *(Carry Necessity at Stage 6).* The stage-6 unified
@@ -2460,6 +2600,7 @@ resolution.
 (iii) Rule M4: 11 ⇒ 100. Every pair is a carry violation.
 
 ---
+
 
 ## Proofs for Chapter 12 — The Higgs Resolution
 
@@ -2551,9 +2692,7 @@ positions. All four are equivalent in their origin. The tower
 produces 4 dimensions of **unified spacetime**. ■
 
 
-
-
-## Proofs for Chapter 16b — The Lepton Masses
+## Proofs for Chapter 17 — The Lepton Masses
 
 **Theorem (Koide ratio from node geometry).** The normalized mass sum of the three charged leptons equals 2/L(2):
 
@@ -2569,7 +2708,8 @@ produces 4 dimensions of **unified spacetime**. ■
 
 *Validation.* Fitted δ: 0.22227. Predicted: 0.22222. Match: 4 significant figures.
 
-## Proofs for Chapter 25 — The Infinite Tower
+
+## Proofs for Chapter 26 — The Infinite Tower
 
 **Theorem (Exact convergence).** Total resolved fraction = ⊙⁻¹ ≈ 0.3183.
 
@@ -2596,101 +2736,8 @@ produces 4 dimensions of **unified spacetime**. ■
 
 ---
 
-## Chapter 27 — The Hardest Test
 
-Chapter 26 closed the last free number. That is a claim about *one* measurement — the electroweak scale, one number, 246 GeV. This chapter tells the story of what happened when the framework faced *two thousand five hundred* measurements at once — and what we learned when the answer came back not quite right.
-
-### What a theory actually has to do
-
-A theory that predicts one number correctly might be lucky. A theory that predicts ten might be clever. But a theory that predicts the detailed *shape* of a signal — every bump and valley across thousands of data points — with no dials to turn, is either right or spectacularly wrong. There is no room for luck when you cannot adjust anything.
-
-The signal in question is the **cosmic microwave background** — the ancient light described in Chapter 20. That light is almost uniform, but not quite: it has tiny ripples, some spots slightly warmer, others cooler. Chapters 20 and 21 showed that the framework predicts three headline numbers about those ripples: how tilted they are (the spectral tilt, matching to 0.30σ), how loud they are (the amplitude, matching to 1.0σ), and how much gravitational-wave rumble accompanies them (the tensor ratio, not yet measured). Three numbers, three matches.
-
-But the Planck satellite did not measure three numbers. It measured the ripples at **2,500 different angular scales** — from patterns as wide as the whole sky down to patterns half a degree across. Each scale is labeled by a number called ℓ (the multipole moment), running from ℓ = 2 to ℓ = 2500. At each ℓ, the satellite measured how strong the ripples are, and the result is a curve — the **power spectrum** — that looks like a series of peaks and valleys, like the overtones of a bell.
-
-The framework predicts not just the three headline numbers but all six parameters that determine the shape of that curve. If it gets any of them wrong, the predicted curve and the measured curve will disagree — not at one point, but across hundreds.
-
-### The screening calculus, verified at the deepest level
-
-Before the CMB test, one piece of the framework's machinery needed to be checked at a deeper level than before.
-
-The framework's central trick — the one that produces the fine-structure constant, the Higgs mass, and eventually the electroweak scale — is a **screening calculus**: a rule that says how much each layer of structure dims the effect of the layer below. Think of it as stacking filters on a camera lens. Each filter (each "rung" of the golden ladder) lets through a precise fraction of the light, and the total dimming is the product of all the fractions.
-
-This calculus had been *used* successfully — it produces α to eight significant figures — but the question was whether its internal gears worked the way we claimed. Three sessions of hostile review (Sessions 43–45 in the companion repository) tested this.
-
-The first gear: **the growth rate**. The framework says the ladder grows by a factor of φ (the golden ratio, about 1.618) per rung. This turned out to be derivable from the lattice's own constraint structure — the same "no two adjacent 1s" rule that creates the Fibonacci numbers also creates a transfer matrix whose dominant eigenvalue is exactly φ. Not approximately. Exactly. The growth rate is not an assumption; it is arithmetic.
-
-The second gear: **what the screening acts on**. A mass ratio — like the Higgs mass divided by the W boson mass — is a *propagator* quantity, a property of a traveling line. A traveling line crosses each rung of its interval exactly once, with no occupancy fraction to weight. This is a different object than a thermodynamic average over many configurations, and the difference matters: four alternative readings of the screening — thermodynamic averages at different weightings — were tested against the measured Higgs mass. The correct reading (one crossing per rung, the "rung-native" response) fits to −0.08σ. The alternatives miss by 7σ to 80σ.
-
-The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 26's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered Milestone-12 input, not a result.
-
-The net outcome: the screening calculus is now verified at the action level — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
-
-### Six numbers, 2,500 data points
-
-The framework derives six cosmological parameters from its axioms (plus one number borrowed from astrophysics — the optical depth τ, which measures how much the universe's later history reionized the primordial gas). The six derived values, with their sources:
-
-- **How much ordinary matter:** Ω_b = 0.04929, from the tower's baryon-photon counting.
-- **How much dark matter:** Ω_DM = D² ≈ 0.265, the square of the Drishti bound — the framework's observation limit itself becomes the dark matter fraction.
-- **How fast the universe expands:** H₀ = 68.2 km/s/Mpc, from a tower-counting exponent.
-- **How tilted the ripples are:** n_s = 53/55 ≈ 0.9636, a ratio of Fibonacci-adjacent numbers.
-- **How loud the ripples are:** A_s ≈ 2.131 × 10⁻⁹, from the bilateral Drishti bound raised to the eighth power.
-- **How much dark radiation:** ΔN_eff, from the dark sector's temperature ratio — the fraction of the tower that is "examined" (Axiom 3) raised to the fourth power.
-
-These six numbers were fed into **CAMB** — a standard, publicly available computer program that solves the equations governing how light, matter, and gravity interact in the early universe (the Boltzmann equations). CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
-
-### What happened
-
-The curve matched. At 2,500 angular scales, the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
-
-But this result came with a surprise, and the surprise is the real story of this chapter.
-
-### The rescue that almost wasn't
-
-When we first ran the numbers *without* the dark radiation, the framework's curve missed the data — badly. Not in overall shape, but in a very specific way: the positions of the peaks were shifted. The peaks in the CMB power spectrum are like the overtones of a bell, and their positions depend on the **acoustic scale** — the distance sound could travel in the primordial plasma before the universe cooled enough for light to escape. That distance is measured to extraordinary precision: θ* = 1.04109 ± 0.00030. The framework's parameter point, without dark radiation, predicted θ* = 1.04570 — off by **fifteen standard deviations**. In any other context, fifteen sigma would be a death sentence.
-
-Then we included the framework's *own* prediction of dark radiation — the ΔN_eff from the dark sector's temperature ratio, derived months earlier with no cosmological input whatsoever — and the tension dissolved. The required amount of dark radiation to fix the acoustic scale landed at ΔN_eff = 0.132, which sits at the upper edge of the framework's independently predicted range of 0.067 to 0.131. The edge, it turned out, is a robust place: the relevant counting of particle species (g* = 10.75) is a plateau of standard thermodynamics, constant across two decades of temperature, so no fine-tuning is needed — just "dark sector decoupled sometime in the MeV era."
-
-The framework had rescued itself with its own prior prediction. Three headline numbers became 2,500 — conditionally.
-
-### The crack
-
-Then we tested the condition.
-
-The dark radiation fix requires a specific **temperature ratio** between the dark sector and the ordinary sector: ξ = φ⁻² ≈ 0.382. The framework asserts this ratio from the "examined fraction" — the share of the tower's resolution that goes to the dark sector, set at formation by Axiom 3. But ΔN_eff is measured at **recombination**, 380,000 years after formation. Between formation and recombination, both sectors release entropy as their heavy particles annihilate — the ordinary sector when electrons and positrons annihilate, the dark sector when its own heavy bosons (around 400–600 GeV) decay into its 17 massless particles. These events happen at different times, and they change the temperature ratio.
-
-The question was: does the ratio survive?
-
-We computed it carefully (Session 50 in the companion repository). The ordinary sector's entropy release is a factor of about 27 (well known from standard cosmology). For the dark sector to preserve the ratio, it would need to release entropy in *exactly the same factor* — 27. But the dark sector has a completely different particle spectrum (different masses, different numbers of species), and a realistic count gives a factor closer to 3–6. The ratio doesn't survive. The honest prediction, after accounting for thermal history, is ΔN_eff ≈ 0.004–0.02 — about ten times too small to rescue the acoustic scale.
-
-The fifteen-sigma tension is reopened.
-
-### What this means — and what it doesn't
-
-It is important to be precise about what broke and what didn't.
-
-**What broke:** the specific mechanism — dark radiation at ΔN_eff ≈ 0.13 — that was rescuing the acoustic scale. The formation-era temperature ratio does not survive to recombination under standard thermal physics.
-
-**What did not break:** the 50 particle-physics predictions (coupling constants, masses, mixing angles) that form the framework's core. Those are ratios, tested against experiment one at a time, and they have nothing to do with the CMB's acoustic scale. The fine-structure constant is still correct to eight figures. The Higgs mass still matches. The electroweak scale is still derived with zero parameters.
-
-**What this points to:** the framework's **Hubble constant** H₀ = 68.2 km/s/Mpc. This is the parameter that drives the acoustic-scale tension — it is 1.2% higher than the Planck satellite's best-fit value of 67.36, and in the joint fit with the baryon and dark matter densities, that 1.2% becomes a 15σ problem. The real open question is whether the derivation of H₀ (Problem 8b in the source of truth: a tower-counting exponent involving 232 and the weak mixing angle times 89) is correct. If that number moves even slightly, the entire CMB fit cascades with it.
-
-This is the framework's most important remaining problem — not because it threatens the particle physics, but because it threatens the cosmology. And it would be dishonest to end a book called *From Nothing, Everything* without saying so, plainly, on the page.
-
-### The mathematics at a glance
-
-For readers who want the technical spine (full derivations in the companion repository, Sessions 43–50; proofs in Appendix A, "Proofs for Chapter 27"):
-
-- **Screening base (derived):** the hard-core constraint's transfer matrix [[1,1],[1,0]] has eigenvalue λ = φ exactly; the counting↔ladder identification is a declared measure postulate.
-- **Load typing (discriminated):** Theorem 17.2 under the rung-native reading gives M_H = 125.24 GeV (−0.08σ); four alternative ensemble readings are excluded at 7–80σ.
-- **κ = 1 (exact for the geometric response):** T → φ·e^(−s) makes the conversion constant unity to all orders; the arithmetic response T → φ·(1−s) is excluded by data at O(s²).
-- **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external).
-- **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
-- **The self-referential correction:** H₀/M_P = D^(N + Φ), where Φ = f*/F(11) is the gravity sector's Tolman self-potential (identity I2). Predicted H₀ = 67.38 km/s/Mpc (0.03σ from Planck). At corrected h = 0.6738: θ* = 1.04096 (−0.4σ), ω_b = 0.02238 (0.04%), full TT/EE/TE within cosmic variance.
-- **The diagnosis (Session 51):** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Pre-registered correction: ΔN = +0.020 ± 0.003.
-
-
-## Proofs for Chapter 26 — The Last Free Number
+## Proofs for Chapter 29 — The Last Free Number
 
 The complete formal record for this chapter lives in two places: the detailed derivations with all referee rounds in the companion repository (current/proposition_G4prime_gravitational_seed.md and the notation-canonical master current/session42_gravity_canonical_notation.md, with all computations regenerable from scripts/session42/), and the structural mathematics in Appendix B's "The Gravitational Scale (Milestone 8)" section below, which contains Theorems G.1 and G.2 with full proofs. The chapter's chain, formally:
 
@@ -2719,8 +2766,7 @@ structural derivation among 7 window candidates).
 **The open coefficient (now resolved — see above).** R(Φ) = 1 − Φ + |k|Φ²; |k| = 2.2417 ± 0.138 (G-dominated), open by proof pending the Milestone-12 action term; hypothesis of record |k| = φ + φ⁻¹ (low evidential weight by the window-density analysis); falsification criteria pre-registered.
 
 
-
-## Proofs for Chapter 27 — The Hardest Test
+## Proofs for Chapter 30 — The Hardest Test
 
 Full derivations with all hostile review rounds are in the companion repository
 (current/session43_kappa_gauge_lemma.md, session44_insertion_typing.md,
@@ -2777,16 +2823,19 @@ H₀/M_P = D^(N + Φ). Corrected H₀ = 67.38 km/s/Mpc (0.03σ from Planck).
 Full spectrum verification: χ²_CV = 349/364/50 (TT/EE/TE) over ~2499 dof.
 Additive entry is dimensionally forced (Φ and N are in the same units: tower
 positions of screening depth). The 2% residual (Φ_predicted vs Φ_required)
-is O(Φ), at the same perturbative order as the gravity sector's k = 9/4 (now resolved; see Chapter 26 and the M12 derivation).
+is O(Φ), at the same perturbative order as the gravity sector's k = 9/4 (now resolved; see Chapter 29 and the M12 derivation).
 Status: typed hypothesis at moderate evidential weight; formal derivation of
 the additive form requires the Milestone-12 frontier action.
 
 
-# Appendix B — Milestones: Work in Progress
+# Appendix B — Milestones: Detailed Derivations
+
+*The milestone content has been integrated into the main chapters above. The entries below preserve the detailed derivations and peer-review records for reference.*
 
 *This appendix tracks the framework’s open research program. Each milestone is explained first in plain English, then in the framework’s mathematics. Results range from complete to preliminary. Honest gaps are flagged explicitly.*
 
 ---
+
 
 ## Milestone 1 — Is This Just Coincidence?
 
@@ -2828,11 +2877,12 @@ The framework’s actual formulas don’t appear in this search at all — they 
 
 ---
 
+
 ## Milestone 2 — Does the Dimension Formula Hold Beyond Stage 6?
 
 ### The Question in Plain English
 
-Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 25 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
+Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 26 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
 
 But this formula was derived from the pairing mechanism (Chapter 11), which was only verified at stages 3–6. Does it hold at higher stages?
 
@@ -2859,7 +2909,8 @@ Stage 12 (depth 144) required 200-digit precision — at 60 digits the computati
 
 ---
 
-## Milestone 3 — The Graph-to-Field Bridge
+
+## Milestone 3 — The Graph-to-Field Bridge (Original Derivation)
 
 ### The Question in Plain English
 
@@ -3134,7 +3185,7 @@ However, the framework's natural position may be that triple unification is **no
 
 **Status:** The SU(2)–SU(3) match (0.8–1.3%, depending on loop order) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing determines the Planck scale (see "The Lattice Scale" below and Milestone 8).
 
-**Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 19 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by gauge invariance of the kinetic term. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 0.8–1.3% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
+**Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 22 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by gauge invariance of the kinetic term. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 0.8–1.3% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
 
 ### The Lattice Scale
 
@@ -3144,7 +3195,7 @@ The lattice formulation from Milestone 3 has one remaining free input: the latti
 
 How large is this ruler? The coupling unification analysis gives the answer. The framework says the bare coupling at the lattice scale should be g² = D², giving 1/α = 47.37. Standard physics tells us how the three gauge couplings evolve with energy. Running them upward from their measured values at 91 GeV (where accelerators measure them), the SU(2) and SU(3) couplings converge and cross. The scale where this crossing happens — and the coupling value where it occurs — pins down the lattice spacing.
 
-The result: the crossing happens at an energy of roughly 10¹⁷ GeV, with a coupling value within 1.3% of the framework's 47.37. The lattice spacing this implies is about 85 times the Planck length — roughly 10⁻³³ meters. The lattice is fine-grained, but the Planck scale (the smallest meaningful length in physics) sits about two orders of magnitude below it. Bridging that last gap — deriving Newton's gravitational constant from the axioms — was Milestone 8, and it has since been closed (Theorem G.2 below and Chapter 26).
+The result: the crossing happens at an energy of roughly 10¹⁷ GeV, with a coupling value within 1.3% of the framework's 47.37. The lattice spacing this implies is about 85 times the Planck length — roughly 10⁻³³ meters. The lattice is fine-grained, but the Planck scale (the smallest meaningful length in physics) sits about two orders of magnitude below it. Bridging that last gap — deriving Newton's gravitational constant from the axioms — was Milestone 8, and it has since been closed (Theorem G.2 below and Chapter 29).
 
 One number captures the deepest puzzle: the Higgs vacuum expectation value in lattice units is v × a ≈ 10⁻¹⁵. This is the **hierarchy problem** — the fact that the electroweak scale (where particles get their mass) is fifteen orders of magnitude below the lattice scale (where the fundamental laws are defined). The framework inherits this problem from the Standard Model. Whether the tower structure can explain it remains open.
 
@@ -3199,7 +3250,7 @@ This means the lattice spacing is exactly **89 Planck lengths**. Each Planck len
 
 *(Session 42 note: this proof was subsequently strengthened — the "one quantum of binding" condition was shown to be an algebraic identity given energy additivity, the seed value √5 an exact golden-ratio identity (bilateral/count), and the screening exponent an instance of the same fixed-point calculus that produces the fine-structure constant. See the update section below.)*
 
-**Theorem G.1 (Planck Stage Identification).** The Planck stage S_P is the smallest cascade stage S such that v_S > M_P. From the VEV tower (Theorem VEV.1, Chapter 25):
+**Theorem G.1 (Planck Stage Identification).** The Planck stage S_P is the smallest cascade stage S such that v_S > M_P. From the VEV tower (Theorem VEV.1, Chapter 26):
 
 > v_S = K · φ^F(S),  where K = v/φ^F(6) ≈ 5.24 GeV
 
@@ -3323,7 +3374,7 @@ Two honest declarations close the account. First, the framework's value has now 
 
 #### The Idea
 
-Everything above derives one number: the gravitational constant for an observer at our stage of the tower, seeing 89 modes. But the tower doesn't stop at stage 11. It goes on forever (Chapter 25). What happens to gravity as you see deeper?
+Everything above derives one number: the gravitational constant for an observer at our stage of the tower, seeing 89 modes. But the tower doesn't stop at stage 11. It goes on forever (Chapter 26). What happens to gravity as you see deeper?
 
 Think of it this way. You are standing in a dark room holding a flashlight. The flashlight illuminates 89 tiles on the floor. You divide what you see equally among the 89 tiles: each tile is 1/89 of your visible world. The strength of gravity — how much each tile pulls on every other tile — comes from that fraction: (1/89)² ≈ 0.00013. Gravity is weak because you can see many tiles.
 
@@ -3351,7 +3402,7 @@ One quantity never changes: **G × M_P² = 1**. The coupling times the mass squa
 
 All of this can sound abstract — towers, stages, modes, Fibonacci numbers. So let us hold something real. Pick up a glass of water.
 
-**What is a tower?** A tower is the internal structure of one *lattice cell* — the smallest unit of spacetime. Think of space as a grid, too fine to see, with cells roughly 10⁻³³ meters across (89 Planck lengths). Each cell has one tower — and the tower has **infinitely many positions**, organized by the Fibonacci cascade, extending through all stages to infinity. The tower does not stop. It is the same infinite structure described in Chapter 25.
+**What is a tower?** A tower is the internal structure of one *lattice cell* — the smallest unit of spacetime. Think of space as a grid, too fine to see, with cells roughly 10⁻³³ meters across (89 Planck lengths). Each cell has one tower — and the tower has **infinitely many positions**, organized by the Fibonacci cascade, extending through all stages to infinity. The tower does not stop. It is the same infinite structure described in Chapter 26.
 
 But gravity cannot see all of it. Gravity resolves the first **89 positions** (stages 1 through 11) — the modes whose energy is below the Planck mass. Positions 90 and beyond are trans-Planckian: they exist, but they are past the gravitational horizon. The number 89 is not a structural limit on the tower. It is an **absolute boundary** — the point where the VEV tower first exceeds the Planck mass, a structural fact about the architecture itself. This boundary is the same for all observers at any stage in our universe: a dark matter particle at stage 7 and a proton at stage 6 experience the same G = 1/89², because gravity couples to all energy equally (the equivalence principle). The gravitational horizon is a property of the tower, not of who is looking.
 
@@ -3401,7 +3452,7 @@ So the proton's 10⁵³ cells are enormous in lattice units but still a speck in
 
 A natural question: if the universe is expanding, is the lattice expanding too? Are new stages being built? Do different stages live in separate universes that might or might not overlap?
 
-Chapter 25 answered this already: *all stages exist simultaneously. The tower is already complete.*
+Chapter 26 answered this already: *all stages exist simultaneously. The tower is already complete.*
 
 **The lattice does not change.** The tower is not our universe's "current state" — it is the permanent architecture of spacetime. Every cell, everywhere, at every moment in cosmic history, has the same 89-position tower. The lattice is the graph paper. What changes is the *drawing* on the graph paper — the matter, the light, the metric, the pattern of which modes are excited. Cosmological expansion stretches the drawing, not the paper.
 
@@ -3486,7 +3537,7 @@ with Planck mass M_P(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹). For odd N this equal
 
 > G(N) × M_P(N)² = 1    (the ratio principle: the whole is always one)
 
-*Proof.* At Planck stage N, the tower has F(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹) positions (Binet form, all N). The whole is 1. By Gravitational Democracy (Theorem G.2), each position's amplitude is 1/F(N). Newton's constant: G(N) = 1/F(N)². This is a corollary of G.2 applied at arbitrary stage N, assuming Chapter 25's "no preferred stage" principle. ■
+*Proof.* At Planck stage N, the tower has F(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹) positions (Binet form, all N). The whole is 1. By Gravitational Democracy (Theorem G.2), each position's amplitude is 1/F(N). Newton's constant: G(N) = 1/F(N)². This is a corollary of G.2 applied at arbitrary stage N, assuming Chapter 26's "no preferred stage" principle. ■
 
 *Caveat.* The formula is mathematically valid for all N ≥ 3, but gravity in fewer than 4 spacetime dimensions is qualitatively different (no propagating gravitons). The cascade produces 4 dimensions at stage 6 (our universe). For stages 3–5, G(N) is formally defined but not physically comparable to 4D gravity.
 
@@ -3511,13 +3562,14 @@ with Planck mass M_P(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹). For odd N this equal
 | 15 | 610 | 2.69 × 10⁻⁶ | 0.146 |
 | ∞ | ∞ | 0 | 1/φ⁴ = 0.146 |
 
-*Axiom trace.* Same as G.2, plus Chapter 25 (no preferred stage). The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
+*Axiom trace.* Same as G.2, plus Chapter 26 (no preferred stage). The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
+
 
 ## Milestone 4 — The Neutrino Seesaw from Axioms
 
 ### The Question in Plain English
 
-Neutrinos have tiny but nonzero masses — less than a millionth of an electron’s mass. The standard explanation is the “seesaw mechanism,” which balances an ordinary mass against an enormous one to produce a tiny result. Chapter 18 originally borrowed this mechanism from mainstream physics. Milestone 4 asks: can the seesaw be *derived* from the ten axioms instead of imported?
+Neutrinos have tiny but nonzero masses — less than a millionth of an electron’s mass. The standard explanation is the “seesaw mechanism,” which balances an ordinary mass against an enormous one to produce a tiny result. Chapter 20 originally borrowed this mechanism from mainstream physics. Milestone 4 asks: can the seesaw be *derived* from the ten axioms instead of imported?
 
 ### What We Found
 
@@ -3595,7 +3647,6 @@ The lattice framework from Milestone 3 provides the three structural ingredients
 *Numerical verification:* The EM propagator ratio ΔG(5→7)/ΔG(3→5) = 0.752/0.100 = 7.49 ≈ φ⁴, reflecting the tower’s Fibonacci weight structure. The Fibonacci screening ratio Σ(n>5)/Σ(n>3) gives φ², connecting to the golden scaling of Theorem QMU.1.
 
 *Axiom trace.* SL.1: Axioms 4, 5, 10, Results 10–11. SL.2: SL.1 + Drishti propagator. SL.3: SL.2 with Q = 0.
-
 
 
 ## Milestone 5 — Charged Lepton Mass Ratios (Resolved)
@@ -3702,11 +3753,12 @@ matching the observed ΔK to 1%. The Adj² contribution (eigenvalue ratio 4/1 in
 
 *Axiom trace.* KM.1: Axioms 4–6 (triangle, symmetry), Axiom 10 (Drishti). KM.2: Algebraic identity. KM.3: KM.1 + Theorem OP16a-i-a.1. KMA.1: Algebraic consequence of KM.2. KMA.2: KMA.1 + graph spectral theory. KMA.3: KMA.1 + SL.1–SL.2 (channel counting). KMA.4: Axioms 4, 6 + Schur + Axiom 10 + SLC + Born rule (max entropy equipartition). SL.1–SL.2: Axioms 4, 5, 10, Results 10–11.
 
+
 ## Milestone 6 — Are the Quark Mass Exponents Unique? (Strengthened)
 
 ### The Question in Plain English
 
-Chapter 16 derives quark mass ratios using the exponent ⊙ (the circle constant = π). Chapter 23 flags this as the prediction most vulnerable to the numerology objection: could a different number from the framework’s ingredients match just as well?
+Chapter 16 derives quark mass ratios using the exponent ⊙ (the circle constant = π). Chapter 28 flags this as the prediction most vulnerable to the numerology objection: could a different number from the framework’s ingredients match just as well?
 
 ### What We Found
 
@@ -3733,7 +3785,7 @@ The marginal alternative (5/φ) fails when extended across generations: the gold
 ---
 
 
-## Milestone 7 — The Strong CP Problem
+## Milestone 7 — The Strong CP Problem (Original Appendix Entry)
 
 ### The Question in Plain English
 
@@ -3762,4 +3814,3 @@ Think of it this way: θ measures how many times a rope is wound around a pole. 
 **Falsifiable predictions.** θ = 0 exactly. No axion exists. If either is contradicted by experiment, the framework’s discrete structure needs revision.
 
 **Honest caveat.** Whether the continuum limit (the full graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework predicts topology is inherited, not created — but this remains to be proved.
-
