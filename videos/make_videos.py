@@ -275,7 +275,7 @@ def make_chapter_video(chapter_key, dry_run=False):
 
 def list_chapters():
     """List all available chapter data files."""
-    files = sorted(NARRATION_DIR.glob("chapter_*.json"))
+    files = sorted(NARRATION_DIR.glob("*.json"))
     for f in files:
         data = json.loads(f.read_text())
         print(f"  {f.stem:20s} — {data['title']} ({len(data['slides'])} slides)")
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     chapter = args[0]
 
     if chapter == "all":
-        files = sorted(NARRATION_DIR.glob("chapter_*.json"))
+        files = sorted(NARRATION_DIR.glob("*.json"))
         for f in files:
             make_chapter_video(f.stem, dry_run)
     elif chapter == "list":
