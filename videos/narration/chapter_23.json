@@ -1,0 +1,39 @@
+{
+  "title": "Chapter 23 — The Primordial Spectrum",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 23",
+          "h1"
+        ],
+        [
+          "The Primordial Spectrum",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 23: The Primordial Spectrum. The seeds of all cosmic structure — galaxies, clusters, the cosmic web — were planted in the first fraction of a second. The tower derives their statistical properties."
+    },
+    {
+      "lines": [
+        [
+          "Spectral tilt: nₛ = 53/55",
+          "p"
+        ],
+        [
+          "Gravitational waves: r = D³",
+          "p"
+        ],
+        [
+          "Both from the tower",
+          "accent"
+        ]
+      ],
+      "narration": "The spectral tilt — how the primordial ripples vary with scale — comes out to 53 over 55, matching the Planck satellite measurement to 0.3 standard deviations. The tensor-to-scalar ratio r equals D cubed — a prediction that upcoming experiments like CMB-S4 will test."
+    }
+  ]
+}

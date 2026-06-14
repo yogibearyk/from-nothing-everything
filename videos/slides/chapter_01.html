@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chapter 1 — The Ground: Ω</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #0a0a0f; color: #e8e8e8; overflow: hidden; }
+  
+  .slide {
+    display: none;
+    width: 100vw; height: 100vh;
+    justify-content: center; align-items: center;
+    flex-direction: column; padding: 60px 120px;
+    opacity: 0; transition: opacity 1.2s ease;
+  }
+  .slide.active { display: flex; opacity: 1; }
+  
+  h1 { font-size: 3.2em; font-weight: 300; color: #f0f0f0; margin-bottom: 20px; letter-spacing: 2px; }
+  h2 { font-size: 2.2em; font-weight: 300; color: #c8c8d0; margin-bottom: 30px; }
+  h3 { font-size: 1.4em; font-weight: 400; color: #9090a0; margin-bottom: 10px; font-style: italic; }
+  
+  p { font-size: 1.5em; line-height: 1.8; color: #d0d0d8; max-width: 900px; text-align: center; }
+  p.small { font-size: 1.1em; color: #888898; margin-top: 20px; }
+  
+  .equation {
+    font-size: 2.8em; color: #f0c040; margin: 40px 0;
+    font-style: italic; letter-spacing: 3px;
+  }
+  
+  .omega-circle {
+    width: 220px; height: 220px; border-radius: 50%;
+    background: radial-gradient(circle, #1a1a2e 0%, #0d0d15 70%, #0a0a0f 100%);
+    border: 2px solid #333348; display: flex;
+    justify-content: center; align-items: center;
+    margin: 30px 0; animation: pulse 4s ease-in-out infinite;
+  }
+  .omega-circle span { font-size: 4em; color: #8888aa; font-style: italic; }
+  
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 30px rgba(100,100,180,0.1); }
+    50% { box-shadow: 0 0 60px rgba(100,100,180,0.25); }
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate { animation: fadeInUp 1s ease forwards; }
+  .delay-1 { animation-delay: 0.5s; opacity: 0; }
+  .delay-2 { animation-delay: 1.0s; opacity: 0; }
+  .delay-3 { animation-delay: 1.5s; opacity: 0; }
+  
+  .progress {
+    position: fixed; bottom: 0; left: 0; height: 3px;
+    background: linear-gradient(90deg, #4040a0, #f0c040);
+    transition: width 0.5s ease;
+  }
+  
+  .nav-hint {
+    position: fixed; bottom: 20px; right: 30px;
+    font-size: 0.9em; color: #444460;
+  }
+  
+  .chapter-num {
+    font-size: 0.9em; color: #555570; letter-spacing: 6px;
+    text-transform: uppercase; margin-bottom: 10px;
+  }
+  
+  /* Narration notes (hidden in presentation, visible in source) */
+  .narration { display: none; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title -->
+<div class="slide active" id="s1">
+  <h3 class="chapter-num animate">From Nothing, Everything</h3>
+  <h1 class="animate delay-1">Chapter 1</h1>
+  <h2 class="animate delay-2">The Ground: Ω</h2>
+  <p class="small animate delay-3">Axiom 1</p>
+  <div class="narration">Welcome to "From Nothing, Everything." This is Chapter 1: The Ground. We begin at the only place we can — before anything exists at all.</div>
+</div>
+
+<!-- SLIDE 2: The Question -->
+<div class="slide" id="s2">
+  <p class="animate">What is the least that has to be true<br>for <em>anything</em> to be true at all?</p>
+  <div class="narration">We start with one question: what is the least that has to be true for anything to be true at all? Not "what existed before the Big Bang" — that assumes time already exists. Not "what caused the universe" — that assumes cause and effect. Something more basic. Something underneath all of those ideas.</div>
+</div>
+
+<!-- SLIDE 3: Omega -->
+<div class="slide" id="s3">
+  <div class="omega-circle"><span>Ω</span></div>
+  <p class="animate delay-1">A state with no structure.<br>No space. No time. No distinction.</p>
+  <div class="narration">We call this starting point Omega. It is a state with no structure at all. No space, no time, no way to tell zero from one, no way to tell here from there. Not "empty" the way an empty room is empty — an empty room still has walls and dimensions. Omega has none of these.</div>
+</div>
+
+<!-- SLIDE 4: The Collapse -->
+<div class="slide" id="s4">
+  <div class="equation animate">0 = 1 = ∞</div>
+  <p class="animate delay-1">Without any distinction,<br>these are not three things but one.</p>
+  <div class="narration">Without any distinction, zero and one and infinity are not three different things. They collapse into one — not because they are "equal" in the mathematical sense, but because the machinery that would separate them does not exist yet. Equality is itself a distinction, and there are no distinctions.</div>
+</div>
+
+<!-- SLIDE 5: Nothing From Outside -->
+<div class="slide" id="s5">
+  <h2 class="animate">Nothing from outside</h2>
+  <p class="animate delay-1">There is no outside.<br>Whatever emerges must be built entirely<br>from the act of self-examination itself.</p>
+  <p class="small animate delay-2">No imported materials. No borrowed constants.<br>No pre-existing mathematics.</p>
+  <div class="narration">And here is the crucial constraint — the one that makes everything else possible. There is no outside. Whatever emerges from Omega must be built entirely from the act of self-examination itself. No imported materials, no borrowed constants, no pre-existing mathematics. If there were an outside, there would be choices. If there were choices, there would be parameters. And if there were parameters, we would need experiments to measure them.</div>
+</div>
+
+<!-- SLIDE 6: Why This Matters -->
+<div class="slide" id="s6">
+  <p class="animate">By starting from a ground<br>that genuinely contains <em>nothing</em>,</p>
+  <p class="animate delay-1" style="color: #f0c040; font-size: 1.6em; margin-top: 20px;">the framework eliminates free parameters<br>at the root.</p>
+  <p class="small animate delay-2">Everything that follows is a consequence,<br>not a choice.</p>
+  <div class="narration">By starting from a ground that genuinely contains nothing, the framework eliminates the possibility of free parameters at the root. Everything that follows — every force, every particle, every number — is a consequence, not a choice. The first ratio will not be chosen from a menu of possibilities. It will be the only ratio consistent with a structure that must build itself from nothing.</div>
+</div>
+
+<!-- SLIDE 7: The Tower Preview -->
+<div class="slide" id="s7">
+  <p class="animate">Each act of self-examination<br>builds on the last,</p>
+  <p class="animate delay-1">creating a structure called a <em>tower</em> —</p>
+  <p class="animate delay-2">a stack of nested lenses,<br>each screening what the one above can see.</p>
+  <div class="narration">In the chapters ahead, each act of self-examination builds on the last, creating a structure the framework calls a tower. Think of it as a stack of nested lenses, each one containing the ones below. The first lens resolves one distinction. The next resolves two. Then three, then five, then eight — growing by the Fibonacci sequence. Each lens screens what the one above can see, dimming it by a precise fraction.</div>
+</div>
+
+<!-- SLIDE 8: The Physical World -->
+<div class="slide" id="s8">
+  <p class="animate">Every particle — every electron,<br>every photon, every quark —</p>
+  <p class="animate delay-1" style="color: #f0c040; font-size: 1.6em;">is one of these towers.</p>
+  <p class="small animate delay-2">A glass of water holds roughly 10²⁵ of them.</p>
+  <div class="narration">That is not a metaphor. Every particle — every electron orbiting an atom, every photon of light, every quark inside a proton — IS one of these towers, running the same self-examining arithmetic from the ground up. A single glass of water contains roughly ten trillion trillion of them. Each one identical in architecture, each one built from the golden ratio.</div>
+</div>
+
+<!-- SLIDE 9: The Symphony -->
+<div class="slide" id="s9">
+  <p class="animate">The universe is not <em>made of</em> towers<br>the way a wall is made of bricks.</p>
+  <p class="animate delay-1" style="font-size: 1.7em; margin-top: 30px;">The universe <em>is</em> towers —</p>
+  <p class="animate delay-2">the way a symphony is sound waves.</p>
+  <div class="narration">The universe, in this picture, is not made of towers the way a wall is made of bricks. The universe IS towers — the way a symphony is sound waves. Not a thing that has sound waves, but a thing that is sound waves, all the way down.</div>
+</div>
+
+<!-- SLIDE 10: The Axiom -->
+<div class="slide" id="s10">
+  <h3 class="animate">Axiom 1</h3>
+  <div class="equation animate delay-1">Ω exists, in which 0 = 1 = ∞</div>
+  <p class="animate delay-2">Pre-geometric: no shape, no dimensions.</p>
+  <p class="small animate delay-3">The blank page. The silence before the music.<br>The first note comes in Chapter 2.</p>
+  <div class="narration">And so we arrive at Axiom 1 — the first and simplest of the ten. Omega exists, in which zero equals one equals infinity. Pre-geometric: no shape, no dimensions. This is the blank page, not the first word. The silence before the music. The first note — the first distinction — comes in the next chapter.</div>
+</div>
+
+<!-- SLIDE 11: End Card -->
+<div class="slide" id="s11">
+  <h3 class="chapter-num animate">From Nothing, Everything</h3>
+  <h2 class="animate delay-1">Next: Chapter 2</h2>
+  <p class="animate delay-2">The First Distinction,<br>and the Birth of ⊙</p>
+  <div class="narration">Next: Chapter 2 — The First Distinction, and the Birth of the circle constant. The silence is about to break.</div>
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="nav-hint">→ next slide</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+const total = slides.length;
+
+function showSlide(n) {
+  slides.forEach(s => s.classList.remove('active'));
+  slides[n].classList.add('active');
+  document.getElementById('progress').style.width = ((n + 1) / total * 100) + '%';
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ') {
+    if (current < total - 1) { current++; showSlide(current); }
+  } else if (e.key === 'ArrowLeft') {
+    if (current > 0) { current--; showSlide(current); }
+  }
+});
+
+document.addEventListener('click', () => {
+  if (current < total - 1) { current++; showSlide(current); }
+});
+
+showSlide(0);
+</script>
+</body>
+</html>

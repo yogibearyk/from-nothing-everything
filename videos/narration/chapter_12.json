@@ -1,0 +1,39 @@
+{
+  "title": "Chapter 12 — Four Dimensions",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 12",
+          "h1"
+        ],
+        [
+          "Four Dimensions",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 12: Four Dimensions. Why does space have three dimensions and time have one? Because the tower at stage six has eight positions, three of which are bridges — and the ceiling of eight divided by two is four."
+    },
+    {
+      "lines": [
+        [
+          "8 positions at stage 6",
+          "p"
+        ],
+        [
+          "3 bridges → 3 spatial",
+          "accent"
+        ],
+        [
+          "1 Higgs → time",
+          "accent"
+        ]
+      ],
+      "narration": "The eight positions split into three bridge positions — which become the three directions of space — and the Higgs mechanism, which creates the time direction. Four dimensions total: three of space, one of time. Not assumed — derived from the tower's structure."
+    }
+  ]
+}

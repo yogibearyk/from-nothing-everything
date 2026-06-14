@@ -1,0 +1,60 @@
+{
+  "title": "Chapter 29 — The Last Free Number",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 29",
+          "h1"
+        ],
+        [
+          "The Last Free Number",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 29: The Last Free Number. The electroweak scale — the energy at which particles acquire mass — is predicted by a self-referential equation whose solution matches the measurement to 0.66 parts per million."
+    },
+    {
+      "lines": [
+        [
+          "v = 246.2195 GeV",
+          "equation"
+        ],
+        [
+          "measured: 246.21965 GeV",
+          "small"
+        ],
+        [
+          "0.66 parts per million",
+          "accent"
+        ]
+      ],
+      "narration": "The Higgs vacuum expectation value v comes out to 246.2195 GeV. The measured value is 246.21965. That is a match to 0.66 parts per million — six hundred times more precise than the framework's own theoretical uncertainty. Zero adjustable parameters."
+    },
+    {
+      "lines": [
+        [
+          "The mass determines the screening",
+          "p"
+        ],
+        [
+          "which determines the coupling",
+          "p"
+        ],
+        [
+          "which determines the mass...",
+          "p"
+        ],
+        [
+          "f* = 1.709",
+          "accent"
+        ]
+      ],
+      "narration": "The equation is self-referential: the mass determines the screening depth, which determines the coupling, which determines the mass. The fixed point of this loop — the one value where the cycle is self-consistent — is the physical mass. The loop closes at exactly one number."
+    }
+  ]
+}

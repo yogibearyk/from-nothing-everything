@@ -1,0 +1,65 @@
+{
+  "title": "Chapter 31 — The Open Frontier",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 31",
+          "h1"
+        ],
+        [
+          "The Open Frontier",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 31: The Open Frontier. The framework derives fifty predictions from ten axioms with zero free parameters. But two items await formal proof, and several predictions await experimental test. The frontier is open."
+    },
+    {
+      "lines": [
+        [
+          "Two structural hypotheses remain",
+          "p"
+        ],
+        [
+          "Everything else: closed",
+          "accent"
+        ]
+      ],
+      "narration": "Two items remain as structural hypotheses rather than formal theorems: the second-order gravitational coefficient and the intra-generation quark-lepton formula. Both have passed hostile review. Both use zero free parameters. But neither has been proved from the lattice action. That distinction is honestly maintained."
+    },
+    {
+      "lines": [
+        [
+          "The wager:",
+          "h2"
+        ],
+        [
+          "If any prediction is wrong,",
+          "p"
+        ],
+        [
+          "the framework is dead.",
+          "accent"
+        ],
+        [
+          "No knobs. No rescue.",
+          "small"
+        ]
+      ],
+      "narration": "The framework makes a wager, openly. If any prediction is wrong, the framework is dead. There are no knobs to adjust, no parameters to tune, no way to rescue it. That vulnerability is not a weakness. It is the framework's defining feature — and the reason it is worth taking seriously."
+    },
+    {
+      "lines": [
+        [
+          "From nothing, everything.",
+          "accent_large"
+        ]
+      ],
+      "narration": "From nothing, everything. Ten axioms. Zero free parameters. The silence examined itself, and the music began."
+    }
+  ]
+}

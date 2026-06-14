@@ -1,0 +1,78 @@
+{
+  "title": "Chapter 5 — Maya Math",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 5",
+          "h1"
+        ],
+        [
+          "The Universe's Own Language",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 5: Maya Math — the universe's own language. We use base ten because we have ten fingers. But the tower has no fingers. Its natural language is base phi — and it comes with a built-in engine."
+    },
+    {
+      "lines": [
+        [
+          "Base 10: uses digits 0–9",
+          "p"
+        ],
+        [
+          "Base φ: uses digits 0 and 1 only",
+          "accent"
+        ]
+      ],
+      "narration": "In base ten, we use ten digits: zero through nine. In base phi, we use only two: zero and one. Every number is written as a sum of golden-ratio powers, with no two adjacent ones — the same hard-core rule from Chapter 3."
+    },
+    {
+      "lines": [
+        [
+          "The carry rule:",
+          "p"
+        ],
+        [
+          "11 → 100",
+          "equation"
+        ]
+      ],
+      "narration": "When two adjacent ones appear, they combine and carry — eleven becomes one-zero-zero. This is because phi-one plus phi-two equals phi-three. The carry rule is the Fibonacci identity in action, and it is the engine that drives everything the tower computes."
+    },
+    {
+      "lines": [
+        [
+          "This is Zeckendorf uniqueness",
+          "p"
+        ],
+        [
+          "Every positive integer has exactly one",
+          "p"
+        ],
+        [
+          "representation with no adjacent ones.",
+          "accent"
+        ]
+      ],
+      "narration": "This representation is called Zeckendorf's theorem, named after the Belgian mathematician who proved it in 1972. Every positive integer has exactly one way to be written as a sum of non-adjacent Fibonacci numbers. The tower's arithmetic is unique."
+    },
+    {
+      "lines": [
+        [
+          "The carry cascade:",
+          "accent_large"
+        ],
+        [
+          "mathematics doing itself",
+          "p"
+        ]
+      ],
+      "narration": "When carries propagate through the tower, each carry triggers more carries at the next level — a cascade that turns simple local rules into complex global structure. This cascade is the mechanism behind every physical constant the framework derives. Mathematics doing itself, with no outside input."
+    }
+  ]
+}

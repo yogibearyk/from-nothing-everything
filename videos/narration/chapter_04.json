@@ -1,0 +1,74 @@
+{
+  "title": "Chapter 4 — The Only Ratio: φ",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 4",
+          "h1"
+        ],
+        [
+          "The Only Ratio: φ",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 4: The Only Ratio. As the Fibonacci sequence grows, its ratios converge to a single number — the golden ratio, phi. And phi is not chosen. It is the only number that can serve as the tower's ruler."
+    },
+    {
+      "lines": [
+        [
+          "A stick. No ruler. No markings.",
+          "p"
+        ],
+        [
+          "How do you measure it?",
+          "p"
+        ]
+      ],
+      "narration": "Imagine you have a stick, but no ruler, no markings, no external reference. The only tool you have is the stick itself. How do you divide it? You need a split where the ratio of the whole to the larger piece equals the ratio of the larger piece to the smaller. There is exactly one number that satisfies this."
+    },
+    {
+      "lines": [
+        [
+          "φ = 1.618...",
+          "equation"
+        ],
+        [
+          "The golden ratio",
+          "small"
+        ]
+      ],
+      "narration": "That number is phi — the golden ratio, approximately 1.618. It is the only ratio where the whole relates to the part the same way the part relates to the remainder. Self-similar at every scale."
+    },
+    {
+      "lines": [
+        [
+          "whole/large = large/small = φ",
+          "accent"
+        ],
+        [
+          "Self-similar at every level",
+          "p"
+        ]
+      ],
+      "narration": "This self-similarity is not decorative — it is structural. The tower must measure itself at every level using the same ratio, because there is no external ruler. Phi is the only number that works. It emerges from the constraint of self-reference, not from a choice."
+    },
+    {
+      "lines": [
+        [
+          "φ² = φ + 1",
+          "equation"
+        ],
+        [
+          "The Fibonacci identity",
+          "small"
+        ]
+      ],
+      "narration": "Phi satisfies a beautiful equation: phi squared equals phi plus one. This is the Fibonacci identity — the algebraic expression of the growth law. It will reappear throughout the book, most dramatically in Chapter 18, where it becomes the energy-mass conservation law that splits quarks from leptons."
+    }
+  ]
+}

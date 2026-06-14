@@ -1,0 +1,57 @@
+{
+  "title": "Chapter 18 — The Intra-Generation Split",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 18",
+          "h1"
+        ],
+        [
+          "The Intra-Generation Split",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 18: The Intra-Generation Split. Why is the bottom quark heavier than the tau lepton? The answer comes from the most fundamental equation in Maya math — and from Einstein's E equals mc squared."
+    },
+    {
+      "lines": [
+        [
+          "φ² = φ + 1",
+          "equation"
+        ],
+        [
+          "= total energy budget",
+          "small"
+        ]
+      ],
+      "narration": "The Fibonacci identity — phi squared equals phi plus one — is not just algebra. It is an energy budget. The quark's total budget is phi squared. This budget splits between mass and force. What goes to force — measured by the strong coupling alpha-s — cannot also be mass."
+    },
+    {
+      "lines": [
+        [
+          "m_quark = m_lepton × (φ² − α_s)",
+          "equation"
+        ]
+      ],
+      "narration": "The quark mass equals the lepton mass times phi squared minus the strong coupling. The strong coupling depends on the quark's own mass — creating a self-referential loop whose fixed point is the physical mass. For the bottom quark: 4.28 GeV, matching the measurement to 2.3 percent."
+    },
+    {
+      "lines": [
+        [
+          "When α_s > φ: quarks become lighter",
+          "accent"
+        ],
+        [
+          "This explains m_s < m_μ",
+          "small"
+        ]
+      ],
+      "narration": "The formula makes a prediction: when the strong coupling exceeds phi — the golden ratio itself — the quark becomes lighter than its lepton partner. This is exactly what happens with the strange quark and the muon. The reversal threshold is the golden ratio."
+    }
+  ]
+}

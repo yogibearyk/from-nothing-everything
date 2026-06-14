@@ -1,0 +1,35 @@
+{
+  "title": "Chapter 26 — The Infinite Tower",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 26",
+          "h1"
+        ],
+        [
+          "The Infinite Tower",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 26: The Infinite Tower. The tower does not stop at any finite stage. It continues forever — each stage more screened than the last — and its total content converges to a finite value: one over pi."
+    },
+    {
+      "lines": [
+        [
+          "∞ stages → total = 1/π",
+          "equation"
+        ],
+        [
+          "Infinite in stages, finite in content",
+          "small"
+        ]
+      ],
+      "narration": "The infinite tower is the journey from Omega back to Omega — infinite in stages but finite in content. And the cosmological constant — the energy of empty space, which physicists call the worst prediction in history — dissolves into 212 ordinary screenings, each dimming by about a quarter."
+    }
+  ]
+}

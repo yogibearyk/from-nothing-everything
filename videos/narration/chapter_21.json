@@ -1,0 +1,35 @@
+{
+  "title": "Chapter 21 — The Strong CP Problem",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 21",
+          "h1"
+        ],
+        [
+          "The Strong CP Problem",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 21: The Strong CP Problem. Why doesn't the strong force violate the symmetry between matter and antimatter? Standard physics has no answer. The tower has one: the theta parameter is zero because the tower's structure forbids it."
+    },
+    {
+      "lines": [
+        [
+          "θ = 0",
+          "equation"
+        ],
+        [
+          "Not fine-tuned — structurally forbidden",
+          "accent"
+        ]
+      ],
+      "narration": "In the Standard Model, a parameter called theta could make the strong force treat matter and antimatter differently. Experiments show theta is essentially zero — but no one knows why. In the framework, theta is zero because the tower's palindromic structure forces exact symmetry. No fine-tuning needed."
+    }
+  ]
+}

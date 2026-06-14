@@ -1,0 +1,39 @@
+{
+  "title": "Chapter 13 — The Speed of Light",
+  "slides": [
+    {
+      "lines": [
+        [
+          "FROM NOTHING, EVERYTHING",
+          "chapter_num"
+        ],
+        [
+          "Chapter 13",
+          "h1"
+        ],
+        [
+          "The Speed of Light",
+          "h2"
+        ]
+      ],
+      "narration": "Chapter 13: The Speed of Light. In this framework, the speed of light is not a postulate — it is a theorem. It is the only speed consistent with the lattice structure of the tower."
+    },
+    {
+      "lines": [
+        [
+          "c is finite",
+          "accent"
+        ],
+        [
+          "c is unique",
+          "accent"
+        ],
+        [
+          "c is invariant",
+          "accent"
+        ]
+      ],
+      "narration": "The speed of light is finite because the lattice has a spacing. It is unique because no other speed is self-consistent on the lattice. And it is invariant because all examiners — all towers — are structurally equivalent. Einstein's postulate becomes a derivable consequence."
+    }
+  ]
+}
