@@ -7,7 +7,8 @@ Converts chapter HTML presentations + narration scripts into
 full videos with AI-generated narration.
 
 Requirements (install once):
-    pip install edge-tts pillow
+    pip install gtts pillow          # primary (Google TTS, British accent)
+    pip install edge-tts pillow       # alternative (Microsoft Edge TTS)
 
 System requirements:
     - ffmpeg (brew install ffmpeg / apt install ffmpeg)
@@ -18,11 +19,13 @@ Usage:
     python make_video.py all                     # all chapters
     python make_video.py chapter_01 --voice en-GB-RyanNeural  # different voice
 
-Voices (warm male recommendations):
+TTS Engines:
+    gTTS (default)  — Google Translate TTS, British accent (tld='co.uk')
+    edge-tts        — Microsoft Edge TTS (use --voice for voice selection)
+    
+    Edge TTS voices (if using edge-tts):
     en-US-GuyNeural        — American, warm, conversational
     en-GB-RyanNeural       — British, calm, authoritative
-    en-US-ChristopherNeural — American, deeper
-    en-AU-WilliamNeural    — Australian, friendly
 """
 
 import asyncio
@@ -40,10 +43,15 @@ except ImportError:
     sys.exit(1)
 
 try:
-    import edge_tts
+    from gtts import gTTS
+    TTS_ENGINE = "gtts"
 except ImportError:
-    print("Install edge-tts: pip install edge-tts")
-    sys.exit(1)
+    try:
+        import edge_tts
+        TTS_ENGINE = "edge_tts"
+    except ImportError:
+        print("Install a TTS engine: pip install gtts  (or: pip install edge-tts)")
+        sys.exit(1)
 
 
 # ============================================================
@@ -246,10 +254,24 @@ def render_slide(slide_data, output_path):
 # AUDIO GENERATION
 # ============================================================
 
-async def generate_narration(text, output_path, voice=DEFAULT_VOICE):
-    """Generate narration audio using Edge TTS."""
+def generate_narration_gtts(text, output_path):
+    """Generate narration using Google TTS with warm British accent."""
+    tts = gTTS(text=text, lang='en', tld='co.uk')
+    tts.save(output_path)
+
+
+async def generate_narration_edge(text, output_path, voice=DEFAULT_VOICE):
+    """Generate narration using Edge TTS."""
     communicate = edge_tts.Communicate(text, voice, rate=RATE, pitch=PITCH)
     await communicate.save(output_path)
+
+
+def generate_narration(text, output_path, voice=DEFAULT_VOICE):
+    """Generate narration using the best available TTS engine."""
+    if TTS_ENGINE == "gtts":
+        generate_narration_gtts(text, output_path)
+    else:
+        asyncio.run(generate_narration_edge(text, output_path, voice))
 
 
 # ============================================================
@@ -279,7 +301,7 @@ def make_chapter_video(chapter_key, voice=DEFAULT_VOICE):
     audio_files = []
     for i, slide in enumerate(slides):
         audio_path = work_dir / f"narration_{i:03d}.mp3"
-        asyncio.run(generate_narration(slide["narration"], str(audio_path), voice))
+        generate_narration(slide["narration"], str(audio_path), voice)
         audio_files.append(audio_path)
         print(f"    ✓ Audio {i+1}/{len(slides)}")
 
