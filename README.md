@@ -2,7 +2,7 @@
 
 **What Happens When Wholeness Looks Inward**
 
-*By Yogi Kapadia*
+*By Yogen Kapadia*
 
 A book exploring what happens when you take the Advaitic (non-dual)
 insight — that reality begins as an undifferentiated wholeness examining
