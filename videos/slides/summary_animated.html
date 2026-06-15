@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>From Nothing, Everything — The Essence</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  background: #08080d; color: #d8d8e0; overflow: hidden;
+  width: 100vw; height: 100vh;
+}
+
+.slide {
+  display: none; width: 100vw; height: 100vh;
+  justify-content: center; align-items: center;
+  flex-direction: column; padding: 40px 80px;
+  position: relative;
+}
+.slide.active { display: flex; animation: fadeIn 1.2s ease; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+@keyframes glow { 0%, 100% { filter: drop-shadow(0 0 8px rgba(240,192,64,0.2)); } 50% { filter: drop-shadow(0 0 20px rgba(240,192,64,0.5)); } }
+@keyframes wave { 0% { transform: translateX(-100px); } 100% { transform: translateX(100px); } }
+@keyframes grow { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes spiral { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes drawLine { from { stroke-dashoffset: 200; } to { stroke-dashoffset: 0; } }
+
+h1 { font-size: 3.2em; font-weight: 300; color: #f0f0f0; letter-spacing: 3px; }
+h2 { font-size: 2em; font-weight: 300; color: #b0b0c0; margin: 10px 0; }
+p.narr { font-size: 1.35em; line-height: 1.7; color: #a8a8b8; max-width: 800px; text-align: center; margin-top: 20px; font-weight: 300; }
+p.narr em { color: #f0c040; font-style: italic; }
+.accent { color: #f0c040; }
+.dim { color: #666680; }
+.visual { margin: 30px 0; }
+
+/* Narration hidden div */
+.narration { display: none; }
+
+/* Progress bar */
+.progress { position: fixed; bottom: 0; left: 0; height: 3px; background: linear-gradient(90deg, #2a2a5a, #f0c040); transition: width 0.6s ease; z-index: 10; }
+.slide-counter { position: fixed; bottom: 12px; right: 20px; font-size: 0.8em; color: #333348; }
+
+/* Specific animations for flower petals */
+.petal { transform-origin: center; }
+.petal-1 { animation: grow 0.6s ease 0.2s both; }
+.petal-2 { animation: grow 0.6s ease 0.5s both; }
+.petal-3 { animation: grow 0.6s ease 0.8s both; }
+.petal-4 { animation: grow 0.6s ease 1.1s both; }
+.petal-5 { animation: grow 0.6s ease 1.4s both; }
+.petal-6 { animation: grow 0.6s ease 1.7s both; }
+.petal-7 { animation: grow 0.6s ease 2.0s both; }
+.petal-8 { animation: grow 0.6s ease 2.3s both; }
+
+/* Wave animation for ocean slide */
+.wave-dot { animation: wave 3s ease-in-out infinite alternate; }
+.wave-dot:nth-child(2) { animation-delay: 0.2s; }
+.wave-dot:nth-child(3) { animation-delay: 0.4s; }
+.wave-dot:nth-child(4) { animation-delay: 0.6s; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title -->
+<div class="slide active" id="s0">
+  <svg class="visual" width="200" height="200" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="60" fill="none" stroke="#f0c040" stroke-width="1.5" opacity="0.3" style="animation: pulse 4s ease-in-out infinite"/>
+    <circle cx="100" cy="100" r="40" fill="none" stroke="#f0c040" stroke-width="1" opacity="0.2" style="animation: pulse 4s ease-in-out 1s infinite"/>
+    <text x="100" y="112" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="42" fill="#f0c040" font-style="italic" style="animation: glow 4s ease-in-out infinite">Ω</text>
+  </svg>
+  <h1>From Nothing, Everything</h1>
+  <h2>What Happens When Wholeness Looks Inward</h2>
+  <div class="narration">Welcome to From Nothing, Everything. This is the story of a single idea: a wholeness that examines itself, and in doing so, gives rise to everything.</div>
+</div>
+
+<!-- SLIDE 2: Close your eyes -->
+<div class="slide" id="s1">
+  <svg class="visual" width="300" height="200" viewBox="0 0 300 200">
+    <!-- Eye closing animation -->
+    <ellipse cx="150" cy="100" rx="60" ry="30" fill="none" stroke="#888" stroke-width="2">
+      <animate attributeName="ry" values="30;2;30" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="150" cy="100" r="12" fill="#f0c040" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+  <p class="narr">Close your eyes for a moment.<br>Notice that you are <em>aware</em>.<br><br>Now notice that you are the one noticing.</p>
+  <div class="narration">Close your eyes for a moment and notice that you are aware. Not aware of anything in particular — just aware. Now notice something strange: you are the one noticing. Before that second thought, there was just experience, undivided. After it, there are two: a watcher and the watched. And yet they haven't separated. The watcher IS the watched, turned back on itself.</div>
+</div>
+
+<!-- SLIDE 3: The ancient question -->
+<div class="slide" id="s2">
+  <svg class="visual" width="400" height="200" viewBox="0 0 400 200">
+    <!-- Two overlapping circles becoming one -->
+    <circle cx="170" cy="100" r="50" fill="none" stroke="#f0c040" stroke-width="1.5" opacity="0.4">
+      <animate attributeName="cx" values="170;200" dur="4s" fill="freeze"/>
+    </circle>
+    <circle cx="230" cy="100" r="50" fill="none" stroke="#8888cc" stroke-width="1.5" opacity="0.4">
+      <animate attributeName="cx" values="230;200" dur="4s" fill="freeze"/>
+    </circle>
+    <text x="200" y="170" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="16" fill="#666" font-style="italic">
+      <animate attributeName="opacity" values="0;1" dur="4s" fill="freeze"/>
+      Ātman = Brahman
+    </text>
+  </svg>
+  <p class="narr">Three thousand years ago, Indian philosophers proposed exactly this.<br>The self, fully known, <em>is</em> the ground.<br><br>What if you take that claim seriously — as mathematics?</p>
+  <div class="narration">Three thousand years ago, Indian philosophers in the Advaitic tradition proposed exactly this. Reality begins as an undifferentiated wholeness. The act of self-knowledge creates the appearance of many things — without ever ceasing to be one. What this book asks is: what if you take that claim seriously? Not as poetry. As mathematics.</div>
+</div>
+
+<!-- SLIDE 4: The ground Ω -->
+<div class="slide" id="s3">
+  <svg class="visual" width="300" height="250" viewBox="0 0 300 250">
+    <!-- Featureless void with Ω -->
+    <circle cx="150" cy="110" r="80" fill="radial-gradient(circle, #12121f, #08080d)" stroke="#222238" stroke-width="1.5"/>
+    <text x="150" y="125" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="56" fill="#555570" font-style="italic" style="animation: pulse 5s ease-in-out infinite">Ω</text>
+    <!-- 0 = 1 = ∞ fading in -->
+    <text x="150" y="210" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="28" fill="#f0c040" opacity="0">
+      <animate attributeName="opacity" values="0;0.7" dur="3s" begin="1s" fill="freeze"/>
+      0 = 1 = ∞
+    </text>
+  </svg>
+  <p class="narr">Before space. Before time. Before <em>before</em>.<br>A state with no structure at all.<br>Zero, one, and infinity — indistinguishable.</p>
+  <div class="narration">We call this starting point Omega. No space — because space is geometry and geometry hasn't been invented yet. No time — because time needs events to separate and nothing has happened. In Omega, zero and one and infinity are not three different things. They collapse into one — because the machinery that would tell them apart does not exist.</div>
+</div>
+
+<!-- SLIDE 5: Nothing from outside -->
+<div class="slide" id="s4">
+  <svg class="visual" width="300" height="200" viewBox="0 0 300 200">
+    <!-- Single circle, alone, with "no outside" arrows bouncing back -->
+    <circle cx="150" cy="100" r="50" fill="none" stroke="#f0c040" stroke-width="2" opacity="0.5"/>
+    <text x="150" y="108" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="28" fill="#f0c040" opacity="0.4">Ω</text>
+    <!-- Arrows pointing inward -->
+    <g stroke="#555" stroke-width="1.5" opacity="0.4">
+      <line x1="50" y1="100" x2="95" y2="100"><animate attributeName="opacity" values="0;0.5;0" dur="3s" repeatCount="indefinite"/></line>
+      <line x1="250" y1="100" x2="205" y2="100"><animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="0.5s" repeatCount="indefinite"/></line>
+      <line x1="150" y1="20" x2="150" y2="55"><animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="1s" repeatCount="indefinite"/></line>
+      <line x1="150" y1="180" x2="150" y2="145"><animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></line>
+    </g>
+  </svg>
+  <p class="narr">There is <em>no outside</em>.<br>Whatever emerges must build itself<br>from the act of self-examination alone.<br><br><span class="dim">No imported materials. No borrowed constants. No knobs.</span></p>
+  <div class="narration">And here is the constraint that changes everything. There is no outside. Whatever emerges from Omega must be built entirely from the act of self-examination itself. No imported materials. No borrowed constants. If there were an outside, there would be choices. If there were choices, there would be free parameters. And if there were free parameters, we would need experiments to measure them. By starting from nothing, the framework eliminates free parameters at the root.</div>
+</div>
+
+<!-- SLIDE 6: The golden ratio — stick dividing itself -->
+<div class="slide" id="s5">
+  <svg class="visual" width="450" height="200" viewBox="0 0 450 200">
+    <!-- The stick -->
+    <line x1="50" y1="80" x2="400" y2="80" stroke="#888" stroke-width="3"/>
+    <!-- Division point at golden ratio -->
+    <line x1="266" y1="60" x2="266" y2="100" stroke="#f0c040" stroke-width="2">
+      <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
+    </line>
+    <!-- Labels -->
+    <text x="155" y="120" text-anchor="middle" font-size="16" fill="#8888cc" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze"/>
+      larger piece
+    </text>
+    <text x="333" y="120" text-anchor="middle" font-size="16" fill="#cc8888" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="1.5s" fill="freeze"/>
+      smaller
+    </text>
+    <!-- The ratio -->
+    <text x="225" y="165" text-anchor="middle" font-size="26" fill="#f0c040" font-style="italic" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+      φ = 1.618...
+    </text>
+    <text x="225" y="190" text-anchor="middle" font-size="14" fill="#666" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+      whole / large = large / small
+    </text>
+  </svg>
+  <p class="narr">A stick with no ruler. The only tool is the stick itself.<br>There is exactly <em>one ratio</em> where the whole relates to the part<br>the same way the part relates to the remainder.<br><br><span class="dim">Not chosen. Forced.</span></p>
+  <div class="narration">When Omega examines itself, something must divide. But how? Imagine a stick with no ruler. You need a split where the whole relates to the larger piece the same way the larger piece relates to the smaller. There is exactly one ratio that works: the golden ratio — phi — approximately 1.618. It is not chosen from a menu. It is the only option consistent with self-reference.</div>
+</div>
+
+<!-- SLIDE 7: Fibonacci growth — animated bars -->
+<div class="slide" id="s6">
+  <svg class="visual" width="450" height="220" viewBox="0 0 450 220">
+    <!-- Fibonacci bars growing -->
+    <rect x="30" y="180" width="20" height="10" fill="#3b82f6" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="0.2s" fill="freeze"/></rect>
+    <rect x="60" y="170" width="20" height="20" fill="#3b82f6" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="0.5s" fill="freeze"/></rect>
+    <rect x="90" y="150" width="20" height="40" fill="#3b82f6" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="0.8s" fill="freeze"/></rect>
+    <rect x="120" y="120" width="20" height="70" fill="#6366f1" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="1.1s" fill="freeze"/></rect>
+    <rect x="150" y="70" width="20" height="120" fill="#6366f1" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="1.4s" fill="freeze"/></rect>
+    <rect x="180" y="10" width="20" height="180" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="1.7s" fill="freeze"/></rect>
+    <!-- Labels -->
+    <text x="40" y="205" text-anchor="middle" font-size="13" fill="#888">1</text>
+    <text x="70" y="205" text-anchor="middle" font-size="13" fill="#888">1</text>
+    <text x="100" y="205" text-anchor="middle" font-size="13" fill="#888">2</text>
+    <text x="130" y="205" text-anchor="middle" font-size="13" fill="#888">3</text>
+    <text x="160" y="205" text-anchor="middle" font-size="13" fill="#888">5</text>
+    <text x="190" y="205" text-anchor="middle" font-size="13" fill="#f0c040">8</text>
+    <!-- Arrow showing addition -->
+    <text x="300" y="100" font-size="14" fill="#888" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+      Each number = sum of previous two
+    </text>
+    <text x="300" y="125" font-size="14" fill="#f0c040" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
+      The same pattern as sunflower seeds
+    </text>
+  </svg>
+  <p class="narr">From that one ratio, a cascade follows.<br>Growth by the <em>Fibonacci sequence</em>: 1, 1, 2, 3, 5, 8...<br><br><span class="dim">The same law behind sunflowers, seashells, and pine cones.</span></p>
+  <div class="narration">From that single ratio, a cascade follows. The golden ratio produces a natural counting system with a carrying rule. Applied over and over, this builds a tower of structure that grows by the Fibonacci sequence — one, one, two, three, five, eight. The same growth pattern behind sunflower spirals and nautilus shells. Not a coincidence — the same mathematics.</div>
+</div>
+
+<!-- SLIDE 8: The flower — petals appearing at golden angle -->
+<div class="slide" id="s7">
+  <svg class="visual" width="350" height="350" viewBox="0 0 350 350">
+    <!-- Center -->
+    <circle cx="175" cy="175" r="10" fill="#f0c040" style="animation: glow 3s ease-in-out infinite"/>
+    <!-- 8 petals appearing one by one at golden angle (137.5°) -->
+    <g class="petal-1"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#3b82f6" opacity="0.6" transform="rotate(0,175,175)"/></g>
+    <g class="petal-2"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#3b82f6" opacity="0.6" transform="rotate(137.5,175,175)"/></g>
+    <g class="petal-3"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#dc2626" opacity="0.6" transform="rotate(275,175,175)"/></g>
+    <g class="petal-4"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#3b82f6" opacity="0.6" transform="rotate(52.5,175,175)"/></g>
+    <g class="petal-5"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#dc2626" opacity="0.6" transform="rotate(190,175,175)"/></g>
+    <g class="petal-6"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#3b82f6" opacity="0.6" transform="rotate(327.5,175,175)"/></g>
+    <g class="petal-7"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#dc2626" opacity="0.6" transform="rotate(105,175,175)"/></g>
+    <g class="petal-8"><ellipse cx="175" cy="105" rx="8" ry="30" fill="#f0c040" opacity="0.5" transform="rotate(242.5,175,175)"/></g>
+    <!-- Label -->
+    <text x="175" y="320" text-anchor="middle" font-size="14" fill="#888" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2.8s" fill="freeze"/>
+      8 petals · 137.5° apart · the golden angle
+    </text>
+  </svg>
+  <p class="narr">Seen from above, the tower is a <em>flower</em>.<br>Each petal placed at the golden angle — 137.5°.<br>The same arrangement as sunflower seeds.</p>
+  <div class="narration">Now look at the tower from above, and it has the shape of a flower. Eight petals, each placed at the golden angle — 137.5 degrees — spiraling outward. This is the same arrangement that sunflower seeds use. The hard-core rule that governs the tower is the same rule that governs the sunflower. The connection to nature is not a metaphor. It is the same mathematics.</div>
+</div>
+
+<!-- SLIDE 9: 8 petals = our universe -->
+<div class="slide" id="s8">
+  <svg class="visual" width="400" height="250" viewBox="0 0 400 250">
+    <!-- Flat → 3D transition -->
+    <!-- Left: flat flower -->
+    <g transform="translate(100,120)">
+      <circle r="5" fill="#f0c040"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#3b82f6" opacity="0.5"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#3b82f6" opacity="0.5" transform="rotate(137.5)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#dc2626" opacity="0.5" transform="rotate(275)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#3b82f6" opacity="0.5" transform="rotate(52.5)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#dc2626" opacity="0.5" transform="rotate(190)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#3b82f6" opacity="0.5" transform="rotate(327.5)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#dc2626" opacity="0.5" transform="rotate(105)"/>
+      <ellipse cx="0" cy="-35" rx="5" ry="18" fill="#f0c040" opacity="0.4" transform="rotate(242.5)"/>
+      <text x="0" y="70" text-anchor="middle" font-size="13" fill="#888">can't stay flat</text>
+    </g>
+    <!-- Arrow -->
+    <text x="200" y="125" text-anchor="middle" font-size="28" fill="#444">→</text>
+    <!-- Right: 3D suggestion (tilted ellipse) -->
+    <g transform="translate(300,120)">
+      <ellipse rx="50" ry="20" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.3"/>
+      <ellipse rx="20" ry="50" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.3"/>
+      <circle r="5" fill="#f0c040"/>
+      <circle cx="0" cy="-50" r="4" fill="#3b82f6" opacity="0.6"/>
+      <circle cx="50" cy="0" r="4" fill="#dc2626" opacity="0.6"/>
+      <circle cx="0" cy="50" r="4" fill="#3b82f6" opacity="0.6"/>
+      <circle cx="-50" cy="0" r="4" fill="#dc2626" opacity="0.6"/>
+      <text x="0" y="80" text-anchor="middle" font-size="13" fill="#f0c040" font-weight="600">3 dimensions of space</text>
+      <text x="0" y="98" text-anchor="middle" font-size="13" fill="#f0c040">+ 1 of time</text>
+    </g>
+  </svg>
+  <p class="narr">Eight petals at the golden angle <em>cannot stay flat</em>.<br>They are forced into three dimensions.<br><br>The flower doesn't live in space — the flower is <em>why space is 3D</em>.</p>
+  <div class="narration">Here's the deepest part. Three petals can lie flat. Five can still lie flat. But eight petals at the golden angle cannot stay in a plane. They are physically forced into three dimensions. And the Higgs mechanism selects a fourth dimension — time. The flower doesn't live in three-dimensional space. The flower is the REASON space has three dimensions.</div>
+</div>
+
+<!-- SLIDE 10: The ocean — particles as waves -->
+<div class="slide" id="s9">
+  <svg class="visual" width="500" height="200" viewBox="0 0 500 200">
+    <!-- Row of flowers (the ocean) -->
+    <g fill="#333350" font-size="18" font-family="serif">
+      <text x="30" y="100">✿</text><text x="80" y="100">✿</text>
+      <text x="130" y="100">✿</text><text x="180" y="100">✿</text>
+      <text x="230" y="100">✿</text><text x="280" y="100">✿</text>
+      <text x="330" y="100">✿</text><text x="380" y="100">✿</text>
+      <text x="430" y="100">✿</text>
+    </g>
+    <!-- Wave passing through (highlighted flowers) -->
+    <g font-size="18" font-family="serif">
+      <text x="130" y="100" fill="#f0c040" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>✿</text>
+      <text x="180" y="90" fill="#f0c040" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.3s" repeatCount="indefinite"/>✿</text>
+      <text x="230" y="80" fill="#f0c040" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.6s" repeatCount="indefinite"/>✿</text>
+      <text x="280" y="90" fill="#f0c040" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0.9s" repeatCount="indefinite"/>✿</text>
+      <text x="330" y="100" fill="#f0c040" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.2s" repeatCount="indefinite"/>✿</text>
+    </g>
+    <!-- Labels -->
+    <text x="250" y="140" text-anchor="middle" font-size="13" fill="#f0c040">← the wave moves</text>
+    <text x="250" y="160" text-anchor="middle" font-size="13" fill="#555">the flowers stay</text>
+  </svg>
+  <p class="narr">The universe is <em>full</em> of flowers — packed together, filling all of space.<br>A particle is a <em>wave</em> moving across them.<br><br><span class="dim">The flowers stay. The pattern moves. Like a wave on the ocean.</span></p>
+  <div class="narration">The universe is full of these flowers — packed together, filling all of space, connected to each other. A particle is not a flower. A particle is a WAVE — an excitation pattern that moves across the flowers, the way a wave moves across the ocean. The water molecules bob up and down in place. They don't travel with the wave. An electron is a pattern. A photon is a ripple. Empty space is flowers at rest.</div>
+</div>
+
+<!-- SLIDE 11: The predictions -->
+<div class="slide" id="s10">
+  <svg class="visual" width="500" height="260" viewBox="0 0 500 260">
+    <!-- Prediction boxes appearing -->
+    <g font-family="Cormorant Garamond, serif">
+      <!-- α -->
+      <rect x="30" y="20" width="200" height="50" rx="5" fill="#1a1a2e" stroke="#3b82f6" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+      </rect>
+      <text x="40" y="42" font-size="13" fill="#888" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>strength of light</text>
+      <text x="40" y="60" font-size="16" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>1/137.036 ✓ 8 figures</text>
+
+      <!-- Higgs -->
+      <rect x="270" y="20" width="200" height="50" rx="5" fill="#1a1a2e" stroke="#6366f1" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+      </rect>
+      <text x="280" y="42" font-size="13" fill="#888" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>Higgs boson mass</text>
+      <text x="280" y="60" font-size="16" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>125.25 GeV ✓ 0.08σ</text>
+
+      <!-- v -->
+      <rect x="30" y="90" width="200" height="50" rx="5" fill="#1a1a2e" stroke="#dc2626" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>
+      </rect>
+      <text x="40" y="112" font-size="13" fill="#888" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>electroweak scale</text>
+      <text x="40" y="130" font-size="16" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>246.2195 GeV ✓ 0.66 ppm</text>
+
+      <!-- H0 -->
+      <rect x="270" y="90" width="200" height="50" rx="5" fill="#1a1a2e" stroke="#f59e0b" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.8s" fill="freeze"/>
+      </rect>
+      <text x="280" y="112" font-size="13" fill="#888" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.8s" fill="freeze"/>expansion rate of universe</text>
+      <text x="280" y="130" font-size="16" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.8s" fill="freeze"/>67.38 km/s/Mpc ✓ 0.03σ</text>
+
+      <!-- CMB -->
+      <rect x="100" y="160" width="300" height="50" rx="5" fill="#1a1a2e" stroke="#f0c040" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.3s" fill="freeze"/>
+      </rect>
+      <text x="110" y="182" font-size="13" fill="#888" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.3s" fill="freeze"/>the oldest light in the universe</text>
+      <text x="110" y="200" font-size="16" fill="#f0c040" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.3s" fill="freeze"/>2,500 data points ✓ all within noise</text>
+    </g>
+    <text x="250" y="245" text-anchor="middle" font-size="15" fill="#f0c040" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+      50 predictions · zero knobs · average error: half a standard deviation
+    </text>
+  </svg>
+  <p class="narr"><span class="dim">From ten rules and nothing adjusted by hand.</span></p>
+  <div class="narration">The flower's self-referential structure produces specific numbers — the strengths of forces, the masses of particles, the expansion rate of the universe. Fifty predictions, zero adjustable parameters. The strength of the electromagnetic force matches to eight significant figures. The electroweak scale matches to 0.66 parts per million. The full pattern of the oldest light in the sky — twenty-five hundred data points — reproduced within the noise. The average disagreement is half a standard deviation.</div>
+</div>
+
+<!-- SLIDE 12: The dark sector — outer ring -->
+<div class="slide" id="s11">
+  <svg class="visual" width="350" height="300" viewBox="0 0 350 300">
+    <!-- Inner flower (our universe) -->
+    <circle cx="175" cy="140" r="8" fill="#f0c040"/>
+    <g transform="translate(175,140)">
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(137.5)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(275)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(52.5)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(190)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(327.5)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(105)"/>
+      <ellipse cx="0" cy="-45" rx="6" ry="22" fill="#3b82f6" opacity="0.5" transform="rotate(242.5)"/>
+    </g>
+    <!-- Outer ring (dark sector) fading in -->
+    <g transform="translate(175,140)" opacity="0">
+      <animate attributeName="opacity" values="0;0.35" dur="2s" begin="1s" fill="freeze"/>
+      <circle cx="0" cy="-85" r="8" fill="#4f46e5"/>
+      <circle cx="0" cy="-85" r="8" fill="#4f46e5" transform="rotate(137.5)"/>
+      <circle cx="0" cy="-85" r="8" fill="#4f46e5" transform="rotate(275)"/>
+      <circle cx="0" cy="-85" r="8" fill="#4f46e5" transform="rotate(52.5)"/>
+      <circle cx="0" cy="-85" r="8" fill="#4f46e5" transform="rotate(190)"/>
+    </g>
+    <text x="175" y="265" text-anchor="middle" font-size="14" fill="#4f46e5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
+      stage 7 — the dark sector — 85% of all matter
+    </text>
+  </svg>
+  <p class="narr">The flower doesn't stop at eight petals.<br>Five more petals form an <em>outer ring</em> — dimmer, invisible to our eyes,<br>but pulling on every galaxy with its gravity.<br><br><span class="dim">Dark matter. Not a mystery — the next ring of the same flower.</span></p>
+  <div class="narration">The flower doesn't stop at eight petals. Five more appear in an outer ring — dimmer, screened by one additional layer. This is the dark sector: invisible to our instruments but gravitationally real. About eighty-five percent of all matter in the universe. Not a mysterious substance added to explain galaxy rotation — the next ring of the same flower. Same axioms, one layer deeper.</div>
+</div>
+
+<!-- SLIDE 13: The infinite flower -->
+<div class="slide" id="s12">
+  <svg class="visual" width="350" height="300" viewBox="0 0 350 300">
+    <!-- Concentric rings fading outward -->
+    <g transform="translate(175,140)">
+      <circle r="8" fill="#f0c040" style="animation: glow 4s ease-in-out infinite"/>
+      <!-- Stage 6 -->
+      <circle r="45" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+      <!-- Stage 7 -->
+      <circle r="70" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.3">
+        <animate attributeName="opacity" values="0;0.3" dur="2s" fill="freeze"/>
+      </circle>
+      <!-- Stage 8 -->
+      <circle r="90" fill="none" stroke="#6d28d9" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;0.2" dur="2s" begin="0.5s" fill="freeze"/>
+      </circle>
+      <!-- Stage 9+ -->
+      <circle r="105" fill="none" stroke="#7c3aed" stroke-width="0.8" opacity="0">
+        <animate attributeName="opacity" values="0;0.12" dur="2s" begin="1s" fill="freeze"/>
+      </circle>
+      <circle r="118" fill="none" stroke="#8b5cf6" stroke-width="0.6" opacity="0">
+        <animate attributeName="opacity" values="0;0.07" dur="2s" begin="1.5s" fill="freeze"/>
+      </circle>
+      <circle r="128" fill="none" stroke="#a78bfa" stroke-width="0.4" opacity="0">
+        <animate attributeName="opacity" values="0;0.04" dur="2s" begin="2s" fill="freeze"/>
+      </circle>
+    </g>
+    <text x="175" y="285" text-anchor="middle" font-size="22" fill="#f0c040" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="3s" fill="freeze"/>
+      → 1/π
+    </text>
+  </svg>
+  <p class="narr">The flower grows <em>forever</em> — ring after ring, each fainter.<br>But the total brightness converges to a finite number: <em>1/π</em>.<br><br><span class="dim">The first act created π. The infinite flower gives back its reciprocal.</span></p>
+  <div class="narration">And the flower keeps growing. Ring after ring, each fainter than the last, spiraling outward forever. But the total brightness converges to a finite number: one over pi. The first act of self-examination created the circle constant pi. The infinite flower gives back its reciprocal. The circle opens the story. Its inverse closes it.</div>
+</div>
+
+<!-- SLIDE 14: The wager -->
+<div class="slide" id="s13">
+  <p class="narr" style="font-size: 1.6em; line-height: 2;">If any prediction is wrong,<br>the framework is <em>dead</em>.</p>
+  <p class="narr" style="margin-top: 30px;"><span class="dim">No knobs to turn. No parameters to adjust. No way to rescue it.</span></p>
+  <p class="narr" style="margin-top: 30px;"><em>"Everything"</em> is a word that should be earned<br>by experiment, not declared by an author.</p>
+  <div class="narration">If any prediction is wrong, the framework is dead. There are no knobs to adjust. No parameters to tune. No way to rescue it. That vulnerability is not a weakness — it is the framework's defining feature. "Everything" is a word that should be earned by experiment, not declared by an author. The decisive tests are coming. If those predictions are confirmed, the name will be earned. If any are wrong, it will not.</div>
+</div>
+
+<!-- SLIDE 15: Closing -->
+<div class="slide" id="s14">
+  <svg class="visual" width="200" height="200" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="50" fill="none" stroke="#f0c040" stroke-width="1" opacity="0.2" style="animation: pulse 5s ease-in-out infinite"/>
+    <text x="100" y="112" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="36" fill="#f0c040" font-style="italic" opacity="0.6" style="animation: glow 5s ease-in-out infinite">Ω</text>
+  </svg>
+  <p class="narr" style="font-size: 1.7em;"><em>The silence examined itself,<br>and the music began.</em></p>
+  <p class="narr" style="margin-top: 40px; font-size: 1.1em;" class="dim">
+    Read the book:<br>
+    <span class="accent">github.com/yogibearyk/from-nothing-everything</span>
+  </p>
+  <div class="narration">The silence examined itself, and the music began. Ten axioms. Zero free parameters. From nothing, everything. The book is free to read at github dot com slash yogibearyk slash from nothing everything. Thank you for watching.</div>
+</div>
+
+<!-- Progress bar -->
+<div class="progress" id="progress"></div>
+<div class="slide-counter" id="counter">1 / 15</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+const total = slides.length;
+
+function showSlide(n) {
+  slides.forEach(s => { s.classList.remove('active'); s.style.display = 'none'; });
+  slides[n].style.display = 'flex';
+  // Force re-trigger animations
+  void slides[n].offsetWidth;
+  slides[n].classList.add('active');
+  document.getElementById('progress').style.width = ((n + 1) / total * 100) + '%';
+  document.getElementById('counter').textContent = (n + 1) + ' / ' + total;
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+    e.preventDefault();
+    if (current < total - 1) { current++; showSlide(current); }
+  } else if (e.key === 'ArrowLeft') {
+    if (current > 0) { current--; showSlide(current); }
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if (current < total - 1) { current++; showSlide(current); }
+});
+
+showSlide(0);
+</script>
+</body>
+</html>
