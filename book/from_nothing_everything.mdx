@@ -1137,7 +1137,7 @@ Three ratios, zero free parameters, each matching to better than 0.1%.
 
 **What the √2 means.** The amplitude factor √2 in the Koide formula is √(φ ⊕ φ⁻²) in Maya notation — the square root of the Zeckendorf representation of 2. The number 2 itself is the node’s edge count. The square root appears because the formula acts on √m (mass amplitudes), not on m directly — and mass amplitudes involve the square root of the coupling.
 
-**Honest caveat.** The Koide ratio (2/3) and phase (2/9) both match experiment to high precision and both have clean structural interpretations from the triangle. However, the Koide ratio is not exactly 2/3 — it is off by 6 × 10⁻⁶. This small discrepancy likely requires a self-referential correction analogous to the one in Chapter 15 (where the coupling constant formula has a small correction from the force screening itself). A systematic search across framework expressions shows the discrepancy is consistent in magnitude with an electromagnetic radiative correction of order α² ≈ 5 × 10⁻⁵ — the kind of correction that arises when the electromagnetic force (which charged leptons feel, unlike neutrinos) feeds back into the mass formula. Computing the exact form requires the graph-to-field bridge (Milestone 3 in the roadmap, Chapter 31), because it is a dynamical correction that cannot be extracted from the tower’s kinematics alone.
+**Honest caveat.** The Koide ratio (2/3) and phase (2/9) both match experiment to high precision and both have clean structural interpretations from the triangle. However, the Koide ratio is not exactly 2/3 — it is off by 6 × 10⁻⁶. This small discrepancy likely requires a self-referential correction analogous to the one in Chapter 15 (where the coupling constant formula has a small correction from the force screening itself). A systematic search across framework expressions shows the discrepancy is consistent in magnitude with an electromagnetic radiative correction of order α² ≈ 5 × 10⁻⁵ — the kind of correction that arises when the electromagnetic force (which charged leptons feel, unlike neutrinos) feeds back into the mass formula. Computing the exact form requires the graph-to-field bridge (Appendix A, Chapter 25 proofs), because it is a dynamical correction that cannot be extracted from the tower’s kinematics alone.
 
 ### The Mathematics
 
@@ -1306,7 +1306,7 @@ The framework predicts **normal ordering** — meaning the three neutrino masses
 
 **Three structural features — derived from axioms.** The seesaw mechanism in this framework rests on three structural features, all traceable to the ten axioms:
 
-*First: the boundary singlet.* The Stage Isolation Theorem (Appendix B, Milestone 3) establishes that modes at the stage-6/7 boundary — position 8 in the tower — are complete gauge singlets: invisible to the strong force (because the spatial bridges that define color live at positions 3, 5, and 7, all below the boundary), invisible to the weak force (because the binary encoding that defines SU(2) operates within stage-6 sites), and carrying zero electric charge (because neutrinos sit on the triangle’s nodes). A complete gauge singlet that is also a fermion is precisely a right-handed neutrino — the heavy partner needed for the seesaw. And because it carries no gauge charges at all, it is free to have a Majorana mass (a mass that makes a particle its own antiparticle — something only gauge singlets can do).
+*First: the boundary singlet.* The Stage Isolation Theorem (Appendix A, Chapter 25 proofs) establishes that modes at the stage-6/7 boundary — position 8 in the tower — are complete gauge singlets: invisible to the strong force (because the spatial bridges that define color live at positions 3, 5, and 7, all below the boundary), invisible to the weak force (because the binary encoding that defines SU(2) operates within stage-6 sites), and carrying zero electric charge (because neutrinos sit on the triangle’s nodes). A complete gauge singlet that is also a fermion is precisely a right-handed neutrino — the heavy partner needed for the seesaw. And because it carries no gauge charges at all, it is free to have a Majorana mass (a mass that makes a particle its own antiparticle — something only gauge singlets can do).
 
 *Second: democratic masses from zero charge.* The generation hierarchy — the reason the electron is 3,500 times lighter than the tau — comes from the tower’s electromagnetic screening (Chapter 9). Screening strength is proportional to electric charge squared. Neutrinos have zero electric charge (Corollary 6.4). Zero squared is zero. So all three neutrino generations see the same Dirac mass — no hierarchy, no barriers. This “democracy” follows from the framework’s node geometry (Q = 0 from Axiom 4) combined with standard QED (screening ∝ Q²). The Q = 0 → democratic conclusion is now derived from the lattice topology (Theorem SL.1): only U(1)_EM propagates between bridge positions, and for Q = 0 the EM channel is inactive.
 
@@ -1337,7 +1337,7 @@ Experimental: m₂ = √(Δm²₂₁) ≈ 8.68 meV. Pull: **1.4σ**.
 
 This sum is testable by DESI and Euclid within the current decade. It lies well below the current Planck upper bound (~120 meV) but above the sensitivity floor of next-generation surveys. The framework predicts normal mass ordering (m₁ < m₂ < m₃).
 
-**Theorem NMS.0 (right-handed neutrino from axioms).** The stage-6/7 boundary mode is a complete SM gauge singlet = ν_R. *Proof:* Stage Isolation Theorem (Appendix B) → position ≥ 8 is SU(3)_c singlet (bridges at 3,5,7 are below), SU(2)_L singlet (binary encoding is within stage 6), U(1)_Y = 0 (triangle node). Axiom 5 (persistence) → the boundary mode exists as a dynamical fermion. *Majorana nature:* The full-tower mode (all 8 positions occupied) is self-conjugate under tower inversion p ↔ (7−p); a self-conjugate gauge singlet IS Majorana. *Assumption:* The relevant boundary mode is the full-tower configuration; partial occupancy would not guarantee self-conjugacy. ■
+**Theorem NMS.0 (right-handed neutrino from axioms).** The stage-6/7 boundary mode is a complete SM gauge singlet = ν_R. *Proof:* Stage Isolation Theorem (Appendix A) → position ≥ 8 is SU(3)_c singlet (bridges at 3,5,7 are below), SU(2)_L singlet (binary encoding is within stage 6), U(1)_Y = 0 (triangle node). Axiom 5 (persistence) → the boundary mode exists as a dynamical fermion. *Majorana nature:* The full-tower mode (all 8 positions occupied) is self-conjugate under tower inversion p ↔ (7−p); a self-conjugate gauge singlet IS Majorana. *Assumption:* The relevant boundary mode is the full-tower configuration; partial occupancy would not guarantee self-conjugacy. ■
 
 **Theorem NMS.0b (democratic Dirac masses).** m_D(gen 1) = m_D(gen 2) = m_D(gen 3) = v · α ≈ m_τ. *Proof:* In standard QED, electromagnetic self-energy corrections to mass are proportional to Q². The framework's generation hierarchy (Theorem 14a.2) arises from screening between tower positions; for charged particles, this screening is dominated by the electromagnetic channel. For neutrinos, Q(ν) = 0 (triangle node, Theorem OP6b.1), hence the EM contribution to the screening exponent vanishes for all generations. All three Dirac masses equal the unsuppressed value v · α. *Lattice topology derivation (Theorem SL.1):* On the Maya lattice, only U(1)_EM propagates between bridge positions — SU(2)_L is intra-site (M₁↔M₂), SU(3)_c is bridge-local. For Q = 0: EM channel inactive → no inter-bridge screening → democratic. *Residual gap:* The proportional Q² scaling of barrier heights for Q ≠ 0 requires the lattice effective action. *Evidence for the premise:* CKM (quarks, Q ≠ 0) has small mixing; PMNS (neutrinos, Q = 0) has large mixing — exactly as Q²-dependent screening predicts; m_τ ≈ v·α to 1.12%. ■
 
@@ -1350,7 +1350,7 @@ This sum is testable by DESI and Euclid within the current decade. It lies well 
 
 ## Chapter 21 — The Strong CP Problem
 
-*(Integrated from Milestone 7. Full derivation below.)*
+**(Full derivation in Appendix A, Chapter 21 proofs.)**
 
 
 # Part IV — The Dark Universe
@@ -1402,9 +1402,9 @@ The critical threshold is approximately 8.05 species. With 8 species, the genera
 
 **The dark matter candidate.** Because the generation force confines, the dark fermions are permanently bound into composite particles — just as quarks are permanently bound into protons and neutrons. The dark matter candidate is a **dark baryon (a heavy particle made of three quarks — protons and neutrons are the familiar examples)**: a bound state of dark fermions from all three generations, so that the total generation charge cancels out (just as a proton is a bound state of three quarks whose color charges cancel out). These composites are massive (heavy enough to clump gravitationally), electrically neutral (they carry no charge that our instruments can detect), and absolutely stable (the conservation law that keeps them bound — generation-neutrality — is exact, not approximate). This is the framework’s dark matter.
 
-**A completely separate force structure.** A crucial question arose from the graph-to-field bridge (Chapter 26, Appendix B): does the dark sector share the same strong nuclear force as ordinary matter, or does it have its own? If the dark quarks felt our strong force, they would change how it behaves at high energies — and this change would destroy the framework’s coupling constant predictions (Chapter 15). Even one extra species of colored particle worsens the match sixfold; the full set of 8 dark quarks would eliminate the SU(2)–SU(3) coupling unification entirely.
+**A completely separate force structure.** A crucial question arose from the graph-to-field bridge (Chapter 26 and Appendix A): does the dark sector share the same strong nuclear force as ordinary matter, or does it have its own? If the dark quarks felt our strong force, they would change how it behaves at high energies — and this change would destroy the framework’s coupling constant predictions (Chapter 15). Even one extra species of colored particle worsens the match sixfold; the full set of 8 dark quarks would eliminate the SU(2)–SU(3) coupling unification entirely.
 
-The answer comes from the spatial lattice (Chapter 26, Appendix B, Milestone 3). The strong force’s SU(3) symmetry arises from 3 bridge positions serving as links between neighboring towers in the lattice of space. These bridges are a stage-6 structure — positions 3, 5, and 7 of an 8-position tower. The dark sector’s positions (8 through 12) sit *above* this spatial infrastructure. They are internal to each tower, like an attic above the main floors. The dark fermions do not hop through the spatial bridges and therefore do not feel the spatial force.
+The answer comes from the spatial lattice (Chapter 26, Appendix A, Chapter 25 proofs). The strong force’s SU(3) symmetry arises from 3 bridge positions serving as links between neighboring towers in the lattice of space. These bridges are a stage-6 structure — positions 3, 5, and 7 of an 8-position tower. The dark sector’s positions (8 through 12) sit *above* this spatial infrastructure. They are internal to each tower, like an attic above the main floors. The dark fermions do not hop through the spatial bridges and therefore do not feel the spatial force.
 
 Instead, the same triangle structure (Chapter 6) generates a separate **dark color force** at stage 7 — structurally identical to our strong force, but acting only on dark particles. Think of two apartment buildings constructed from the same blueprints: the wiring and plumbing follow identical plans, but the wiring in Building A does not power appliances in Building B. Each building is self-contained.
 
@@ -1420,7 +1420,7 @@ The dark sector’s full force structure is: dark color (binding dark quarks), d
 
 Since b₁ > 0, no Banks-Zaks infrared fixed point exists, and the theory confines. The margin is razor-thin: for SM QCD (N_f = 6), b₁ = 26. For the generation force, b₁ = 2/3. Adding one more flavor (N_f = 9) would give b₁ = −12, flipping the theory into the conformal window. The ratio of confinement strengths is b₁(QCD)/b₁(gen) = 39 = L(2) × F(7) = 3 × 13 — the triangle count times the stage-7 Fibonacci number.
 
-**Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (Milestone 3, Result 10). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Gauge invariance of the non-abelian kinetic term forbids cross-group mixing at the renormalizable level, so the two SU(3)s are completely decoupled.
+**Theorem (stage isolation of color).** Dark sector fermions are SU(3)_c singlets. The SM’s SU(3)_c arises from the spatial role of bridges 3, 5, 7 (the graph-to-field bridge (Appendix A, Chapter 25 proofs)). Stage-7 modes (positions 8–12) are internal excitations above the spatial lattice. They do not propagate through the spatial links and therefore do not transform under SU(3)_c. The dark sector has its own color group SU(3)_D, structurally identical to SU(3)_c but dynamically separate. Gauge invariance of the non-abelian kinetic term forbids cross-group mixing at the renormalizable level, so the two SU(3)s are completely decoupled.
 
 *Bridge symmetry restoration.* A concern: the Zeckendorf constraint n₇ × n₈ = 0 specifically affects bridge 7 (adjacent to stage-7 position 8). Could this break the S₃ symmetry between bridges 3, 5, 7 that generates SU(3)_c? The answer is no — it does the opposite. At pure stage 6, bridge 7 sits at the chain endpoint with only one internal constraint (from site 6), while bridges 3 and 5 each have two. This gives bridge 7 an 18% higher occupation probability than bridge 3. The mechanism is a standard result from 1D statistical mechanics: in a hard-core lattice gas, occupation probabilities are uniform throughout the bulk and deviate only near chain boundaries. At stage 6, bridge 7 sits at the boundary; at stage 7, it is pushed 5 positions into the interior. Quantitatively, the asymmetry drops from 16.5% to 0.10% — a 165-fold improvement. The residual 0.1% reflects bridge 3’s proximity to the opposite boundary (position 0) and vanishes in the continuum limit.
 
@@ -1621,7 +1621,7 @@ The speed of light is the maximum hopping speed — how fast an excitation can j
 
 > *[Interactive visualization: explore how gravity emerges from the tower. See `book/mdx/components/universe_gravity.jsx`]*
 
-*(Integrated from Milestone 3. This is the framework's lattice construction — how the discrete tower produces continuous field equations.)*
+**(This is the framework's lattice construction — how the discrete tower produces continuous field equations.)*
 
 
 # Part VI — Reflections
@@ -2146,12 +2146,12 @@ And it is not just H₀ that falls into place. At the corrected value, the baryo
 
 One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 29), once to correct the expansion rate (this chapter). No new physics, no new parameters, no new assumptions. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
 
-A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same Milestone-12 computation that the gravity sector's second-order coefficient (now resolved: |k| = 9/4). The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as the gravity sector's second-order coefficient — which has since been resolved as |k| = 9/4 = d × k_TOV (see Chapter 29). The cosmological residual's resolution may follow the same structural pattern.
+A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same frontier action computation that the gravity sector's second-order coefficient (now resolved: |k| = 9/4). The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as the gravity sector's second-order coefficient — which has since been resolved as |k| = 9/4 = d × k_TOV (see Chapter 29). The cosmological residual's resolution may follow the same structural pattern.
 
 
 ### The owed number, paid
 
-Chapter 29 ended with a promise: one number still owed, with its trial date set for Milestone 12. The number was the second-order coefficient of the gravitational echo — the curvature of the well that gravity digs for itself at the frontier of the tower.
+Chapter 29 ended with a promise: one number still owed, with its trial date set for the frontier action (Chapter 29). The number was the second-order coefficient of the gravitational echo — the curvature of the well that gravity digs for itself at the frontier of the tower.
 
 The answer came from an unexpected direction: not from building new mathematics, but from combining two results the framework already had.
 
@@ -2211,7 +2211,7 @@ The first gear: **the growth rate**. The framework says the ladder grows by a fa
 
 The second gear: **what the screening acts on**. A mass ratio — like the Higgs mass divided by the W boson mass — is a *propagator* quantity, a property of a traveling line. A traveling line crosses each rung of its interval exactly once, with no occupancy fraction to weight. This is a different object than a thermodynamic average over many configurations, and the difference matters: four alternative readings of the screening — thermodynamic averages at different weightings — were tested against the measured Higgs mass. The correct reading (one crossing per rung, the "rung-native" response) fits to −0.08σ. The alternatives miss by 7σ to 80σ.
 
-The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 29's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered Milestone-12 input, not a result.
+The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 29's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered frontier action input, not a result.
 
 The net outcome: the screening calculus is now verified at the action level — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
 
@@ -2611,6 +2611,12 @@ Decimal check: (φ²⊕φ⁻²)·(φ²⊕φ⁻²) = 3×3 = 9 = 7+2 = (φ⁴⊕φ
 ---
 
 
+# Appendix A — Mathematical Proofs
+
+*This appendix collects the detailed mathematical derivations supporting each chapter. The proofs are organized by chapter number.*
+
+---
+
 ## Proofs for Chapter 6 — The Triangle
 
 **Lemma 6.0** *(Three-Node Minimality of Closed Cycles).* Under
@@ -2721,7 +2727,6 @@ Axiom 4 forbids canonical path choice. Unique inversion fails. ■
 
 ---
 
-
 ## Proofs for Chapter 8 — Euler's e
 
 **Theorem 8.1** *(Euler's Number from Fibonacci Self-Compounding).*
@@ -2740,7 +2745,6 @@ converge. (iv) Unique limit (dₙ grows without bound; the function is
 monotone in dₙ). ■
 
 ---
-
 
 ## Proofs for Chapter 10 — The Screening Tower
 
@@ -2801,7 +2805,6 @@ reduces dimensionality.
 
 ---
 
-
 ## Proofs for Chapter 11 — The Carry Cascade
 
 **Theorem 11.1** *(Carry Necessity at Stage 6).* The stage-6 unified
@@ -2820,8 +2823,38 @@ resolution.
 
 ---
 
-
 ## Proofs for Chapter 12 — The Higgs Resolution
+
+### Dimension Formula Beyond Stage 6
+
+### The Question in Plain English
+
+Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 26 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
+
+But this formula was derived from the pairing mechanism (Chapter 11), which was only verified at stages 3–6. Does it hold at higher stages?
+
+### The Result: Complete — Verified to Stage 12
+
+Using 200-digit precision arithmetic, the all-1s tower at each stage was resolved into its Zeckendorf form by the greedy algorithm. All 10 stages pass.
+
+| Stage | Depth F(S) | Active positions | ⌈ F(S)/2 ⌉ | Match |
+|---|---|---|---|---|
+| 3 | 2 | 1 | 1 | ✓ |
+| 4 | 3 | 2 | 2 | ✓ |
+| 5 | 5 | 3 | 3 | ✓ |
+| 6 | 8 | 4 | 4 | ✓ ← our universe |
+| 7 | 13 | 7 | 7 | ✓ |
+| 8 | 21 | 11 | 11 | ✓ ← M-theory |
+| 9 | 34 | 17 | 17 | ✓ |
+| 10 | 55 | 28 | 28 | ✓ |
+| 11 | 89 | 45 | 45 | ✓ |
+| 12 | 144 | 72 | 72 | ✓ |
+
+Stage 12 (depth 144) required 200-digit precision — at 60 digits the computation gave a spurious result, demonstrating why rigorous verification matters.
+
+**Cascade patterns.** Even depths (stages 6, 9, 12): clean pairing at positions 2, 4, 6, …, d. Odd depths (stages 7, 8, 11): position 0 survives, active at 0, 3, 5, 7, …, d.
+
+---
 
 **Lemma 11.3A** *(Forced Channel Assignment — Paper 1.1).* The
 assignment {odd positions → examiner, even positions → examined} is
@@ -2910,8 +2943,143 @@ The tower does not distinguish between them. All four are odd tower
 positions. All four are equivalent in their origin. The tower
 produces 4 dimensions of **unified spacetime**. ■
 
+## Proofs for Chapter 16 — The Quark Masses
+
+### Quark Mass Exponent Uniqueness
+
+### The Question in Plain English
+
+Chapter 16 derives quark mass ratios using the exponent ⊙ (the circle constant = π). Chapter 28 flags this as the prediction most vulnerable to the numerology objection: could a different number from the framework’s ingredients match just as well?
+
+### What We Found
+
+**Step 1: ⊙ is the unique first exponent.** We tested ~320 candidate exponents (every single-operation expression from framework ingredients {φ, ⊙, 1, 2, 3, 5, 7, 8, 13, D, L(2), L(4)}). For the tightest ratio m_b/m_c = 4.528:
+
+— **1 match**: ⊙ (= π), giving φ^⊙ = 4.535, pull 0.12σ.
+— **1 marginal**: 5/φ, giving φ^(5/φ) = 4.424, pull 1.79σ.
+— **~318 non-matches.**
+
+The marginal alternative (5/φ) fails when extended across generations: the golden scaling law requires the next exponent to be 5, giving φ⁵ = 11.09, but the observed m_t/m_b ≈ 41.3. Excluded at >10σ.
+
+**Step 2: The golden progression is derived (Session 36).** The scaling factor φ between successive exponents follows from the tower’s bridge structure:
+
+**Theorem QMU.1 (golden scaling of mass exponents).**
+
+> E_{g+1}/E_g = φ for consecutive generations g.
+
+*Proof.* (i) Generations correspond to bridge positions 3, 5, 7 in the tower (Result 7, Session 30). (ii) Consecutive bridges are separated by 2 tower positions. (iii) The VEV ladder (Theorem VEV.1) gives φ-weights: the φ-weight ratio between consecutive bridges is φ². (iv) The mass exponent involves the Yukawa coupling (one field insertion, not two), so the effective screening uses the square root: √(φ²) = φ. This follows from the Yukawa structure of the Standard Model action (Chapter 25 proofs, continuum limit) and parallels the √2 in the Koide formula (Theorem KM.1). (v) Combined with E₁ = ⊙ (Step 1): E₁ = ⊙, E₂ = φ⊙, E₃ = φ²⊙. ■
+
+**Conclusion.** The exponents {⊙, φ⊙, φ²⊙} are the unique set consistent with the framework: ⊙ is uniquely selected from ~320 candidates, and the φ-progression follows from the tower’s bridge structure.
+
+**Validation.** The four main quark mass ratios match experiment with an average pull of 0.26σ. The exponents are not chosen to fit — they are structural consequences of the tower.
+
+---
 
 ## Proofs for Chapter 17 — The Lepton Masses
+
+### Charged Lepton Mass Ratios
+
+### The Question in Plain English
+
+The electron, muon, and tau are three identical particles that differ only in mass. The muon is 207 times heavier than the electron; the tau is 3,477 times heavier. Nobody knows why. In 1981, physicist Yoshio Koide noticed that these three masses satisfy a remarkable pattern: if you add the masses and divide by the square of the sum of their square roots, you get almost exactly **2/3**. The pattern has held up through four decades of improved measurements, but no theory has explained it.
+
+The framework proposes that the Koide pattern comes from the triangle’s **node geometry** — each charged lepton sits at a corner of the triangle and sees 2 of its 3 edges. The ratio 2/3 IS the fraction of the triangle visible from a single node.
+
+### What We Found (Session 35 Update)
+
+**The Koide formula is now derived from axioms.** The derivation chain:
+
+*Step 1: Three-fold symmetry from the triangle.* The three charged leptons occupy the three nodes of the triangle (Theorem 6.1). The triangle has 3-fold rotational symmetry (Z₃). Any mass formula respecting this symmetry must be expressible in terms of cosines at 120° spacing — the irreducible representations of Z₃.
+
+*Step 2: Drishti visibility gives the cosine form.* The Drishti function (Axiom 10) projected onto the triangle gives each node a “visibility” of the structure. Because of the 3-fold symmetry, the leading harmonic is a cosine. The mass amplitude at node i is:
+
+    √m_i = M(1 + √2 · cos(δ + 2⊙(i−1)/L(2)))
+
+where M is the overall scale, √2 = √(φ ⊕ φ⁻²) is the amplitude from the node’s edge count, and 2⊙/L(2) = 2π/3 = 120° is the angular separation.
+
+*Step 3: The Koide ratio locks the amplitude.* The normalized mass sum K = Σm_i/(Σ√m_i)² depends on the amplitude A. The three-node sum identity (Σcos = 0) gives K = 1/3 + A²/6. The framework predicts A = √2 (from the node's edge count), which gives K = 1/3 + 2/6 = **2/3** exactly. The Koide ratio and the amplitude √2 are **the same structural fact** expressed two ways: each node sees 2 of 3 edges.
+
+*Step 4: The phase = 2/9.* The phase δ = 2/L(2)² = 2/9 encodes the triangle’s self-action — the way the electromagnetic field (which only charged particles feel) shifts the otherwise neutral pattern. The self-action scale is L(2)² = 9 (the color factor squared).
+
+*Step 5: The overall scale = v·α.* The unsuppressed mass is m_τ = v·α (the tree-level Yukawa from Chapter 15). Given m_τ and δ = 2/9, the electron and muon masses are fully determined.
+
+**Connecting to the neutrino derivation (Chapter 20 proofs).** The same Q²-dependent screening that makes neutrino masses democratic (Q = 0 → no hierarchy) makes charged lepton masses hierarchical (Q = −1 → maximal EM screening → Koide pattern). Quarks (Q = 2/3 or −1/3) sit between: intermediate screening produces intermediate CKM mixing. The Koide formula, the PMNS matrix, and the CKM matrix are three views of one mechanism.
+
+### The Mathematics
+
+**Theorem KM.1 (Koide cosine parametrization from the triangle).**
+
+> √m_i = M(1 + √(φ ⊕ φ⁻²) · cos(2/L(2)² + 2⊙(i−1)/L(2))), i = 1,2,3
+
+*Proof.* (i) Charged leptons occupy the three nodes of the triangle (Theorem 6.1, Corollary 6.3). (ii) The triangle’s 3-fold symmetry (Z₃) constrains the mass distribution: the irreps of Z₃ are {1, ω, ω²}, which in real form give harmonics at 2π/3 spacing. The leading harmonic is cos(θ). (iii) Higher harmonics are suppressed by D² per order (Drishti screening). (iv) The amplitude √2 comes from the node’s edge count: 2 edges meet at each node, and in Zeckendorf form 2 = φ ⊕ φ⁻². The amplitude A² = deg(v) = 2, where deg(v) is the node degree of the triangle (each node connects to exactly 2 edges). This is a topological invariant of K₃. In Zeckendorf form: 2 = φ ⊕ φ⁻². The square root in A = √2 (not A = 2) follows from the Yukawa structure of the Standard Model Lagrangian (Chapter 25 proofs): mass is proportional to the coupling squared, so the mass amplitude √m involves one power of the coupling, giving √(deg) rather than deg. *Gap closed (Theorem KMA.4):* The equal partition ||S₀||² = ||S₁||² is now derived from irreducible channel equipartition — the Z₃-symmetric observation resolves exactly 2 spectral channels, and maximum entropy gives equal partition. See Theorem KMA.4 below. (v) The 2⊙/L(2) spacing is the angular separation between triangle nodes. ■
+
+**Corollary KM.2 (Koide ratio = 2/3 ↔ amplitude √2).**
+
+> Σm_i / (Σ√m_i)² = 2/L(2) = 2/3 if and only if A = √(φ ⊕ φ⁻²) = √2.
+
+*Proof.* From KM.1 with amplitude A: Σ√m_i = 3M (since Σcos = 0). So (Σ√m_i)² = 9M². Expanding Σm_i = M²·Σ(1 + A·cos θ_i)² = M²(3 + A²·3/2) = 3M²(1 + A²/2). Therefore K = (1 + A²/2)/3 = 1/3 + A²/6. Setting K = 2/3 gives A² = 2, i.e. A = √2. The Koide ratio and the amplitude are equivalent: K = 2/3 ⇔ A² = 2 ⇔ ||S₀||² = ||S₁||² (Theorem KMA.1), where S₀ is the uniform subspace (dim 1) and S₁ is the oscillating subspace (dim 2) of the function space on the triangle’s 3 nodes. The equal-partition condition means the uniform and oscillating components of the mass distribution carry equal energy. Topologically: A² = deg(v) = 2 = ρ(Adj_{K₃}) (the spectral radius of the triangle’s adjacency matrix). ■
+
+*Validation.* Experimental K = 0.666661 ± 0.000007. Predicted K = 2/3 = 0.666667. Discrepancy 6 × 10⁻⁶ is **within 1σ** of the experimental error (from m_τ uncertainty). The Koide ratio is consistent with exact 2/3.
+
+**Theorem KM.3 (complete mass determination).**
+
+> Given m_τ = v·α and δ = 2/L(2)²: m_μ/m_e = 206.770, m_τ/m_μ = 16.818, m_τ/m_e = 3477.5
+
+*Proof.* M = √m_τ/(1 + √2·cos(δ)). Then m_e = M²(1 + √2·cos(δ + 2π/3))² and m_μ = M²(1 + √2·cos(δ + 4π/3))². These are determined uniquely by δ alone. ■
+
+*Validation.* m_μ/m_e: predicted 206.770, observed 206.768 (**0.001%**). m_τ/m_μ: predicted 16.818, observed 16.817 (**0.006%**). Mass ratios match to 5 decimal places — far exceeding the precision of the m_τ input.
+
+**Theorem KMA.1 (Equal partition ⇔ A = √2).**
+
+> The following are equivalent: (i) A² = 2, (ii) K = 2/3, (iii) ||Proj_{S₀}(√m)||² = ||Proj_{S₁}(√m)||².
+
+*Proof.* (i)→(ii): K = 1/3 + A²/6 = 2/3. (ii)→(iii): ||S₀||² = (Σ√m_i)²/3 = 3M²; ||S₁||² = Σm_i − ||S₀||² = 3M²A²/2 = 3M². (iii)→(i): ||S₀||² = ||S₁||² → 3M² = 3M²A²/2 → A² = 2. ■
+
+*Topological identification:* A² = deg(v) = 2 (node degree of K₃). In Zeckendorf form: 2 = φ ⊕ φ⁻². This equals the spectral radius of the triangle's adjacency matrix: ρ(Adj) = 2, which is the largest eigenvalue — a topological invariant. The experimental confirmation is exact: K = 0.666661 ± 0.000007, consistent with 2/3 to within 1σ.
+
+**Theorem KMA.2 (Spectral characterization of equal partition).**
+
+> The following are additional equivalences to KMA.1: (iv) The Rayleigh quotient R(√m) = ⟨√m, L·√m⟩/⟨√m, √m⟩ = 3/2, where L = 2I − Adj is the graph Laplacian of K₃; (v) A² = ρ(Adj_{K₃}) = deg(v) = 2, the Perron eigenvalue of the adjacency matrix; (vi) The spectral entropy H = −Σpₖ log pₖ of the mass distribution on the K₃ eigenbasis is maximized.
+
+*Proof.* All follow algebraically from ||S₀||² = ||S₁||² (KMA.1). For (iv): L has eigenvalues {0, 3, 3}, so ⟨f, Lf⟩ = 3||S₁||² for any f. Then R = 3||S₁||²/(||S₀||² + ||S₁||²) = 3/2 when ||S₀|| = ||S₁||. For (v): the Perron eigenvalue of Adj_{K₃} is λ₀ = 2 = deg(v), and A² = 2||S₁||²/||S₀||² = ρ(Adj) at equal partition. For (vi): equal partition gives p₀ = p₁ = 1/2, maximizing binary entropy. ■
+
+*Numerical verification (60-digit, Session 37):* The √m vector projects onto the K₃ eigenbasis with ||S₀||² = ||S₁||² = 3.000... (ratio 1.000... to 50 digits). The Rayleigh quotient R = 3/2 exactly. The adjacency matrix action Adj·√m = 3M·1 − √m (complement relation) is verified numerically.
+
+*Physical motivation.* The EM self-energy at a triangle node involves virtual photons traversing incident edges (SL.1, SL.2). This coupling has adjacency structure: the Perron eigenvalue λ₀ = deg(v) = 2 acts on the uniform mode S₀, while λ₁ = −1 acts on the oscillating mode S₁. The eigenvalue ratio |λ₀/λ₁| = 2 matches A². The Drishti bound (Axiom 10) suppresses higher adjacency powers by D² ≈ 0.265 per additional edge traversal, making single-hop adjacency the dominant contribution. The next-order correction (Adj² with eigenvalue ratio 4/1) connects to KM.4.
+
+*Lattice Yukawa test (Session 37):* Direct computation of the 3×3 mass matrix M_{ij} = Σₙ H(n)·ψᵢ(n)·ψⱼ(n) on the tower with bridge positions {3, 5, 7}, Higgs profile H(n) = D^(7−n), and Drishti kernels ψᵢ(n) = D^|n−pᵢ| gives eigenvalue Koide ratio K ≈ 0.448 — below 2/3. The naive position-space Yukawa matrix does not reproduce the Koide relation. This confirms the equal-partition condition encodes deeper constraints from K₃'s spectral geometry beyond simple tower couplings.
+
+**Theorem KMA.3 (Koide amplitude from EM channel counting).**
+
+> For three charged lepton generations on K₃, with EM screening acting through the adjacency structure, the Koide amplitude satisfies A² = deg(v) = 2.
+
+*Proof.* (i) Three charged leptons occupy the nodes of K₃ (Theorem 6.1). K₃ is complete: every node connects to every other. Each node has deg(v) = 3 − 1 = 2, forced by completeness. (ii) The function space on K₃ decomposes as S₀ (dim 1, uniform) ⊕ S₁ (dim 2, oscillating). The key structural fact: dim(S₁) = n − 1 = deg(v) for all complete graphs K_n. (iii) Without EM (Q = 0), masses are democratic — purely in S₀ (Theorem SL.3). (iv) EM screening propagates along edges (SL.1, SL.2). Each edge is one independent channel through which EM differentiates the mass at one node from another. At each node: deg(v) = 2 such channels. (v) Channel-dimension matching: the 2 edges at each node span the 2-dimensional S₁ subspace. By Z₃ symmetry, each channel carries equal weight. (vi) Equal channel density: S₀ has 1 self-channel filling 1 dimension (density 1); S₁ has 2 edge-channels filling 2 dimensions (density 1). Equal density → equal observation power per dimension → ||S₀||² = ||S₁||² (equal partition). (vii) From the Koide parametrization: ||S₁||²/||S₀||² = A²/2. Equal partition gives A² = 2 = deg(v). ■
+
+*The structural insight in plain language.* Three sisters sit at a round table. Each sister connects to the other two — that is what "sitting at a complete triangle" means. Each connection is one channel through which the electromagnetic force can make her different from her siblings. Two connections per sister, so the spread is √2. That is all the Koide amplitude is: the square root of how many siblings each generation can talk to. For three generations on a complete graph, each talks to two. Hence A = √2.
+
+*Why channel density, not channel weight.* The edge channels are D²-suppressed relative to the self-channel, so their individual weights differ. But there are exactly deg(v) = 2 edge channels filling a deg(v) = 2 dimensional oscillating subspace — one channel per degree of freedom, no redundancy, no deficit. The Z₃ symmetry ensures the 2 channels contribute equally to each other. The structural 1:1 correspondence (one independent EM channel per oscillating dimension) forces equal partition regardless of the absolute coupling strength. The amplitude A is set by the graph's combinatorics, not by D.
+
+*Gap status (updated Session 38):* **CLOSED** by Theorem KMA.4 below. The derivation chain: Theorem 6.1 (leptons on K₃) → SL.1-SL.2 (EM along edges) → SL.3 (democratic base) → KMA.3 (channel counting) → KMA.4 (irreducible channel equipartition) → equal partition → A² = 2.
+
+**Theorem KMA.4 (Irreducible channel equipartition).**
+
+> The equal partition ||S₀||² = ||S₁||² follows from the Z₃-symmetric Drishti observation on K₃.
+
+*The idea in plain language.* When the examiner looks at the three sisters through the Drishti lens, she can distinguish exactly two features: "how heavy are they on average?" (that is the S₀ channel) and "how spread out are their masses?" (that is the S₁ channel). She cannot tell the *direction* of the spread — the triangle's symmetry makes the two internal directions within the spread look identical. So from her perspective, there are two things to measure, period. The Drishti budget is a single number, D, which doesn't know which feature it is resolving. A single number split between two features — with no information favoring either — must split evenly. Half the observation power goes to the average, half to the spread. Equal observation power → equal norm → ||S₀||² = ||S₁||² → A² = 2.
+
+*Proof.* (i) The Z₃ symmetry of K₃ (Axiom 4, Theorem 6.1) decomposes ℝ³ = S₀ ⊕ S₁ into exactly 2 irreducible representations. By Schur's lemma, any Z₃-equivariant observation operator acts as a scalar on each irrep: O|_{S₀} = a₀·Id, O|_{S₁} = a₁·Id. The observation resolves exactly 2 spectral channels and cannot distinguish directions within S₁. (ii) The Drishti bound D = φ/⊙ (Axiom 10) is a single universal parameter governing all observation. It does not carry a label distinguishing S₀ from S₁ — it is channel-blind. (iii) The SLC theorem establishes D as the channel capacity of a single Drishti position. By Shannon's theorem, channel capacity is achieved at maximum output entropy. The Drishti observation saturates this capacity. (iv) Maximum entropy over 2 distinguishable channels: p(S₀) = p(S₁) = 1/2. (v) Born rule: pₖ = ||f_{Sₖ}||²/||f||². Equal channel probability gives ||f_{S₀}||² = ||f_{S₁}||². (vi) From KMA.1: ||S₁||²/||S₀||² = A²/2. Equal partition gives A² = 2. ■
+
+*Why 2 channels, not 3 dimensions.* A reasonable objection: why not distribute norm equally per *dimension* (giving A² = 4) instead of per *channel* (giving A² = 2)? The answer is that the observation counts *distinguishable* degrees of freedom. The two dimensions within S₁ are linked by the Z₃ symmetry — the observation respects this symmetry (Schur's lemma) and treats S₁ as one coherent feature. Think of spin: a spin-1 particle has three magnetic sublevels, but if the measurement is rotationally invariant, it resolves only one feature (the total spin). Similarly, the Z₃-symmetric observation resolves S₁ as one feature, not two. Experiment confirms: A² = 1.99999 (ruling out A² = 4 by ~150,000σ).
+
+*Axiom trace.* KMA.4: Axioms 4, 6 → Z₃ symmetry; Schur's lemma (mathematics); Axiom 10 → channel-blind D; SLC theorem → capacity → max entropy (information theory); Born rule (derived). No new axioms.
+
+**Conjecture KM.4 (α² correction).** If the Koide discrepancy is real (currently within 1σ), the leading correction is:
+
+> K = (2/3)(1 − α²·D/L(2))
+
+matching the observed ΔK to 1%. The Adj² contribution (eigenvalue ratio 4/1 instead of 2/1) provides a natural source for this correction. Testable when m_τ precision improves.
+
+*Axiom trace.* KM.1: Axioms 4–6 (triangle, symmetry), Axiom 10 (Drishti). KM.2: Algebraic identity. KM.3: KM.1 + Theorem OP16a-i-a.1. KMA.1: Algebraic consequence of KM.2. KMA.2: KMA.1 + graph spectral theory. KMA.3: KMA.1 + SL.1–SL.2 (channel counting). KMA.4: Axioms 4, 6 + Schur + Axiom 10 + SLC + Born rule (max entropy equipartition). SL.1–SL.2: Axioms 4, 5, 10, Results 10–11.
 
 **Theorem (Koide ratio from node geometry).** The normalized mass sum of the three charged leptons equals 2/L(2):
 
@@ -2927,209 +3095,126 @@ produces 4 dimensions of **unified spacetime**. ■
 
 *Validation.* Fitted δ: 0.22227. Predicted: 0.22222. Match: 4 significant figures.
 
+## Proofs for Chapter 20 — The Neutrinos
 
-## Proofs for Chapter 26 — The Infinite Tower
-
-**Theorem (Exact convergence).** Total resolved fraction = ⊙⁻¹ ≈ 0.3183.
-
-*Proof.* Axiom 7 + Axiom 8: the fraction of one perspective cycle resolved by observation is ⊙⁻¹. This bounds all stages regardless of decomposition. ■
-
-**Theorem (Dimensionality formula).** At stage S, the cascade produces ⌈ F(S)/2 ⌉ spacetime dimensions.
-
-*Proof.* (i) Tower depth = F(S) (Axiom 5). (ii) All-1s state violates Zeckendorf (Theorem 5.2). (iii) Carry cascade pairs adjacent positions (Theorem 11.1). (iv) Even depth d: d/2 pairs → d/2 active. Odd depth d: (d−1)/2 pairs + 1 survivor → (d+1)/2 active. Both: ⌈ d/2 ⌉. ■
-
-*Validation.* Verified by explicit Zeckendorf resolution at 200-digit precision for stages 3–12. All 10 pass. Stage 8 = 11D (M-theory). Stage 12 required 200-digit precision (60-digit gave spurious result).
-
-**Theorem (Cosmological constant).** Λ_obs/E_P⁴ = (φ/⊙)⁴²⁴ where 424 = 2 × 4 × 53.
-
-*Proof.* (i) 4 dimensions: Theorem 11.3. (ii) 53 structural modes: F(10) − 2 (Theorem 5.2, Axiom 7). (iii) D² per channel: bilateral Drishti (Axiom 7). (iv) Channels independent: Zeckendorf orthogonality + cascade non-adjacency. (v) Multiplicative composition: (φ/⊙)²ˢ = (φ/⊙)⁴²⁴. ■
-
-*Validation.* (φ/⊙)⁴²⁴ ≈ 10⁻¹²²·². Observed: ~10⁻¹²². ✓
-
-**Theorem (Holographic bound).** Bulk information ≪ boundary capacity at every stage.
-
-*Proof.* (i) Bulk info scales as Σ D²ᵏ × F(S+k). (ii) D²φ = 0.429 < 1 → convergent. (iii) Bulk/boundary ~ 10⁻¹⁸⁰ at stage 6. ■
-
----
-
-
----
-
-
-## Proofs for Chapter 29 — The Last Free Number
-
-The complete formal record for this chapter lives in two places: the detailed derivations with all referee rounds in the companion repository (current/proposition_G4prime_gravitational_seed.md and the notation-canonical master current/session42_gravity_canonical_notation.md, with all computations regenerable from scripts/session42/), and the structural mathematics in Appendix B's "The Gravitational Scale (Milestone 8)" section below, which contains Theorems G.1 and G.2 with full proofs. The chapter's chain, formally:
-
-**Theorem Q1′ (scale identity).** With M_P ≔ N·Λ (Axiom-8 additivity) and G ≔ 1/M_P², the cell's gravitational self-energy equals one quantum identically: G·(NΛ)²·Λ = Λ. The one-quantum condition is derived, not assumed.
-
-**Theorem G.5 (stage selection, canonical form).** α₃(Λ_UV) = c·D²/(4⊙) at Λ_UV = M_P/N, c = 1 within the declared band, connected by standard renormalization (the mathematical procedure for consistently handling calculations that would otherwise give infinite answers) flow to the stage-six couplings, admits exactly one stage under f ∈ [1, φ + φ⁻¹]. The selection is independent of the measured electroweak scale.
-
-**Theorem S (the seed).** For odd S_P: (φ^{S_P} + φ^{−S_P}) / [(φ^{S_P} + φ^{−S_P})/(φ + φ⁻¹)] = φ + φ⁻¹, exactly — the bilateral measure (Axiom 7) over the democratic count (Axiom 8).
-
-**Lemma W (equation of state).** Boundary content is null (speed-of-light theorem); null content in d = 3 spatial dimensions (dimensionality theorem) has pressure/energy = 1/3. Alternatives are excluded: w = −1 admits no fixed point; w = 0 and w = 1 miss the result by 31% and 28%.
-
-**Theorem G.4″ (the fixed point).** f = (φ + φ⁻¹)·φ^{−(1/3)(1−Φ)f}, Φ = f(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}), is a contraction on a closed interval; its unique fixed point yields v/M_P = f·φ^{−[(φ^{S_P}+φ^{−S_P})−(φ⁶−φ⁻⁶)]/(φ+φ⁻¹)}. Theorem V fixes the comparison convention (the G_F-defined observable) from the zero-parameter principle, the eight-figure α anchor, and minimality.
-
-
-**The second-order coefficient (M12, Session 52).** |k| = d × k_TOV = 3 × 3/4
-= 9/4. The TOV interior coefficient (3/4) is the standard GR result for the
-O(Φ²) Tolman factor at the center of a uniform-density self-gravitating ball.
-The dimensionality d = 3 enters because the screening traversal passes through
-all d bridge channels independently, each contributing its own GR curvature
-correction. Result: v = 246.2195 GeV (0.66 ppm from measured 246.21965).
-Status: structural hypothesis (additive-over-bridges rule is structural, not
-action-derived; same conditional tier as Theorem OP8b.5). Cold review: 5
-attacks, zero free parameters confirmed, numerology test passed (unique
-structural derivation among 7 window candidates).
-
-**The open coefficient (now resolved — see above).** R(Φ) = 1 − Φ + |k|Φ²; |k| = 2.2417 ± 0.138 (G-dominated), open by proof pending the Milestone-12 action term; hypothesis of record |k| = φ + φ⁻¹ (low evidential weight by the window-density analysis); falsification criteria pre-registered.
-
-
-## Proofs for Chapter 30 — The Hardest Test
-
-Full derivations with all hostile review rounds are in the companion repository
-(current/session43_kappa_gauge_lemma.md, session44_insertion_typing.md,
-session45_reversal_channel.md, session46_cmb_m10_first_deliverable.md,
-session48_mh7_and_neff_correction.md, session49_xi_thermal_attempt.md,
-session50_reheating_invariance.md; scripts in scripts/session42/ and
-scripts/session46/). Summary of the formal chain:
-
-**Lemma K-g (ladder base).** The counting transfer matrix of the hard-core
-register is T = [[1,1],[1,0]], with characteristic polynomial λ² − λ − 1 = 0
-⇒ λ₊ = φ exactly. The stationary occupation is ⟨n⟩ = φ⁻¹/(φ + φ⁻¹).
-Condition: counting↔ladder identification (declared measure postulate, R43.5).
-
-**Lemma K-g2 (insertion typing, cold-reviewed).** Fixed-point loads dress
-propagating lines (unit rung-multiplicity by directed traversal); loop
-determines magnitude, traversal determines multiplicity; per-rung independence
-(lattice 1PI) declared as third condition. Ensemble readings (⟨n⟩-weighted)
-are a category error for insertions. M_H discrimination: rung-native −0.08σ;
-site-native −16.1σ; inactive-diagonal −12.5σ to −7.0σ; inverse +79.6σ.
-
-**Session 45 (reversal channel).** Exact identity r = |λ₋/λ₊| = m/(1+m) =
-m²/D². Direction theorem (Jensen): variance reduces screening, raises v —
-correct sign. Bracket q_req ∈ [5×10⁻⁴, 5×10⁻³] vs ceiling r² = 0.032 (not
-excluded) and r⁴ = 1.0×10⁻³ (in-bracket, zero evidential weight). First-order
-tension resolved via cumulant calibration (mean absorbed in dressed load;
-variance = irreducible k-channel). M12 spec: k_load + k_reversal = 2.2417 ±
-0.138 + mean-consistency.
-
-**Session 46 (CMB, cold-reviewed).** Framework parameter point through CAMB
-1.6.6 (standard Boltzmann transfer): at ΔN_eff = 0.131, χ²(cosmic variance,
-f_sky = 0.7, ℓ = 2–2500) = 64 (TT), 154 (EE), 100 (TE) over ~2499 dof each.
-Polarization demand passed (H46.4). Without dark radiation: θ* = 1.04570
-(+15.4σ). g* frozen at 10.75; BBN consistent.
-
-**Sessions 47–48 (dark Higgs).** M_H7 ≈ 604 GeV (dark Theorem 17.2,
-structural from v₇ ≈ 2.7 TeV). Session 47's apparent sub-GeV demand
-WITHDRAWN (misread of N_eff.2's g*: it counts dark relativistic dof at
-recombination, not SM dof at thermal decoupling).
-
-**Session 49 (ξ thermal history).** Standard entropy dilution accommodates but
-does not force ξ = φ⁻²; the framework's claim is a formation-temperature
-statement (Theorem 9.4), not a thermal-history derivation.
-
-**Session 50 (reheating-invariance — DECISIVE).** Invariance requires the dark
-sector to release entropy in the same factor (~27) as the SM; realistic dark
-spectra (formation dof O(50–200)) give factors ~3–6. ξ_recomb ≪ φ⁻²;
-honest ΔN_eff ≲ 0.02 — ten times below the CMB-rescue requirement. The
-acoustic-scale tension is REOPENED. The real open item is upstream: Problem 8b
-(the H₀ derivation).
-
-**Session 51 (self-referential correction).** The gravitational self-potential
-Φ = f*/F(11) (identity I2, Session 42) enters the Hubble exponent additively:
-H₀/M_P = D^(N + Φ). Corrected H₀ = 67.38 km/s/Mpc (0.03σ from Planck).
-Full spectrum verification: χ²_CV = 349/364/50 (TT/EE/TE) over ~2499 dof.
-Additive entry is dimensionally forced (Φ and N are in the same units: tower
-positions of screening depth). The 2% residual (Φ_predicted vs Φ_required)
-is O(Φ), at the same perturbative order as the gravity sector's k = 9/4 (now resolved; see Chapter 29 and the M12 derivation).
-Status: typed hypothesis at moderate evidential weight; formal derivation of
-the additive form requires the Milestone-12 frontier action.
-
-
-# Appendix B — Milestones: Detailed Derivations
-
-*The milestone content has been integrated into the main chapters above. The entries below preserve the detailed derivations and peer-review records for reference.*
-
-*This appendix tracks the framework’s open research program. Each milestone is explained first in plain English, then in the framework’s mathematics. Results range from complete to preliminary. Honest gaps are flagged explicitly.*
-
----
-
-
-## Milestone 1 — Is This Just Coincidence?
+### The Neutrino Seesaw
 
 ### The Question in Plain English
 
-The framework produces 50 predictions from ten rules and zero adjustable numbers. Thirty-one of these can be checked against experiment, and thirty match. But a skeptic could ask: with enough mathematical ingredients (φ, π, simple operations), couldn’t you find formulas that match almost anything by chance?
+Neutrinos have tiny but nonzero masses — less than a millionth of an electron’s mass. The standard explanation is the “seesaw mechanism,” which balances an ordinary mass against an enormous one to produce a tiny result. Chapter 20 originally borrowed this mechanism from mainstream physics. The question is: can the seesaw be *derived* from the ten axioms instead of imported?
 
-To answer this, we did a brute-force test: we generated every possible formula of limited complexity from the framework’s ingredients and checked how many accidentally match the experimental values.
+### What We Found
 
-### The Results
+The lattice framework from the graph-to-field bridge (Chapter 25 proofs) provides the three structural ingredients needed:
 
-We enumerated **26,668 expressions** built from {φ, ⊙, 1, 2, 3} using up to three operations (+, −, ×, ÷, ^).
+**Right-handed neutrino from Stage Isolation (Theorem NMS.0).** The Stage Isolation Theorem establishes that modes at the stage-6/7 boundary (tower position 8) are complete gauge singlets — invisible to all three Standard Model forces and carrying zero electric charge. A gauge singlet fermion is precisely a right-handed neutrino. Because it carries no gauge charges, it can have a Majorana mass (making it its own antiparticle). The full-tower mode is self-conjugate under tower inversion p ↔ (7−p), confirming the Majorana nature.
 
-For α⁻¹ = 137.036 (the strength of electromagnetism, the framework’s tightest prediction): **zero matches** out of 26,668. No simple formula from the framework’s ingredients accidentally gives 137.036 at experimental precision.
+**Democratic Dirac masses from zero charge (Theorem NMS.0b).** The generation hierarchy in charged particles comes from electromagnetic screening proportional to Q². Neutrinos have Q = 0 (triangle nodes, Corollary 6.4). Zero squared is zero, so all three neutrino generations share the same Dirac mass m_D = v · α ≈ m_τ. The Q² proportionality is standard QED physics, consistent with the framework but not derived from the ten axioms alone. The CKM/PMNS contrast and the m_τ ≈ v·α match provide strong evidence.
 
-For sin²θ_W = 0.2312 (the weak mixing angle): only **3 matches** out of 26,668.
-
-The probability that all seven of the framework’s tightest predictions match simultaneously by chance: approximately **10⁻²²** — less than one in a billion trillion.
-
-The framework’s actual formulas don’t appear in this search at all — they require five or more operations with tower-specific architecture. They are *derived* from the tower’s structure, not selected from a menu.
+**Normal ordering from Zeckendorf positivity (Theorem NMS.1b).** The mass-squared splitting ratio R = φ⁷ ⊕ φ² ⊕ φ⁰ is a sum of positive Zeckendorf terms. Positive terms sum to a positive number, so R > 0, which means normal ordering (lightest neutrino first). Inverted ordering requires R < 0, which is algebraically impossible for non-negative Zeckendorf coefficients.
 
 ### The Mathematics
 
-**Method.** All expressions of complexity ≤ 3 (at most three binary operations) from ingredients {φ, ⊙, 1, 2, 3} with operations {+, −, ×, ÷, ^} were enumerated and evaluated (26,668 unique values). For each of seven experimental values, the number of expressions falling within 2σ was counted.
+**Theorem NMS.0 (right-handed neutrino from axioms).**
 
-| Prediction | Value | 2σ window | Matches | p(match) |
-|---|---|---|---|---|
-| α⁻¹ | 137.036 | ±0.002 | **0** | < 3.7 × 10⁻⁵ |
-| sin²θ_W | 0.2312 | ±0.00006 | 3 | 1.1 × 10⁻⁴ |
-| α_s | 0.1179 | ±0.0018 | 26 | 9.8 × 10⁻⁴ |
-| n_s | 0.9649 | ±0.0084 | 58 | 2.2 × 10⁻³ |
-| Ω_b | 0.0493 | ±0.0012 | 27 | 1.0 × 10⁻³ |
-| Ω_DM | 0.265 | ±0.014 | 166 | 6.2 × 10⁻³ |
-| Ω_Λ | 0.685 | ±0.014 | 96 | 3.6 × 10⁻³ |
+> The stage-6/7 boundary mode is a complete SM gauge singlet ≡ ν_R.
 
-**Joint probability** (assuming independence): p ≈ 10⁻²².
+*Proof.* (i) Stage Isolation Theorem → modes at position ≥ 8 are singlets under all stage-6 gauge groups. (ii) SU(3)_c singlet: spatial bridges at positions 3, 5, 7 define the color group; position 8 is above all bridges. (iii) SU(2)_L singlet: the M₁↔M₂ binary structure generates SU(2)_L within stage-6 sites; position 8 is outside. (iv) U(1)_Y = 0: triangle node assignment Q(ν) = 0 propagates to boundary. (v) Axiom 5 (persistence) → boundary mode exists as a dynamical fermion. (vi) Self-conjugate under p ↔ (7−p) → Majorana. ■
 
-**Honest caveats.** (a) The 32 predictions share φ and ⊙ — a rigorous Bayesian model comparison accounting for this correlation remains to be done. (b) The strongest refutation of coincidence will come from the unmeasured predictions (r, Σm_ν, normal ordering), which cannot be reverse-engineered.
+**Theorem NMS.0b (democratic Dirac masses).**
 
----
+> m_D(gen 1) = m_D(gen 2) = m_D(gen 3) = v · α ≈ m_τ
 
+*Proof.* (i) Charged lepton masses: m_gen = v · α · φ^(−S_gen), where S_gen ∝ Q² × f(p). (ii) For neutrinos: Q(ν) = 0 → S_gen = 0 for all generations. (iii) All three Dirac masses equal the unsuppressed value v · α. Evidence: CKM (Q ≠ 0) has small mixing; PMNS (Q = 0) has large mixing. *Caveat:* Proof assumes EM dominance of generation hierarchy (supported by CKM/PMNS contrast). ■
 
-## Milestone 2 — Does the Dimension Formula Hold Beyond Stage 6?
+**Theorem NMS.1b (normal mass ordering).**
+
+> Normal ordering: m₁ < m₂ < m₃.
+
+*Proof.* R = Δm²₃₁/Δm²₂₁ = φ⁷ ⊕ φ² ⊕ φ⁰. Each term positive → R > 0 → Δm²₃₁ > 0 → normal ordering. Axiom trace: Axioms 1–5 → Fibonacci → Zeckendorf → non-negative coefficients → R > 0. ■
+
+**Numerical validation (60-digit precision):**
+
+    m_D = v · α = 1.797 GeV (≈ m_τ, deviation 1.12%)
+    M_R = v · φ^T₆ = 1.001 × 10¹² GeV
+    Base seesaw: m_D²/M_R = 3.226 meV
+    m₂ = √7 × 3.226 = 8.535 meV (exp: 8.678 ± 0.104, pull 1.37σ)
+    m₃ = m₂ · √R = 48.8 meV
+    Σm_ν = 57.3 meV (testable by DESI/Euclid)
+
+**Gap closure status:**
+
+| Gap | Before | After |
+|-----|--------|-------|
+| (a) Democratic m_D | Assumed | **SUBSTANTIALLY CLOSED** (SL.1–SL.3: EM-only inter-bridge propagation; Q=0 → democratic derived) |
+| (b) M_R scale | Motivated | Strengthened (only viable candidate) |
+| (c) √L(4) factor | Analogy | Narrowed (L(4) = 7 angular directions) |
+| (d) Majorana nature | Unknown | **CLOSED** (Theorem NMS.0) |
+| (e) Normal ordering | Assumed | **CLOSED** (Theorem NMS.1b) |
+
+*Axiom trace.* Theorem NMS.0: Axioms 4, 5, and Chapter 25 proofs (Stage Isolation Theorem). Theorem NMS.0b: Axioms 4, 10 + SL.1 (lattice topology). Theorem NMS.1b: Axioms 1–5 (Zeckendorf positivity).
+
+### Lattice Topology Derivation (Theorems SL.1–SL.3)
+
+**Theorem SL.1 (Gauge propagation topology on the Maya lattice).**
+
+> (i) U(1)_EM: site variables (phases at each position) → propagate along all tower positions via abelian Drishti hopping.
+> (ii) SU(2)_L: link variables (M₁↔M₂ within sites) → confined to intra-site propagation. Inter-site Drishti hoppings carry U(1) phase only.
+> (iii) SU(3)_c: link variables at bridge connections (positions 3, 5, 7) → bridge-local. The color structure is the same at all bridges → generation-independent.
+
+*Proof.* (i) Axiom 4 (triangle) assigns EM charges at each tower position. Axiom 10 (Drishti) provides position-to-position hopping with amplitude D. A U(1) phase rotation at one position propagates to the next via Drishti hopping (abelian: phase + phase = phase). This extends across all 8 positions, including between bridges. (ii) Result 11: M₁↔M₂ binary encoding generates SU(2)_L within each site. Each site has one M₁↔M₂ pair; pairs at different sites are independent (Axiom 5 generates new sites with new pairs). Inter-site Drishti hoppings carry the abelian U(1) phase, not the non-abelian SU(2) rotation. (iii) Result 10: spatial bridges at positions 3, 5, 7 define SU(3)_c. The Casimir C₂(3) = 4/3 is the same at all bridges → no generation dependence. ■
+
+**Theorem SL.2 (EM dominance of generation screening).**
+
+> The inter-bridge screening is dominated by the EM channel: ΔS_gen = Q²α × ΔG_EM + 0 + 0, where the weak and strong contributions are respectively intra-site-confined and generation-independent.
+
+*Proof.* From SL.1: only U(1)_EM has inter-bridge propagation that is generation-dependent. The EM propagator G_EM(p) = Σ_{n=0}^{7} D^|n−p| differs between bridge positions (G_EM(3) = 2.904, G_EM(5) = 2.804, G_EM(7) = 2.052). The coupling at each vertex is eQ, giving Q²α as the overall factor. ■
+
+**Corollary SL.3 (Democratic neutrino masses from lattice topology).**
+
+> For Q = 0 (neutrinos): ΔS_gen = 0 → all three Dirac masses equal v·α → democratic.
+
+*Proof.* Set Q = 0 in SL.2. The EM channel vanishes. No other channel provides generation-dependent screening (SL.1). Therefore all three generations have the same screening → same mass. ■
+
+*Numerical verification:* The EM propagator ratio ΔG(5→7)/ΔG(3→5) = 0.752/0.100 = 7.49 ≈ φ⁴, reflecting the tower’s Fibonacci weight structure. The Fibonacci screening ratio Σ(n>5)/Σ(n>3) gives φ², connecting to the golden scaling of Theorem QMU.1.
+
+*Axiom trace.* SL.1: Axioms 4, 5, 10, Results 10–11. SL.2: SL.1 + Drishti propagator. SL.3: SL.2 with Q = 0.
+
+## Proofs for Chapter 21 — The Strong CP Problem
+
+### Strong CP Resolution
 
 ### The Question in Plain English
 
-Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 26 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
+The strong nuclear force’s equations allow a parameter θ that would cause the force to behave differently when you swap matter for antimatter and look in a mirror (physicists call this **CP violation**). Experiments show θ is less than 10⁻¹⁰ — essentially zero. Nobody knows why. This is one of the biggest unsolved puzzles in particle physics: why does the strong force respect this symmetry so perfectly when nothing seems to require it?
 
-But this formula was derived from the pairing mechanism (Chapter 11), which was only verified at stages 3–6. Does it hold at higher stages?
+The standard proposed solution introduces a new particle called the **axion** that dynamically forces θ to zero. The axion has been searched for extensively but never found.
 
-### The Result: Complete — Verified to Stage 12
+### The Framework’s Answer
 
-Using 200-digit precision arithmetic, the all-1s tower at each stage was resolved into its Zeckendorf form by the greedy algorithm. All 10 stages pass.
+The framework’s answer is structural: **θ doesn’t exist.** The parameter θ requires a special kind of mathematical structure — smooth, continuous fields that can “wind” around the gauge group in topologically distinct ways (physicists call these **instantons**). But the framework’s triangle is a discrete graph — 3 nodes and 3 edges. A discrete graph has no smooth fields. No smooth fields means no winding. No winding means no θ.
 
-| Stage | Depth F(S) | Active positions | ⌈ F(S)/2 ⌉ | Match |
-|---|---|---|---|---|
-| 3 | 2 | 1 | 1 | ✓ |
-| 4 | 3 | 2 | 2 | ✓ |
-| 5 | 5 | 3 | 3 | ✓ |
-| 6 | 8 | 4 | 4 | ✓ ← our universe |
-| 7 | 13 | 7 | 7 | ✓ |
-| 8 | 21 | 11 | 11 | ✓ ← M-theory |
-| 9 | 34 | 17 | 17 | ✓ |
-| 10 | 55 | 28 | 28 | ✓ |
-| 11 | 89 | 45 | 45 | ✓ |
-| 12 | 144 | 72 | 72 | ✓ |
+Think of it this way: θ measures how many times a rope is wound around a pole. But if there is no rope — only discrete beads on a wire — the concept of “winding number” doesn’t apply. The beads are either on the wire or not. There is nothing to wind.
 
-Stage 12 (depth 144) required 200-digit precision — at 60 digits the computation gave a spurious result, demonstrating why rigorous verification matters.
+### The Mathematics
 
-**Cascade patterns.** Even depths (stages 6, 9, 12): clean pairing at positions 2, 4, 6, …, d. Odd depths (stages 7, 8, 11): position 0 survives, active at 0, 3, 5, 7, …, d.
+(i) SU(3)_color arises from the triangle (Theorem 6.2, Axioms 5 and 6).
 
----
+(ii) In standard QCD, θ classifies vacuum sectors via π₃(SU(3)) = ℤ (the third homotopy group). This classification requires continuous gauge fields on a smooth manifold.
 
+(iii) The framework’s triangle is a discrete 3-node graph. It has no smooth manifold structure. The homotopy classification does not apply.
 
-## Milestone 3 — The Graph-to-Field Bridge (Original Derivation)
+(iv) Therefore θ = 0 by construction. No axion is needed or predicted.
+
+**Axiom trace.** Axiom 5 → Theorem 6.1 (triangle) → Theorem 6.2 (SU(3)) → discrete topology → θ = 0.
+
+**Falsifiable predictions.** θ = 0 exactly. No axion exists. If either is contradicted by experiment, the framework’s discrete structure needs revision.
+
+**Honest caveat.** Whether the continuum limit (the full graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework predicts topology is inherited, not created — but this remains to be proved.
+
+## Proofs for Chapter 25 — The Lattice (Graph-to-Field Bridge)
+
+### The Graph-to-Field Bridge
 
 ### The Question in Plain English
 
@@ -3270,7 +3355,7 @@ Think of it like a glass overflowing. The glass (the tower) has a fixed size (8 
 
 #### The Idea
 
-Imagine you have a complete list of ingredients and exact quantities for a dish — but no recipe. You know *what* goes in, but not *how* to combine it. That is the situation Milestone 3 left us in: the particle content is established (quarks, leptons, gauge bosons), the numbers are derived (coupling constants, masses, mixing angles), and the lattice structure is identified (sites for matter, links for forces). The missing piece is the *recipe* — the single mathematical expression that tells you exactly how all the ingredients combine.
+Imagine you have a complete list of ingredients and exact quantities for a dish — but no recipe. You know *what* goes in, but not *how* to combine it. That is the situation the graph-to-field bridge left us in: the particle content is established (quarks, leptons, gauge bosons), the numbers are derived (coupling constants, masses, mixing angles), and the lattice structure is identified (sites for matter, links for forces). The missing piece is the *recipe* — the single mathematical expression that tells you exactly how all the ingredients combine.
 
 That expression is called the **lattice action**. It is the complete rule book for how particles interact at the most fundamental scale. In established physics, the lattice action was assembled from decades of experiments and theoretical insights, with several undetermined parameters fitted to data. In the framework, the gauge structure and all dimensionless couplings are derived from the 10 axioms, conditional on a single conjectured identification (g = D).
 
@@ -3278,7 +3363,7 @@ The key: every force in the Standard Model has the same "dial" controlling its s
 
 #### The Mathematics
 
-**Theorem (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Milestone 3, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived from the SLC theorem (Chapter 13) and lattice consistency (see "Fermion Dispersion and Lattice Anisotropy" below). One dimensionful input remains undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale). The temporal spacing is fixed: Δt = a/8.
+**Theorem (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Chapter 25 proofs, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived from the SLC theorem (Chapter 13) and lattice consistency (see "Fermion Dispersion and Lattice Anisotropy" below). One dimensionful input remains undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale). The temporal spacing is fixed: Δt = a/8.
 
 **Conjecture (bare gauge coupling).** The bare gauge coupling at the lattice scale is:
 
@@ -3324,7 +3409,7 @@ The U(1) hypercharge coupling arises from the triangle’s edge/node distinction
 
 In the Maya framework, the within-tower doubling is resolved: the Zeckendorf constraint (T₁₁ = 0 in the transfer matrix) forbids consecutive active positions along the tower's position chain, suppressing the alternating mode (π-mode) in the internal tower structure. This acts as a temporal Wilson term. With the lattice anisotropy ξ = 8 (derived below), the temporal and spatial lattices decouple cleanly: temporal doublers are removed by the Zeckendorf constraint, but **spatial** doublers (2³ − 1 = 7 extra copies in 3 spatial dimensions) remain. All 8 spatial modes (1 physical + 7 doublers) have the same mass m ≈ 0.218. The spatial doubling problem remains open.
 
-**Matter sector caveat.** The matter terms in the action above use the standard continuum Dirac form. The actual Maya matter sector involves hard-core fermions at specific tower positions with the Zeckendorf constraint — a richer structure than the standard lattice Dirac operator. The Dirac form emerges in the long-wavelength (continuum) limit (Milestone 3, Continuum Limit section), where the tower's discrete internal structure is coarse-grained to an effective field. The mass m = (√(1+4D²)−1)/2 is exact; the kinetic term is approximate. A promising direction is that the site→bridge→site hopping structure may give natural staggered fermions, where doublers are reinterpreted as physical generations and flavors — but this remains an open conjecture, not a derived result.
+**Matter sector caveat.** The matter terms in the action above use the standard continuum Dirac form. The actual Maya matter sector involves hard-core fermions at specific tower positions with the Zeckendorf constraint — a richer structure than the standard lattice Dirac operator. The Dirac form emerges in the long-wavelength (continuum) limit (Chapter 25 proofs, Continuum Limit section), where the tower's discrete internal structure is coarse-grained to an effective field. The mass m = (√(1+4D²)−1)/2 is exact; the kinetic term is approximate. A promising direction is that the site→bridge→site hopping structure may give natural staggered fermions, where doublers are reinterpreted as physical generations and flavors — but this remains an open conjecture, not a derived result.
 
 ### Fermion Dispersion and Lattice Anisotropy
 
@@ -3377,18 +3462,18 @@ Validation: c_lat × ξ − c_reg = 0.0 (exact match to 60 digits).
 
 The temporal coupling is ξ² = 64 times the spatial coupling — reflecting the very different roles of time and space in the tower structure.
 
-**Result 15 (dimensionful parameter reduction).** Previously, the lattice formulation required two dimensionful inputs: the spatial lattice spacing a and the temporal lattice spacing Δt. With ξ = a/Δt = 8 derived from axioms, the temporal spacing is determined: Δt = a/8. **One dimensionful input remains: the spatial lattice spacing a.** This single scale sets the Planck length, the Planck mass, and Newton's gravitational constant (connecting to Milestone 8).
+**Result 15 (dimensionful parameter reduction).** Previously, the lattice formulation required two dimensionful inputs: the spatial lattice spacing a and the temporal lattice spacing Δt. With ξ = a/Δt = 8 derived from axioms, the temporal spacing is determined: Δt = a/8. **One dimensionful input remains: the spatial lattice spacing a.** This single scale sets the Planck length, the Planck mass, and Newton's gravitational constant (connecting to the gravitational scale derivation below).
 
 | Count | Free dimensionless parameters | Dimensionful inputs |
 |-------|-------------------------------|---------------------|
 | Before (Session 32) | 0 | 2 (a, Δt) |
 | After (Session 33) | 0 | **1 (a only)** |
 
-*Axiom trace.* Result 13: Axioms → transfer matrix T_sym → Dirac operator on lattice. Result 14: SLC theorem (Axiom 4 + Axiom 5 → Lieb-Robinson → c = 8φ/⊚) + lattice consistency (c_lat = D from Milestone 3). Result 15: Result 14 directly.
+*Axiom trace.* Result 13: Axioms → transfer matrix T_sym → Dirac operator on lattice. Result 14: SLC theorem (Axiom 4 + Axiom 5 → Lieb-Robinson → c = 8φ/⊚) + lattice consistency (c_lat = D from the graph-to-field bridge (Chapter 25 proofs)). Result 15: Result 14 directly.
 
 ### Consistency Check: Coupling Unification
 
-The lattice gauge theory from Milestone 3 makes a testable prediction: the bare coupling at the lattice (ultraviolet) scale should be α_GUT = D²/(4π) = φ²/(4⊙³), giving 1/α_GUT = 47.37. This can be checked against the known running of the Standard Model couplings.
+The lattice gauge theory from the graph-to-field bridge (Chapter 25 proofs) makes a testable prediction: the bare coupling at the lattice (ultraviolet) scale should be α_GUT = D²/(4π) = φ²/(4⊙³), giving 1/α_GUT = 47.37. This can be checked against the known running of the Standard Model couplings.
 
 The three SM gauge couplings (measured at the Z-boson mass scale, 91.2 GeV) evolve with energy according to the renormalization group equations. The framework derives the same 1-loop β-function coefficients as the SM: b₀(QCD) = L(4) = 7 for SU(3), b₀(SU2) = 19/6 for SU(2), b₀(U1_Y) = −41/6 for U(1)_Y. These match the SM because the framework has the same particle content (3 generations, 1 Higgs doublet) — but in the framework, the coefficients are expressed in terms of tower structural constants (L(4), L(2), F(6)), not treated as inputs.
 
@@ -3402,7 +3487,7 @@ Running the three couplings to high energy using the SM renormalization group eq
 
 However, the framework's natural position may be that triple unification is **not required**. The three gauge factors have separate structural origins: SU(3) from the bridges, SU(2) from the binary, U(1)_Y from the triangle's edge/node distinction. They are not unified into a single group. The SU(2)–SU(3) near-unification reflects a deeper structural relationship (both come from the tower's internal degrees of freedom), while U(1) is genuinely different (it comes from the triangle's topology).
 
-**Status:** The SU(2)–SU(3) match (0.8–1.3%, depending on loop order) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing determines the Planck scale (see "The Lattice Scale" below and Milestone 8).
+**Status:** The SU(2)–SU(3) match (0.8–1.3%, depending on loop order) is a non-trivial consistency check that the framework passes. The U(1) non-unification is the standard SM problem and does not require resolution within the framework. The lattice spacing determines the Planck scale (see "The Lattice Scale" below and the gravitational scale (Chapter 29 proofs)).
 
 **Resolved (Session 32): dark sector SU(3) is separate from SU(3)_c.** The dark sector's color group SU(3)_D is structurally identical to SU(3)_c but dynamically separate — see Chapter 22 and the Stage Isolation Theorem. The proof: SU(3)_c is a spatial gauge symmetry arising from bridges 3, 5, 7 in the stage-6 lattice. Stage-7 modes (positions 8–12) sit above the spatial infrastructure and do not propagate through spatial links. They carry SU(3)_D (dark color) instead. Non-abelian kinetic mixing is forbidden by gauge invariance of the kinetic term. Numerical confirmation: SU(3)_c sharing with 8 extra flavors drops b₀ from 7 to 5/3, destroying the SU(2)–SU(3) crossing entirely (1/α goes negative). Stage isolation preserves b₀ = L(4) = 7 and the 0.8–1.3% match. Even a single extra SU(3)_c flavor worsens the match by a factor of 6. The framework is self-consistent only under stage isolation.
 
@@ -3410,11 +3495,11 @@ However, the framework's natural position may be that triple unification is **no
 
 #### The Idea
 
-The lattice formulation from Milestone 3 has one remaining free input: the lattice spacing *a*, the distance between adjacent grid points. Everything else — every coupling constant, every mass ratio, every particle property — is determined by the axioms. The lattice spacing is the single ruler that converts the framework's pure numbers into meters and kilograms.
+The lattice formulation from the graph-to-field bridge (Chapter 25 proofs) has one remaining free input: the lattice spacing *a*, the distance between adjacent grid points. Everything else — every coupling constant, every mass ratio, every particle property — is determined by the axioms. The lattice spacing is the single ruler that converts the framework's pure numbers into meters and kilograms.
 
 How large is this ruler? The coupling unification analysis gives the answer. The framework says the bare coupling at the lattice scale should be g² = D², giving 1/α = 47.37. Standard physics tells us how the three gauge couplings evolve with energy. Running them upward from their measured values at 91 GeV (where accelerators measure them), the SU(2) and SU(3) couplings converge and cross. The scale where this crossing happens — and the coupling value where it occurs — pins down the lattice spacing.
 
-The result: the crossing happens at an energy of roughly 10¹⁷ GeV, with a coupling value within 1.3% of the framework's 47.37. The lattice spacing this implies is about 85 times the Planck length — roughly 10⁻³³ meters. The lattice is fine-grained, but the Planck scale (the smallest meaningful length in physics) sits about two orders of magnitude below it. Bridging that last gap — deriving Newton's gravitational constant from the axioms — was Milestone 8, and it has since been closed (Theorem G.2 below and Chapter 29).
+The result: the crossing happens at an energy of roughly 10¹⁷ GeV, with a coupling value within 1.3% of the framework's 47.37. The lattice spacing this implies is about 85 times the Planck length — roughly 10⁻³³ meters. The lattice is fine-grained, but the Planck scale (the smallest meaningful length in physics) sits about two orders of magnitude below it. Bridging that last gap — deriving Newton's gravitational constant from the axioms — was the gravitational scale problem, and it has since been closed (Theorem G.2 below and Chapter 29).
 
 One number captures the deepest puzzle: the Higgs vacuum expectation value in lattice units is v × a ≈ 10⁻¹⁵. This is the **hierarchy problem** — the fact that the electroweak scale (where particles get their mass) is fifteen orders of magnitude below the lattice scale (where the fundamental laws are defined). The framework inherits this problem from the Standard Model. Whether the tower structure can explain it remains open.
 
@@ -3449,7 +3534,7 @@ Physical quantities in lattice units:
 
 *Axiom trace.* g = D traces to Axiom 9 (Drishti bound). Particle content (3 gen, 1 Higgs) traces to the tower cascade (Axioms 5 and 7). RG running uses standard SM perturbation theory (assumed via universality from the continuum limit).
 
-### The Gravitational Scale (Milestone 8)
+### The Gravitational Scale (Chapter 29 proofs)
 
 #### The Idea
 
@@ -3783,253 +3868,160 @@ with Planck mass M_P(N) = (φᴺ − ψᴺ)/(φ + φ⁻¹). For odd N this equal
 
 *Axiom trace.* Same as G.2, plus Chapter 26 (no preferred stage). The Planck stage for a stage-S observer is determined by Theorem G.1 applied at stage S.
 
+## Proofs for Chapter 26 — The Infinite Tower
 
-## Milestone 4 — The Neutrino Seesaw from Axioms
+**Theorem (Exact convergence).** Total resolved fraction = ⊙⁻¹ ≈ 0.3183.
 
-### The Question in Plain English
+*Proof.* Axiom 7 + Axiom 8: the fraction of one perspective cycle resolved by observation is ⊙⁻¹. This bounds all stages regardless of decomposition. ■
 
-Neutrinos have tiny but nonzero masses — less than a millionth of an electron’s mass. The standard explanation is the “seesaw mechanism,” which balances an ordinary mass against an enormous one to produce a tiny result. Chapter 20 originally borrowed this mechanism from mainstream physics. Milestone 4 asks: can the seesaw be *derived* from the ten axioms instead of imported?
+**Theorem (Dimensionality formula).** At stage S, the cascade produces ⌈ F(S)/2 ⌉ spacetime dimensions.
 
-### What We Found
+*Proof.* (i) Tower depth = F(S) (Axiom 5). (ii) All-1s state violates Zeckendorf (Theorem 5.2). (iii) Carry cascade pairs adjacent positions (Theorem 11.1). (iv) Even depth d: d/2 pairs → d/2 active. Odd depth d: (d−1)/2 pairs + 1 survivor → (d+1)/2 active. Both: ⌈ d/2 ⌉. ■
 
-The lattice framework from Milestone 3 provides the three structural ingredients needed:
+*Validation.* Verified by explicit Zeckendorf resolution at 200-digit precision for stages 3–12. All 10 pass. Stage 8 = 11D (M-theory). Stage 12 required 200-digit precision (60-digit gave spurious result).
 
-**Right-handed neutrino from Stage Isolation (Theorem NMS.0).** The Stage Isolation Theorem establishes that modes at the stage-6/7 boundary (tower position 8) are complete gauge singlets — invisible to all three Standard Model forces and carrying zero electric charge. A gauge singlet fermion is precisely a right-handed neutrino. Because it carries no gauge charges, it can have a Majorana mass (making it its own antiparticle). The full-tower mode is self-conjugate under tower inversion p ↔ (7−p), confirming the Majorana nature.
+**Theorem (Cosmological constant).** Λ_obs/E_P⁴ = (φ/⊙)⁴²⁴ where 424 = 2 × 4 × 53.
 
-**Democratic Dirac masses from zero charge (Theorem NMS.0b).** The generation hierarchy in charged particles comes from electromagnetic screening proportional to Q². Neutrinos have Q = 0 (triangle nodes, Corollary 6.4). Zero squared is zero, so all three neutrino generations share the same Dirac mass m_D = v · α ≈ m_τ. The Q² proportionality is standard QED physics, consistent with the framework but not derived from the ten axioms alone. The CKM/PMNS contrast and the m_τ ≈ v·α match provide strong evidence.
+*Proof.* (i) 4 dimensions: Theorem 11.3. (ii) 53 structural modes: F(10) − 2 (Theorem 5.2, Axiom 7). (iii) D² per channel: bilateral Drishti (Axiom 7). (iv) Channels independent: Zeckendorf orthogonality + cascade non-adjacency. (v) Multiplicative composition: (φ/⊙)²ˢ = (φ/⊙)⁴²⁴. ■
 
-**Normal ordering from Zeckendorf positivity (Theorem NMS.1b).** The mass-squared splitting ratio R = φ⁷ ⊕ φ² ⊕ φ⁰ is a sum of positive Zeckendorf terms. Positive terms sum to a positive number, so R > 0, which means normal ordering (lightest neutrino first). Inverted ordering requires R < 0, which is algebraically impossible for non-negative Zeckendorf coefficients.
+*Validation.* (φ/⊙)⁴²⁴ ≈ 10⁻¹²²·². Observed: ~10⁻¹²². ✓
 
-### The Mathematics
+**Theorem (Holographic bound).** Bulk information ≪ boundary capacity at every stage.
 
-**Theorem NMS.0 (right-handed neutrino from axioms).**
-
-> The stage-6/7 boundary mode is a complete SM gauge singlet ≡ ν_R.
-
-*Proof.* (i) Stage Isolation Theorem → modes at position ≥ 8 are singlets under all stage-6 gauge groups. (ii) SU(3)_c singlet: spatial bridges at positions 3, 5, 7 define the color group; position 8 is above all bridges. (iii) SU(2)_L singlet: the M₁↔M₂ binary structure generates SU(2)_L within stage-6 sites; position 8 is outside. (iv) U(1)_Y = 0: triangle node assignment Q(ν) = 0 propagates to boundary. (v) Axiom 5 (persistence) → boundary mode exists as a dynamical fermion. (vi) Self-conjugate under p ↔ (7−p) → Majorana. ■
-
-**Theorem NMS.0b (democratic Dirac masses).**
-
-> m_D(gen 1) = m_D(gen 2) = m_D(gen 3) = v · α ≈ m_τ
-
-*Proof.* (i) Charged lepton masses: m_gen = v · α · φ^(−S_gen), where S_gen ∝ Q² × f(p). (ii) For neutrinos: Q(ν) = 0 → S_gen = 0 for all generations. (iii) All three Dirac masses equal the unsuppressed value v · α. Evidence: CKM (Q ≠ 0) has small mixing; PMNS (Q = 0) has large mixing. *Caveat:* Proof assumes EM dominance of generation hierarchy (supported by CKM/PMNS contrast). ■
-
-**Theorem NMS.1b (normal mass ordering).**
-
-> Normal ordering: m₁ < m₂ < m₃.
-
-*Proof.* R = Δm²₃₁/Δm²₂₁ = φ⁷ ⊕ φ² ⊕ φ⁰. Each term positive → R > 0 → Δm²₃₁ > 0 → normal ordering. Axiom trace: Axioms 1–5 → Fibonacci → Zeckendorf → non-negative coefficients → R > 0. ■
-
-**Numerical validation (60-digit precision):**
-
-    m_D = v · α = 1.797 GeV (≈ m_τ, deviation 1.12%)
-    M_R = v · φ^T₆ = 1.001 × 10¹² GeV
-    Base seesaw: m_D²/M_R = 3.226 meV
-    m₂ = √7 × 3.226 = 8.535 meV (exp: 8.678 ± 0.104, pull 1.37σ)
-    m₃ = m₂ · √R = 48.8 meV
-    Σm_ν = 57.3 meV (testable by DESI/Euclid)
-
-**Gap closure status:**
-
-| Gap | Before | After |
-|-----|--------|-------|
-| (a) Democratic m_D | Assumed | **SUBSTANTIALLY CLOSED** (SL.1–SL.3: EM-only inter-bridge propagation; Q=0 → democratic derived) |
-| (b) M_R scale | Motivated | Strengthened (only viable candidate) |
-| (c) √L(4) factor | Analogy | Narrowed (L(4) = 7 angular directions) |
-| (d) Majorana nature | Unknown | **CLOSED** (Theorem NMS.0) |
-| (e) Normal ordering | Assumed | **CLOSED** (Theorem NMS.1b) |
-
-*Axiom trace.* Theorem NMS.0: Axioms 4, 5, and Milestone 3 (Stage Isolation). Theorem NMS.0b: Axioms 4, 10 + SL.1 (lattice topology). Theorem NMS.1b: Axioms 1–5 (Zeckendorf positivity).
-
-### Lattice Topology Derivation (Theorems SL.1–SL.3)
-
-**Theorem SL.1 (Gauge propagation topology on the Maya lattice).**
-
-> (i) U(1)_EM: site variables (phases at each position) → propagate along all tower positions via abelian Drishti hopping.
-> (ii) SU(2)_L: link variables (M₁↔M₂ within sites) → confined to intra-site propagation. Inter-site Drishti hoppings carry U(1) phase only.
-> (iii) SU(3)_c: link variables at bridge connections (positions 3, 5, 7) → bridge-local. The color structure is the same at all bridges → generation-independent.
-
-*Proof.* (i) Axiom 4 (triangle) assigns EM charges at each tower position. Axiom 10 (Drishti) provides position-to-position hopping with amplitude D. A U(1) phase rotation at one position propagates to the next via Drishti hopping (abelian: phase + phase = phase). This extends across all 8 positions, including between bridges. (ii) Result 11: M₁↔M₂ binary encoding generates SU(2)_L within each site. Each site has one M₁↔M₂ pair; pairs at different sites are independent (Axiom 5 generates new sites with new pairs). Inter-site Drishti hoppings carry the abelian U(1) phase, not the non-abelian SU(2) rotation. (iii) Result 10: spatial bridges at positions 3, 5, 7 define SU(3)_c. The Casimir C₂(3) = 4/3 is the same at all bridges → no generation dependence. ■
-
-**Theorem SL.2 (EM dominance of generation screening).**
-
-> The inter-bridge screening is dominated by the EM channel: ΔS_gen = Q²α × ΔG_EM + 0 + 0, where the weak and strong contributions are respectively intra-site-confined and generation-independent.
-
-*Proof.* From SL.1: only U(1)_EM has inter-bridge propagation that is generation-dependent. The EM propagator G_EM(p) = Σ_{n=0}^{7} D^|n−p| differs between bridge positions (G_EM(3) = 2.904, G_EM(5) = 2.804, G_EM(7) = 2.052). The coupling at each vertex is eQ, giving Q²α as the overall factor. ■
-
-**Corollary SL.3 (Democratic neutrino masses from lattice topology).**
-
-> For Q = 0 (neutrinos): ΔS_gen = 0 → all three Dirac masses equal v·α → democratic.
-
-*Proof.* Set Q = 0 in SL.2. The EM channel vanishes. No other channel provides generation-dependent screening (SL.1). Therefore all three generations have the same screening → same mass. ■
-
-*Numerical verification:* The EM propagator ratio ΔG(5→7)/ΔG(3→5) = 0.752/0.100 = 7.49 ≈ φ⁴, reflecting the tower’s Fibonacci weight structure. The Fibonacci screening ratio Σ(n>5)/Σ(n>3) gives φ², connecting to the golden scaling of Theorem QMU.1.
-
-*Axiom trace.* SL.1: Axioms 4, 5, 10, Results 10–11. SL.2: SL.1 + Drishti propagator. SL.3: SL.2 with Q = 0.
-
-
-## Milestone 5 — Charged Lepton Mass Ratios (Resolved)
-
-### The Question in Plain English
-
-The electron, muon, and tau are three identical particles that differ only in mass. The muon is 207 times heavier than the electron; the tau is 3,477 times heavier. Nobody knows why. In 1981, physicist Yoshio Koide noticed that these three masses satisfy a remarkable pattern: if you add the masses and divide by the square of the sum of their square roots, you get almost exactly **2/3**. The pattern has held up through four decades of improved measurements, but no theory has explained it.
-
-The framework proposes that the Koide pattern comes from the triangle’s **node geometry** — each charged lepton sits at a corner of the triangle and sees 2 of its 3 edges. The ratio 2/3 IS the fraction of the triangle visible from a single node.
-
-### What We Found (Session 35 Update)
-
-**The Koide formula is now derived from axioms.** The derivation chain:
-
-*Step 1: Three-fold symmetry from the triangle.* The three charged leptons occupy the three nodes of the triangle (Theorem 6.1). The triangle has 3-fold rotational symmetry (Z₃). Any mass formula respecting this symmetry must be expressible in terms of cosines at 120° spacing — the irreducible representations of Z₃.
-
-*Step 2: Drishti visibility gives the cosine form.* The Drishti function (Axiom 10) projected onto the triangle gives each node a “visibility” of the structure. Because of the 3-fold symmetry, the leading harmonic is a cosine. The mass amplitude at node i is:
-
-    √m_i = M(1 + √2 · cos(δ + 2⊙(i−1)/L(2)))
-
-where M is the overall scale, √2 = √(φ ⊕ φ⁻²) is the amplitude from the node’s edge count, and 2⊙/L(2) = 2π/3 = 120° is the angular separation.
-
-*Step 3: The Koide ratio locks the amplitude.* The normalized mass sum K = Σm_i/(Σ√m_i)² depends on the amplitude A. The three-node sum identity (Σcos = 0) gives K = 1/3 + A²/6. The framework predicts A = √2 (from the node's edge count), which gives K = 1/3 + 2/6 = **2/3** exactly. The Koide ratio and the amplitude √2 are **the same structural fact** expressed two ways: each node sees 2 of 3 edges.
-
-*Step 4: The phase = 2/9.* The phase δ = 2/L(2)² = 2/9 encodes the triangle’s self-action — the way the electromagnetic field (which only charged particles feel) shifts the otherwise neutral pattern. The self-action scale is L(2)² = 9 (the color factor squared).
-
-*Step 5: The overall scale = v·α.* The unsuppressed mass is m_τ = v·α (the tree-level Yukawa from Chapter 15). Given m_τ and δ = 2/9, the electron and muon masses are fully determined.
-
-**Connecting to Milestone 4 (neutrinos).** The same Q²-dependent screening that makes neutrino masses democratic (Q = 0 → no hierarchy) makes charged lepton masses hierarchical (Q = −1 → maximal EM screening → Koide pattern). Quarks (Q = 2/3 or −1/3) sit between: intermediate screening produces intermediate CKM mixing. The Koide formula, the PMNS matrix, and the CKM matrix are three views of one mechanism.
-
-### The Mathematics
-
-**Theorem KM.1 (Koide cosine parametrization from the triangle).**
-
-> √m_i = M(1 + √(φ ⊕ φ⁻²) · cos(2/L(2)² + 2⊙(i−1)/L(2))), i = 1,2,3
-
-*Proof.* (i) Charged leptons occupy the three nodes of the triangle (Theorem 6.1, Corollary 6.3). (ii) The triangle’s 3-fold symmetry (Z₃) constrains the mass distribution: the irreps of Z₃ are {1, ω, ω²}, which in real form give harmonics at 2π/3 spacing. The leading harmonic is cos(θ). (iii) Higher harmonics are suppressed by D² per order (Drishti screening). (iv) The amplitude √2 comes from the node’s edge count: 2 edges meet at each node, and in Zeckendorf form 2 = φ ⊕ φ⁻². The amplitude A² = deg(v) = 2, where deg(v) is the node degree of the triangle (each node connects to exactly 2 edges). This is a topological invariant of K₃. In Zeckendorf form: 2 = φ ⊕ φ⁻². The square root in A = √2 (not A = 2) follows from the Yukawa structure of the Standard Model Lagrangian (Milestone 3): mass is proportional to the coupling squared, so the mass amplitude √m involves one power of the coupling, giving √(deg) rather than deg. *Gap closed (Theorem KMA.4):* The equal partition ||S₀||² = ||S₁||² is now derived from irreducible channel equipartition — the Z₃-symmetric observation resolves exactly 2 spectral channels, and maximum entropy gives equal partition. See Theorem KMA.4 below. (v) The 2⊙/L(2) spacing is the angular separation between triangle nodes. ■
-
-**Corollary KM.2 (Koide ratio = 2/3 ↔ amplitude √2).**
-
-> Σm_i / (Σ√m_i)² = 2/L(2) = 2/3 if and only if A = √(φ ⊕ φ⁻²) = √2.
-
-*Proof.* From KM.1 with amplitude A: Σ√m_i = 3M (since Σcos = 0). So (Σ√m_i)² = 9M². Expanding Σm_i = M²·Σ(1 + A·cos θ_i)² = M²(3 + A²·3/2) = 3M²(1 + A²/2). Therefore K = (1 + A²/2)/3 = 1/3 + A²/6. Setting K = 2/3 gives A² = 2, i.e. A = √2. The Koide ratio and the amplitude are equivalent: K = 2/3 ⇔ A² = 2 ⇔ ||S₀||² = ||S₁||² (Theorem KMA.1), where S₀ is the uniform subspace (dim 1) and S₁ is the oscillating subspace (dim 2) of the function space on the triangle’s 3 nodes. The equal-partition condition means the uniform and oscillating components of the mass distribution carry equal energy. Topologically: A² = deg(v) = 2 = ρ(Adj_{K₃}) (the spectral radius of the triangle’s adjacency matrix). ■
-
-*Validation.* Experimental K = 0.666661 ± 0.000007. Predicted K = 2/3 = 0.666667. Discrepancy 6 × 10⁻⁶ is **within 1σ** of the experimental error (from m_τ uncertainty). The Koide ratio is consistent with exact 2/3.
-
-**Theorem KM.3 (complete mass determination).**
-
-> Given m_τ = v·α and δ = 2/L(2)²: m_μ/m_e = 206.770, m_τ/m_μ = 16.818, m_τ/m_e = 3477.5
-
-*Proof.* M = √m_τ/(1 + √2·cos(δ)). Then m_e = M²(1 + √2·cos(δ + 2π/3))² and m_μ = M²(1 + √2·cos(δ + 4π/3))². These are determined uniquely by δ alone. ■
-
-*Validation.* m_μ/m_e: predicted 206.770, observed 206.768 (**0.001%**). m_τ/m_μ: predicted 16.818, observed 16.817 (**0.006%**). Mass ratios match to 5 decimal places — far exceeding the precision of the m_τ input.
-
-**Theorem KMA.1 (Equal partition ⇔ A = √2).**
-
-> The following are equivalent: (i) A² = 2, (ii) K = 2/3, (iii) ||Proj_{S₀}(√m)||² = ||Proj_{S₁}(√m)||².
-
-*Proof.* (i)→(ii): K = 1/3 + A²/6 = 2/3. (ii)→(iii): ||S₀||² = (Σ√m_i)²/3 = 3M²; ||S₁||² = Σm_i − ||S₀||² = 3M²A²/2 = 3M². (iii)→(i): ||S₀||² = ||S₁||² → 3M² = 3M²A²/2 → A² = 2. ■
-
-*Topological identification:* A² = deg(v) = 2 (node degree of K₃). In Zeckendorf form: 2 = φ ⊕ φ⁻². This equals the spectral radius of the triangle's adjacency matrix: ρ(Adj) = 2, which is the largest eigenvalue — a topological invariant. The experimental confirmation is exact: K = 0.666661 ± 0.000007, consistent with 2/3 to within 1σ.
-
-**Theorem KMA.2 (Spectral characterization of equal partition).**
-
-> The following are additional equivalences to KMA.1: (iv) The Rayleigh quotient R(√m) = ⟨√m, L·√m⟩/⟨√m, √m⟩ = 3/2, where L = 2I − Adj is the graph Laplacian of K₃; (v) A² = ρ(Adj_{K₃}) = deg(v) = 2, the Perron eigenvalue of the adjacency matrix; (vi) The spectral entropy H = −Σpₖ log pₖ of the mass distribution on the K₃ eigenbasis is maximized.
-
-*Proof.* All follow algebraically from ||S₀||² = ||S₁||² (KMA.1). For (iv): L has eigenvalues {0, 3, 3}, so ⟨f, Lf⟩ = 3||S₁||² for any f. Then R = 3||S₁||²/(||S₀||² + ||S₁||²) = 3/2 when ||S₀|| = ||S₁||. For (v): the Perron eigenvalue of Adj_{K₃} is λ₀ = 2 = deg(v), and A² = 2||S₁||²/||S₀||² = ρ(Adj) at equal partition. For (vi): equal partition gives p₀ = p₁ = 1/2, maximizing binary entropy. ■
-
-*Numerical verification (60-digit, Session 37):* The √m vector projects onto the K₃ eigenbasis with ||S₀||² = ||S₁||² = 3.000... (ratio 1.000... to 50 digits). The Rayleigh quotient R = 3/2 exactly. The adjacency matrix action Adj·√m = 3M·1 − √m (complement relation) is verified numerically.
-
-*Physical motivation.* The EM self-energy at a triangle node involves virtual photons traversing incident edges (SL.1, SL.2). This coupling has adjacency structure: the Perron eigenvalue λ₀ = deg(v) = 2 acts on the uniform mode S₀, while λ₁ = −1 acts on the oscillating mode S₁. The eigenvalue ratio |λ₀/λ₁| = 2 matches A². The Drishti bound (Axiom 10) suppresses higher adjacency powers by D² ≈ 0.265 per additional edge traversal, making single-hop adjacency the dominant contribution. The next-order correction (Adj² with eigenvalue ratio 4/1) connects to KM.4.
-
-*Lattice Yukawa test (Session 37):* Direct computation of the 3×3 mass matrix M_{ij} = Σₙ H(n)·ψᵢ(n)·ψⱼ(n) on the tower with bridge positions {3, 5, 7}, Higgs profile H(n) = D^(7−n), and Drishti kernels ψᵢ(n) = D^|n−pᵢ| gives eigenvalue Koide ratio K ≈ 0.448 — below 2/3. The naive position-space Yukawa matrix does not reproduce the Koide relation. This confirms the equal-partition condition encodes deeper constraints from K₃'s spectral geometry beyond simple tower couplings.
-
-**Theorem KMA.3 (Koide amplitude from EM channel counting).**
-
-> For three charged lepton generations on K₃, with EM screening acting through the adjacency structure, the Koide amplitude satisfies A² = deg(v) = 2.
-
-*Proof.* (i) Three charged leptons occupy the nodes of K₃ (Theorem 6.1). K₃ is complete: every node connects to every other. Each node has deg(v) = 3 − 1 = 2, forced by completeness. (ii) The function space on K₃ decomposes as S₀ (dim 1, uniform) ⊕ S₁ (dim 2, oscillating). The key structural fact: dim(S₁) = n − 1 = deg(v) for all complete graphs K_n. (iii) Without EM (Q = 0), masses are democratic — purely in S₀ (Theorem SL.3). (iv) EM screening propagates along edges (SL.1, SL.2). Each edge is one independent channel through which EM differentiates the mass at one node from another. At each node: deg(v) = 2 such channels. (v) Channel-dimension matching: the 2 edges at each node span the 2-dimensional S₁ subspace. By Z₃ symmetry, each channel carries equal weight. (vi) Equal channel density: S₀ has 1 self-channel filling 1 dimension (density 1); S₁ has 2 edge-channels filling 2 dimensions (density 1). Equal density → equal observation power per dimension → ||S₀||² = ||S₁||² (equal partition). (vii) From the Koide parametrization: ||S₁||²/||S₀||² = A²/2. Equal partition gives A² = 2 = deg(v). ■
-
-*The structural insight in plain language.* Three sisters sit at a round table. Each sister connects to the other two — that is what "sitting at a complete triangle" means. Each connection is one channel through which the electromagnetic force can make her different from her siblings. Two connections per sister, so the spread is √2. That is all the Koide amplitude is: the square root of how many siblings each generation can talk to. For three generations on a complete graph, each talks to two. Hence A = √2.
-
-*Why channel density, not channel weight.* The edge channels are D²-suppressed relative to the self-channel, so their individual weights differ. But there are exactly deg(v) = 2 edge channels filling a deg(v) = 2 dimensional oscillating subspace — one channel per degree of freedom, no redundancy, no deficit. The Z₃ symmetry ensures the 2 channels contribute equally to each other. The structural 1:1 correspondence (one independent EM channel per oscillating dimension) forces equal partition regardless of the absolute coupling strength. The amplitude A is set by the graph's combinatorics, not by D.
-
-*Gap status (updated Session 38):* **CLOSED** by Theorem KMA.4 below. The derivation chain: Theorem 6.1 (leptons on K₃) → SL.1-SL.2 (EM along edges) → SL.3 (democratic base) → KMA.3 (channel counting) → KMA.4 (irreducible channel equipartition) → equal partition → A² = 2.
-
-**Theorem KMA.4 (Irreducible channel equipartition).**
-
-> The equal partition ||S₀||² = ||S₁||² follows from the Z₃-symmetric Drishti observation on K₃.
-
-*The idea in plain language.* When the examiner looks at the three sisters through the Drishti lens, she can distinguish exactly two features: "how heavy are they on average?" (that is the S₀ channel) and "how spread out are their masses?" (that is the S₁ channel). She cannot tell the *direction* of the spread — the triangle's symmetry makes the two internal directions within the spread look identical. So from her perspective, there are two things to measure, period. The Drishti budget is a single number, D, which doesn't know which feature it is resolving. A single number split between two features — with no information favoring either — must split evenly. Half the observation power goes to the average, half to the spread. Equal observation power → equal norm → ||S₀||² = ||S₁||² → A² = 2.
-
-*Proof.* (i) The Z₃ symmetry of K₃ (Axiom 4, Theorem 6.1) decomposes ℝ³ = S₀ ⊕ S₁ into exactly 2 irreducible representations. By Schur's lemma, any Z₃-equivariant observation operator acts as a scalar on each irrep: O|_{S₀} = a₀·Id, O|_{S₁} = a₁·Id. The observation resolves exactly 2 spectral channels and cannot distinguish directions within S₁. (ii) The Drishti bound D = φ/⊙ (Axiom 10) is a single universal parameter governing all observation. It does not carry a label distinguishing S₀ from S₁ — it is channel-blind. (iii) The SLC theorem establishes D as the channel capacity of a single Drishti position. By Shannon's theorem, channel capacity is achieved at maximum output entropy. The Drishti observation saturates this capacity. (iv) Maximum entropy over 2 distinguishable channels: p(S₀) = p(S₁) = 1/2. (v) Born rule: pₖ = ||f_{Sₖ}||²/||f||². Equal channel probability gives ||f_{S₀}||² = ||f_{S₁}||². (vi) From KMA.1: ||S₁||²/||S₀||² = A²/2. Equal partition gives A² = 2. ■
-
-*Why 2 channels, not 3 dimensions.* A reasonable objection: why not distribute norm equally per *dimension* (giving A² = 4) instead of per *channel* (giving A² = 2)? The answer is that the observation counts *distinguishable* degrees of freedom. The two dimensions within S₁ are linked by the Z₃ symmetry — the observation respects this symmetry (Schur's lemma) and treats S₁ as one coherent feature. Think of spin: a spin-1 particle has three magnetic sublevels, but if the measurement is rotationally invariant, it resolves only one feature (the total spin). Similarly, the Z₃-symmetric observation resolves S₁ as one feature, not two. Experiment confirms: A² = 1.99999 (ruling out A² = 4 by ~150,000σ).
-
-*Axiom trace.* KMA.4: Axioms 4, 6 → Z₃ symmetry; Schur's lemma (mathematics); Axiom 10 → channel-blind D; SLC theorem → capacity → max entropy (information theory); Born rule (derived). No new axioms.
-
-**Conjecture KM.4 (α² correction).** If the Koide discrepancy is real (currently within 1σ), the leading correction is:
-
-> K = (2/3)(1 − α²·D/L(2))
-
-matching the observed ΔK to 1%. The Adj² contribution (eigenvalue ratio 4/1 instead of 2/1) provides a natural source for this correction. Testable when m_τ precision improves.
-
-*Axiom trace.* KM.1: Axioms 4–6 (triangle, symmetry), Axiom 10 (Drishti). KM.2: Algebraic identity. KM.3: KM.1 + Theorem OP16a-i-a.1. KMA.1: Algebraic consequence of KM.2. KMA.2: KMA.1 + graph spectral theory. KMA.3: KMA.1 + SL.1–SL.2 (channel counting). KMA.4: Axioms 4, 6 + Schur + Axiom 10 + SLC + Born rule (max entropy equipartition). SL.1–SL.2: Axioms 4, 5, 10, Results 10–11.
-
-
-## Milestone 6 — Are the Quark Mass Exponents Unique? (Strengthened)
-
-### The Question in Plain English
-
-Chapter 16 derives quark mass ratios using the exponent ⊙ (the circle constant = π). Chapter 28 flags this as the prediction most vulnerable to the numerology objection: could a different number from the framework’s ingredients match just as well?
-
-### What We Found
-
-**Step 1: ⊙ is the unique first exponent.** We tested ~320 candidate exponents (every single-operation expression from framework ingredients {φ, ⊙, 1, 2, 3, 5, 7, 8, 13, D, L(2), L(4)}). For the tightest ratio m_b/m_c = 4.528:
-
-— **1 match**: ⊙ (= π), giving φ^⊙ = 4.535, pull 0.12σ.
-— **1 marginal**: 5/φ, giving φ^(5/φ) = 4.424, pull 1.79σ.
-— **~318 non-matches.**
-
-The marginal alternative (5/φ) fails when extended across generations: the golden scaling law requires the next exponent to be 5, giving φ⁵ = 11.09, but the observed m_t/m_b ≈ 41.3. Excluded at >10σ.
-
-**Step 2: The golden progression is derived (Session 36).** The scaling factor φ between successive exponents follows from the tower’s bridge structure:
-
-**Theorem QMU.1 (golden scaling of mass exponents).**
-
-> E_{g+1}/E_g = φ for consecutive generations g.
-
-*Proof.* (i) Generations correspond to bridge positions 3, 5, 7 in the tower (Result 7, Session 30). (ii) Consecutive bridges are separated by 2 tower positions. (iii) The VEV ladder (Theorem VEV.1) gives φ-weights: the φ-weight ratio between consecutive bridges is φ². (iv) The mass exponent involves the Yukawa coupling (one field insertion, not two), so the effective screening uses the square root: √(φ²) = φ. This follows from the Yukawa structure of the Standard Model action (Milestone 3, continuum limit) and parallels the √2 in the Koide formula (Theorem KM.1). (v) Combined with E₁ = ⊙ (Step 1): E₁ = ⊙, E₂ = φ⊙, E₃ = φ²⊙. ■
-
-**Conclusion.** The exponents {⊙, φ⊙, φ²⊙} are the unique set consistent with the framework: ⊙ is uniquely selected from ~320 candidates, and the φ-progression follows from the tower’s bridge structure.
-
-**Validation.** The four main quark mass ratios match experiment with an average pull of 0.26σ. The exponents are not chosen to fit — they are structural consequences of the tower.
+*Proof.* (i) Bulk info scales as Σ D²ᵏ × F(S+k). (ii) D²φ = 0.429 < 1 → convergent. (iii) Bulk/boundary ~ 10⁻¹⁸⁰ at stage 6. ■
 
 ---
 
 
-## Milestone 7 — The Strong CP Problem (Original Appendix Entry)
+---
+
+## Proofs for Chapter 28 — Is This Numerology?
+
+### Statistical Validation
 
 ### The Question in Plain English
 
-The strong nuclear force’s equations allow a parameter θ that would cause the force to behave differently when you swap matter for antimatter and look in a mirror (physicists call this **CP violation**). Experiments show θ is less than 10⁻¹⁰ — essentially zero. Nobody knows why. This is one of the biggest unsolved puzzles in particle physics: why does the strong force respect this symmetry so perfectly when nothing seems to require it?
+The framework produces 50 predictions from ten rules and zero adjustable numbers. Thirty-one of these can be checked against experiment, and thirty match. But a skeptic could ask: with enough mathematical ingredients (φ, π, simple operations), couldn’t you find formulas that match almost anything by chance?
 
-The standard proposed solution introduces a new particle called the **axion** that dynamically forces θ to zero. The axion has been searched for extensively but never found.
+To answer this, we did a brute-force test: we generated every possible formula of limited complexity from the framework’s ingredients and checked how many accidentally match the experimental values.
 
-### The Framework’s Answer
+### The Results
 
-The framework’s answer is structural: **θ doesn’t exist.** The parameter θ requires a special kind of mathematical structure — smooth, continuous fields that can “wind” around the gauge group in topologically distinct ways (physicists call these **instantons**). But the framework’s triangle is a discrete graph — 3 nodes and 3 edges. A discrete graph has no smooth fields. No smooth fields means no winding. No winding means no θ.
+We enumerated **26,668 expressions** built from {φ, ⊙, 1, 2, 3} using up to three operations (+, −, ×, ÷, ^).
 
-Think of it this way: θ measures how many times a rope is wound around a pole. But if there is no rope — only discrete beads on a wire — the concept of “winding number” doesn’t apply. The beads are either on the wire or not. There is nothing to wind.
+For α⁻¹ = 137.036 (the strength of electromagnetism, the framework’s tightest prediction): **zero matches** out of 26,668. No simple formula from the framework’s ingredients accidentally gives 137.036 at experimental precision.
+
+For sin²θ_W = 0.2312 (the weak mixing angle): only **3 matches** out of 26,668.
+
+The probability that all seven of the framework’s tightest predictions match simultaneously by chance: approximately **10⁻²²** — less than one in a billion trillion.
+
+The framework’s actual formulas don’t appear in this search at all — they require five or more operations with tower-specific architecture. They are *derived* from the tower’s structure, not selected from a menu.
 
 ### The Mathematics
 
-(i) SU(3)_color arises from the triangle (Theorem 6.2, Axioms 5 and 6).
+**Method.** All expressions of complexity ≤ 3 (at most three binary operations) from ingredients {φ, ⊙, 1, 2, 3} with operations {+, −, ×, ÷, ^} were enumerated and evaluated (26,668 unique values). For each of seven experimental values, the number of expressions falling within 2σ was counted.
 
-(ii) In standard QCD, θ classifies vacuum sectors via π₃(SU(3)) = ℤ (the third homotopy group). This classification requires continuous gauge fields on a smooth manifold.
+| Prediction | Value | 2σ window | Matches | p(match) |
+|---|---|---|---|---|
+| α⁻¹ | 137.036 | ±0.002 | **0** | < 3.7 × 10⁻⁵ |
+| sin²θ_W | 0.2312 | ±0.00006 | 3 | 1.1 × 10⁻⁴ |
+| α_s | 0.1179 | ±0.0018 | 26 | 9.8 × 10⁻⁴ |
+| n_s | 0.9649 | ±0.0084 | 58 | 2.2 × 10⁻³ |
+| Ω_b | 0.0493 | ±0.0012 | 27 | 1.0 × 10⁻³ |
+| Ω_DM | 0.265 | ±0.014 | 166 | 6.2 × 10⁻³ |
+| Ω_Λ | 0.685 | ±0.014 | 96 | 3.6 × 10⁻³ |
 
-(iii) The framework’s triangle is a discrete 3-node graph. It has no smooth manifold structure. The homotopy classification does not apply.
+**Joint probability** (assuming independence): p ≈ 10⁻²².
 
-(iv) Therefore θ = 0 by construction. No axion is needed or predicted.
+**Honest caveats.** (a) The 32 predictions share φ and ⊙ — a rigorous Bayesian model comparison accounting for this correlation remains to be done. (b) The strongest refutation of coincidence will come from the unmeasured predictions (r, Σm_ν, normal ordering), which cannot be reverse-engineered.
 
-**Axiom trace.** Axiom 5 → Theorem 6.1 (triangle) → Theorem 6.2 (SU(3)) → discrete topology → θ = 0.
+---
 
-**Falsifiable predictions.** θ = 0 exactly. No axion exists. If either is contradicted by experiment, the framework’s discrete structure needs revision.
+## Proofs for Chapter 29 — The Last Free Number
 
-**Honest caveat.** Whether the continuum limit (the full graph-to-field bridge) preserves θ = 0 depends on whether the bridge inherits the discrete topology or introduces new topological sectors. The framework predicts topology is inherited, not created — but this remains to be proved.
+The complete formal record for this chapter lives in two places: the detailed derivations with all referee rounds in the companion repository (current/proposition_G4prime_gravitational_seed.md and the notation-canonical master current/session42_gravity_canonical_notation.md, with all computations regenerable from scripts/session42/), and the structural mathematics in Appendix A (Chapter 29 proofs), which contains Theorems G.1 and G.2 with full proofs. The chapter's chain, formally:
+
+**Theorem Q1′ (scale identity).** With M_P ≔ N·Λ (Axiom-8 additivity) and G ≔ 1/M_P², the cell's gravitational self-energy equals one quantum identically: G·(NΛ)²·Λ = Λ. The one-quantum condition is derived, not assumed.
+
+**Theorem G.5 (stage selection, canonical form).** α₃(Λ_UV) = c·D²/(4⊙) at Λ_UV = M_P/N, c = 1 within the declared band, connected by standard renormalization (the mathematical procedure for consistently handling calculations that would otherwise give infinite answers) flow to the stage-six couplings, admits exactly one stage under f ∈ [1, φ + φ⁻¹]. The selection is independent of the measured electroweak scale.
+
+**Theorem S (the seed).** For odd S_P: (φ^{S_P} + φ^{−S_P}) / [(φ^{S_P} + φ^{−S_P})/(φ + φ⁻¹)] = φ + φ⁻¹, exactly — the bilateral measure (Axiom 7) over the democratic count (Axiom 8).
+
+**Lemma W (equation of state).** Boundary content is null (speed-of-light theorem); null content in d = 3 spatial dimensions (dimensionality theorem) has pressure/energy = 1/3. Alternatives are excluded: w = −1 admits no fixed point; w = 0 and w = 1 miss the result by 31% and 28%.
+
+**Theorem G.4″ (the fixed point).** f = (φ + φ⁻¹)·φ^{−(1/3)(1−Φ)f}, Φ = f(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}), is a contraction on a closed interval; its unique fixed point yields v/M_P = f·φ^{−[(φ^{S_P}+φ^{−S_P})−(φ⁶−φ⁻⁶)]/(φ+φ⁻¹)}. Theorem V fixes the comparison convention (the G_F-defined observable) from the zero-parameter principle, the eight-figure α anchor, and minimality.
+
+
+**The second-order coefficient (M12, Session 52).** |k| = d × k_TOV = 3 × 3/4
+= 9/4. The TOV interior coefficient (3/4) is the standard GR result for the
+O(Φ²) Tolman factor at the center of a uniform-density self-gravitating ball.
+The dimensionality d = 3 enters because the screening traversal passes through
+all d bridge channels independently, each contributing its own GR curvature
+correction. Result: v = 246.2195 GeV (0.66 ppm from measured 246.21965).
+Status: structural hypothesis (additive-over-bridges rule is structural, not
+action-derived; same conditional tier as Theorem OP8b.5). Cold review: 5
+attacks, zero free parameters confirmed, numerology test passed (unique
+structural derivation among 7 window candidates).
+
+**The open coefficient (now resolved — see above).** R(Φ) = 1 − Φ + |k|Φ²; |k| = 2.2417 ± 0.138 (G-dominated), open by proof pending the frontier action term; hypothesis of record |k| = φ + φ⁻¹ (low evidential weight by the window-density analysis); falsification criteria pre-registered.
+
+## Proofs for Chapter 30 — The Hardest Test
+
+Full derivations with all hostile review rounds are in the companion repository
+(current/session43_kappa_gauge_lemma.md, session44_insertion_typing.md,
+session45_reversal_channel.md, session46_cmb_m10_first_deliverable.md,
+session48_mh7_and_neff_correction.md, session49_xi_thermal_attempt.md,
+session50_reheating_invariance.md; scripts in scripts/session42/ and
+scripts/session46/). Summary of the formal chain:
+
+**Lemma K-g (ladder base).** The counting transfer matrix of the hard-core
+register is T = [[1,1],[1,0]], with characteristic polynomial λ² − λ − 1 = 0
+⇒ λ₊ = φ exactly. The stationary occupation is ⟨n⟩ = φ⁻¹/(φ + φ⁻¹).
+Condition: counting↔ladder identification (declared measure postulate, R43.5).
+
+**Lemma K-g2 (insertion typing, cold-reviewed).** Fixed-point loads dress
+propagating lines (unit rung-multiplicity by directed traversal); loop
+determines magnitude, traversal determines multiplicity; per-rung independence
+(lattice 1PI) declared as third condition. Ensemble readings (⟨n⟩-weighted)
+are a category error for insertions. M_H discrimination: rung-native −0.08σ;
+site-native −16.1σ; inactive-diagonal −12.5σ to −7.0σ; inverse +79.6σ.
+
+**Session 45 (reversal channel).** Exact identity r = |λ₋/λ₊| = m/(1+m) =
+m²/D². Direction theorem (Jensen): variance reduces screening, raises v —
+correct sign. Bracket q_req ∈ [5×10⁻⁴, 5×10⁻³] vs ceiling r² = 0.032 (not
+excluded) and r⁴ = 1.0×10⁻³ (in-bracket, zero evidential weight). First-order
+tension resolved via cumulant calibration (mean absorbed in dressed load;
+variance = irreducible k-channel). M12 spec: k_load + k_reversal = 2.2417 ±
+0.138 + mean-consistency.
+
+**Session 46 (CMB, cold-reviewed).** Framework parameter point through CAMB
+1.6.6 (standard Boltzmann transfer): at ΔN_eff = 0.131, χ²(cosmic variance,
+f_sky = 0.7, ℓ = 2–2500) = 64 (TT), 154 (EE), 100 (TE) over ~2499 dof each.
+Polarization demand passed (H46.4). Without dark radiation: θ* = 1.04570
+(+15.4σ). g* frozen at 10.75; BBN consistent.
+
+**Sessions 47–48 (dark Higgs).** M_H7 ≈ 604 GeV (dark Theorem 17.2,
+structural from v₇ ≈ 2.7 TeV). Session 47's apparent sub-GeV demand
+WITHDRAWN (misread of N_eff.2's g*: it counts dark relativistic dof at
+recombination, not SM dof at thermal decoupling).
+
+**Session 49 (ξ thermal history).** Standard entropy dilution accommodates but
+does not force ξ = φ⁻²; the framework's claim is a formation-temperature
+statement (Theorem 9.4), not a thermal-history derivation.
+
+**Session 50 (reheating-invariance — DECISIVE).** Invariance requires the dark
+sector to release entropy in the same factor (~27) as the SM; realistic dark
+spectra (formation dof O(50–200)) give factors ~3–6. ξ_recomb ≪ φ⁻²;
+honest ΔN_eff ≲ 0.02 — ten times below the CMB-rescue requirement. The
+acoustic-scale tension is REOPENED. The real open item is upstream: Problem 8b
+(the H₀ derivation).
+
+**Session 51 (self-referential correction).** The gravitational self-potential
+Φ = f*/F(11) (identity I2, Session 42) enters the Hubble exponent additively:
+H₀/M_P = D^(N + Φ). Corrected H₀ = 67.38 km/s/Mpc (0.03σ from Planck).
+Full spectrum verification: χ²_CV = 349/364/50 (TT/EE/TE) over ~2499 dof.
+Additive entry is dimensionally forced (Φ and N are in the same units: tower
+positions of screening depth). The 2% residual (Φ_predicted vs Φ_required)
+is O(Φ), at the same perturbative order as the gravity sector's k = 9/4 (now resolved; see Chapter 29 and the M12 derivation).
+Status: typed hypothesis at moderate evidential weight; formal derivation of
+the additive form requires the frontier action.
