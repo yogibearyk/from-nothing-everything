@@ -1,0 +1,16 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="300" fill="#faf8f2"/>
+  <circle cx="250" cy="140" r="110" fill="none" stroke="#c0b8a0" stroke-width="2"/>
+  <path d="M 250 30 A 110 110 0 1 1 147.0 228.8" fill="none" stroke="#b8860b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 147.0 228.8 A 110 110 0 0 1 250 30" fill="none" stroke="#c0b8a0" stroke-width="3" stroke-dasharray="5,7"/>
+  <circle cx="250" cy="30" r="5" fill="#b8860b"/>
+  <circle cx="147" cy="228.8" r="5" fill="#b8860b"/>
+  <text x="330" y="85" fill="#b8860b" font-family="Georgia" font-size="14" font-style="italic">φ ≈ 1.618</text>
+  <text x="330" y="103" fill="#8a7a60" font-family="Georgia" font-size="11">(one growth step)</text>
+  <text x="80" y="175" fill="#8a8a8a" font-family="Georgia" font-size="11">remaining</text>
+  <text x="80" y="192" fill="#8a8a8a" font-family="Georgia" font-size="12">48.5%</text>
+  <text x="250" y="130" fill="#333" text-anchor="middle" font-family="Georgia" font-size="15" font-weight="bold">D = φ / π</text>
+  <text x="250" y="155" fill="#b8860b" text-anchor="middle" font-family="Georgia" font-size="24" font-weight="bold">51.5%</text>
+  <text x="250" y="175" fill="#666" text-anchor="middle" font-family="Georgia" font-size="11">of the perspective cycle</text>
+  <text x="250" y="285" fill="#555" text-anchor="middle" font-family="Georgia" font-size="13">One step (φ) ÷ One full cycle (π) = 0.51503…</text>
+</svg>
