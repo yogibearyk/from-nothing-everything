@@ -3121,6 +3121,22 @@ Three examples demonstrate this. The Z boson's decay width into leptons (how qui
 
 The framework doesn't replace the Standard Model's dynamics. It derives the Standard Model, whose dynamics are then automatic. Asking "can the framework compute scattering amplitudes?" is like asking "if I give you the rules of chess, can you determine all possible games?" The rules determine everything. The framework gives the rules.
 
+### Renormalized couplings, not bare couplings
+
+A natural concern: coupling constants computed at the lattice scale (called "bare" couplings) are modified by quantum corrections as you zoom out to larger distances. Bare couplings are not what experiments measure. Every lattice calculation must "renormalize" — compute how the bare coupling changes with scale — before comparing with experiment.
+
+The framework does something different. The Drishti screening D = φ/π operates at every scale — it describes the fraction of content resolved per step, regardless of the step's size. The coupling constants are not bare couplings at the lattice scale that need running to the experimental scale. They are derived as effective couplings at the measurement scale, through screening paths that span from the lattice to the observer.
+
+The fine-structure constant illustrates this. The formula α⁻¹ = 3 × (φ^(8−δ(α)) − 1) includes the self-referential deficit δ, which IS the framework's version of quantum corrections — the coupling modifies its own screening, which feeds back into the coupling. The physical α is the fixed point of this self-referential equation — the value where the coupling and its corrections are mutually consistent. This fixed point IS the renormalized coupling, not the bare one. No separate renormalization step is needed because the self-referential structure builds the quantum corrections into the derivation itself.
+
+### The continuum bridge for Newton's constant
+
+The framework derives Newton's gravitational constant G through the lattice spacing a = F(11) × l_P = 89 Planck lengths (Theorem G.2, Chapter 29). How does a discrete mode count (89 lattice modes) connect to a continuous gravitational coupling measured in laboratories?
+
+The connection runs through Symanzik's effective field theory. At distances much larger than the lattice spacing, the lattice dynamics are described by a continuous field theory — in this case, Einstein's general relativity (forced by Lovelock's theorem). The specific value of G in the continuous theory depends on the lattice spacing and the number of lattice degrees of freedom. This is exactly how lattice QCD works: the bare lattice parameters (spacing and coupling) determine the continuum parameters (the strong coupling at the experimental scale) through the renormalization group.
+
+For gravity: the lattice spacing a = 89 l_P and the Lovelock-forced Einstein-Hilbert action together determine G. The mode counting (89 modes) is the lattice input. Symanzik's EFT is the bridge. The continuum G is the output. These are not separate steps — they are three stages of the same calculation, the same calculation that every lattice gauge theory uses to extract continuum physics from discrete lattice parameters.
+
 ### The continuum limit and universality
 
 The framework's lattice is discrete — positions are either 0 or 1, with definite spacing a = 89 Planck lengths. The physics we observe is continuous — particles can be anywhere, not just at lattice sites. How does the discrete lattice produce continuous physics?
