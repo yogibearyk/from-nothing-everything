@@ -3119,7 +3119,47 @@ The answer is yes, automatically. The framework derives the Standard Model Lagra
 
 Three examples demonstrate this. The Z boson's decay width into leptons (how quickly the Z falls apart into an electron-positron pair): the framework's derived couplings (α = 1/137.036, sin²θ_W = 0.2312, m_Z = 91.19 GeV) give 83.4 MeV at leading order — matching the measured 83.98 MeV to 0.7%. The neutron lifetime (how long a free neutron survives before decaying into a proton, electron, and neutrino): the framework's derived Fermi constant and CKM matrix give ~900 seconds at leading order — matching the measured 878 seconds to within 4%. The Higgs decay to bottom quarks: the framework's derived masses give ~2 MeV at leading order — matching the measured ~2.4 MeV. All residuals come from higher-order corrections (loop diagrams, QCD running) that are standard and reduce the residuals to below 0.1% when included.
 
-The framework doesn't replace the Standard Model's dynamics. It derives the Standard Model, whose dynamics are then automatic. Asking "can the framework compute scattering amplitudes?" is like asking "if I give you the rules of chess, can you determine all possible games?" The rules determine everything. The framework gives the rules.
+The framework doesn't replace the Standard Model's dynamics. It derives the Standard Model, whose dynamics are then automatic.
+
+### The complete dynamical action
+
+The framework's dynamics are contained in a single mathematical expression — the **action** S. The action is the quantity that, when minimized (or more precisely, when all paths are summed over in the path integral), determines every physical process: every scattering, every decay, every propagation, every interaction.
+
+The total action has four parts:
+
+**Gravity:**
+S_gravity = (1/(16πG)) × (the curvature of spacetime integrated over all space and time)
+
+This is the **Einstein-Hilbert action**, forced by Lovelock's theorem (Chapter 25). The specific coefficient (1/(16πG)) is determined by G, which is derived from the lattice spacing a = F(11) l_P = 89 Planck lengths (Chapter 29).
+
+**The three forces:**
+S_forces = (sum over all tiny squares on the lattice) × [β₃ × (strong force plaquette) + β₂ × (weak force plaquette) + β₁ × (electromagnetic plaquette)]
+
+This is the **Wilson gauge action**, the standard lattice formulation of gauge forces. The coefficients β₃, β₂, β₁ are determined by the coupling constants, all derived from D = φ/π (Chapter 15).
+
+**Matter:**
+S_matter = (sum over all lattice sites) × [fermion hopping terms + mass terms]
+
+This is the **Wilson fermion action** with the hard-core constraint from the Fibonacci tower. The masses are derived from Koide's formula and the screening structure (Chapters 16-17). The hard-core constraint (no two adjacent positions both occupied) is the framework-specific ingredient that produces the Fibonacci Hilbert space.
+
+**The Higgs field:**
+S_Higgs = (sum over all lattice sites) × [Higgs kinetic energy + Higgs potential]
+
+The Higgs potential has the "Mexican hat" shape that breaks the electroweak symmetry. The vacuum expectation value v = 246.22 GeV is derived from the M12 computation (Chapter 31). The Higgs self-coupling is derived from the Higgs mass.
+
+**Every coefficient in this action is derived from the axioms.** The gauge group (which forces appear), the matter content (which particles exist), the coupling constants (how strong the forces are), the masses (how heavy the particles are), and the gravitational constant (how strong gravity is) — all derived from φ and π through the screening structure.
+
+The path integral Z = ∫ e^{iS} (the sum over all possible histories, weighted by the action) determines every physical process. This is the SAME path integral that the Standard Model uses — with the SAME action — except that the Standard Model treats the 25 coefficients as measured inputs, while the framework derives them from zero inputs.
+
+The framework is not a kinematic parts list. It is a complete dynamical theory with a specific action, specific coefficients, and a specific path integral from which all physics follows.
+
+### The cosmological constant — a physical mechanism, not a redefinition
+
+The cosmological constant "problem" in standard physics arises from summing the zero-point energies of all quantum fields over all possible wavelengths, down to infinitely small wavelengths (the Planck scale). This sum diverges — it gives infinity. Cutting it off at the Planck scale gives a finite but absurdly large number: about 10¹²⁰ times the observed value.
+
+The framework resolves this through a PHYSICAL mechanism, not a geometric redefinition. The lattice has a minimum wavelength — the lattice spacing a = 89 Planck lengths. Wavelengths shorter than this DO NOT EXIST on the lattice. The sum over zero-point energies is automatically finite because the sum has a finite number of terms. This is not a mathematical trick — it is a physical fact about the lattice's structure.
+
+But the lattice cutoff alone reduces the discrepancy by only 8 orders of magnitude (from 10¹²⁰ to 10¹¹²). The remaining 112 orders of magnitude are resolved by the framework's direct derivation of the cosmological parameters: H₀ is derived to 0.03σ from the Planck satellite value, and Ω_Λ is derived from the tower's stage decomposition. The cosmological constant Λ = 3H₀²Ω_Λ follows from these derived quantities. The framework doesn't need to SUM zero-point energies — it derives Λ directly from the screening structure. The 10¹²⁰ discrepancy never arises because the framework never performs the divergent sum. Asking "can the framework compute scattering amplitudes?" is like asking "if I give you the rules of chess, can you determine all possible games?" The rules determine everything. The framework gives the rules.
 
 ### Renormalized couplings, not bare couplings
 
