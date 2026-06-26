@@ -3185,6 +3185,12 @@ The resolution (Theorem OP8b.5): gravity couples to itself. The gravitational fi
 
 With the self-potential included: H₀ = 67.38 km/s/Mpc — matching the Planck measurement to 0.03σ. This is not an ad hoc addition. It is the standard gravitational self-energy correction — the same physics that produces the perihelion precession of Mercury and the Shapiro time delay — applied at the cosmological scale. The specific value comes from the computed frontier mode energy (−√2, universal across all chain lengths) and the derived lattice spacing (89 Planck lengths). Gravity's self-referential character manifests at the largest scales: the expansion rate is modified by the field that measures it.
 
+**Why Φ adds to N in the exponent.** The screening at each layer is multiplicative — each layer dims the signal by a factor. Discrete lattice positions each contribute a factor D (one full screening layer). The gravitational self-potential contributes a factor D^Φ (a partial screening layer — less than one full position, because gravity's self-energy is small). The total screening is the product of all factors:
+
+S_total = D × D × ... × D^Φ = D^N × D^Φ = D^{N+Φ}
+
+The additivity in the exponent follows from the multiplicativity of the factors. This is a property of how multiplication becomes addition under logarithms: if each factor dims by D^{e_i}, the total dimming is D^{Σe_i}. Whether an individual exponent is 1 (a full discrete layer) or 0.019 (a partial gravitational self-energy) doesn't matter — they add in the exponent because they multiply in the signal. A factor is a factor, whether it comes from a lattice position or from a gravitational field. No assumption about "mixing discrete and continuous" is needed.
+
 ### Derivation classification
 
 The framework's derivations fall into three types, and the book is transparent about which type each derivation is.
@@ -3210,6 +3216,8 @@ The framework makes the following specific, falsifiable predictions. Each can be
 **Spectral tilt:** n_s = 53/55 ≈ 0.9636. Current measurement: 0.9649 ± 0.0042 (Planck 2018). Future: CMB-S4 and LiteBIRD will reduce the uncertainty by a factor of 3-5.
 
 **Baryon asymmetry:** η = φ × D̃¹⁶ ≈ 6.05 × 10⁻¹⁰. Current measurement: (6.12 ± 0.04) × 10⁻¹⁰. Future: precision BBN measurements and CMB anisotropy will refine this.
+
+These predictions are a loaded gun handed to experimentalists. Every prediction is specific, numerical, and derived from zero parameters. There are no adjustable knobs to absorb a discrepancy. If the neutrino mass sum comes in at 57 meV with normal ordering, and the proton remains stable past 10³⁵ years, and no magnetic monopole is found, the framework's structural claims become extraordinarily difficult to dismiss as coincidence. If any single prediction is definitively falsified, the framework is dead — and no amount of parameter adjustment can save it, because there are no parameters to adjust.
 
 The companion papers — [Paper I: "Coupling Constants from Ten Axioms"](https://doi.org/10.5281/zenodo.20318574) and [Paper II: "Predictions of the Maya/Chakra Framework"](https://doi.org/10.5281/zenodo.20404472) — are available on Zenodo. The full derivation archive, computation scripts, and session transcripts are maintained in the companion repository.
 
