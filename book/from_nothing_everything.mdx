@@ -3239,25 +3239,26 @@ The framework operates in 3+1 dimensions — the 3 bridge positions from the Fib
 
 Combined with the incommensurability theorem (the irrational density prevents Mott insulator formation), the 3D Fibonacci lattice at its natural filling is a Fermi liquid — interacting particles that behave as free particles at low energies, with renormalized parameters (the effective hopping D_eff ≈ 0.31 instead of the bare D ≈ 0.515).
 
-**The quasiparticle weight Z — computed, not assumed.** The quasiparticle weight Z measures how much a particle in the interacting system resembles a free particle. Z = 1 means perfectly free. Z = 0 means the particle identity has been destroyed (a "non-Fermi liquid" where particles dissolve into collective excitations). Any Z > 0 means the system is a Fermi liquid — particles survive as well-defined entities, even if they are heavily dressed by interactions.
+**The quasiparticle weight Z — what is derived, what is computed, what remains open.** The quasiparticle weight Z measures how much a particle in the interacting system resembles a free particle (Z = 1 means perfectly free, Z = 0 means the particle dissolves into collective excitations, Z > 0 means it survives with modified properties).
 
-Exact computation on the 8-site PXP lattice gives: **Z ≈ 0.16**. This value is small (the particles are heavily dressed — their effective mass is about 6 times their bare mass) but decisively NON-ZERO. Quasiparticles survive. The system is a strongly correlated Fermi liquid, not a non-Fermi liquid.
+In one spatial dimension, the hard-core PXP model forms a Luttinger liquid — a strongly correlated state where Z → 0 in the thermodynamic limit (as the system size grows to infinity). Exact computation on the 8-site lattice gives Z ≈ 0.16, but this is a finite-size effect — on a large enough 1D chain, Z would approach zero. The framework acknowledges this: the 1D PXP model does NOT produce free fermions in the infrared.
 
-A critical point: this Z = 0.16 is for the one-dimensional chain. In three dimensions (which the framework derives from the Fibonacci decomposition), Z is LARGER — interactions are weaker in higher dimensions because the phase space for scattering grows with dimensionality. The 1D value is a conservative lower bound on the 3D quasiparticle weight.
+The framework operates in 3+1 dimensions. The crucial structural fact: all three bridge directions have the **same hopping amplitude D = φ/π**. The coupling between chains in different spatial directions equals the coupling within each chain. The system is **isotropically three-dimensional** from the lattice scale — not a collection of weakly coupled 1D chains.
 
-**The triangular bridge geometry and geometric frustration.** The three bridge positions (3, 5, 7) in the 8-position tower are not arranged in a line — they form a **triangle**. Each bridge connects to the other two through the tower structure, creating a closed cycle: bridge 3 → bridge 5 → bridge 7 → bridge 3. This triangular connection pattern determines the spatial lattice geometry.
+In condensed matter physics, coupling Luttinger liquid chains with transverse hopping t⊥ restores the quasiparticle: below a crossover temperature T* ~ t⊥, the system becomes a 3D Fermi liquid with Z > 0. When the transverse and longitudinal couplings are equal (t⊥ = t∥, the isotropic case), there is no quasi-1D regime — the system is a 3D Fermi liquid at all temperatures below the lattice scale.
 
-A triangular lattice has a special property called **geometric frustration**. Think of three people sitting in a triangle, each wanting to disagree with both neighbors. In a square, this is easy (alternate agree/disagree). In a triangle, it is impossible — at least one pair must agree. This impossibility prevents the system from settling into a simple repeating pattern.
+The framework's isotropy (equal coupling in all 3 directions) is DERIVED: all bridges carry the same Drishti screening D. This is not an assumption — it follows from the fact that all three bridges are structurally equivalent positions in the Fibonacci decomposition.
 
-Geometric frustration suppresses the two most dangerous alternatives to a Fermi liquid: **charge density waves** (where particles arrange in a periodic pattern — impossible on a frustrated lattice because no simple pattern fits) and **phase separation** (where particles clump together — suppressed because the triangular geometry distributes repulsion evenly).
+**What is derived (theorem):**
+The system has 3 spatial dimensions (from Fibonacci decomposition). The coupling is isotropic (all bridges carry the same D). The filling is incommensurate (from the golden ratio's irrationality), eliminating the Mott insulator. The SU(3) generators exist (Schwinger construction on 3 bridges, independently verified).
 
-The combination of three independent mechanisms eliminates every competing phase:
+**What is structurally motivated (well-supported conjecture):**
+The isotropic 3D system is a Fermi liquid with Z > 0. This follows from the general principle that isotropic 3D fermion systems with incommensurate filling are generically Fermi liquids — the same principle that underlies the metallic behavior of most incommensurate metals. The specific Z value for the 3D Fibonacci lattice has not been computed.
 
-Incommensurability (from φ being irrational) → eliminates the Mott insulator.
-Geometric frustration (from the triangular bridge structure) → eliminates charge density waves and phase separation.
-Non-zero quasiparticle weight (Z ≈ 0.16, computed) → confirms quasiparticles survive.
+**What remains open (defined future computation):**
+The explicit 3D Green's function calculation on the Fibonacci lattice. A 3D Monte Carlo simulation or exact diagonalization of a 3D cluster would determine the specific Z value and confirm the Fermi liquid phase. The tools exist (they are the same tools used in every condensed matter simulation). The computation has not been performed.
 
-The self-referential closure operates at three levels. First: the same Fibonacci decomposition (8 = 5 + 3) that creates the strongly correlated bridge structure ALSO provides the spatial dimensionality (3D) where Fermi liquid behavior is generic. Second: the same golden ratio that creates the hard-core constraint ALSO makes the filling irrational, preventing the Mott insulator. Third: the same triangular bridge cycle that generates SU(3) (the gauge group) ALSO provides the geometric frustration that prevents competing ordered phases. All three protections — dimensionality, incommensurability, and frustration — emerge from the same structure.
+The self-referential content: the same Fibonacci decomposition that creates the strongly correlated bridge structure (3 bridges with PXP interactions) ALSO provides the isotropy (equal coupling in all directions) and the dimensionality (3D) that are the structural prerequisites for a Fermi liquid. The same golden ratio that creates the hard-core constraint ALSO makes the filling irrational, preventing the Mott insulator. The problem contains the structural ingredients for its own solution.
 
 ### The SU(3) generators — constructed from bridge self-reference
 
