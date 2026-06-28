@@ -428,3 +428,58 @@ The CC screening is a **structural correspondence** — the exponent is derived,
 
 *Document last updated: Session 53+, June 28, 2026*
 *Status: Working document — not yet integrated into Book4*
+
+---
+
+## 14. The Primordial Pair: Observer and Observed
+
+**Added after hostile review (5 rounds). Claims C2 (conservation law) and mirror metaphor retracted. Surviving content below.**
+
+### The mathematical structure of M₁ and M₂
+
+x² = x + 1 produces exactly two roots:
+- M₁ = φ ≈ 1.618 (positive, greater than 1)
+- M₂ = -1/φ ≈ -0.618 (negative, less than 1 in magnitude)
+
+Three properties from one equation:
+- **Inverse in magnitude:** |M₂| = 1/|M₁| (Vieta: product of roots = -1)
+- **Opposite in sign:** M₂ < 0 while M₁ > 0 (phase difference = π)
+- **Distinct:** |M₁| ≠ |M₂| (discriminant √5 > 0 guarantees distinct roots)
+
+### Orthogonality (theorem)
+
+The transfer matrix T = |1 1; 1 0| is real symmetric (T = Tᵀ). By the spectral theorem, its eigenvectors are orthogonal:
+
+- v₁ = (φ, 1) with eigenvalue φ
+- v₂ = (-1/φ, 1) with eigenvalue -1/φ
+- v₁ · v₂ = φ(-1/φ) + 1(1) = -1 + 1 = 0 ✓
+
+**Status: Theorem** (spectral theorem for real symmetric matrices).
+
+The physical significance: under Jordan-Wigner quantization (a proved theorem mapping the hard-core lattice to fermionic operators), this orthogonality becomes the anti-commutation relation {c, c†} = 1. The classical mode orthogonality is the precursor of the quantum particle/antiparticle distinction.
+
+### Algebraic constraint (not a conservation law)
+
+M₁ × M₂ = -1 is Vieta's formula for x² - x - 1 = 0. It is an **algebraic constraint**, not a dynamical conservation law. It ensures the forward and backward modes maintain a fixed relationship at every step of the cascade.
+
+**Retracted:** The earlier claim that M₁ × M₂ = -1 is "a conservation law" or "the framework's CPT." CPT conservation requires Lorentz invariance (proved by Lüders-Pauli), which the discrete lattice does not have. The constraint is suggestive of CPT but the analogy is not proved.
+
+### Two modes at every position (structural)
+
+Every position on the lattice decomposes into forward (eigenvalue φ) and backward (eigenvalue -1/φ) modes. Under Jordan-Wigner quantization, these become particle and antiparticle creation operators. This structure is universal — it applies at every position, every stage, every scale.
+
+**Conditional on:** The Jordan-Wigner bridge (lattice modes = quantum fields).
+
+### Asymmetry and matter dominance
+
+|M₁| = φ > |M₂| = 1/φ — the forward mode is φ² ≈ 2.618 times stronger than the backward mode. This asymmetry is the structural origin of matter dominance.
+
+The specific baryon asymmetry formula η = φ × D̃¹⁶ ≈ 6.05 × 10⁻¹⁰ (observed: 6.12 × 10⁻¹⁰) is a **phenomenological formula**, not a first-principles derivation from the lattice action.
+
+### Self-reference produces distinct roots (theorem)
+
+x² = x + 1 has discriminant Δ = 1 + 4 = 5 > 0. The roots are necessarily distinct and real. The quadratic formula gives the ONLY possible pair: (φ, -1/φ). No other outcome is consistent with the self-referential equation.
+
+If the roots were identical (double root), the discriminant would be zero and the equation would be x² - x - 1/4 = 0, which is a DIFFERENT equation. x² = x + 1 forces distinct roots — this is a mathematical fact, not a choice.
+
+**Status: Theorem** (quadratic discriminant).
