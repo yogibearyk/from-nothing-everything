@@ -530,3 +530,53 @@ The right triangle visualizes WHY π belongs in the framework:
 This makes the abstract U(1) argument VISIBLE and geometric. It belongs in the Introduction or the π chapter as an explanatory tool, clearly labeled as a visualization — not as a derivation of π.
 
 **Status:** Theorem (the identity φ² + 1/φ² = 3). Pedagogical visualization (the rotation argument). The robustness of D against triangle choice is a genuine structural result.
+
+---
+
+## 16. Pure Maya Notation — φ⁰ as the Computed Unit
+
+**Added after hostile review (4 rounds). All claims survived.**
+
+### φ⁰ is computed, not defined (theorem)
+
+The carry rule requires: φ × (amplitude at position n) = (amplitude at position n+1). At the origin: φ × (amplitude at origin) = φ. Therefore (amplitude at origin) = φ/φ = φ⁰.
+
+φ⁰ is the ratio of φ to itself — self-reference finding no difference. It is the multiplicative identity, forced by the carry rule's consistency, not defined by convention.
+
+### The axiom in pure Maya notation
+
+**φ² = φ + φ⁰**
+
+No decimal. No imported "1." The unit φ⁰ is computed from the axiom's own structure.
+
+### The right triangle identity in pure Maya notation
+
+**φ² + φ⁻² = φ⁰ + φ⁰ + φ⁰**
+
+Proof (using only the axiom and the carry rule):
+- φ² = φ + φ⁰ (axiom)
+- φ⁻¹ = φ - φ⁰ (divide axiom by φ)
+- φ⁻² = (φ - φ⁰)(φ - φ⁰) = φ² - φ - φ + φ⁰ = φ⁰ + φ⁰ - φ
+- Sum: (φ + φ⁰) + (φ⁰ + φ⁰ - φ) = φ⁰ + φ⁰ + φ⁰ ∎
+
+### The complete Maya vocabulary
+
+The framework needs ONLY:
+- **φ** — the self-referential constant (from φ·φ = φ + φ⁰)
+- **φⁿ** — amplitude at lattice position n (n = carry-step count)
+- **φ⁰** — the origin amplitude (= φ/φ, forced by carry-rule consistency)
+- **+** — addition (combining amplitudes)
+- **×** — multiplication (carry composition: φⁿ × φᵐ = φⁿ⁺ᵐ)
+
+All other quantities are derived:
+- φ⁻¹ = φ - φ⁰ (from the axiom)
+- √(φ⁰+φ⁰+φ⁰+φ⁰+φ⁰) = φ + φ⁻¹ (this is √5 in decimal)
+- Position indices are carry-step counts, not imported integers
+- The origin is the lattice's starting vertex, deriving "zero"
+- Negative positions come from the backward mode M₂
+
+### Honest concession
+
+The framework generates its own arithmetic from the carry rule but relies on the same logical prerequisites as all number systems: the concepts of counting (successor function), ordering (which comes before which), and the initial state (before the first step). These are not imported from the decimal system — they are structural features of any sequential process.
+
+**Status:** Theorem (φ⁰ forced by carry-rule consistency). The pure Maya vocabulary is self-contained.
