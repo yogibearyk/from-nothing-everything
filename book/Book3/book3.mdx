@@ -2877,7 +2877,7 @@ We tested four hypotheses for where this correction might come from. The weak mi
 
 What remains is a *precision-level* correction — the same class of item as the second-order gravitational coefficient (Chapter 29's "last number"), not a structural failure. The framework's cosmological formula has the right structure (Fibonacci screening, electroweak split at the frontier, single derivable exponent); it is off by a correction smaller than one part in ten thousand of its internal machinery. The named candidate is the stage-7 coupling correction (Problem 8a in the source of truth), which is independently motivated and of the right order.
 
-So the crack is real, and it is recorded. But it is the significant unresolved tension by a millimeter, not of a wall falling. The framework's CMB predictions are not fundamentally broken — they are an unresolved tension that requires either independent confirmation of the H₀ correction or a structural revision of the CMB derivation.
+So the crack is real, and it is recorded. But it is the significant unresolved tension by a millimeter, not of a wall falling. The framework's CMB predictions face an unresolved tension (the cosmology sector is scored as open in Chapter 27) that requires either independent confirmation of the H₀ correction or a structural revision of the CMB derivation.
 
 ### The self-referential correction
 
@@ -2891,7 +2891,7 @@ Adding Φ to the exponent: **H₀ goes from 68.2 to 67.38 km/s/Mpc.** Planck mea
 
 And it is not just H₀ that falls into place. At the corrected value, the baryon density matches Planck to four decimal places. The dark matter density matches to 0.4%. The acoustic scale — the observable that started this whole crisis — matches to 0.4σ. All 2,500 data points across all three spectra sit within cosmic variance. The fifteen-sigma tension from the previous section is addressed by the post-comparison correction Φ (see Chapter 30 for the full tension history) with a number the framework already had in its pocket from a completely different derivation.
 
-One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 29), once to correct the expansion rate (this chapter). No new physics, no new parameters, no new assumptions. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
+One number. Derived once, in the gravity sector. Used twice — once to set the electroweak scale (Chapter 29), once to correct the expansion rate (this chapter). As noted in the independence count (Step 23), this shared use means Φ counts as one post-comparison parameter, not two independent confirmations. The self-referential structure that defines this framework — the principle that every quantity contains its own reflection — reaches across sectors.
 
 A caveat, recorded as always: the formal derivation of *why* Φ enters the Hubble exponent additively (rather than in some other way) has not been completed. The physical reading — that frontier gravity extends the screening depth — is dimensionally consistent and structurally motivated, but it rests on the same frontier action computation that the gravity sector's second-order coefficient (structural hypothesis: |k| = 9/4). The remaining 2% residual between the predicted and required Φ lives at the same perturbative order as the gravity sector's second-order coefficient — for which a structural hypothesis gives |k| = 9/4 = d × k_TOV (see Chapter 29). The cosmological residual's resolution may follow the same structural pattern.
 
@@ -2954,20 +2954,20 @@ The net outcome: the screening calculus is now checked at the action level under
 
 ### Five derived numbers (plus one external), 2,500 data points
 
-The framework proposes five cosmological parameters (conditional derivations) plus the optical depth τ (external Planck input — see Chapter 30) from its axioms (plus one number borrowed from astrophysics — the optical depth τ, which measures how much the universe's later history reionized the primordial gas). The five derived values, plus one external input, with their sources:
+The framework proposes five cosmological parameters (conditional derivations) from its axioms, plus the optical depth τ — a number borrowed from astrophysics that measures how much the universe's later history reionized the primordial gas (external Planck input, not derived — see Chapter 30). The five derived values, plus one external input, with their sources:
 
 - **How much ordinary matter:** Ω_b = 0.04929, from the tower's baryon-photon counting.
 - **How much dark matter:** Ω_DM = D² ≈ 0.265, the square of the Drishti bound — the framework's observation limit itself becomes the dark matter fraction.
 - **How fast the universe expands:** H₀ = 68.2 km/s/Mpc, from a tower-counting exponent.
 - **How tilted the ripples are:** n_s = 53/55 ≈ 0.9636, a ratio of Fibonacci-adjacent numbers.
 - **How loud the ripples are:** A_s ≈ 2.131 × 10⁻⁹, from the bilateral Drishti bound raised to the eighth power.
-- **How much dark radiation:** ΔN_eff ≈ 0.02, from the dark sector's temperature ratio (post-comparison diagnostic — the thermal history mechanism was invalidated; see Chapter 30).
+- **How much dark radiation (diagnostic, not a primary CAMB input):** ΔN_eff ≈ 0.02, from the dark sector's temperature ratio (post-comparison diagnostic — the thermal history mechanism was invalidated; see Chapter 30).
 
-These five derived numbers, plus the external optical depth τ, were fed into **CAMB** — a standard, publicly available computer program that solves the Boltzmann equations governing how light, matter, and gravity interact in the early universe. CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
+The five derived numbers above (Ω_b, Ω_DM, H₀, n_s, A_s), plus the external optical depth τ, were fed into **CAMB** — a standard, publicly available computer program that solves the Boltzmann equations governing how light, matter, and gravity interact in the early universe. CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
 
 ### What happened
 
-At H₀ = 68.2 (pre-correction), the curve matched at 2,500 angular scales — the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
+At H₀ = 68.2 (pre-correction), the overall shape of the predicted power spectrum closely tracked the Planck satellite's data across temperature (TT) and polarization (EE, TE) modes. However, this initial agreement relied on a dark-radiation contribution (ΔN_eff ≈ 0.13) that was subsequently invalidated by thermal-history analysis (see below). Without this rescue, the acoustic scale θ* fails at +15.4σ — a tension documented in detail later in this chapter. The pre-correction match was therefore illusory: the spectrum's shape was right, but its absolute calibration was wrong.
 
 But this result came with a surprise, and the surprise is the real story of this chapter.
 
@@ -3123,7 +3123,7 @@ In the framework, neither scale is an input. Both are derived from the axioms: t
 
 **Does the universe need inflation?** Standard cosmology requires a brief period of exponential expansion (inflation) in the first fraction of a second to explain why the universe is so uniform, so flat, and has the specific pattern of tiny ripples in the cosmic microwave background. In the framework, all three are explained potentially without standard inflation (conditional on the framework's CMB derivation, which has unresolved tensions — see Chapter 30). The uniformity comes from Ω — the universe began as undivided wholeness, so everything was in contact. The flatness comes from the lattice — the underlying structure is flat by construction; curvature is emergent. The primordial ripple pattern comes from the tower's screening structure. The spectral tilt n_s = 1 − 2/F(10) = 53/55 ≈ 0.9636 matches the measured value (0.9649 ± 0.0044) within 0.3 standard deviations.
 
-**Can the framework reproduce the full cosmic microwave background?** The CMB power spectrum has roughly 2,500 measured data points — every peak, every trough, the damping tail, the polarization pattern. The framework proposes five cosmological parameters (conditional derivations) plus the optical depth τ (external Planck input — see Chapter 30) (the expansion rate H₀, the baryon density, the dark matter density D² ≈ 0.265, the spectral tilt, the scalar amplitude, and the optical depth). These six numbers, input to the standard Boltzmann equations (publicly available software that computes how sound waves traveled through the early universe), approximate the full 2,500-point spectrum — conditional on the post-comparison H₀ correction and the unresolved acoustic-scale tension documented in Chapter 30. This is how all cosmological theories work: propose the parameters, let standard Boltzmann codes compute the spectrum. The framework's contribution is proposing the parameters from structural correspondences rather than fitting them to data.
+**Can the framework reproduce the full cosmic microwave background?** The CMB power spectrum has roughly 2,500 measured data points — every peak, every trough, the damping tail, the polarization pattern. The framework proposes five cosmological parameters (conditional derivations) — the expansion rate H₀, the baryon density, the dark matter density D² ≈ 0.265, the spectral tilt, and the scalar amplitude — plus the optical depth τ (external Planck input). These six numbers, input to the standard Boltzmann equations (publicly available software that computes how sound waves traveled through the early universe), approximate the full 2,500-point spectrum — conditional on the post-comparison H₀ correction and the unresolved acoustic-scale tension documented in Chapter 30. This is how all cosmological theories work: propose the parameters, let standard Boltzmann codes compute the spectrum. The framework's contribution is proposing the parameters from structural correspondences rather than fitting them to data.
 
 **What happens to information that falls into a black hole?** When matter crosses a black hole's boundary (the event horizon), is the information about what fell in lost forever? The framework resolves this through three structural mechanisms. First, the lattice has a minimum length (a ≈ 10⁻³³ meters), so matter falling inward reaches this minimum and stops — there is no singularity where information could be crushed out of existence. Second, the hard-core constraint creates quantum correlations between lattice sites across the horizon, connecting the interior to the exterior through the Hilbert space structure. Third, the black hole entropy S = A/(4G) is finite (derived via Wald's formula), meaning the information is stored in a finite, countable set of configurations. The information is not destroyed — it is encoded in the lattice at the minimum length and gradually released through quantum correlations in the radiation.
 
@@ -4429,7 +4429,7 @@ The key: every force in the Standard Model has the same "dial" controlling its s
 
 #### The Mathematics
 
-**Structural correspondence (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Chapter 25 proofs, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived from the SLC theorem (Chapter 13) and lattice consistency (see "Fermion Dispersion and Lattice Anisotropy" below). One dimensionful input remains undetermined: the spatial lattice spacing a (setting the UV cutoff / Planck scale). The temporal spacing is fixed: Δt = a/8.
+**Structural correspondence (lattice gauge theory from axioms).** The Maya hard-core lattice gas on the spatial lattice produces a gauge theory with gauge group SU(3) × SU(2) × U(1) (Chapter 25 proofs, Results 8–11). All dimensionless parameters of this gauge theory are determined by the single dimensionless constant D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived from the SLC theorem (Chapter 13) and lattice consistency (see "Fermion Dispersion and Lattice Anisotropy" below). One dimensionful input — the spatial lattice spacing a — sets the UV cutoff and Planck scale. The temporal spacing is fixed: Δt = a/8. (This input is determined below by Theorem G.2: a = F(11) ℓ_P = 89 Planck lengths.)
 
 **Conjecture (bare gauge coupling).** The bare gauge coupling at the lattice scale is:
 
@@ -4460,7 +4460,7 @@ This matches the SU(2)–SU(3) running coupling crossing at 1/α ≈ 47.0 (1-loo
 
 > S = (6/D²) Σ_p [1 − (⅓)Re Tr U_p] + (4/D²) Σ_p [1 − (½)Re Tr V_p] + β_{U(1)} Σ_p [1 − cos θ_p] + Σ_{x,μ} ψ̄(x) γ_μ [U_{x,μ} ψ(x+ê_μ) − h.c.]/2 + m Σ_x ψ̄(x)ψ(x)
 
-Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived (see below), so one dimensionful input — the lattice spacing a — remains:
+Where U ∈ SU(3), V ∈ SU(2), and θ is the U(1) phase. The mass gap is m = (√(1+4D²)−1)/2 ≈ 0.218, from the algebraic equation m² + m = D² (Result 4). Conditional on g² = D², every dimensionless parameter is determined by D = φ/⊚. The lattice anisotropy ξ = a/Δt = 8 is derived (see below), so one dimensionful input — the lattice spacing a — remains at this stage of the derivation (determined below by Theorem G.2):
 
 | Parameter | Formula | Value |
 |-----------|---------|-------|
@@ -4534,7 +4534,7 @@ Validation: c_lat × ξ − c_reg = 0.0 (exact match to 60 digits).
 
 The temporal coupling is ξ² = 64 times the spatial coupling — reflecting the very different roles of time and space in the tower structure.
 
-**Result 15 (dimensionful parameter reduction).** Previously, the lattice formulation required two dimensionful inputs: the spatial lattice spacing a and the temporal lattice spacing Δt. With ξ = a/Δt = 8 derived from axioms, the temporal spacing is determined: Δt = a/8. **One dimensionful input remains: the spatial lattice spacing a.** This single scale sets the Planck length, the Planck mass, and Newton's gravitational constant (connecting to the gravitational scale derivation below).
+**Result 15 (dimensionful parameter reduction).** Previously, the lattice formulation required two dimensionful inputs: the spatial lattice spacing a and the temporal lattice spacing Δt. With ξ = a/Δt = 8 derived from axioms, the temporal spacing is determined: Δt = a/8. **One dimensionful input remains at this stage: the spatial lattice spacing a** (determined by Theorem G.2 below: a = F(11) ℓ_P = 89 Planck lengths). This single scale sets the Planck length, the Planck mass, and Newton's gravitational constant (connecting to the gravitational scale derivation below).
 
 | Count | Free dimensionless parameters | Dimensionful inputs |
 |-------|-------------------------------|---------------------|
