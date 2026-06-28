@@ -580,3 +580,41 @@ All other quantities are derived:
 The framework generates its own arithmetic from the carry rule but relies on the same logical prerequisites as all number systems: the concepts of counting (successor function), ordering (which comes before which), and the initial state (before the first step). These are not imported from the decimal system — they are structural features of any sequential process.
 
 **Status:** Theorem (φ⁰ forced by carry-rule consistency). The pure Maya vocabulary is self-contained.
+
+---
+
+## 17. The Golden Proportion and the Two Levels of Screening
+
+**Added after hostile review (4 rounds). "Golden proportion breaks" retracted. All other claims survived.**
+
+### φ⁰ as the algebraic whole (theorem)
+
+The axiom φ² = φ + φ⁰, divided by φ², gives:
+
+**φ⁰ = φ⁻¹ + φ⁻²**
+
+This is the golden proportion: **WHOLE = OBSERVED + UNOBSERVED**, where observed/unobserved = φ.
+
+The "observed" label (φ⁻¹) comes from eigenvalue dominance: the forward mode (eigenvalue φ) persists; the backward mode (eigenvalue -1/φ) decays. What persists is what the observer sees. This is derived from the axiom, not an arbitrary labeling.
+
+### Two levels of screening
+
+| Level | Whole | Observed | Unobserved | Fraction seen |
+|---|---|---|---|---|
+| **Algebraic** (φ alone) | φ⁰ | φ⁻¹ | φ⁻² | φ⁻¹ ≈ 0.618 |
+| **Quantum** (φ + Hilbert space) | π | φ | π − φ | D = φ/π ≈ 0.515 |
+
+At the algebraic level, self-reference divides the whole in the golden ratio. At the quantum level, quantization adds phase structure (the Bloch sphere), expanding the "whole" from φ⁰ to π. The observation still captures one carry step (φ), but the whole is larger, so the fraction drops.
+
+### The distinction: self-division vs cross-measurement
+
+- **Golden proportion** (φ⁻¹): how the algebraic content divides itself. Self-referential. whole/observed = observed/unobserved = φ.
+- **Drishti ratio** (D = φ/π): how the algebraic content relates to the quantum whole. Cross-domain. whole/observed ≠ observed/unobserved (the golden proportion does not hold across domains).
+
+These are complementary, not contradictory. The golden proportion governs HOW the algebraic content splits. The Drishti ratio governs HOW MUCH of the total content the algebraic part captures.
+
+### Retracted: "the golden proportion breaks"
+
+The golden proportion continues to hold within the algebraic content (φ⁰ = φ⁻¹ + φ⁻² is always true). What changes at the quantum level is that a NEW ratio (D = φ/π) enters to measure the algebraic content against the quantum whole. The golden proportion does not break — a new ratio enters alongside it.
+
+**Status:** Theorem (φ⁰ = φ⁻¹ + φ⁻²). The two-level picture and the self-division/cross-measurement distinction survived hostile review.
