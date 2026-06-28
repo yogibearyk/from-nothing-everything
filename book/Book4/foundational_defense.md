@@ -483,3 +483,50 @@ x² = x + 1 has discriminant Δ = 1 + 4 = 5 > 0. The roots are necessarily disti
 If the roots were identical (double root), the discriminant would be zero and the equation would be x² - x - 1/4 = 0, which is a DIFFERENT equation. x² = x + 1 forces distinct roots — this is a mathematical fact, not a choice.
 
 **Status: Theorem** (quadratic discriminant).
+
+---
+
+## 15. The Right Triangle of the Primordial Pair
+
+**Added after hostile review (5 rounds). "π derived from the triangle" retracted. Surviving content below.**
+
+### The identity (theorem)
+
+**φ² + 1/φ² = 3**
+
+Proof: φ² = φ + 1 (from x² = x + 1). 1/φ² = 2 - φ (from 1/φ = φ - 1). Sum = (φ + 1) + (2 - φ) = 3. ∎
+
+### The right triangle (structural observation)
+
+Since M₁ and M₂ have orthogonal eigenvectors (spectral theorem, Section 14), their magnitudes form the legs of a right triangle:
+
+- Leg 1: |M₁| = φ ≈ 1.618
+- Leg 2: |M₂| = 1/φ ≈ 0.618
+- Hypotenuse: √(φ² + 1/φ²) = √3 ≈ 1.732
+
+The eigenvector triangle (using vector norms) gives a different hypotenuse: √(|v₁|² + |v₂|²) = √((φ+2) + (3-φ)) = √5. Both triangles are legitimate — they represent different aspects of the same pair (dynamics vs geometry).
+
+### Robustness of D (important structural result)
+
+D = φ/π is INDEPENDENT of which triangle is used. The ruler (√3 or √5) appears in both the circumference and the diameter, so it cancels:
+
+- Eigenvalue triangle (√3): circumference/diameter = π√3/√3 = π → D = φ/π
+- Eigenvector triangle (√5): circumference/diameter = π√5/√5 = π → D = φ/π
+
+D depends only on φ (one leg) and π (the circumference/diameter ratio). The triangle provides intuition; D is robust against the choice.
+
+### What the triangle does NOT do (retracted)
+
+The triangle does NOT derive π. The ratio circumference/diameter = π is the DEFINITION of π, true for any diameter. The specific value √3 doesn't determine π — it provides a natural ruler. π's logical status remains: axioms → ℂ → U(1) → π (Section 5).
+
+### Pedagogical value (recommended for Book4)
+
+The right triangle visualizes WHY π belongs in the framework:
+- x² = x + 1 creates a pair (φ, -1/φ)
+- The pair's orthogonality creates a right triangle
+- The triangle's rotation involves π
+- D = φ/π = one leg / one rotation
+
+This makes the abstract U(1) argument VISIBLE and geometric. It belongs in the Introduction or the π chapter as an explanatory tool, clearly labeled as a visualization — not as a derivation of π.
+
+**Status:** Theorem (the identity φ² + 1/φ² = 3). Pedagogical visualization (the rotation argument). The robustness of D against triangle choice is a genuine structural result.
