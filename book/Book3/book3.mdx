@@ -2105,7 +2105,7 @@ There is a calculation in standard physics that is often called "the worst predi
 
 But more fundamentally: the framework doesn't derive the cosmological constant by summing vacuum fluctuations at all. It derives the expansion rate H₀ directly from the tower's screening structure (Chapter 30, matching the Planck satellite to 0.03σ — post-comparison correction OP8b.5; pre-correction H₀ = 68.2) and the dark energy fraction from the tower's stage decomposition (this chapter) (post-comparison correction OP8b.5; pre-correction value: 68.2 km/s/Mpc). The cosmological constant Λ follows from these: Λ = 3H₀²Ω_Λ. The value is derived from the axioms through the screening, not through a vacuum energy sum.
 
-No other theory proposes a specific value of the cosmological constant from structural principles alone — though the framework's derivation is conditional on the H₀ pipeline (including post-comparison correction OP8b.5), and the naturalness question remains open (see Chapter 31). The Standard Model treats it as a free parameter. String theory offers 10⁵⁰⁰ possible values (the "landscape") with no way to select among them. The framework offers one value, from zero adjustable parameters, matching observation. The "worst prediction in physics" is a problem of the continuous approximation — an artifact of the continuous approximation that does not arise in the lattice formulation — though the naturalness question (why the derived value is so small) remains open.
+No other theory proposes a specific value of the cosmological constant from structural principles alone — though the framework's derivation is conditional on the H₀ pipeline (including post-comparison correction OP8b.5), and the naturalness question remains open (see Chapter 31). The Standard Model treats it as a free parameter. String theory offers 10⁵⁰⁰ possible values (the "landscape") with no way to select among them. The framework offers one value, from zero adjustable parameters, matching observation. The "worst prediction in physics" is an artifact of the continuous approximation that does not arise in the lattice formulation — though the naturalness question (why the derived value is so small) remains open.
 
 ## Chapter 25 — The Graph-to-Field Bridge
 
@@ -2869,7 +2869,7 @@ We asked a simple question: if we pretend the framework's H₀ could be adjusted
 
 *Claim status: post-comparison correction.* The gravitational self-potential Φ was identified as a candidate correction AFTER the 1.2% discrepancy with Planck data was observed. While Φ has a structural motivation (gravity's self-coupling is a real physical effect), its inclusion was prompted by the data mismatch, not predicted beforehand. The pre-correction value (H₀ = 68.2) should be considered the framework's genuine prediction; the corrected value (H₀ = 67.38) is a post-comparison refinement. Both values are reported for transparency.
 
-And here is what made us sit up: at that value, *everything else falls into place.* The baryon density matches Planck's measurement exactly — to three decimal places. The dark matter density matches to 0.3%. The full power spectrum — all 2,500 multipole (a way of measuring ripple strength at each angular scale on the sky)s, temperature and polarization — sits comfortably within cosmic variance (the irreducible statistical noise from having only one universe to observe), even with only the small (honest) amount of dark radiation. The problem is not spread across the framework's six parameters. It lives entirely in one: **the Hubble constant.**
+And here is what made us sit up: at that value, *everything else falls into place.* The baryon density matches Planck's measurement exactly — to three decimal places. The dark matter density matches to 0.3%. The full power spectrum — all 2,500 multipoles (each measuring ripple strength at a different angular scale on the sky), temperature and polarization — sits comfortably within cosmic variance (the irreducible statistical noise from having only one universe to observe), even with only the small (honest) amount of dark radiation. The problem is not spread across the framework's five derived parameters (plus τ external). It lives entirely in one: **the Hubble constant.**
 
 Now, the framework derives H₀ through a formula (Problem 8b) involving cumulative Drishti screening across the tower's eleven Fibonacci stages, with an electroweak correction at the frontier. That formula produces 68.2. The data want 67.4. The discrepancy corresponds to a correction of ΔN = +0.020 in an exponent of 211 — twenty thousandths of a tower position, a shift of less than one hundredth of one percent in the formula's internal machinery.
 
@@ -2934,7 +2934,7 @@ The signal in question is the **cosmic microwave background** — the ancient li
 
 But the Planck satellite did not measure three numbers. It measured the ripples at **2,500 different angular scales** — from patterns as wide as the whole sky down to patterns half a degree across. Each scale is labeled by a number called ℓ (the multipole moment), running from ℓ = 2 to ℓ = 2500. At each ℓ, the satellite measured how strong the ripples are, and the result is a curve — the **power spectrum** — that looks like a series of peaks and valleys, like the overtones of a bell.
 
-The framework predicts not just the three headline numbers but all six parameters that determine the shape of that curve. If it gets any of them wrong, the predicted curve and the measured curve will disagree — not at one point, but across hundreds.
+The framework predicts not just the three headline numbers but five derived parameters (plus the external optical depth τ) that determine the shape of that curve. If it gets any of them wrong, the predicted curve and the measured curve will disagree — not at one point, but across hundreds.
 
 ### The screening calculus, verified at the deepest level
 
@@ -2950,7 +2950,7 @@ The second gear: **what the screening acts on**. A mass ratio — like the Higgs
 
 The third gear: **virtual reversals**. A directed traversal (climbing the ladder) cannot literally backtrack — the cascade is monotone — but quantum mechanics allows *virtual* excursions in the forbidden direction, suppressed by the lattice's mass gap. These are rare (the amplitude ratio for a reversal is about 0.18) but not zero, and they contribute a tiny variance to the visit statistics. That variance is in the right direction to explain the second-order gravitational coefficient the framework still owes (Chapter 29's "last number"), and its magnitude sits within the right window — but we could not pin it precisely with the tools at hand. It was filed as a pre-registered frontier action input, not a result.
 
-The net outcome: the screening calculus is now verified at the action level — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
+The net outcome: the screening calculus is now checked at the action level under stated assumptions — base derived, response law exact for the correct reading, alternatives excluded by data. This was essential preparation: the CMB test would lean on the same calculus through every one of its 2,500 data points.
 
 ### Five derived numbers (plus one external), 2,500 data points
 
@@ -2963,11 +2963,11 @@ The framework proposes five cosmological parameters (conditional derivations) pl
 - **How loud the ripples are:** A_s ≈ 2.131 × 10⁻⁹, from the bilateral Drishti bound raised to the eighth power.
 - **How much dark radiation:** ΔN_eff ≈ 0.02, from the dark sector's temperature ratio (post-comparison diagnostic — the thermal history mechanism was invalidated; see Chapter 30).
 
-These six numbers were fed into **CAMB** — a standard, publicly available computer program that solves the equations governing how light, matter, and gravity interact in the early universe (the Boltzmann equations (the standard equations governing how light, matter, and gravity interact in the early universe)). CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
+These five derived numbers, plus the external optical depth τ, were fed into **CAMB** — a standard, publicly available computer program that solves the Boltzmann equations governing how light, matter, and gravity interact in the early universe. CAMB is not ours; it is the same tool used by the Planck collaboration and by hundreds of cosmology groups worldwide. We gave it our numbers; it gave us a curve.
 
 ### What happened
 
-The curve matched. At 2,500 angular scales, the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
+At H₀ = 68.2 (pre-correction), the curve matched at 2,500 angular scales — the framework's predicted power spectrum was statistically indistinguishable from the Planck satellite's best-fit spectrum — not just for the temperature ripples (TT), but also for the polarization patterns (EE and TE), which are independent measurements that test different physics. The agreement held at the level of **cosmic variance** — the irreducible statistical noise from the fact that we have only one universe to observe.
 
 But this result came with a surprise, and the surprise is the real story of this chapter.
 
@@ -2987,7 +2987,7 @@ The dark radiation fix requires a specific **temperature ratio** between the dar
 
 The question was: does the ratio survive?
 
-We computed it carefully . The ordinary sector's entropy release is a factor of about 27 (well known from standard cosmology). For the dark sector to preserve the ratio, it would need to release entropy in *exactly the same factor* — 27. But the dark sector has a completely different particle spectrum (different masses, different numbers of species), and a realistic count gives a factor closer to 3–6. The ratio doesn't survive. The honest prediction, after accounting for thermal history, is ΔN_eff ≈ 0.004–0.02 — about ten times too small to rescue the acoustic scale.
+We computed it carefully. The ordinary sector's entropy release is a factor of about 27 (well known from standard cosmology). For the dark sector to preserve the ratio, it would need to release entropy in *exactly the same factor* — 27. But the dark sector has a completely different particle spectrum (different masses, different numbers of species), and a realistic count gives a factor closer to 3–6. The ratio doesn't survive. The honest prediction, after accounting for thermal history, is ΔN_eff ≈ 0.004–0.02 — about ten times too small to rescue the acoustic scale.
 
 The fifteen-sigma tension is reopened.
 
@@ -3013,7 +3013,7 @@ For readers who want the technical spine (full derivations in the companion repo
 - **CMB parameters:** ω_b = Ω_b h² = 0.02293, ω_c = Ω_DM h² = 0.12338, H₀ = 68.2, n_s = 53/55, A_s = D̃⁸/(3·55²), τ = 0.0544 (external — the optical depth is not derived by the framework; it is taken from Planck data as an input to the CMB computation).
 - **θ* tension:** without dark radiation, θ* = 1.04570 vs measured 1.04109 ± 0.00030 (+15.4σ); with ΔN_eff = 0.131, θ* = 1.04112 (+0.1σ) — but reheating-invariance fails generically, giving honest ΔN_eff ≲ 0.02.
 - **The self-referential correction:** H₀/M_P = D^(N + Φ), where Φ = f*/F(11) is the gravity sector's Tolman self-potential (identity I2). Predicted H₀ = 67.38 km/s/Mpc (0.03σ from Planck) (post-comparison correction OP8b.5; pre-correction value: 68.2 km/s/Mpc). At corrected h = 0.6738: θ* = 1.04096 (−0.4σ), ω_b = 0.02238 (0.04%), full TT/EE/TE within cosmic variance.
-- **The diagnosis :** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Post-comparison diagnostic: ΔN = +0.020 ± 0.003.
+- **The diagnosis:** the entire CMB tension is a single-parameter problem — H₀ is 1.2% high (ΔN = +0.020 in exponent N = 211.42). At corrected h = 0.674 with honest ΔN_eff = 0.02: θ* = 1.04111 (+0.1σ), ω_b = 0.02240 (0.1% from Planck), full TT/EE/TE spectra within cosmic variance (χ² = 327/343/38 over ~2499 dof). Post-comparison diagnostic: ΔN = +0.020 ± 0.003.
 
 ## Chapter 31 — The Open Frontier
 
@@ -4616,7 +4616,7 @@ The VEV tower provides a structural clue. The tower's energy scale grows double-
 
 The key insight is what we call *Gravitational Democracy*. In the gauge sector (electromagnetism, the strong and weak forces), the Drishti bound screens interactions: each deeper position in the tower contributes less and less, suppressed by the factor D ≈ 0.515 per position. Gravity is fundamentally different.
 
-The equivalence principle — the observation that gravity couples to all forms of energy equally — is not an additional assumption. It is DERIVED from the universality of the lattice. All matter, all forces, all fields live on the same Fibonacci lattice. All of them curve the same lattice geometry. Therefore all of them couple to the lattice geometry (which IS gravity, via Lovelock) with equal weight. The equivalence principle is a CONSEQUENCE of having a single universal substrate. If all matter shares the same lattice, all matter bends the same geometry, and all matter responds to the same curvature. There is nothing else it could do.
+The equivalence principle — the observation that gravity couples to all forms of energy equally — is not an additional assumption. It is a structural consequence of the universality of the lattice (conditional on the Lovelock bridge to continuous gravity — see the umbrella caveat in the Introduction). All matter, all forces, all fields live on the same Fibonacci lattice. All of them curve the same lattice geometry. Therefore all of them couple to the lattice geometry (which IS gravity, via Lovelock) with equal weight. The equivalence principle is a CONSEQUENCE of having a single universal substrate. If all matter shares the same lattice, all matter bends the same geometry, and all matter responds to the same curvature. There is nothing else it could do.
 
 This means every tower position contributes to gravity with equal weight. No screening. No suppression. Every position counts the same.
 
