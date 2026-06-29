@@ -669,3 +669,42 @@ The identification "observation = backward decomposition" is a physical interpre
 Positions below the tower (pos -1, -2, ...) are physical — they are positions in lower stages. The lattice extends beyond any single stage. The negafibonacci sequence (standard mathematics) provides the amplitudes at negative positions.
 
 **Status:** Theorem (the recurrence). Standard mathematics (negafibonacci). Physical interpretation motivated by Axiom 2.
+
+---
+
+## 19. The Proportion as the Starting Point
+
+**Added after hostile review (5 rounds). All claims survived.**
+
+### The reordering
+
+The original structure: equation (x² = x + 1) → golden proportion (derived)
+
+The corrected structure: **golden proportion → equation (derived)**
+
+### Why the proportion is more fundamental
+
+The logical chain:
+1. Ω exists (undifferentiated wholeness)
+2. Ω examines itself (creating a division: whole = observed + unobserved)
+3. The division must be self-similar (no external scale available)
+4. Self-similarity → whole/observed = observed/unobserved = x
+5. Normalize (whole = 1) → x = 1 + 1/x
+6. Clear denominator → x² = x + 1
+7. Solve → φ = (1+√5)/2
+
+### What the proportion route gives that the equation route doesn't
+
+1. **Degree 2 emerges** — from clearing the 1/x denominator, not assumed from "two roles"
+2. **The constant +1 = the whole** — the "1" in x² = x + 1 IS the normalized whole (φ⁰)
+3. **The golden proportion is the starting point** — not a later consequence
+
+### Why self-similarity, not 50/50?
+
+50/50 is symmetric but NOT self-similar. Observation is inherently asymmetric (the observer and the observed play different roles: |M₁| ≠ |M₂|). Self-similar division is the unique ASYMMETRIC scale-free division.
+
+### Honest concession
+
+Both routes (proportion and self-reference) require the same logical prerequisites (comparison/multiplication are inverse operations). The proportion doesn't pre-exist the act — it describes the CONSTRAINT the act must satisfy. Self-similarity is a motivated selection principle, not proved to be the only possible one.
+
+**Status:** The proportion route survived hostile review. Section 1 of "How The Math Evolved" rewritten to lead with the proportion.

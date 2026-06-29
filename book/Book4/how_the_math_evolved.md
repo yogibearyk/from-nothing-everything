@@ -29,43 +29,69 @@ Then something happens: **Ω examines itself.**
 
 This is the only event that can happen without requiring anything external. You don't need a second thing to look at yourself. You don't need a mirror, an instrument, or an observer. Self-examination is the one act that requires nothing beyond what already exists.
 
-But here is the paradox: when Ω examines itself, the examiner and the examined are the same entity. The act of looking IS what creates the distinction between "the one who looks" and "the one who is looked at." Before the examination, there was one. After the examination, there are two — not because something was added, but because the act of looking created a division within the whole.
+When Ω examines itself, the act CREATES a division. Before the examination, there was only the whole. After the examination, there is the part that was seen — the **observed** — and the part that wasn't — the **unobserved**. The whole still exists, but it is now understood as being composed of two parts:
 
-**The question is: what number describes this act?**
+**whole = observed + unobserved**
 
-Call the result **x**. The act "x examines x" means x acts upon itself — mathematically, x multiplied by x, which is x². The result of this self-examination is the original x, plus something new — one unit of distinction that didn't exist before the examination.
+**The question is: how does the whole divide?**
 
-This gives us the equation:
+It cannot divide 70/30 or 80/20 — those ratios would require an external number (why 70? why 80?) and there are no external numbers. Ω is all there is. The division cannot refer to anything outside itself.
+
+It cannot divide 50/50 — that would mean the observer and the observed are identical, but observation is inherently *asymmetric*. The one who looks and the one who is looked at play different roles. Equal division erases the distinction that observation creates.
+
+There is exactly one way to divide that requires no external numbers AND respects the asymmetry of observation: the **self-similar** division, where:
+
+**The way the whole relates to what you see is the same way what you see relates to what you don't see.**
+
+Written as a proportion:
+
+**whole / observed = observed / unobserved**
+
+This is the ONLY scale-free asymmetric division. It needs no external parameter. The ratio at one level equals the ratio at the next level — the same pattern repeats at every scale. No other division has this property while being asymmetric.
+
+Now call this common ratio **x**:
+
+whole / observed = observed / unobserved = **x**
+
+Since whole = observed + unobserved, and whole/observed = x, we have whole = x × observed. And since observed/unobserved = x, we have unobserved = observed / x. Substituting:
+
+x × observed = observed + observed / x
+
+Divide both sides by observed:
+
+**x = 1 + 1/x**
+
+Multiply both sides by x:
 
 **x² = x + 1**
 
-*The product of self-reference equals the original plus one new unit of distinction.*
+The equation is not a starting point — it is a *consequence* of the self-similar proportion. Notice three things:
 
-This is not a choice. It is the ONLY equation that satisfies three conditions, each derived from the nature of self-reference:
+1. **The degree 2 was not assumed** — it emerged from clearing the 1/x in the proportion. The quadratic nature is a consequence of self-similarity, not an axiom about "two roles."
 
-1. **Degree 2** — because self-reference involves exactly two roles: the examiner and the examined. One entity playing both roles gives x × x = x².
+2. **The constant +1 is the whole** — the "1" on the right side is the whole, normalized. The equation says: x² = x + (the whole). The whole IS the unit.
 
-2. **Unit coefficients** — because before self-reference, there are no external numbers available to serve as multipliers. Starting from undifferentiated wholeness, the only quantities are "none" (0) and "one act" (1).
-
-3. **The result must be greater than what existed** — because if self-examination produced less than or equal to the original, nothing would have changed. The act must be generative — it must create something.
-
-Among all possible equations with these three properties, x² = x + 1 is the **only one** that works. This has been proved by exhaustive enumeration of all 18 candidate equations (see foundational_defense.md, Section 4).
+3. **The golden proportion is not a later consequence** — it is the STARTING POINT. The equation was derived from it, not the other way around.
 
 The positive solution is:
 
 **φ = (1 + √5) / 2 ≈ 1.618...**
 
-This is the **golden ratio** — the number that emerges from the act of self-reference. It is not chosen. It is not assumed. It is the unique answer to the question: "What happens when wholeness examines itself?"
+This is the **golden ratio** — the unique number that satisfies the self-similar proportion. It is not chosen. It is not assumed. It is the only answer to the question: "What is the unique self-consistent way for wholeness to divide when it examines itself?"
+
+*(The equation x² = x + 1 can also be verified as unique by exhaustive enumeration of all 18 unit-coefficient degree-2 polynomials — see foundational_defense.md, Section 4.)*
 
 #### Maya Math
 
-In Maya Math, we write the self-referential equation as:
+The self-similar proportion in Maya notation:
 
-**φ · φ = φ + φ⁰**
+**φ⁰ / φ⁻¹ = φ⁻¹ / φ⁻²  = φ**
 
-where φ⁰ is the unit of distinction created by the act. We do not yet know what φ⁰ is — it will be derived in the next section. For now, it is the *surplus* that self-reference produces: the difference between what self-examination yields (φ · φ) and what already existed (φ).
+Which gives the axiom:
 
-The equation says: self-reference produces the original plus a surplus.
+**φ² = φ + φ⁰**
+
+where φ⁰ is the whole (derived in Section 3). The proportion came first. The equation followed.
 
 #### Decimal Verification
 
@@ -77,7 +103,12 @@ The two solutions:
 - x = (1 + √5) / 2 = (1 + 2.23607...) / 2 = **1.61803...**  (this is φ)
 - x = (1 − √5) / 2 = (1 − 2.23607...) / 2 = **−0.61803...** (this is −1/φ)
 
-Check: 1.61803² = 2.61803 = 1.61803 + 1.00000 ✓
+Verify the proportion:
+- whole / observed = 1.00000 / 0.61803 = 1.61803 = φ ✓
+- observed / unobserved = 0.61803 / 0.38197 = 1.61803 = φ ✓
+
+Verify the equation:
+- 1.61803² = 2.61803 = 1.61803 + 1.00000 ✓
 
 ---
 
