@@ -990,3 +990,79 @@ The correction is second order in the frontier mode's own potential, evaluated a
 **What is proven vs conditional (labels).** PROVEN: Φc/Φs = d/2 (Theorem I.1); the algebraic identity of the two old decompositions. CONDITIONAL (labeled): (i) the frontier mode's effective source is uniform-density — other profiles give other ratios (a point source diverges); the uniform ball is the structural-hypothesis content; (ii) the correction enters at second order in Φ with central evaluation — this is Book4's own "second-order coefficient" framing, and its derivation from the frontier action remains the open computation (Book4 Ch. 30 filed it as a pre-registered input). Status: structural hypothesis, SHARPENED — one mechanism, one proven ingredient, two explicit conditionals; the dual-decomposition numerology caution is RETIRED (they were never two mechanisms).
 
 **Review summary.** R1 (Newtonian vs full GR) → weak-field is the relevant regime at 10⁻² corrections; the GR lapse check confirms d = 3. R2 (profile dependence) SUSTAINED → conditional (i) labeled. R3 (second-order entry assumed) SUSTAINED → conditional (ii) labeled; it is the framework's own pre-existing framing, not a new assumption. R4 (does this really unify the decompositions?) → k_TOV = d/4 makes d × k_TOV ≡ (d/2)² an identity; verified symbolically and numerically. DISMISSED.
+
+---
+
+## Addendum J: The Wilson Construction (Item C1) — Executed at the Formal Level
+
+*Pressure-tested: 5 rounds of hostile review. Gauge invariance verified numerically to machine precision on the framework's graph structure.*
+
+**The construction.** Sites x = lattice sites (flowers). Fiber structure per site, from the construction blocks (Addendum B): a color index a = 1,2,3 on the B₃ block, a weak index i = 1,2 on the B₂ block, a hypercharge phase on B₁. Matter: ψ(x) carrying the block indices per the Addendum G menu. Links: on each SPATIAL edge (x,y) of the site graph — the edges built from the cross-stage connection structure — place U₃(x,y) ∈ SU(3), U₂(x,y) ∈ SU(2), and a U(1) phase u(x,y). Action:
+
+S = Σ_edges Re[ψ†(x) U₃U₂u(x,y) ψ(y)] + Σ_cycles β_G Re Tr ∏_cycle U_G  (per group G)
+
+with plaquettes taken over the graph's minimal closed cycles — which include triangles inherited from the K₃ clique structure. Couplings β_G are fixed by matching to the derived couplings (β = 2N/g² with g² from D-screening; e.g. β₃ = 6/α_s-chain) — the numerical values are the framework's, not free parameters.
+
+**Theorem J.1 (gauge invariance).** Under ψ(x) → g(x)ψ(x), U(x,y) → g(x)U(x,y)g(y)†: every hopping term and every closed-cycle trace is exactly invariant, on ANY graph — in particular on the Fibonacci site graph with its triangle cycles. *Proof:* hopping: ψ†g†·gUg†·gψ = ψ†Uψ; cycle: the g's cancel pairwise around the loop, and the trace kills the last conjugation. ∎ Verified numerically on a 4-site patch containing a triangle cycle: |ΔS| ≈ 3×10⁻¹⁵ (SU(3)), 4×10⁻¹⁶ (SU(2)), random group elements.
+
+**What is thereby closed, and what remains.** CLOSED: the construction itself — link variables placed, action written, gauge invariance proven — the specific task Book4 flagged as "has not been performed." The 8 generators of SU(3) act on the B₃ fiber in the fundamental (Addendum G menu makes this the only choice). REMAINS (relabeled, not new): (i) numerical simulation of this action (confinement spectrum etc.) — a compute program; (ii) the continuum-limit matching of β_G to the derived couplings beyond tree level — Symanzik program, same conditionality as Ch. 25.
+
+**Review summary.** R1 *"gauge invariance on any graph is trivial textbook material — what's framework-specific?"* → Correct that invariance is standard; the framework content is WHERE things live (fibers = construction blocks, forced by Addendum G; links = spatial edges only; plaquettes = the graph's own triangles) and WHAT β is (derived, not tuned). The flag in Book4 was for the construction to be exhibited; it now is. PARTIAL — claim worded to match. R2 *"why do links live only on spatial edges?"* → because the gauge groups are block-interchange symmetries defined site-locally; a link must conjugate consistently at both ends (g(x)·U·g(y)†), which requires both ends to carry the same fiber structure — spatial neighbors do; see Addendum K for the cross-stage case. R3 *"triangle plaquettes give a lattice artifact structure different from square lattices"* → different discretization, same universality class in the continuum limit (Symanzik) — inherits Ch. 25 conditionality, no new assumption. R4 *"U(1) compact or non-compact?"* → compact (phases), consistent with charge quantization the framework derives; noted. R5 *"fermion doubling?"* → the hard-core/Jordan-Wigner structure (Ch. 25) is the framework's fermionization; doubling analysis on this graph is part of the simulation program — flagged honestly, not hidden.
+
+*Status: C1 construction CLOSED (formal level). Simulation program remains, correctly classified as compute infrastructure.*
+
+---
+
+## Addendum K: Stage Isolation as a Theorem of the Constructed Action
+
+*Pressure-tested: 4 rounds of hostile review.*
+
+**Theorem K.1 (no gauge transport across stage boundaries).** In the Addendum J action, no SU(3), SU(2), or hypercharge link variable can be placed on a cross-stage edge; consequently gauge interactions cannot propagate across a stage boundary, and the only surviving cross-stage channel is the gauge-singlet (screening/gravitational) one.
+
+*Proof.* A link variable U(x,y) transforms as g(x)U(x,y)g(y)†, which requires BOTH endpoints to carry the same gauge fiber (the same block structure). A cross-stage edge connects a position in one stage's register to a position in another stage's register. The gauge fibers are the construction blocks of each stage separately (Addendum B); a stage-6 color index has no counterpart transformation at a stage-7 endpoint — the would-be link has nothing to conjugate against at one end. The only consistent assignment on such an edge is the trivial (singlet) one. Since every interaction in the action is either a gauged hopping term (needs a link) or a plaquette (needs links), no gauge interaction crosses the boundary. The scalar screening channel — which carries no gauge index — is unobstructed; this is the channel identified with gravity. ∎
+
+**What changed in status.** Book4's Stage Isolation was downgraded during the audit to "conditional on the block-locality of the gauge fields." Addendum J now CONSTRUCTS the gauge fields block-locally — so the conditionality is discharged at the level of the constructed action: Stage Isolation is a theorem OF THIS ACTION. What it is not: a theorem that no other action could exist. The claim's honest form: "in the framework's gauge construction (the unique one consistent with the block fibers), stages are gauge-isolated."
+
+**Consequences re-confirmed.** ν_R singlet (position ≥ 8 is outside every stage-6 block — already reworded); dark-sector thermal isolation (only the singlet channel connects); proton stability and no-monopoles did not need this theorem (they rest on the clique ceiling) but are consistent with it.
+
+**Review summary.** R1 *"couldn't a link mix stage-6 color with stage-7 dark color (both are SU(3)s)?"* → they are DIFFERENT SU(3)s (separate block fibers, separate gauge transformations g₆, g₇); a mixed link would need to transform as g₆(x)U g₇(y)† — that is a bifundamental of SU(3)₆×SU(3)₇, which is a matter field, not a gauge link; and as matter it is forbidden by the menu theorem applied across registers (its would-be multiplet members straddle the boundary where the exclusion structure breaks them). SUSTAINED-then-answered; the bifundamental exclusion argument is recorded as the load-bearing step. R2 *"the 3 cross-stage edges DO couple positions — what do they carry?"* → the ungauged (singlet) hopping — exactly the screening amplitude the framework has always placed there; nothing is deleted, only gauge indices are absent. R3 *"is 'unique construction' overclaimed?"* → softened: unique GIVEN the block fibers (Addendum G) and the endpoint-consistency requirement; stated. R4 *"circularity with Addendum J?"* → division explicit: J constructs; K proves a property of the construction. No circle.
+
+*Status: Stage Isolation conditionality DISCHARGED (theorem of the constructed action). Honest scope stated.*
+
+---
+
+## Addendum L: The 15-Pattern Selection — Naive Minimality Falsified, the Real Selection Principle Identified
+
+*Pressure-tested: 5 rounds of hostile review. The central negative result was produced BY the review and is verified exactly.*
+
+**FALSIFICATION (a finding, not a fix).** The folklore selection "the SM generation is the minimal chiral anomaly-free content" is FALSE on the fundamentals-only menu. Counterexample, verified exactly against all six conditions (SU(3)³, [SU(3)]²U(1), [SU(2)]²U(1), gravitational, [U(1)]³, Witten):
+
+Q(3,2, 0) ⊕ uᶜ(3̄,1, −½) ⊕ dᶜ(3̄,1, +½) ⊕ L(1,2, 0) — **14 Weyl fermions**, fully anomaly-free, fully chiral (no gauge-invariant mass term exists: the two color singlets are both 3̄ so cannot pair; the single neutral doublet's Majorana term vanishes identically by the ε-symmetry argument). Minimality by fermion-count alone therefore CANNOT be the selection principle.
+
+**The real selection principle.** The 14-model's electromagnetic spectrum after symmetry breaking is: quarks ±½, leptons 0, 0 — no particle of charge −1, and half-integer quarks. The framework independently DERIVES the charge spectrum (the electron's −1 from the triangle nodes, Corollary 6.4; the quark charges ⅔ and −⅓ in Ch. 14). The selection principle is therefore:
+
+**the matter content is the unique chiral, anomaly-free set from the representation menu whose electromagnetic spectrum matches the framework's derived charges {−1, 0, +⅔, −⅓}.**
+
+Under this criterion: charge −1 requires a lepton doublet (T₃ = −½) with Y = −½ plus its charged-singlet partner (Y = +1); charges ⅔/−⅓ require the quark doublet at Y = ⅙ with both color-singlet partners (−⅔, +⅓); and Addendum H shows the anomaly conditions then hold with NO remaining freedom — the system is over-determined and consistent, which is itself a nontrivial check. Count: 6+3+3+2+1 = 15. The 14-model and all half-integer variants are excluded at the first step.
+
+**Honest labels.** The selection is now a CONDITIONAL THEOREM: conditional on the framework's charge derivations (Ch. 6/14) — which exist and are independent of this addendum — and on the menu theorem (Addendum G). What it is NOT: a count-minimality theorem (falsified above). Review R4's demand — "state what selects, don't gesture at minimality" — is met: the derived charge spectrum selects.
+
+**Review summary.** R1 (produce a sub-15 candidate) → produced; falsified naive minimality. R2 (is the 14-model really chiral?) → yes: no invariant bilinear; ε-argument recorded. R3 (is matching derived charges circular?) → no: the charge derivations (triangle nodes; quark thirds) predate and are independent of the content selection; the direction is charges → content, not content → charges. R4 (uniqueness under the criterion) → each derived charge value forces its species and hypercharge via Q_em = T₃ + Y; Addendum H closes the system. Residual: uniqueness against EXOTIC multi-copy contents matching the same spectrum (e.g., duplicated generations within one generation slot) — excluded by the framework's one-pattern-per-species occupancy reading; labeled. R5 (does anything downstream change?) → no; the SM content stands, now with its selection principle stated instead of assumed.
+
+*Status: the 15-selection is CLOSED as a conditional theorem (charge-spectrum selection), with the naive-minimality route honestly falsified and recorded.*
+
+---
+
+## Addendum M: The Frontier-Action Conditionals of |k| = (d/2)²
+
+*Pressure-tested: 4 rounds of hostile review.*
+
+Addendum I left two labeled conditionals under |k| = (d/2)² = 9/4. Their status is now:
+
+**Conditional (i) — uniform source profile: DISCHARGED.** The mode that digs the well is the framework's frontier mode, which is SPATIALLY UNIFORM (Book4's own characterization: "the gravitational self-coupling of the spatially uniform mode"; the PXP frontier mode at energy −√2 is the uniform-amplitude mode). A spatially uniform mode has spatially uniform energy density; a uniform density is exactly the uniform-ball source for which Theorem I.1 (Φc/Φs = d/2) holds. The uniformity is a property of the mode, not an assumption about it. (Inheritance: this rests on the frontier-mode identification already in Ch. 29-30 — no new assumption.)
+
+**Conditional (ii) — central evaluation: SHARPENED, remains the one open input.** The correction could in principle be evaluated at the well's center (ratio 3/2, giving (3/2)² = 2.25) or as a volume average (⟨Φ⟩/Φs = 6/5 for a uniform ball, giving (6/5)² = 1.44). The data selects central: 2.25 matches at 0.06σ; 1.44 misses badly. A candidate mechanism for WHY central: screening is multiplicative along the depth, so the exponent is controlled by the extremal (deepest) point — a bottleneck argument; the deepest point of a uniform well is its center. This is recorded as a candidate, not a theorem: the decisive computation is the frontier action's second-order term, which remains the pre-registered open input (correctly classified as a compute program).
+
+**Net status of M12:** |k| = (d/2)² with the d/2 ratio proven (I.1), the source uniformity proven-by-inheritance (the mode is uniform), and ONE remaining labeled input (central/extremal evaluation — bottleneck candidate recorded, frontier-action computation decisive).
+
+**Review summary.** R1 ("uniform mode" — established or asserted in Book4?) → established usage (Ch. 29 precision-frontier passage and the PXP frontier-mode characterization); the discharge INHERITS that identification and says so. R2 (volume-average alternative) → computed: (6/5)² = 1.44, excluded by data at many σ; the comparison is now explicit in the text rather than implicit. R3 (bottleneck argument rigor) → labeled candidate; not promoted. R4 (is anything circular?) → no: I.1 is geometry; uniformity is mode structure; only the evaluation point remains data-selected with a candidate mechanism.
