@@ -913,3 +913,80 @@ The theorem's uses, re-audited under Addenda B-C:
 **B1-B4 (sync the stronger companion-doc results):** **28.** Ch. 2: two-aspects framing, sphere uniqueness proof with post-distinction timing (Step 5a). **29.** Ch. 4: seven-moments creation + triple verification of φ (Fibonacci counting, Perron-Frobenius, converging ratios) + emergence framing. **30.** Ch. 9: replace the Drishti-bridge motivation with the parallel-units DERIVATION of D = φ/π (Step 5d: yield φ per act / faced π per diameter-handle; N cancels on the shared clock; bilateral D/2 explained). **31.** Front matter: add the Representation Postulates RP1-3 and the epistemic ledger (axioms / postulates / theorems / identifications / interpretations), replacing implicit stances.
 
 *Status: audit COMPLETE. All eight areas resolved or re-grounded. The Book4 correction list stands at 31 items, ready for the final Book4 update.*
+
+---
+
+## Addendum F: The Universal Carry Cascade — General Proof of the ⌈d/2⌉ Count
+
+*Pressure-tested: 4 rounds of hostile review (below). Verified computationally d = 1..300.*
+
+**Setup.** The all-1s tower of depth d occupies tower positions 0..d−1, position i holding weight φⁱ (integer shadow: F(i+2), using fib-index = tower position + 2).
+
+**Lemma F.1 (value).** V(d) = Σᵢ₌₀^{d−1} F(i+2) = F(d+3) − 2. *Proof:* induction. d=1: F(2)=1=F(4)−2. Step: V(d+1) = V(d)+F(d+2) = F(d+3)−2+F(d+2) = F(d+4)−2. ∎
+
+**Lemma F.2 (termination and confluence of the cascade).** Every maximal sequence of carries (11→100, applied anywhere, in any order) terminates, and all orders reach the same final form. *Proof:* each carry replaces two active positions by one, so the active count strictly decreases — termination. Each carry preserves the value (F(n)+F(n+1)=F(n+2)). A terminal form has no adjacent active pair, i.e., it is a Zeckendorf form of the (preserved) value; by Zeckendorf's uniqueness theorem there is exactly one such form. Hence every order reaches it. ∎ (This upgrades "the cascade resolves to Zeckendorf" from assumption to theorem: the result is order-independent.)
+
+**Theorem F.3 (the count, all depths).** The resolved form of the all-1s depth-d tower has exactly ⌈d/2⌉ active positions. Explicitly (fib-indices):
+
+- d = 2m (even): F(d+3) − 2 = Σ_{k=2}^{m+1} F(2k) — indices 4, 6, ..., 2m+2. (Check via Σ_{k=1}^{n} F(2k) = F(2n+1) − 1: the sum is F(2m+3) − 1 − F(2) = F(2m+3) − 2. ✓) Terms: m = d/2.
+- d = 2m+1 (odd): F(d+3) − 2 = F(2) + Σ_{k=2}^{m+1} F(2k+1) — indices 2, 5, 7, ..., 2m+3. (Check via Σ_{k=1}^{n} F(2k+1) = F(2n+2) − 1: the sum is 1 + [F(2m+4) − 1 − F(3)] = F(2m+4) − 2. ✓) Terms: m+1 = ⌈d/2⌉.
+
+Both lists are non-consecutive, so by Zeckendorf uniqueness each IS the resolved form. Count = ⌈d/2⌉ for all d ≥ 1. In tower positions: even d → 2, 4, ..., d (pure alternating evens); odd d → 0, 3, 5, ..., d — exactly the patterns Book4 reported from stage-by-stage computation. Top position = d for all d ≥ 2: the boundary overflow, one slot past the original register (trivially absent only at d = 1, where no carry occurs). ∎
+
+**Hostile review (4 rounds).** R1 *"Indexing conventions could hide an off-by-one"* → fib-index = tower position + 2 stated once and used throughout; stage-6 check: fib {4,6,8,10} = tower {2,4,6,8} = φ⁸⊕φ⁶⊕φ⁴⊕φ², matching Book4. DISMISSED. R2 *"Five instances were verified before; now you verify 300 — still instances"* → No: F.3 is an identity-based proof (the two classical sum identities, each a one-line induction); the 300 cases are a check of the proof, not the proof. DISMISSED. R3 *"The cascade might not reach the Zeckendorf form — you assumed dynamics"* → Lemma F.2 closes this: termination (strictly decreasing active count) + value preservation + Zeckendorf uniqueness = confluence. SUSTAINED then FIXED (F.2 added). R4 *"Edge case d=1 falsifies the overflow claim"* → Correct: caught by the d=1..300 sweep; the overflow statement now reads d ≥ 2, with d = 1 noted as the no-carry trivial case. SUSTAINED, FIXED.
+
+*Status: the "defined future work" flag on the Universal Carry Cascade is CLOSED. ⌈d/2⌉ is a theorem for all depths.*
+
+---
+
+## Addendum G: Matter Content from the Construction Blocks (re-grounding after SU(5) falsification)
+
+*Pressure-tested: 4 rounds of hostile review; Round 1 falsified the first version's central claim and forced the corrected theorem below.*
+
+**Theorem G.1 (the representation menu).** Within a construction block of size n (n ≤ 3 by the clique ceiling), the hard-core constraint leaves complete gauge multiplets ONLY in the 0-excitation sector (singlet) and the 1-excitation sector (fundamental, dimension n). *Proof:* the constraint forbids simultaneous excitation of ADJACENT positions (distance 1). For K₃ = {p, p+1, p+2}: the 2-excitation sector would form the antisymmetric tensor (the 3̄, needing all three states {p,p+1}, {p,p+2}, {p+1,p+2}), but the constraint kills two of the three (the adjacent pairs), leaving 1 of 3 — an incomplete multiplet; the 3-excitation sector is empty. For K₂: the 2-excitation sector is empty outright. Gauge transformations must map physical states to physical states; a sector missing members under the constraint cannot carry gauge-covariant matter. Hence: matter representations are fundamentals or singlets, nothing else. ∎ (Conditional on block-local gauge action — item C1.)
+
+*What this explains in plain terms:* it has always been an unexplained fact that nature's fermions sit only in the SIMPLEST representations — no particle is a color octet or sextet. Here that is forced: the exclusion rule (no two neighboring slots lit at once) breaks every would-be higher multiplet by deleting some of its members, and only the simplest two survive intact.
+
+**FALSIFIED first attempt (recorded):** "every pair in a block is coupled, so at most one excitation per block" — wrong: coupling (range 2) and exclusion (range 1) are different relations; {p, p+2} is coupled but not excluded, so the state {5,7} exists. The corrected argument above needs only multiplet completeness, and is stronger.
+
+**The 15-per-generation count (structural correspondence, labeled).** With the menu (3 or 1) × (2 or 1) × (U(1) charge), the observed generation is the pattern set {B₃B₂} → Q (6 states), {B₃, with B₁} → u-type singlet (3), {B₃ alone} → d-type singlet (3), {B₂ alone} → L (2), {B₁ alone} → e (1): total 15. The MENU is Theorem G.1; the SELECTION of exactly these five patterns (out of the 8 subsets) is not derived — it is the framework's structural correspondence, now constrained by two facts: (i) only menu items are available (theorem), and (ii) the hypercharges of exactly this set are FORCED by anomaly freedom (Addendum H) — the set is anomaly-consistent, and the SM generation is the well-known minimal chiral anomaly-free solution built from fundamentals. Full minimality proof: flagged open.
+
+**Review summary.** R1 (coupling vs exclusion) SUSTAINED → theorem corrected. R2 (why complete multiplets) → gauge invariance; conditional on C1, labeled. R3 (pattern selection underived) SUSTAINED → labeled correspondence with the two constraints stated. R4 (generations) → out of scope here; the three-generation structure has its own derivation (screening), untouched by this addendum.
+
+---
+
+## Addendum H: Hypercharges from Anomaly Freedom — the SU(5)-Free Derivation
+
+*Pressure-tested: 4 rounds of hostile review. Algebra verified exactly (sympy).*
+
+**Setup.** One generation, all fields as left-handed Weyl fermions: Q(3,2,a), uᶜ(3̄,1,b), dᶜ(3̄,1,c), L(1,2,l), eᶜ(1,1,e) — the content of Addendum G. Four anomaly-cancellation conditions (each a consistency requirement: without them the quantum theory contradicts its own symmetries):
+
+[SU(3)]²U(1): 2a + b + c = 0  [SU(2)]²U(1): 3a + l = 0  [grav]²U(1): 6a + 3b + 3c + 2l + e = 0  [U(1)]³: 6a³ + 3b³ + 3c³ + 2l³ + e³ = 0
+
+**Theorem H.1.** For a ≠ 0 the solution is UNIQUE up to overall normalization and the u↔d relabeling: l = −3a, e = 6a, {b, c} = {−4a, 2a}. *Proof:* the three linear conditions give b + c = −2a, l = −3a, e = 6a. Substituting into the cubic: 3(b³+c³) = −168a³, and with b + c = −2a, the identity b³+c³ = (b+c)³ − 3bc(b+c) yields bc = −8a². So b, c are the roots of t² + 2at − 8a² = 0, i.e., t = 2a or −4a. ∎ (Sympy returns exactly these two branches — the relabeling pair — and nothing else.) With the conventional normalization a = 1/6: Y(uᶜ) = −2/3, Y(dᶜ) = +1/3, Y(L) = −1/2, Y(eᶜ) = +1 — the Standard Model, to the digit. Electric charge Q = T₃ + Y then gives the electron −1, the up quark +2/3, the down −1/3, the neutrino 0.
+
+**The degenerate branch, handled.** a = 0 forces l = e = 0 and b = −c free: a world where leptons are electrically neutral and only the u/d pair carries (opposite) charge. Excluded on two independent grounds: (i) charged leptons exist (the framework derives the electron's charge separately); (ii) no single Higgs doublet can give all fermions mass in that branch. **Global (Witten) anomaly:** doublet count per generation = 3(color)×1(Q) + 1(L) = 4, even ✓.
+
+**What replaced SU(5), in plain terms:** the old route said "the charges are forced by how the pieces fit inside a bigger symmetry." The new route is stronger and needs no bigger symmetry: "demand only that the theory not contradict itself, and the charges have no freedom left." Self-consistency alone fixes every hypercharge.
+
+**Review summary.** R1 (chirality conventions) → all-left-handed stated; signs fixed once. R2 (circularity with Addendum G) → division of labor explicit: G supplies the species menu + selection (part theorem, part correspondence); H proves charges are forced GIVEN the species. R3 (free normalization a) → unphysical, absorbed into the U(1) coupling; observables (electric charges) are a-independent. R4 (is b↔c different physics?) → pure relabeling; locked once one Yukawa term names which singlet is "up."
+
+*Status: the "flagged work" from the Book4 update (hypercharge uniqueness) is CLOSED as a theorem, conditional only on the Addendum G species list.*
+
+---
+
+## Addendum I: |k| = 9/4 — the Double-Counting Question Resolved, the Dual Decomposition Unified
+
+*Pressure-tested: 4 rounds of hostile review. Numerics verified (general-d integral; GR central lapse).*
+
+**Theorem I.1 (central enhancement, uniform ball, any dimension).** For a uniform-density ball in d spatial dimensions (Newtonian/weak field), the central-to-surface potential ratio is Φc/Φs = d/2 exactly. *Proof:* g(r) ∝ M(r)/r^{d−1} with M(r) = M(r/R)^d gives Φ(R) − Φ(0) = ∫₀ᴿ ∝ r/R^d dr = 1/(2R^{d−2}) × const, while Φ(R) = −1/((d−2)R^{d−2}) × const; the ratio is 1 + (d−2)/2 = d/2. ∎ (Verified numerically d = 3..6; and GR's interior Schwarzschild central lapse √g_tt(0) = (3/2)√(1−r_s/R) − ½ ≈ 1 − (3/4)(r_s/R) confirms the weak-field coefficient 3/4 = (1/2)(3/2) at d = 3.)
+
+**Resolution of the double-counting question (Addendum C's open gap).** The GR interior coefficient 3/4 is the CENTRAL-LAPSE coefficient — a scalar, not a per-direction quantity, and it already contains d = 3 (it is (1/2)·(d/2)). So the old narration "three directions × 3/4 each" was indeed wrong — the sustained objection was correct. But the NUMBER survives under a single clean mechanism: k_TOV = d/4 in general, so d × k_TOV = d²/4 — and the "alternative" decomposition (F(4)/F(3))² = (3/2)² is (d/2)² = d²/4, the SAME formula. Both old routes were shadows of one statement:
+
+**|k| = (Φc/Φs)² = (d/2)² = 9/4 at d = 3.**
+
+The correction is second order in the frontier mode's own potential, evaluated at the center of the well it digs — and squaring the central enhancement d/2 gives the coefficient. In plain terms: gravity's echo is measured where the well is deepest; the center of a uniform well is d/2 times deeper than its edge; and because the echo is a second-order effect, that depth ratio enters twice.
+
+**What is proven vs conditional (labels).** PROVEN: Φc/Φs = d/2 (Theorem I.1); the algebraic identity of the two old decompositions. CONDITIONAL (labeled): (i) the frontier mode's effective source is uniform-density — other profiles give other ratios (a point source diverges); the uniform ball is the structural-hypothesis content; (ii) the correction enters at second order in Φ with central evaluation — this is Book4's own "second-order coefficient" framing, and its derivation from the frontier action remains the open computation (Book4 Ch. 30 filed it as a pre-registered input). Status: structural hypothesis, SHARPENED — one mechanism, one proven ingredient, two explicit conditionals; the dual-decomposition numerology caution is RETIRED (they were never two mechanisms).
+
+**Review summary.** R1 (Newtonian vs full GR) → weak-field is the relevant regime at 10⁻² corrections; the GR lapse check confirms d = 3. R2 (profile dependence) SUSTAINED → conditional (i) labeled. R3 (second-order entry assumed) SUSTAINED → conditional (ii) labeled; it is the framework's own pre-existing framing, not a new assumption. R4 (does this really unify the decompositions?) → k_TOV = d/4 makes d × k_TOV ≡ (d/2)² an identity; verified symbolically and numerically. DISMISSED.
