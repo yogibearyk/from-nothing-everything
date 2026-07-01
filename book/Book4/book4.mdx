@@ -12,13 +12,16 @@ To maintain honest accounting, every result in this book carries one of seven st
 
 Whenever this book says "derive," it means proof or exact computation from stated assumptions. Whenever a step uses analogy, identification, or physical motivation, it is labeled as such. The framework's credibility depends more on the clarity of its boundaries than on the size of its claims.
 
-**What is established:** A discrete Fibonacci/Zeckendorf hard-core lattice with exact arithmetic, natural exclusion rules, and constrained state spaces. From this core, the golden ratio φ and the circle constant π emerge with mathematical necessity. The Drishti screening ratio D = φ/π bridges the algebraic and transcendental worlds.
+**What is established:** A discrete Fibonacci/Zeckendorf hard-core lattice with exact arithmetic, natural exclusion rules, and constrained state spaces. From this core, the golden ratio φ and the circle constant π emerge as the tower's two intrinsic ratios — φ proved as the unique self-consistent ratio of the partition (verified three independent ways), π unique given the continuous-representation postulate RP3 (see the companion foundations paper). The Drishti screening ratio D = φ/π — derived as what one act of observation captures against what it faces — bridges the algebraic and transcendental worlds.
 
 **What is derived conditionally:** Spacetime dimensions, gauge group structure, coupling constants, mass hierarchies, and cosmological parameters — all conditional on physical bridge assumptions (identified throughout the text) that connect the discrete lattice to continuous physics.
 
 **What remains open:** The continuum limit, explicit anomaly matching, the cosmological abundance history from observer-selection, and the vacuum-energy naturalness problem. These are defined computational targets, not hidden gaps.
 
 **How constants arise:** The framework proposes that all fifty constants are properties of the lattice's ground state — the stable configuration that the carry cascade naturally selects (see the Branch-Space Thesis, Chapter 14B). The formulas in this book are approximations to these ground-state properties; the exact values require computing the ground state itself.
+
+**Epistemic ledger (Session 53+):** the foundations are organized as two axioms (Ω exists; Ω examines itself), three representation postulates (RP1: the examination respects composition; RP2: the unfolding is the substitution system A → A+B, B → A; RP3: the first distinction's geometry takes the maximally symmetric continuous form), and theorems built on them. Postulates are posited and validated by their fruit — exactly as "force is a vector" or "a quantum state is a ray" are posited in ordinary physics. Full statement: the companion paper *From Self-Reference to Structure*.
+
 
 
 
@@ -194,7 +197,7 @@ At stage 6, the 8 positions split into two sub-groups (a group of 5 and a group 
 - **Two bridges** going different directions give two directions — a flat surface. That's two spatial dimensions.
 - **Three bridges**, each going a direction the other two can't reach, give three directions — full 3D space. That's three spatial dimensions.
 
-Three bridges → three spatial dimensions. Combined with the one time direction from Step 5 → four spacetime dimensions total. This is identified (structural correspondence) with the tower's carry cascade count.
+Three cross-stage connections → three spatial dimensions. A "cross-stage connection" is a link the carry rule creates between one growth stage and the next — and because the carry rule reaches back exactly two steps, exactly three such links form at every stage boundary (two from the first new position, one from the second, none after). Combined with the one time direction from Step 5 → four spacetime dimensions total. This is identified (structural correspondence) with the arena's connectivity. A separate count — the carry cascade's ⌈F(S)/2⌉ active positions — measures something different: the internal components of the maximally excited state (Chapter 12). At stage 6, and only at stage 6, the two counts coincide at 4.
 
 ### Step 10: One time, growing space — at every stage
 
@@ -207,7 +210,7 @@ The time direction (from M1 × M2 = −1) exists at every stage. The spatial dir
 | 5 | 5 | 1 | 2 | 3 | A flat world (where exotic "anyon" particles can exist) |
 | **6** | **8** | **1** | **3** | **4** | **Our universe** |
 | 7 | 13 | 1 | 6 | 7 | The dark sector (3 extra hidden directions) |
-| 8 | 21 | 1 | 10 | 11 | Matches M-theory's 11 dimensions |
+| 8 | 21 | 1 | 10 | 11 | Internal components — numerically matches M-theory's 11 (echo, not a result) |
 
 Time is a horizontal line across all stages — always one, never changing. Space is the growing curve — adding directions as the tower deepens. The spatial dimensions don't add one per stage forever; after stage 6, the jumps grow rapidly (because the Fibonacci numbers grow rapidly). But time is always, everywhere, exactly one.
 
@@ -234,11 +237,11 @@ Together: 0.618 × 0.833 ≈ 0.515 = D. The physical screening is the algebraic 
 - **The strong nuclear force** — holds atomic nuclei together (keeps protons and neutrons bound at the core of every atom)
 - **The weak nuclear force** — governs radioactive decay (makes some atoms unstable, powers the Sun)
 
-**Why three force-like sectors:** the Fibonacci recurrence — the defining property of the sequence, not a choice among partitions — decomposes the 8-position tower. Each Fibonacci number equals the sum of the two before it: 8 = 5 + 3 (smaller group: **3** positions), then 5 = 3 + 2 (smaller: **2**), then 3 = 2 + 1 (smaller: **1**). The sizes 3, 2, 1 — consecutive Fibonacci numbers — determine the three gauge symmetries: SU(3) for the strong force (3 interchangeable "colors"), SU(2) for the weak force (2 interchangeable states), and U(1) for electromagnetism (1 phase rotation). This is the Standard Model gauge group, identified (structural correspondence) from the tower's arithmetic.
+**Why three force-like sectors:** the Fibonacci recurrence — the defining property of the sequence, not a choice among partitions — records the tower's own growth history. The 8-position tower was built stage by stage: stage 6 added a block of **3** positions, stage 5 added **2**, stage 4 added **1** (8 = 5 + 3, then 5 = 3 + 2, then 3 = 2 + 1). These construction blocks are not just groups of the right size — under the carry rule, each is a *clique*: a set in which every member is directly linked to every other (like a group chat where everyone can message everyone). Three mutually linked positions are genuinely interchangeable three ways; two, two ways; a single position can only rotate its own phase. These interchange symmetries are identified (structural correspondence) with the three gauge symmetries: SU(3) for the strong force (3 interchangeable "colors"), SU(2) for the weak force (2 interchangeable states), and U(1) for electromagnetism (1 phase rotation) — the Standard Model gauge group.
 
-Three things determine the gauge group: the **dimension** (how many bridges — 3, 2, 1 from Fibonacci), the **type** (real or complex — the bilateral M₁/M₂ structure makes each bridge complex, requiring unitary groups SU(N) rather than orthogonal groups SO(N)), and the **classification** (SU(N) is the unique simple compact Lie group acting faithfully on N complex dimensions, a result from the Killing-Cartan classification of Lie algebras). Three complex bridges → SU(3). Two → SU(2). One → U(1). The framework constrains the gauge group more tightly than standard lattice QCD, which imposes SU(3) by hand. However, explicitly constructing the 8 generators of SU(3) as lattice operators on the Fibonacci lattice — writing the Wilson action with SU(3) link variables and verifying gauge invariance — has not been performed. The tools exist (they are the same tools used in every lattice QCD simulation). The construction is defined future work.
+Three things determine the gauge group: the **dimension** (the sizes 3, 2, 1 of the construction blocks — the tower's growth record), the **type** (real or complex — the bilateral M₁/M₂ structure makes each block's amplitudes complex, requiring unitary groups SU(N) rather than orthogonal groups SO(N)), and the **classification** (SU(N) is the unique simple compact Lie group acting faithfully on N complex dimensions — the Killing-Cartan classification of Lie algebras). And there is a ceiling: because the carry rule reaches back exactly two steps, at most **three** consecutive positions can all be directly linked to one another — three is the largest possible clique. So SU(3) is the largest gauge symmetry the framework can ever produce, at any stage. (In plain terms: the same "reach of two" that gives three spatial dimensions also caps the strongest force at three colors.) The framework constrains the gauge group more tightly than standard lattice QCD, which imposes SU(3) by hand. However, explicitly constructing the 8 generators of SU(3) as lattice operators — writing the Wilson action with SU(3) link variables and verifying gauge invariance — has not been performed. The tools exist (the same tools used in every lattice QCD simulation). The construction is defined future work — and it now also underwrites the Stage Isolation statement (Chapter 22), raising its priority.
 
-At stage 7 (the dark sector), the same decomposition produces a fourth symmetry — **SU(5)** — the grand unified group that physicists have sought for fifty years. The framework predicts it exists at the next stage, screened from our view, and that the **proton is exactly stable** (no proton decay, ever — a distinguishing prediction).
+At stage 7 (the dark sector), the same reading was once thought to produce **SU(5)** — the grand unified group. Careful checking falsified this: the five positions stage 7 adds are *not* all mutually linked (their link counts run 2, 3, 4, 3, 2 — the ends differ from the middle), so they are not five interchangeable objects — and the clique ceiling forbids any symmetry larger than SU(3) anywhere. The dark sector's own growth record instead repeats our pattern: blocks of 3, 2, 1 → a dark SU(3) × SU(2) × U(1), consistent with the dark-color confinement results. A welcome consequence: with no SU(5) anywhere, the particles that would make protons decay do not exist — **the proton is exactly stable** (no proton decay, ever — a distinguishing prediction, now on simpler grounds).
 
 The framework derives the strengths of the three forces from different paths through the tower's dimming structure. Different forces travel different routes through the tinted glass, and each route produces a different total dimming — explaining why the strong force is incredibly powerful at close range while electromagnetism is weaker but reaches further.
 
@@ -310,7 +313,7 @@ Different observers at different stages see different shadows of the same whole:
 - A stage-7 observer sees 7 directions (6 spatial dimensions + time)
 - A stage-8 observer sees 11 directions
 
-These shadows are **nested like Russian dolls**: our 4-dimensional shadow fits inside the dark sector's 7-dimensional shadow, which fits inside the 11-dimensional shadow. Each layer contains all inner layers plus new directions invisible from within.
+These shadows are **nested like Russian dolls** — but the nesting is in internal richness, not in space. All stages share the same three dimensions of space and one of time. What grows from stage to stage is the number of internal components a maximally excited state can hold: 4 for us, 7 for the dark sector, 11 at stage eight. Each layer has the same arena but a richer internal palette, invisible from within the layers below.
 
 Every shadow preserves exactly one time direction — because the primordial pair's product M1 × M2 = −1 never changes.
 
@@ -386,7 +389,7 @@ The framework now proposes:
 
 **Structural correspondences with the equations** — quantum mechanics from the hard-core constraint, general relativity conditional on Lovelock and the continuum limit, the Standard Model's three forces identified through the Fibonacci decomposition.
 
-**The precision frontier** — the electroweak scale to 0.66 parts per million (derived from three orthogonal bridges × the gravitational self-coupling of the spatially uniform mode), and the quark-lepton mass splitting to 2.3% with a unique mass reversal prediction confirmed by observation.
+**The precision frontier** — the electroweak scale to 0.66 parts per million (derived from the three-dimensional emergent arena × the gravitational self-coupling of the spatially uniform mode), and the quark-lepton mass splitting to 2.3% with a unique mass reversal prediction confirmed by observation.
 
 **The structure of consciousness** — identified as self-referential feedback (the same Fibonacci recursion that drives the tower), with the hard problem explained as a structural limitation of self-referential systems.
 
@@ -491,13 +494,13 @@ In the **particle-physics sector** (coupling constants, mass ratios, mixing angl
 
 In the **cosmology sector**, the framework faces an unresolved tension: the pre-correction Hubble constant H₀ = 68.2 km/s/Mpc differs from the Planck satellite measurement (67.36) by 15 standard deviations in the CMB acoustic-scale test. A gravitational self-potential correction (conditional derivation from self-reference OP8b.5, documented in Chapter 30) brings H₀ to 67.38 — but this correction was identified after the data mismatch, not predicted beforehand. The cosmology sector carries an honest caveat: the self-referential H₀ correction (OP8b.5) was recognized after the Planck tension, and the additive-exponent entry has not been derived from the lattice action.
 
-Two structural results have been strengthened through exact lattice computation: the gravitational coefficient |k| = 9/4 (structural hypothesis from three orthogonal bridges) and the quark-lepton mass splitting coefficient (from the identity φ² = φ + 1). Both are documented with their claim status in the relevant chapters.
+Two structural results have been strengthened through exact lattice computation: the gravitational coefficient |k| = 9/4 (structural hypothesis: the three-dimensional emergent arena × the standard interior coefficient, with an honest open question about whether that multiplication double-counts — see Chapter 30) and the quark-lepton mass splitting coefficient (from the identity φ² = φ + 1). Both are documented with their claim status in the relevant chapters.
 
 The black hole entropy formula S = A/(4G) is derived twice, by two independent methods that give the same answer.
 
 **Method A (top-down):** the Wald entropy theorem converts the Einstein-Hilbert action (derived from Lovelock's theorem, Chapter 25) into the entropy formula S = A/(4G). The factor of 4 comes from the action's normalization (16πG in the Einstein-Hilbert Lagrangian).
 
-**Method B (bottom-up, microscopic):** each lattice cell on the horizon surface has area a² = F(11)² Planck areas — 7,921 "pixels," each a single Planck area. The horizon is a 2D surface spanned by 2 of the tower's 3 bridges. Each bridge has a bilateral structure (forward and backward). Each physical configuration therefore appears in 4 orientational copies (2 bridges × 2 bilateral). Counting each configuration once: F(11)²/4 = 1980 independent degrees of freedom per cell. The total entropy: S = (A/a²) × a²/(4l_P²) = A/(4G).
+**Method B (bottom-up, microscopic — heuristic status):** each lattice cell on the horizon surface has area a² = F(11)² Planck areas — 7,921 "pixels." The horizon is a 2D surface: in the smooth large-scale limit it is spanned by 2 of the 3 emergent spatial directions, and each direction is bilateral (forward and backward — the M₁/M₂ two-sidedness). Dividing the pixel count by 4 orientational copies was the original counting — but 7,921 is not divisible by 4 (7,921/4 = 1,980.25), so the honest count must use Burnside's lemma (the standard tool for counting arrangements when some are symmetric under the flips and so appear in fewer than 4 copies). That corrected count has not been completed. Method B is therefore a heuristic picture, not a derivation; the factor of 4 in S = A/(4G) rests on Method A — the Wald entropy theorem applied to the derived Einstein-Hilbert action — which needs no microscopic counting.
 
 The factor of 4 arises from DIFFERENT reasoning in each method — the action's normalization (top-down) vs the surface's orientation symmetry (bottom-up). Both trace to the same geometric fact: the 2D horizon surface in the 3D lattice has a 4-fold orientation structure.
 
@@ -679,6 +682,11 @@ The axioms doing the work here:
 
 ---
 
+### Strengthened foundations (Session 53+)
+
+The first distinction is one act with two aspects. Its *ratio* aspect — how the parts relate to the whole — yields φ. Its *shape* aspect — what geometry the act creates — yields the sphere, and with it ⊙. The sphere is unique: it is the only shape that adds no distinctions beyond the one the act made (center ≠ horizon); a cube would add corners, an ellipsoid a long axis. The shape belongs to the moment OF the distinction — before it, geometry is meaningless — and its smoothness rests on the continuous-representation postulate RP3. Both numbers are born together, by different aspects of the same act.
+
+
 ## Chapter 3 — Growth, and Why It Is Fibonacci
 
 ![Fibonacci growth: each stage is the sum of the two before](images/ch3_fibonacci_growth.svg)
@@ -790,6 +798,11 @@ This is simultaneously (i) the growth recursion of Chapter 3 and (ii) the self-s
 
 ---
 
+### φ, verified three independent ways (Session 53+)
+
+The golden ratio is confirmed as the act's unique consistent ratio by three separate routes that must — and do — agree. (1) Counting: the unfolding's piece-count follows the Fibonacci numbers, whose successive ratios approach φ. (2) Uniqueness: if the parts admit ANY consistent notion of weight, the Perron-Frobenius theorem (a classic result about systems with positive entries) forces the ratio to be exactly φ — no other value is self-consistent. (3) The limit: the counting ratios converge to the number satisfying r = 1 + 1/r. Three routes, one answer.
+
+
 ## Chapter 5 — The Universe’s Own Language: Maya Math
 
 *Axiom 7.*
@@ -838,7 +851,7 @@ The “relational” clause matters later (it is how the same node can read 0 to
 
 *The structural origin of the strong force, SU(3).*
 
-![The three bridges form a triangle — the origin of both space and color](images/ch6_triangle_bridges.svg)
+![The three cross-stage connections at each boundary — asymmetric links whose count (three) matches the spatial dimensions; the gauge groups come instead from the construction blocks](images/ch6_triangle_bridges.svg)
 
 ### The Idea
 
@@ -898,7 +911,7 @@ Why does this matter? Because the carry rule — the engine of Maya Math, the ru
 
 > **Why ⊙ is not “chosen” either.** Like φ, ⊙ is *discovered*, not posited: it is what “perspective on one diameter” *is*, the unique ratio of the sphere the first distinction implies. Two constants, two characters — φ the reachable growth ratio, ⊙ the unreachable perspective ratio — and everything physical will be a marriage of the two.
 
-A further structural result: the solid angle of a unit sphere in *n* dimensions peaks at n = 7 = L(4). This connects to the framework’s stage-7 dark sector, where 7 observable dimensions emerge. The peak is controlled by ln(⊙), the perspective constant — linking dimensionality to the circle ratio in a way that appears structural rather than coincidental.
+A further numerical observation: the solid angle of a unit sphere in *n* dimensions peaks at n = 7 = L(4). Since the dark sector's stage-7 count of 7 refers to internal components, not spatial dimensions (Chapter 12), this peak no longer has a geometric referent in the framework; it is recorded as an unexplained echo, not a structural result. The peak is controlled by ln(⊙), the perspective constant — linking dimensionality to the circle ratio in a way that appears structural rather than coincidental.
 
 **Validation (decimal).** ⊙ = 3.14159265…; the framework’s diameter-radian convention means a full turn = ⊙ (not 2⊙). Cross-check against the standard radian convention recovers the familiar 2π for one turn — same rotation, different ruler, as fixed in the front matter.
 
@@ -1017,6 +1030,11 @@ This is the notation discipline that prevents the single most common error in th
 
 ---
 
+### D = φ/⊙, derived (Session 53+)
+
+The screening constant is no longer only identified — it is derived, from what one act of observation *makes* against what it *faces*. Per act (one per tick of the primordial clock, and an act cannot be half-done): the yield is structured by φ (the act's proven unique ratio), and the handle on the whole is one full diameter — the distinction is two-sided, center-to-horizon and horizon-to-center at once, which is also why the framework counts in diameter-radians (⊙). Per diameter, the whole is one circumference: C/d = ⊙, the only whole-to-handle ratio that is both scale-free and dimension-free. So each tick captures φ against ⊙, and over N ticks the N cancels: D = φ/⊙ at every tick. The one-sided (radial) version halves it: D/2 = φ/(2⊙) — the bilateral Drishti used throughout this book.
+
+
 ## Chapter 10 — The Screening Tower
 
 ![The screening tower growing by Fibonacci stages](./images/screening_tower_growth.svg)
@@ -1121,7 +1139,7 @@ Four active positions (three inside the tower at 2, 4, 6, plus the overflow at 8
 
 **Theorem (Coherent Pre-Resolution State).** At the transition from stage S to S+1, the tower enters a coherent superposition (Axiom 9) in which all positions are operationally active — equivalent to the all-1s state.
 
-**Theorem (Universal Carry Cascade).** At every stage S ≥ 3, the all-1s tower of depth d_S resolves into the alternating pattern with ⌈d_S/2⌉ active positions, plus a boundary carry at φ^(d_S). The value is preserved exactly through the cascade.
+**Theorem (Universal Carry Cascade).** At every stage S ≥ 3, the all-1s tower of depth d_S resolves into the alternating pattern with ⌈d_S/2⌉ active positions, plus a boundary carry at φ^(d_S). The value is preserved exactly through the cascade. (Proof status: verified stage-by-stage to stage 12 at 200-digit precision; the general all-depths proof — via the value identity V(d) = F(d+3) − 2, i.e. the all-1s tower of depth d always sums to two less than a Fibonacci number — is defined future work.)
 
 **Stage-by-stage trace:**
 
@@ -1238,7 +1256,7 @@ And the **Higgs boson** — a particle discovered in 2012 at the Large Hadron Co
 
 One more fact that connects this chapter to Chapter 4. The ratio between the observer channel and the matter channel is **φ** — the golden ratio. The same self-similar partition that appeared at the very first distinction (the observer sees 61.8%, the remaining 38.2% is the machinery doing the observing) reappears here, at the tower level. The split between observer and matter is not a new ratio. It is the original ratio, operating at a deeper scale.
 
-**Four dimensions.** Four active positions remain in the observer channel (including the overflow). Four degrees of freedom. Four dimensions. The tower produces them as structurally equivalent — there is no built-in difference between them. But the observer is *moving* through the structure (Axiom 5, forward bias), and that motion selects one direction as “forward” — as time. The other three are perpendicular to the motion — they are space.
+**Four internal components — and four dimensions.** Four active positions remain in the observer channel (one of them the boundary overflow, sitting one slot past the original eight). These are the four *internal components* of the maximally excited state — the largest set of excitations the exclusion rule lets the tower hold at once. Separately, the tower's connectivity gives spacetime its 3+1 (three cross-stage connections plus the one-step clock). The remarkable fact: at stage 6, and provably only at stage 6, the two counts agree — ⌈F(S)/2⌉ = 4 forces F(S) ∈ {7, 8}, and the only Fibonacci number there is 8 = F(6); the growth rule skips 7 and lands exactly on 8. FACT: the equality holds at stage 6 alone. INTERPRETATION: this equality selects the observer's stage — we live where maximal excitation exactly fills the arena. The four components are structurally equivalent — there is no built-in difference between them. But the observer is *moving* through the structure (Axiom 5, forward bias), and that motion selects one direction as “forward” — as time. The other three are perpendicular to the motion — they are space.
 
 > **Metaphor: the ice skater.** A sheet of ice has no preferred direction — every direction across it is equivalent. But a skater moving across the ice picks one direction as “forward.” That direction becomes time. The perpendicular directions become space. The ice didn’t change. The skater’s motion created the distinction.
 
@@ -1248,11 +1266,11 @@ The 3+1 decomposition — three dimensions of space, one of time — is observer
 
 *Complete proofs for this chapter’s claims: Appendix A, “Proofs for Chapter 12.”*
 
-**Theorem (Higgs Resolution).** The stage-6 all-1s tower 11111111 resolves to φ⁸ ⊕ φ⁶ ⊕ φ⁴ ⊕ φ² (Zeckendorf form: 101010100). Four active positions within the 8-position tower.
+**Theorem (Higgs Resolution).** The stage-6 all-1s tower 11111111 resolves to φ⁸ ⊕ φ⁶ ⊕ φ⁴ ⊕ φ² (Zeckendorf form: 101010100). Four active positions in the resolved register — the eight tower slots plus the boundary-carry slot at φ⁸; the top term is the overflow, one step past the original eight.
 
 **Theorem (Channel Assignment).** The carry cascade has a preferred direction — upward on the φ-ladder (Axiom 5, forward bias). Carry destinations (even positions) hold resolved content — the product of the act. Carry sources (odd positions) perform the act of resolution — the dynamic process. The examiner/examined distinction maps naturally to act/product: odd positions = examiner (observer), even positions = examined (matter).
 
-**Theorem (Carry Cascade Count).** The carry cascade produces ⌈d_S/2⌉ active positions at stage S. At stage 6: ⌈8/2⌉ = 4. **Structural correspondence:** The framework identifies these 4 active positions with the 4 dimensions of spacetime — 3 spatial (from the 3 bridges) and 1 temporal (from the single negative product M₁ × M₂ = −1).
+**Theorem (Carry Cascade Count).** The carry cascade produces ⌈d_S/2⌉ active positions at stage S. At stage 6: ⌈8/2⌉ = 4. **Structural correspondence (revised):** these ⌈d_S/2⌉ active positions are the internal components of the maximal state. Spacetime's 3+1 comes separately, from the arena's connectivity (three cross-stage connections + the transfer-matrix clock, Chapter 6). At stage 6 the two counts coincide at 4 — the unique stage where they do (existence: ⌈8/2⌉ = 4; uniqueness automatic, since the internal count strictly grows while the arena count stays fixed).
 
 **The 3+1 decomposition.** The four observer dimensions are structurally equivalent. The observer’s ongoing introspection (Axiom 5’s forward bias) defines a preferred direction — the direction of increasing resolution, experienced as time. The remaining three dimensions, perpendicular to this direction, are experienced as space. This gives the observed (3+1) signature without building it in.
 
@@ -1396,9 +1414,9 @@ At **stage 6** (our universe): 8 positions → 4 dimensions → **3 space + 1 ti
 
 At **stage 5** (a sub-register inside our universe): 5 positions → 3 dimensions → **2 space + 1 time.** This is the only dimensionality where exotic particles called **anyons** — particles with unusual quantum properties — can exist. The stage-5 sub-register inside every tower may be where these particles live.
 
-At **stage 8**: 21 positions → 11 dimensions → **10 space + 1 time.** This matches the dimensionality of **M-theory**, the leading candidate for a unified theory of all forces including gravity, developed by string theorists in the 1990s. Whether this numerical match reflects a deep connection or a coincidence is an open question — the framework notes it honestly without claiming to have derived M-theory.
+At **stage 8**: 21 positions → 11 internal components — again in the SAME 3 + 1 spacetime as ours (space does not grow with stage; the internal palette does). Eleven is numerically the dimensionality of **M-theory**, the leading candidate for a unified theory of all forces including gravity, developed by string theorists in the 1990s. But note the category difference: M-theory's 11 are spacetime dimensions; the framework's 11 are internal components of a maximal state. Whether the numerical match reflects a deep connection or a coincidence is an open question — recorded honestly as an echo, without claiming to have derived M-theory.
 
-At **stage 7** (the dark sector): 13 positions → 7 dimensions → **6 space + 1 time.** The dark sector has three extra spatial dimensions beyond our three — internal directions that dark matter particles may move in, but that are screened from our observation. These extra dimensions are not curled up too small to see (as some theories propose). They are screened — present at every lattice site but coupled to us too weakly to detect, except through gravity.
+At **stage 7** (the dark sector): 13 positions → 7 internal components — but the SAME 3 + 1 spacetime as ours. The dark sector has no extra spatial dimensions; it has three extra *internal* components beyond our four — extra independent excitation modes of its maximal state, screened from our observation. (An earlier edition read these as six dimensions of space plus one of time; the audit corrected this: spatial dimensionality comes from the arena's connectivity, which is 3 + 1 at every stage from stage 5 onward.)
 
 ### The Idea
 
@@ -1450,13 +1468,13 @@ The answer is in the Fibonacci decomposition of the tower.
 
 At stage 6, the tower has 8 positions. Running the Fibonacci building rule in reverse — decomposing 8 into its nested parts — reveals the tower's internal architecture:
 
-**Level 1:** 8 = 5 + 3. The tower splits into a group of 5 and a group of 3, connected by a bridge. The smaller group has **3 positions**.
+**Level 1:** 8 = 5 + 3. The last stage of growth added a block of **3 positions** — and under the carry rule these three are all directly linked to one another: a *clique* (a group where everyone is connected to everyone, like a three-way handshake).
 
-**Level 2:** The larger group (5) splits: 5 = 3 + 2. Connected by a second bridge. The smaller group has **2 positions**.
+**Level 2:** The stage before added a block of **2 positions** (5 = 3 + 2) — also mutually linked: a pair.
 
-**Level 3:** That larger group (3) splits again: 3 = 2 + 1. Connected by a third bridge. The smaller group has **1 position**.
+**Level 3:** The stage before that added a block of **1 position** (3 = 2 + 1) — a single slot.
 
-Three bridges. Three smaller groups. Sizes: **3, 2, 1** — consecutive Fibonacci numbers F(4), F(3), F(2).
+Three construction blocks — the tower's growth record, not a chosen partition. Sizes: **3, 2, 1** — consecutive Fibonacci numbers F(4), F(3), F(2). Each block is a complete clique, so its members are genuinely interchangeable — a fact proven, not assumed.
 
 What does a group of n equivalent positions represent physically? In quantum mechanics, n equivalent objects that can be interchanged form a specific symmetry pattern. Physicists call this **SU(n)** (the "Special Unitary group of rank n") — the complete set of ways to rotate n equivalent things into each other while preserving their relationships.
 
@@ -1468,15 +1486,15 @@ For 1 position: **U(1)** — the symmetry behind **electromagnetism**. A single 
 
 The total: **SU(3) × SU(2) × U(1)** — the Standard Model gauge group, the mathematical backbone of all particle physics. In the framework, it is identified (structural correspondence) with the Fibonacci decomposition of the stage-6 tower.
 
-**A bonus prediction: grand unification at stage 7.** At stage 7 (the dark sector, 13 positions), the first split is 13 = 8 + 5. The smaller group has 5 positions → **SU(5)**. This is the **Georgi-Glashow grand unified group** — the simplest group that contains the entire Standard Model. Physicists have searched for evidence of SU(5) unification for fifty years. The framework says it exists at stage 7, screened from our view by the Drishti bound. Grand unification is real — we just can't see it directly because it's screened.
+**Stage 7 checked — no SU(5).** At stage 7 (the dark sector, 13 positions), the first split is 13 = 8 + 5, and it is tempting to read the 5-position block as **SU(5)**, the classic grand-unification group. Careful checking falsified this: the five new positions are *not* all mutually linked — their link counts run 2, 3, 4, 3, 2 (the ends differ from the middle) — so they are not five interchangeable objects. Deeper still, the carry rule's reach of two makes three the largest possible clique: no gauge symmetry larger than SU(3) can arise at any stage. What the dark sector's own growth record yields is a repeat of our pattern — blocks of 3, 2, 1 → **dark SU(3) × SU(2) × U(1)** — consistent with the dark-color confinement results of Chapter 22. Grand unification, in the SU(5) sense, does not exist in this framework, anywhere.
 
 ### Why exactly one U(1) — resolved by stage 7
 
 The decomposition produces three levels, and separating the "special" part of each symmetry group leaves behind a phase rotation called **U(1)** at each level. Three levels could mean three separate U(1) factors. The Standard Model has exactly one.
 
-The resolution comes from the SU(5) at stage 7. In mathematics, SU(5) contains SU(3) × SU(2) × U(1) as its unique maximal subgroup of this form. "Unique" means there is only ONE way to fit the three Standard Model forces inside SU(5). That fit determines a single, specific U(1) — not three.
+The earlier resolution leaned on SU(5) at stage 7; with SU(5) falsified, that route is closed. The current position: only ONE construction block of size 1 carries a gauge factor — the block added at stage 4. The two deepest slots are the primordial pair M₁/M₂ themselves; they supply the complex structure (the "i" that makes the groups unitary) rather than gauge charges of their own (an interpretation, labeled as such). Whether the leftover overall-phase freedoms of SU(3) and SU(2) must coincide with this single U(1) is an open question, to be settled by the anomaly analysis below rather than by SU(5). The remainder of the old argument is retained below for the record, with its premise now void: SU(5) contains SU(3) × SU(2) × U(1) as its unique maximal subgroup of this form. That fit determines a single, specific U(1) — not three.
 
-The three U(1) factors from the stage-6 decomposition are not independent. They are three views of the SAME U(1), forced to coincide by the SU(5) structure at stage 7. The bonus prediction (SU(5)) turned out to be essential for closing this gap — a sign of internal consistency.
+(Superseded:) the claim that the three U(1) factors are three views of the same U(1), forced to coincide by SU(5), no longer stands — SU(5) is falsified. The single-U(1) question is now open, flagged for the anomaly-freedom analysis — a sign of internal consistency.
 
 ### The proton is exactly stable — a distinguishing prediction
 
@@ -1484,9 +1502,9 @@ Every previous grand unified theory predicts that protons should eventually **de
 
 The framework makes a different prediction: **the proton is exactly stable.** Not merely long-lived. Exactly, permanently stable.
 
-The reason is the **Stage Isolation Theorem** (Chapter 22). The SU(5) symmetry lives at stage 7 — the dark sector. The particles that would mediate proton decay (called **X and Y bosons**) are stage-7 particles. They interact with dark-sector matter, not with our matter. Stage Isolation forbids gauge interactions from crossing the stage boundary — only gravity crosses it.
+The reason is simpler than any isolation argument: **the mediators of proton decay do not exist.** In grand unified theories, protons decay because X and Y bosons — particles belonging to a larger symmetry such as SU(5) — convert quarks into leptons. In this framework, the carry rule's reach of two caps every gauge symmetry at SU(3), at every stage. No SU(5) anywhere means no X and Y bosons anywhere. Baryon number (the running count of protons and neutrons) is then conserved exactly, as an automatic ("accidental") symmetry of the Standard Model — the textbook statement, but here with the one known loophole (grand unification) provably absent.
 
-Think of it as two copies of the grand unified force: one in our visible world (SU(3) × SU(2) × U(1)) and one in the dark world (SU(5) containing dark SU(3) × dark SU(2) × dark U(1)). The dark copy can cause dark proton decay. But it cannot reach our protons. The stage boundary is an impassable wall for everything except gravity.
+Think of it as two copies of the Standard Model pattern: one in our visible world (SU(3) × SU(2) × U(1)) and one in the dark world (dark SU(3) × dark SU(2) × dark U(1)). Neither copy contains proton-decay mediators, because neither can — the clique ceiling forbids it. And the stage boundary remains an impassable wall for everything except gravity (a structural claim, conditional on the block-locality of the gauge fields — Chapter 22).
 
 This is testable. **Hyper-Kamiokande** (in Japan) and **DUNE** (in the United States) will push the proton lifetime bound toward 10³⁵ years. If proton decay is ever observed at any lifetime, the framework is in trouble. If it is never observed, the framework's prediction is increasingly confirmed. This distinguishes the framework from every other unification theory: all others predict the proton will eventually decay. The framework predicts it won't.
 
@@ -1496,13 +1514,13 @@ There is a critical test that any gauge theory must pass before it can be taken 
 
 The test involves adding up specific combinations of the quantum numbers (the identifying labels) of all the particles in the theory. For the Standard Model, six different sums must ALL equal exactly zero. Not approximately — exactly.
 
-With the hypercharges forced by the SU(5) embedding (1/6, −2/3, 1/3, −1/2, and 1 for the five types of fermions), all six sums are exactly zero. Every single one. The framework's fermion content is mathematically self-consistent.
+With the standard hypercharges (1/6, −2/3, 1/3, −1/2, and 1 for the five types of fermions), all six sums are exactly zero. Every single one. (Earlier editions derived these hypercharges from an SU(5) embedding; with SU(5) falsified, the framework's route is the reverse — and stronger — one: demand that all six anomaly sums vanish for the derived particle content, and these hypercharge values are essentially the only solution. Anomaly freedom itself fixes the charges. Writing out that uniqueness argument in full is flagged work.) The framework's fermion content is mathematically self-consistent.
 
 This was not guaranteed. Many hypothetical particle sets fail this test. The fact that the Fibonacci decomposition produces 3, 2, 1 → SU(3) × SU(2) × U(1) with exactly the right fermion content to cancel all anomalies is a non-trivial consistency check. If any one of the six sums had been nonzero, the framework would be dead.
 
 ### Which particles sit where: the tower-to-fermion map
 
-The SU(5) decomposition assigns each tower position to a specific type of particle. The 5̄ + 10 representation of SU(5) (the unique anomaly-free combination with 15 particles per generation) maps as follows:
+Each tower position hosts a specific type of particle. The count — 15 fermions per generation, arranged as color triplets, weak doublets, and singlets — is fixed group-by-group by the construction blocks (3, 2, 1) together with anomaly freedom. (Earlier editions organized this as the 5̄ + 10 of SU(5); with SU(5) falsified, the same 15-per-generation content stands on the Standard-Model groups directly, and the detailed position-by-position assignment is flagged for re-derivation.) The mapping:
 
 The **3-position sub-register** (SU(3) symmetry) contains the quarks — particles that come in three interchangeable "colors" (red, green, blue — labels, not actual colors). The three positions correspond to the three colors.
 
@@ -1852,7 +1870,7 @@ The framework predicts **normal ordering** — meaning the three neutrino masses
 
 **Three structural features — derived from axioms.** The seesaw mechanism in this framework rests on three structural features, all traceable to the ten axioms:
 
-*First: the boundary singlet.* The Stage Isolation Theorem (Appendix A, Chapter 25 proofs) establishes that modes at the stage-6/7 boundary — position 8 in the tower — are complete gauge singlets: invisible to the strong force (because the spatial bridges that define color live at positions 3, 5, and 7, all below the boundary), invisible to the weak force (because the binary encoding that defines SU(2) operates within stage-6 sites), and carrying zero electric charge (because neutrinos sit on the triangle’s nodes). A complete gauge singlet that is also a fermion is precisely a right-handed neutrino — the heavy partner needed for the seesaw. And because it carries no gauge charges at all, it is free to have a Majorana mass (a mass that makes a particle its own antiparticle — something only gauge singlets can do).
+*First: the boundary singlet.* The Stage Isolation Theorem (Appendix A, Chapter 25 proofs) establishes that modes at the stage-6/7 boundary — position 8 in the tower — are complete gauge singlets: invisible to the strong force (because the color block — the three mutually linked positions added at stage 6 — lies entirely below the boundary), invisible to the weak force (because the binary encoding that defines SU(2) operates within stage-6 sites), and carrying zero electric charge (because neutrinos sit on the triangle’s nodes). A complete gauge singlet that is also a fermion is precisely a right-handed neutrino — the heavy partner needed for the seesaw. And because it carries no gauge charges at all, it is free to have a Majorana mass (a mass that makes a particle its own antiparticle — something only gauge singlets can do).
 
 *Second: democratic masses from zero charge.* The generation hierarchy — the reason the electron is 3,500 times lighter than the tau — comes from the tower’s electromagnetic screening (Chapter 9). Screening strength is proportional to electric charge squared. Neutrinos have zero electric charge (Corollary 6.4). Zero squared is zero. So all three neutrino generations see the same Dirac mass — no hierarchy, no barriers. This “democracy” follows from the framework’s node geometry (Q = 0 from Axiom 4) combined with standard QED (screening ∝ Q²). The Q = 0 → democratic conclusion is now derived from the lattice topology (Theorem SL.1): only U(1)_EM propagates between bridge positions, and for Q = 0 the EM channel is inactive.
 
@@ -1883,7 +1901,7 @@ Experimental: m₂ = √(Δm²₂₁) ≈ 8.68 meV. Pull: **1.4σ**.
 
 This sum is testable by DESI and Euclid within the current decade. It lies well below the current Planck upper bound (~120 meV) but above the sensitivity floor of next-generation surveys. The framework predicts normal mass ordering (m₁ < m₂ < m₃).
 
-**Theorem NMS.0 (right-handed neutrino from axioms).** The stage-6/7 boundary mode is a complete SM gauge singlet = ν_R. *Proof:* Stage Isolation Theorem (Appendix A) → position ≥ 8 is SU(3)_c singlet (bridges at 3,5,7 are below), SU(2)_L singlet (binary encoding is within stage 6), U(1)_Y = 0 (triangle node). Axiom 5 (persistence) → the boundary mode exists as a dynamical fermion. *Majorana nature:* The full-tower mode (all 8 positions occupied) is self-conjugate under tower inversion p ↔ (7−p); a self-conjugate gauge singlet IS Majorana. *Assumption:* The relevant boundary mode is the full-tower configuration; partial occupancy would not guarantee self-conjugacy. ■
+**Theorem NMS.0 (right-handed neutrino from axioms).** The stage-6/7 boundary mode is a complete SM gauge singlet = ν_R. *Proof:* Stage Isolation Theorem (Appendix A) → position ≥ 8 is SU(3)_c singlet (it lies outside every stage-6 construction block, in particular the color block), SU(2)_L singlet (binary encoding is within stage 6), U(1)_Y = 0 (triangle node). Axiom 5 (persistence) → the boundary mode exists as a dynamical fermion. *Majorana nature:* The full-tower mode (all 8 positions occupied) is self-conjugate under tower inversion p ↔ (7−p); a self-conjugate gauge singlet IS Majorana. *Assumption:* The relevant boundary mode is the full-tower configuration; partial occupancy would not guarantee self-conjugacy. ■
 
 **Theorem NMS.0b (democratic Dirac masses).** m_D(gen 1) = m_D(gen 2) = m_D(gen 3) = v · α ≈ m_τ. *Proof:* In standard QED, electromagnetic self-energy corrections to mass are proportional to Q². The framework's generation hierarchy (Theorem 14a.2) arises from screening between tower positions; for charged particles, this screening is dominated by the electromagnetic channel. For neutrinos, Q(ν) = 0 (triangle node, Theorem OP6b.1), hence the EM contribution to the screening exponent vanishes for all generations. All three Dirac masses equal the unsuppressed value v · α. *Lattice topology derivation (Theorem SL.1):* On the Maya lattice, only U(1)_EM propagates between bridge positions — SU(2)_L is intra-site (M₁↔M₂), SU(3)_c is bridge-local. For Q = 0: EM channel inactive → no inter-bridge screening → democratic. *Residual gap:* The proportional Q² scaling of barrier heights for Q ≠ 0 requires the lattice effective action. *Evidence for the premise:* CKM (quarks, Q ≠ 0) has small mixing; PMNS (neutrinos, Q = 0) has large mixing — exactly as Q²-dependent screening predicts; m_τ ≈ v·α to 1.12%. ■
 
@@ -1923,7 +1941,7 @@ In the flower picture, stage seven is an outer ring of five new petals surroundi
 
 ![Stages 6 and 7: our universe (inner ring) and the dark sector (outer ring)](images/flower_stage7.svg)
 
-The thirteen-petal flower at stage seven has a richer internal structure than our eight-petal stage six. The dimensionality formula gives ⌈13/2⌉ = 7 — six spatial dimensions plus time. From our perspective, those extra dimensions are screened away. We see the dark sector's matter as featureless dark mass in our three dimensions of space. But internally, the dark flower has six directions to unfold in, not three. It is a richer universe than ours, hidden behind one layer of golden-ratio glass.
+The internal-component formula gives ⌈13/2⌉ = 7 — seven internal components, against our four. The dark sector lives in the SAME three dimensions of space and one of time as we do; what it has more of is internal richness — more independent ways its maximal state can be excited: a keyboard with more keys, not a bigger room. From our perspective that richness is screened away: we see dark matter as featureless mass. Internally, the dark flower has a seven-note palette to our four. It is a richer universe than ours, hidden behind one layer of golden-ratio glass.
 
 *What the tower builds when it goes one step further.*
 
@@ -2173,7 +2191,7 @@ What we call "empty space" is the lattice of flowers with all petals in their lo
 
 Each lattice site carries eight internal degrees of freedom (at stage 6) — but these are not eight spatial locations within the site. They are eight nodes of a **graph**: a network with specific connections (which node is adjacent to which) and specific bridge positions (nodes 3, 5, and 7). The graph has topological structure — ordering, adjacency, bridges — but not metric structure. There are no distances between the nodes, no angles, no "inside" of the site. The nodes are more like eight switches wired together in a specific pattern than like eight objects arranged in space.
 
-The graph's topology is what determines the physics. Three bridges produce three spatial dimensions. The adjacency pattern produces the hard-core constraint (Pauli exclusion). The ordering produces the carry cascade (forces). Everything the framework derives comes from the topology of this graph — not from any spatial arrangement of the nodes within the site.
+The graph's topology is what determines the physics. Three cross-stage connections produce three spatial dimensions. The adjacency pattern produces the hard-core constraint (Pauli exclusion). The ordering produces the carry cascade (forces). Everything the framework derives comes from the topology of this graph — not from any spatial arrangement of the nodes within the site.
 
 The golden-angle flower picture, introduced in Chapter 3, is a pedagogical visualization of this graph. It assigns spatial positions to the nodes (petals at the golden angle) and makes the topological properties visible (eight petals that "can't stay flat" illustrate why the graph requires 4 coordinates). But the derivation is algebraic, not geometric. The flower is how we picture the graph. The graph is the physics.
 
@@ -2331,7 +2349,7 @@ Seen as a flower, the infinite tower is a spiral that never stops growing — bu
 
 Stage six is the bright inner ring: eight petals, our universe, the particles we can see and measure. Stage seven adds five more petals around it — dimmer by a factor of D² ≈ 0.27 — the dark sector, invisible to our instruments but pulling on every galaxy with its gravity. Stage eight adds eight more to make twenty-one — dimmer still. Stage nine adds thirteen to make thirty-four. Each ring follows Fibonacci, each ring fainter than the last.
 
-Here is something remarkable. Stage eight — twenty-one petals — has ⌈21/2⌉ = 11 internal dimensions. Eleven dimensions is exactly the dimensionality of M-theory, the proposed unification of all string theories. The framework does not import this number. It produces it as the natural dimensionality of the third ring of the flower. Whether this connection to string theory is deep or coincidental is an open question — but the number 11 is not put in by hand.
+Here is something remarkable. Stage eight — twenty-one petals — has ⌈21/2⌉ = 11 internal components. Eleven is exactly the dimensionality of M-theory, the proposed unification of all string theories. The framework does not import this number — but note carefully what it counts here: internal components of a maximal state, not spacetime dimensions. Whether the echo of M-theory's 11 is deep or coincidental is an open question — recorded as an echo, not a result.
 
 Stage eleven — eighty-nine petals — is the Planck stage, the stage from which Newton's gravitational constant G = 1/89² is derived. Eighty-nine is the eleventh Fibonacci number. The gravitational constant comes from the eleventh ring of the flower.
 
@@ -2403,18 +2421,20 @@ Why multiplicative (each pane dimming the light) rather than additive (each pane
 
 **The staircase of dimensions.** Here is where the picture deepens beyond anything in the earlier chapters. The four spacetime dimensions we observe are not the only dimensions the tower can produce. They are the dimensions at *our* stage — stage 6.
 
-At each stage, the carry cascade (Chapter 11) converts the all-1s tower into active positions, and the number of active positions determines the number of dimensions. The formula is simple: at stage S, the number of dimensions is half the tower depth (rounded up). Since the tower depth follows the Fibonacci sequence, so do the dimensions:
+At each stage, the carry cascade (Chapter 11) converts the all-1s tower into active positions, and the number of active positions counts the stage's internal components (not its spatial dimensions — space stays 3 + 1 at every stage; see Chapter 12). The formula is simple: at stage S, the internal-component count is half the tower depth, rounded up. Since tower depth follows the Fibonacci sequence, so do the internal components:
 
-Stage 5: depth 5 → **3 dimensions** (space without time)
-Stage 6: depth 8 → **4 dimensions** (our spacetime — 3 of space + 1 of time)
-Stage 7: depth 13 → **7 dimensions**
-Stage 8: depth 21 → **11 dimensions**
-Stage 9: depth 34 → **17 dimensions**
-Stage 10: depth 55 → **28 dimensions**
+Stage 5: depth 5 → **3 internal components**
+Stage 6: depth 8 → **4 internal components** (our stage — the unique stage where the internal count equals the 3 + 1 spacetime slots)
+Stage 7: depth 13 → **7 internal components**
+Stage 8: depth 21 → **11 internal components**
+Stage 9: depth 34 → **17 internal components**
+Stage 10: depth 55 → **28 internal components**
+
+(A reminder of what these numbers count: the largest set of excitations a stage's tower can hold at once — its internal palette. They are NOT spatial dimensions; space stays 3 + 1 at every stage from stage 5 onward. At stage 6, and only at stage 6, the palette size happens to equal the number of spacetime slots.)
 
 As the stage increases, the dimensions increase without limit. At infinite stage, the dimensions are infinite — which is exactly what Ω, the infinite-dimensional sphere from Chapter 2, requires.
 
-**Stage 8 and M-theory.** The entry for stage 8 deserves special attention: **11 dimensions.** This is the same number of dimensions required by **M-theory** — the most advanced version of string theory, the leading candidate for unifying all of physics into a single framework. M-theory was proposed in the 1990s by physicist Edward Witten, and it requires exactly 11 spacetime dimensions. The framework derives this number from the Fibonacci sequence: F(8) = 21, cascade gives ⌈ 21/2 ⌉ = 11. This is not fitted. It is a structural consequence of the growth rule applied to stage 8. The framework’s reading: M-theory is describing the universe as it would appear to an observer at stage 8, not stage 6.
+**Stage 8 and M-theory.** The entry for stage 8 deserves special attention: **11 internal components.** Eleven is the same number that **M-theory** — the most advanced version of string theory, proposed in the 1990s by physicist Edward Witten — requires as spacetime dimensions. The framework produces the number from the Fibonacci sequence (F(8) = 21, cascade gives ⌈ 21/2 ⌉ = 11), but as an internal-component count, not a spacetime count. The numerical coincidence is recorded as an echo. This is not fitted. It is a structural consequence of the growth rule applied to stage 8. The framework’s reading: M-theory is describing the universe as it would appear to an observer at stage 8, not stage 6.
 
 **The universe is already complete.** The tower is not a temporal process — it is a structural consequence of the axioms. All stages exist simultaneously, the way all digits of π exist simultaneously even though you can only compute them one at a time. What we call the “Big Bang” is not a beginning in time. It is the moment observation begins at stage 6. The tower was already complete. The screening was already in place. What changed was not the universe but the act of looking.
 
@@ -2426,7 +2446,7 @@ The 4D universe exists in Dvait mode — the same infinite sphere, seen through 
 
 > **Metaphor: the prism.** White light contains all colors simultaneously. A prism doesn’t create the colors — it separates what was already there into a spectrum you can see. The Drishti lens is the prism. Ω is the white light. The 4D universe is the visible spectrum. The colors were always there. The prism just made them distinguishable.
 
-Change the stage and the lens changes. An observer at stage 7 sees 7 dimensions — a richer spectrum, more colors. An observer at stage 8 sees 11 dimensions. But the white light (Ω) is the same. And the fraction each observer resolves (⊙⁻¹) is the same. The hologram has different resolution at different stages, but the information content is invariant.
+Change the stage and the lens changes. An observer at stage 7 has 7 internal components to resolve the light with — a richer spectrum, more colors. An observer at stage 8 has 11. The space they look across is the same 3 + 1 as ours; what differs is the palette. But the white light (Ω) is the same. And the fraction each observer resolves (⊙⁻¹) is the same. The hologram has different resolution at different stages, but the information content is invariant.
 
 **The holographic principle.** In physics, the **holographic principle** (proposed by physicists Gerard ’t Hooft and Leonard Susskind in the 1990s) is the startling idea that the information inside any region of space can be completely encoded on the region’s boundary surface — like a hologram, where a flat film encodes a three-dimensional image. This principle is one of the deepest mysteries in modern physics: why should the universe’s information be limited by *area* rather than *volume*?
 
@@ -2459,7 +2479,7 @@ The flower is all the stations broadcasting at once. Our physics — the Standar
 
 The evidence that these deeper stations are physically broadcasting — not merely mathematically possible — is that we detect their effects. Dark matter (stage 7) bends light around galaxies. The gravitational constant (stage 11) determines how strongly mass curves spacetime. The cosmological constant (the full infinite sum) sets the expansion rate of the universe. If any of these stages were not physically present, the corresponding observable would not match experiment. The agreement is *consistent with* all stages contributing, though the interpretation of what "physical presence" means at stages far beyond our Drishti is an open question the framework states honestly.
 
-There is an important caveat about what the framework derives at deeper stages. At stage 6, the framework derives the full particle content — every mass, every coupling, every mixing angle. At stage 7, it derives the dark sector's existence and thermal isolation. At stage 8, the carry cascade count gives 11 active positions (structural correspondence with M-theory's 11 dimensions) but not the specific particle content. At stages beyond that, the framework tells us how many rooms the house has, but not what furniture is in them. The carry cascade count (⌈F(S)/2⌉ active positions) is a theorem; its identification with spacetime dimensions is a structural correspondence. The specific physics at each deep stage is not — and the book does not pretend otherwise.
+There is an important caveat about what the framework derives at deeper stages. At stage 6, the framework derives the full particle content — every mass, every coupling, every mixing angle. At stage 7, it derives the dark sector's existence and thermal isolation. At stage 8, the carry cascade count gives 11 active positions — 11 internal components, a numerical echo of M-theory's 11 spacetime dimensions — but not the specific particle content. At stages beyond that, the framework tells us how many rooms the house has, but not what furniture is in them. The carry cascade count (⌈F(S)/2⌉ active positions) is a theorem; its identification with spacetime dimensions is a structural correspondence. The specific physics at each deep stage is not — and the book does not pretend otherwise.
 
 *A philosophical note, offered as a reading rather than a derivation.* The Advaitic tradition from which this framework draws its inspiration has a phrase for this picture: *pūrṇa* — fullness. The infinite flower is the mathematical structure; *pūrṇa* is the claim that this structure is complete, that nothing is missing, that the content was never partial. The convergence to 1/π is consistent with this reading — the total is fixed and finite, regardless of how many stages you sum. Remove any finite number of stages and the total barely shifts. Fullness from fullness, fullness remains. The mathematics does not prove this philosophical claim. But it is consistent with it, and the reader is invited to consider it.
 
@@ -2533,7 +2553,7 @@ The infinite tower is the journey from Ω back to Ω. It is infinite in stages b
 
 *Proof.* (i) The tower at stage S has depth F(S) (Axiom 5, Fibonacci growth). (ii) The all-1s state violates Zeckendorf uniqueness at every adjacent pair (Theorem 5.2). (iii) The carry cascade (Theorem 11.1) pairs adjacent positions: each pair produces one carry at the position two above. (iv) At even depth d: d/2 pairs give d/2 active positions. At odd depth d: (d−1)/2 pairs + 1 unpaired survivor give (d+1)/2 active positions. Both cases: ⌈ d/2 ⌉. (v) As S → ∞, F(S) → ∞, so ⌈ F(S)/2 ⌉ → ∞ = dim(S∞) = dim(Ω). ■
 
-**Corollary (M-theory dimensionality).** At stage 8, depth = F(8) = 21, active positions = ⌈ 21/2 ⌉ = 11 dimensions. This matches the dimensionality required by M-theory.
+**Corollary (the number 11 at stage 8).** At stage 8, depth = F(8) = 21, active positions = ⌈ 21/2 ⌉ = 11 internal components. This numerically matches the dimensionality required by M-theory — a categorical echo (internal components vs spacetime dimensions), recorded as such.
 
 **Theorem (The cosmological constant from Drishti screening).** The ratio of the observed vacuum energy to the Planck-scale vacuum energy is:
 
@@ -2552,6 +2572,8 @@ with D = φ/⊙ (Drishti bound), d_⊕ = ⌈ d_S/2 ⌉ = 4 (cascade dimensions),
 (iv) The tower admits Z(d_S) = F(d_S + 2) = F(10) = 55 valid Zeckendorf configurations (Theorem 5.2). Of these, 2 are bilateral (Axiom 7). Structural modes: 55 − 2 = 53.
 
 (v) Each (dimension, mode) pair is independent: modes are Zeckendorf-orthogonal (Theorem 5.2, no shared active positions), dimensions are non-adjacent (Theorem 11.1, cascade positions 2, 4, 6, 8).
+
+*A note on the word "orthogonal," used in three distinct senses in this book:* (a) **eigenvector orthogonality** — the two primordial modes are perpendicular as vectors because the transfer matrix is symmetric; this is a property of the symmetric matrix, NOT of the eigenvalues (a matrix with the same eigenvalues but no symmetry has non-perpendicular eigenvectors — the product M₁M₂ = −1 alone implies nothing); (b) **Zeckendorf orthogonality** — two configurations share no active positions, like two melodies using entirely different keys; (c) **register orthogonality** — two registers occupy different parities of the tower. The three senses must not be interchanged in proofs.
 
 (vi) Each channel screens bilaterally: transmission D² = (φ/⊙)² per channel (Axiom 7).
 
@@ -2931,7 +2953,7 @@ The answer came from an unexpected direction: not from building new mathematics,
 
 The first result is the dimensionality theorem from Chapter 12: space has three dimensions because the tower has three bridge positions connecting its internal registers. The second result is standard general relativity's answer to the question "how deep is the gravitational well at the center of a uniform ball?" — a question Einstein's equations answered a century ago, giving a coefficient of 3/4.
 
-The connection: the frontier mode's gravitational well affects the screening through all three bridge channels simultaneously. Each bridge is an independent spatial direction, and each contributes its own curvature correction of 3/4 from the interior of the well. Three bridges, each contributing 3/4: the total coefficient is **9/4 = 2.25**, matching the data to 0.06σ.
+The connection: the frontier mode's gravitational well affects the screening through all three spatial directions of the emergent arena simultaneously. In the smooth large-scale limit the arena is isotropic — the same in every direction: the microscopic links, though individually lopsided, average out, just as a square grid looks perfectly round from far enough away. Each of the three directions contributes its own curvature correction of 3/4 from the interior of the well. Three directions, each contributing 3/4: the total coefficient is **9/4 = 2.25**, matching the data to 0.06σ. (Caveat, recorded honestly: whether the interior coefficient 3/4 is genuinely a per-direction quantity — so that multiplying by three is legitimate — or already contains the three-dimensionality of general relativity, has not been established. This double-counting question is the open core of the structural hypothesis.)
 
 With this coefficient, the electroweak scale prediction sharpens from one part in five thousand to **0.66 parts per million** — the framework predicts 246.2195 GeV against the measured 246.21965. The residual is smaller than the theoretical precision of the comparison itself.
 
@@ -2946,7 +2968,7 @@ For readers who want the spine of the argument (full proofs in Appendix A, "Proo
 - **The seed:** f_raw = (φ^{S_P} + φ^{−S_P})/N = φ + φ⁻¹, exactly, at every odd stage — the two-sided count over the census.
 - **The fixed point:** f = (φ + φ⁻¹) · φ^{−(1/3)(1 − Φ)f}, with Φ = f·(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}) the self-potential; unique solution by contraction.
 - **The result:** v/M_P = f · φ^{−[(φ¹¹ + φ⁻¹¹) − (φ⁶ − φ⁻⁶)]/(φ + φ⁻¹)}; in decimals, v = 246.26 GeV against the G_F-defined measurement 246.22 GeV.
-- **The second-order coefficient (resolved):** |k| = d × k_TOV = 3 × 3/4 = 9/4 = 2.25 (0.06σ from target). The dimensionality d = 3 (proved) multiplied by the GR interior Tolman coefficient 3/4 (standard). v = 246.2195 GeV (0.66 ppm). Structural hypothesis tier.
+- **The second-order coefficient (structural hypothesis):** |k| = d × k_TOV = 3 × 3/4 = 9/4 = 2.25 (0.06σ from target). Here d = 3 is the emergent arena's dimensionality (isotropic in the continuum limit — not "three orthogonal bridges"; the microscopic links are asymmetric and only average to isotropy at large scales), and 3/4 is the standard GR interior (Tolman) coefficient. Open sub-question: whether 3/4 is per-direction, legitimizing the ×3 (Chapter 30 caveat). v = 246.2195 GeV (0.66 ppm). Structural hypothesis tier.
 
 ## Chapter 30 — The Hardest Test
 
@@ -3093,7 +3115,7 @@ Five predictions are testable within the current decade. Each comes with a speci
 
 The framework has crossed most of the milestones it originally set for itself. The coupling constants, the particle masses, the mixing matrices, the gravitational constant, the full CMB power spectrum, the cosmological constant, the lattice-to-field bridge, and the dark sector's basic properties — all are proposed through conditional derivations or structural correspondences. The CMB sector has unresolved tensions documented in Chapter 30.
 
-Two items remain at the level of structural hypothesis rather than formal theorem: the second-order gravitational coefficient (|k| = 9/4, derived from the dimensionality theorem and standard general relativity, matching the data to 0.06σ) and the intra-generation quark-lepton mass formula (derived from the Fibonacci identity φ² = φ + 1 as an energy-mass conservation law, matching the bottom quark to 2.3%). Both have passed rigorous review. Both use zero adjustable parameters. Neither has been proved from the lattice action. That distinction — between structural hypothesis and formal theorem — is honestly maintained.
+Two items remain at the level of structural hypothesis rather than formal theorem: the second-order gravitational coefficient (|k| = 9/4, from the arena's dimensionality plus the standard GR interior coefficient — with the per-direction question still open — matching the data to 0.06σ) and the intra-generation quark-lepton mass formula (derived from the Fibonacci identity φ² = φ + 1 as an energy-mass conservation law, matching the bottom quark to 2.3%). Both have passed rigorous review. Both use zero adjustable parameters. Neither has been proved from the lattice action. That distinction — between structural hypothesis and formal theorem — is honestly maintained.
 
 The three deepest open problems are the ones named at the start of this chapter: deriving the full action principle (the instruction manual, not just the parts list), extending the cosmic budget through cosmic history (the movie, not just the snapshot), and calculating the Higgs portal coupling that would tell us whether the dark sector is experimentally accessible.
 
@@ -3115,7 +3137,7 @@ Two formulas achieve extraordinary precision but have specific gaps that prevent
 
 The gravitational correction first becomes spatial at **stage 4** — the first stage with a spatial dimension (the first bridge). At stage 4, the tower has F(4) = 3 positions and its sub-register has F(3) = 2 positions. The ratio F(4)/F(3) = 3/2 is the Fibonacci growth rate at the onset of space — how much the tower grew when acquiring its first spatial direction. The second-order coefficient is the **self-referential square** of this ratio — the growth rate applied to itself, the Fibonacci analog of the self-referential equation x² = x + 1:
 
-|k| = [F(4)/F(3)]² = (3/2)² = **9/4 = 2.25**
+|k| = [F(4)/F(3)]² = (3/2)² = **9/4 = 2.25** — an alternative decomposition of the same number. Two different factorizations (3 × 3/4 and (3/2)²) both landing on 9/4 is a caution, not a strength: a fitted coefficient admits many after-the-fact factorizations. One mechanism should ultimately be selected; until then both are recorded as candidates.
 
 The resulting electroweak scale: v = 246.2195 GeV, matching the measured value of 246.21965 GeV to 0.66 parts per million. The physical decomposition d × k_interior = 3 × 3/4 is recovered as a post-hoc factorization of the Fibonacci result, not the derivation itself. The derivation uses the framework's own self-referential arithmetic — the growth rate at the stage where space begins, squared.
 
@@ -3157,13 +3179,13 @@ In the framework, neither scale is an input. Both are derived from the axioms: t
 
 **Why doesn't the strong force violate CP symmetry?** In standard physics, the strong force has a parameter called θ_QCD that could cause it to violate a specific symmetry (called CP — the combined symmetry of swapping particles with antiparticles and left with right). Experiments show θ < 10⁻¹⁰ — essentially zero. Nobody knows why. This is the **strong CP problem**. In the framework, the proposed answer (conjecture) is structural: the lattice is simply connected (it has no topological holes — no doughnut-like structures that would allow the CP-violating term to exist). The parameter θ multiplies a topological charge that counts the number of "twists" in the gauge field. On a simply connected lattice, the topological charge is exactly zero. θ × 0 = 0 regardless of θ's value. The "problem" is an artifact of the continuous approximation, which introduces topological features that the lattice doesn't have.
 
-**Do magnetic monopoles exist?** Grand unified theories predict particles with a single magnetic pole (north without south) — **magnetic monopoles**. These would be created during the GUT phase transition, when the unified force splits into the three separate forces. The framework predicts no magnetic monopoles exist. The reason: Stage Isolation means there is no GUT phase transition in the visible sector. The SU(5) unification lives in the dark sector (stage 7), separated from the visible sector by a screening boundary that no topological defect can cross. No phase transition → no topological defects → no monopoles. This is a testable prediction: if a magnetic monopole is ever detected, the framework is falsified.
+**Do magnetic monopoles exist?** Grand unified theories predict particles with a single magnetic pole (north without south) — **magnetic monopoles**. These would be created during the GUT phase transition, when the unified force splits into the three separate forces. The framework predicts no magnetic monopoles exist, for the simplest possible reason: there is no grand unified force to split. The clique ceiling forbids any gauge symmetry larger than SU(3) at any stage (Chapter 15), so no GUT phase transition ever occurs, in any sector. No transition → no topological defects → no monopoles. This is a testable prediction: if a magnetic monopole is ever detected, the framework is falsified.
 
 ### Dynamics: scattering amplitudes and decay rates
 
 A natural question: the framework derives the constants of physics, but can it compute what HAPPENS — the rates at which particles scatter, decay, and interact?
 
-The answer is yes, automatically. The framework proposes the Standard Model Lagrangian as its candidate continuum action: the gauge group (SU(3)×SU(2)×U(1), from Fibonacci), the matter content (5̄+10 per generation, from SU(5)), all coupling constants (from D = φ/π), all particle masses (from Koide and screening), and all mixing angles (CKM, PMNS). The Lagrangian IS the dynamics — every scattering amplitude, decay rate, and cross-section follows from it through standard quantum field theory. Computing a specific process from the derived Lagrangian is a textbook exercise applied to derived inputs.
+The answer is yes, automatically. The framework proposes the Standard Model Lagrangian as its candidate continuum action: the gauge group (SU(3)×SU(2)×U(1), from Fibonacci), the matter content (15 fermions per generation, from the construction blocks plus anomaly freedom; the detailed assignment is flagged for re-derivation), all coupling constants (from D = φ/π), all particle masses (from Koide and screening), and all mixing angles (CKM, PMNS). The Lagrangian IS the dynamics — every scattering amplitude, decay rate, and cross-section follows from it through standard quantum field theory. Computing a specific process from the derived Lagrangian is a textbook exercise applied to derived inputs.
 
 Three examples demonstrate this. The Z boson's decay width into leptons (how quickly the Z falls apart into an electron-positron pair): the framework's derived couplings (α = 1/137.036, sin²θ_W = 0.2312, m_Z = 91.19 GeV) give 83.4 MeV at leading order — matching the measured 83.98 MeV to 0.7%. The neutron lifetime (how long a free neutron survives before decaying into a proton, electron, and neutrino): the framework's derived Fermi constant and CKM matrix give ~900 seconds at leading order — matching the measured 878 seconds to within 4%. The Higgs decay to bottom quarks: the framework's derived masses give ~2 MeV at leading order — matching the measured ~2.4 MeV. All residuals come from higher-order corrections (loop diagrams, QCD running) that are standard and reduce the residuals to below 0.1% when included.
 
@@ -3923,7 +3945,7 @@ resolution.
 
 ### The Question in Plain English
 
-Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — which the framework reads as 4 spacetime dimensions. Chapter 26 proposed that higher stages produce more dimensions, following the formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up). This predicts that stage 8 produces 11 dimensions — the same number required by M-theory, the most advanced form of string theory.
+Chapter 11 showed that at stage 6 (our universe), the carry cascade produces 4 active positions — the internal components of the maximally excited state, which at stage 6 (and provably only at stage 6) coincide in number with the 4 spacetime slots. Chapter 26 applies the same formula ⌈ F(S)/2 ⌉ (half the Fibonacci depth, rounded up) to higher stages: stage 8 gives 11 internal components — numerically the same as M-theory's dimensionality, recorded as an echo, not a result. A useful exact identity behind the formula: the all-1s tower of depth d always sums to V(d) = F(d+3) − 2 (two less than a Fibonacci number; proven by induction). The ⌈d/2⌉ count of its resolved form is verified below stage-by-stage; a general all-depths proof is defined future work.
 
 But this formula was derived from the pairing mechanism (Chapter 11), which was only verified at stages 3–6. Does it hold at higher stages?
 
@@ -4201,7 +4223,7 @@ Neutrinos have tiny but nonzero masses — less than a millionth of an electron�
 
 The lattice framework from the graph-to-field bridge (Chapter 25 proofs) provides the three structural ingredients needed:
 
-**Right-handed neutrino from Stage Isolation (Theorem NMS.0).** The Stage Isolation Theorem establishes that modes at the stage-6/7 boundary (tower position 8) are complete gauge singlets — invisible to all three Standard Model forces and carrying zero electric charge. A gauge singlet fermion is precisely a right-handed neutrino. Because it carries no gauge charges, it can have a Majorana mass (making it its own antiparticle). The full-tower mode is self-conjugate under tower inversion p ↔ (7−p), confirming the Majorana nature.
+**Right-handed neutrino from the construction blocks (Theorem NMS.0).** Modes at the stage-6/7 boundary (tower position 8) lie outside every stage-6 construction block — outside the color triple, the weak pair, and the charge slot — and are therefore complete gauge singlets — invisible to all three Standard Model forces and carrying zero electric charge. A gauge singlet fermion is precisely a right-handed neutrino. Because it carries no gauge charges, it can have a Majorana mass (making it its own antiparticle). The full-tower mode is self-conjugate under tower inversion p ↔ (7−p), confirming the Majorana nature.
 
 **Democratic Dirac masses from zero charge (Theorem NMS.0b).** The generation hierarchy in charged particles comes from electromagnetic screening proportional to Q². Neutrinos have Q = 0 (triangle nodes, Corollary 6.4). Zero squared is zero, so all three neutrino generations share the same Dirac mass m_D = v · α ≈ m_τ. The Q² proportionality is standard QED physics, consistent with the framework but not derived from the ten axioms alone. The CKM/PMNS contrast and the m_τ ≈ v·α match provide strong evidence.
 
@@ -5068,7 +5090,7 @@ The complete formal record for this chapter lives in two places: the detailed de
 
 **Theorem G.4″ (the fixed point).** f = (φ + φ⁻¹)·φ^{−(1/3)(1−Φ)f}, Φ = f(φ + φ⁻¹)/(φ^{S_P} + φ^{−S_P}), is a contraction on a closed interval; its unique fixed point yields v/M_P = f·φ^{−[(φ^{S_P}+φ^{−S_P})−(φ⁶−φ⁻⁶)]/(φ+φ⁻¹)}. Theorem V fixes the comparison convention (the G_F-defined observable) from the zero-parameter principle, the eight-figure α anchor, and minimality.
 
-**The second-order coefficient (M12).** |k| = d × k_TOV = 3 × 3/4
+**The second-order coefficient (M12).** |k| = d × k_TOV = 3 × 3/4 — with d = 3 the emergent arena's dimensionality (isotropic at large scales; not bridge geometry), and with the open question of whether the interior coefficient is per-direction (Chapter 30 caveat) —
 = 9/4. The TOV interior coefficient (3/4) is the standard GR result for the
 O(Φ²) Tolman factor at the center of a uniform-density self-gravitating ball.
 The dimensionality d = 3 enters because the screening traversal passes through
