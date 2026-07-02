@@ -191,28 +191,30 @@ Each stage is not a separate floor stacked on top. It is a Russian doll — stag
 
 **What "dimensions" means:** dimensions are the number of independent directions you can move. On a line, you can move forward or backward — one dimension. On a flat surface, you can also move left and right — two dimensions. In a room, you can also move up and down — three dimensions.
 
-At stage 6, the 8 positions split into two sub-groups (a group of 5 and a group of 3), connected by 3 **bridges** — positions that link the sub-groups together. Think of two buildings connected by walkways:
+At every boundary between one growth stage and the next, the carry rule creates exactly 3 **crossing links** — connections between the old positions and the new ones. Think of two buildings joined by walkways: the number of independent walkways is the number of independent ways influence can cross.
 
-- **One bridge** gives one direction to walk — a line. That's one spatial dimension.
-- **Two bridges** going different directions give two directions — a flat surface. That's two spatial dimensions.
-- **Three bridges**, each going a direction the other two can't reach, give three directions — full 3D space. That's three spatial dimensions.
+- **One crossing link** gives one independent channel — a line's worth of connectivity. One spatial dimension.
+- **Two crossing links** give two independent channels — a surface's worth. Two spatial dimensions.
+- **Three crossing links** give three independent channels — a full 3D space's worth. Three spatial dimensions.
+
+(One honest detail: the three links are not three neat, symmetric walkways — two of them share an anchor point, like two walkways meeting at the same door. What matters is the COUNT of independent channels, which is exactly three; and at large scales the lopsidedness averages out, the way a brick wall looks smooth from across the street.)
 
 Three cross-stage connections → three spatial dimensions. A "cross-stage connection" is a link the carry rule creates between one growth stage and the next — and because the carry rule reaches back exactly two steps, exactly three such links form at every stage boundary (two from the first new position, one from the second, none after). Combined with the one time direction from Step 5 → four spacetime dimensions total. This is identified (structural correspondence) with the arena's connectivity. A separate count — the carry cascade's ⌈F(S)/2⌉ active positions — measures something different: the internal components of the maximally excited state (Chapter 12). At stage 6, and only at stage 6, the two counts coincide at 4.
 
-### Step 10: One time, growing space — at every stage
+### Step 10: One time, three space — and a growing inner palette
 
-The time direction (from M1 × M2 = −1) exists at every stage. The spatial directions grow as the tower grows. Here is the full picture:
+The time direction (from M1 × M2 = −1) exists at every stage. Space is counted by the crossing links (Step 9), and the count climbs to three and then STOPS — the carry rule's reach of two caps it there, forever. What keeps growing instead is something different: the number of **internal components** a stage's fullest state can hold — its inner palette (Chapter 12). Here is the full picture:
 
-| Stage | Positions | Time | Space | Total | What lives here |
+| Stage | Positions | Time | Space (crossing links) | Internal components ⌈F(S)/2⌉ | What lives here |
 |---|---|---|---|---|---|
-| 1–3 | 1–2 | 1 | 0 | 1 | A clock with no space |
-| 4 | 3 | 1 | 1 | 2 | A line plus time |
-| 5 | 5 | 1 | 2 | 3 | A flat world (where exotic "anyon" particles can exist) |
-| **6** | **8** | **1** | **3** | **4** | **Our universe** |
-| 7 | 13 | 1 | 6 | 7 | The dark sector (3 extra hidden directions) |
-| 8 | 21 | 1 | 10 | 11 | Internal components — numerically matches M-theory's 11 (echo, not a result) |
+| 3 | 2 | 1 | 1 | 1 | A line plus time |
+| 4 | 3 | 1 | 2 | 2 | A flat world (where exotic "anyon" particles can exist) |
+| 5 | 5 | 1 | 3 | 3 | Full 3D space arrives |
+| **6** | **8** | **1** | **3** | **4** | **Our universe — the unique stage where the palette (4) exactly fills the spacetime slots (3+1)** |
+| 7 | 13 | 1 | 3 | 7 | The dark sector — same space as ours, a richer palette |
+| 8 | 21 | 1 | 3 | 11 | Palette of 11 — numerically matches M-theory's 11 (echo, not a result) |
 
-Time is a horizontal line across all stages — always one, never changing. Space is the growing curve — adding directions as the tower deepens. The spatial dimensions don't add one per stage forever; after stage 6, the jumps grow rapidly (because the Fibonacci numbers grow rapidly). But time is always, everywhere, exactly one.
+Time is a horizontal line across all stages — always one. Space rises to three and holds there from stage 5 onward — the same 3+1 arena for every deeper stage. The inner palette is the growing curve: 1, 2, 3, 4, 7, 11, following the Fibonacci depths. And stage 6 is singled out by an exact coincidence: it is the only stage — provably the only one — where the palette size equals the number of spacetime slots.
 
 ### Step 11: The dimming — why forces have different strengths
 
@@ -267,7 +269,7 @@ The tower doesn't stop at stage 6. At stage 7 (13 positions), five more position
 
 In the framework, dark matter is not a mysterious substance added to fix a problem. It is the next ring of the same tower. Same building rule. Same golden ratio. One layer deeper.
 
-The dark sector (stage 7) has three extra spatial directions beyond our three — internal directions that dark matter particles may move in but that we cannot access. These extra directions are not curled up too small to see (as some theories propose). They are **screened** — present at every tower but dimmed below our ability to detect, except through gravity, which responds to all mass regardless of screening.
+The dark sector (stage 7) lives in the SAME three dimensions of space and one of time as we do — but with three extra internal components beyond our four: extra independent ways its fullest state can be excited, a richer palette in the same room (Step 10). These extra components are not extra dimensions curled up too small to see (as some theories propose), and they are not extra space at all. They are **screened** — present at every tower but dimmed below our ability to detect, except through gravity, which responds to all mass regardless of screening.
 
 There is an important asymmetry: looking **inward** (toward the sub-structure nested inside stage 6) requires energy — build a bigger accelerator and you can probe deeper. Looking **outward** (toward stage 7 and beyond) is blocked by the screening. No accelerator, no matter how powerful, should produce dark-sector particles directly. This is a testable prediction.
 
@@ -301,17 +303,17 @@ The first act of self-reference created **π** (the geometry of curving back on 
 
 Hold your hand between a lamp and a wall. The shadow on the wall is a flat image of your three-dimensional hand. The shadow is real — it has a definite shape, it moves when your hand moves. But it is incomplete: it shows the outline, not the depth. Turn your hand and the shadow changes — same hand, different angle, different shadow. This is a **projection**: a lower-dimensional view of a higher-dimensional object.
 
-The complete infinite tower has infinitely many independent directions. We, at stage 6, can access only 4 of them. What we experience as "the universe" — particles, forces, stars, galaxies — is a **4-dimensional shadow** of the infinite-dimensional whole.
+The complete infinite tower has infinitely many independent components. We, at stage 6, resolve it through a palette of just 4, arranged in a 3+1 arena. What we experience as "the universe" — particles, forces, stars, galaxies — is a **four-component shadow** of the infinitely rich whole.
 
 The Indian philosophical tradition that inspired this framework calls the undivided whole **Advait** (literally "not-two") — wholeness without separation. It calls the world of separate objects and events **Dvait** (literally "two") — the world of apparent duality.
 
 The framework's version: the Dvait is a **Drishti projection** of the Advait — a shadow cast by observation through the screening. The shadow is real. The particles are real. The forces are real. But they are a partial view — 4 directions out of infinity.
 
-Different observers at different stages see different shadows of the same whole:
-- A stage-5 observer sees 3 directions (a flat universe with 2 spatial dimensions + time)
-- We (stage 6) see 4 directions (our familiar 3 spatial dimensions + time)
-- A stage-7 observer sees 7 directions (6 spatial dimensions + time)
-- A stage-8 observer sees 11 directions
+Different observers at different stages see different shadows of the same whole — same arena, different palettes:
+- A stage-5 observer resolves the whole through 3 components (in the same 3+1 arena)
+- We (stage 6) resolve it through 4 — the one stage where the palette exactly fills the 3+1 slots
+- A stage-7 observer resolves it through 7 components (same space as ours, a richer palette)
+- A stage-8 observer, through 11
 
 These shadows are **nested like Russian dolls** — but the nesting is in internal richness, not in space. All stages share the same three dimensions of space and one of time. What grows from stage to stage is the number of internal components a maximally excited state can hold: 4 for us, 7 for the dark sector, 11 at stage eight. Each layer has the same arena but a richer internal palette, invisible from within the layers below.
 
@@ -389,7 +391,7 @@ The framework now proposes:
 
 **Structural correspondences with the equations** — quantum mechanics from the hard-core constraint, general relativity conditional on Lovelock and the continuum limit, the Standard Model's three forces identified through the Fibonacci decomposition.
 
-**The precision frontier** — the electroweak scale to 0.66 parts per million (derived from the three-dimensional emergent arena × the gravitational self-coupling of the spatially uniform mode), and the quark-lepton mass splitting to 2.3% with a unique mass reversal prediction confirmed by observation.
+**The precision frontier** — the electroweak scale to 0.66 parts per million (from the squared center-to-edge depth ratio, (3/2)², of the gravitational well the spatially uniform frontier mode digs for itself), and the quark-lepton mass splitting to 2.3% with a unique mass reversal prediction confirmed by observation.
 
 **The structure of consciousness** — identified as self-referential feedback (the same Fibonacci recursion that drives the tower), with the hard problem explained as a structural limitation of self-referential systems.
 
