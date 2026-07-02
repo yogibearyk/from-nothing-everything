@@ -3381,7 +3381,7 @@ The framework operates in 3+1 dimensions. The crucial structural fact: all three
 
 In condensed matter physics, coupling Luttinger liquid chains with transverse hopping t⊥ restores the quasiparticle: below a crossover temperature T* ~ t⊥, the system becomes a 3D Fermi liquid with Z > 0. When the transverse and longitudinal couplings are equal (t⊥ = t∥, the isotropic case), there is no quasi-1D regime — the system is a 3D Fermi liquid at all temperatures below the lattice scale.
 
-The framework's isotropy (equal coupling in all 3 directions) is DERIVED: all bridges carry the same Drishti screening D. This is not an assumption — it follows from the fact that all three bridges are structurally equivalent positions in the Fibonacci decomposition.
+The framework's isotropy (equal coupling in all 3 directions) is DERIVED: all three link positions carry the same Drishti screening D. This is not an assumption — it follows from their structural equivalence after the cascade (all vacated, all mediating the same coupling — Result 7 of the Chapter 25 proofs).
 
 **What is derived (theorem):**
 The tower has 3 bridge positions from the Fibonacci decomposition 8 = 5 + 3. The bridges are the 3-element sub-block — structurally equivalent within the decomposition (the screening D applies per STAGE, not per individual position within a stage, so all bridges at the same stage carry the same hopping amplitude). The filling is incommensurate (from the golden ratio's irrationality), ruling out the Mott insulator. The SU(3) GLOBAL flavor symmetry generators exist (Schwinger construction on 3 bridges, independently verified).
@@ -3392,7 +3392,7 @@ The 3 bridge indices correspond to 3 independent spatial directions. This mappin
 **What remains open (defined future computation):**
 The explicit 3D partition function and Green's function for the Fibonacci lattice. A 3D Monte Carlo simulation would determine the quasiparticle weight Z, confirm the Fermi liquid phase, verify the emergent gauge dynamics, and establish the continuum limit. The mathematical tools exist (they are the standard tools of computational condensed matter and lattice gauge theory). The computation is defined but unperformed.
 
-The self-referential content: the same Fibonacci decomposition that creates the strongly correlated bridge structure (3 bridges with PXP interactions) ALSO provides the isotropy (equal coupling in all directions) and the dimensionality (3D) that are the structural prerequisites for a Fermi liquid. The same golden ratio that creates the hard-core constraint ALSO makes the filling irrational, preventing the Mott insulator. The problem contains the structural ingredients for its own solution.
+The self-referential content: the same Fibonacci decomposition that creates the strongly correlated link structure (3 link positions with PXP interactions) ALSO provides the isotropy (equal coupling in all directions) and the dimensionality (3D) that are the structural prerequisites for a Fermi liquid. The same golden ratio that creates the hard-core constraint ALSO makes the filling irrational, preventing the Mott insulator. The problem contains the structural ingredients for its own solution.
 
 ### The SU(3) generators — constructed from bridge self-reference
 
@@ -3404,7 +3404,7 @@ T^a = (1/2) Σᵢⱼ c†ᵢ (λ^a)ᵢⱼ cⱼ
 
 where λ^a are the eight 3×3 Gell-Mann matrices. The commutation relations [T^a, T^b] = if^{abc} T^c follow from the canonical anticommutation relations of the bridge fermions. This construction has been independently verified — the 8 generators of SU(3) emerge exactly from 3 bridge positions.
 
-**Why SU(3) and not some other group.** The Fibonacci decomposition gives the dimension (3 bridges). The bilateral structure (each bridge has a forward M₁ and backward M₂ component) makes each bridge complex — one complex degree of freedom. Complex transformations that preserve the total content (determinant = 1) form SU(N). For N = 3: SU(3), with 3² − 1 = 8 generators. The specific Lie algebra is uniquely determined by the dimension and type through the Killing-Cartan classification of simple compact Lie groups.
+**Why SU(3) and not some other group.** The Fibonacci decomposition gives the dimension (3 link positions on this route; the construction-block route of Chapter 15 gives the same 3 — see the reconciliation note in the Appendix). The bilateral structure (each link position has a forward M₁ and backward M₂ component) makes each complex — one complex degree of freedom. Complex transformations that preserve the total content (determinant = 1) form SU(N). For N = 3: SU(3), with 3² − 1 = 8 generators. The specific Lie algebra is uniquely determined by the dimension and type through the Killing-Cartan classification of simple compact Lie groups.
 
 **The gauge field emerges from inter-tower hopping.** When a fermion hops from one tower to an adjacent tower, it passes through a bridge. The bridge's state (which of its configurations is active) determines how the fermion's color rotates during the hop. This rotation IS the gauge transformation. The gauge field is not an independent entity added to the theory — it IS the bridge state during inter-tower transport, emerging from the lattice structure the axioms provide.
 
