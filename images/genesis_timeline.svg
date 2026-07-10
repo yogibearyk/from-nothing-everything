@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1180" viewBox="0 0 760 1180" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1030"/><stop offset="1" stop-color="#1d1440"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd873"/><stop offset="1" stop-color="#e09a2f"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffd873"/>
+    </marker>
+  </defs>
+  <rect width="760" height="1180" fill="url(#bg)"/>
+  <text x="380" y="52" text-anchor="middle" fill="#ffd873" font-size="30" font-weight="bold">From Nothing, Everything</text>
+  <text x="380" y="80" text-anchor="middle" fill="#cbb8ff" font-size="16" font-style="italic">The first six moments — no math required</text>
+
+  <line x1="120" y1="120" x2="120" y2="1050" stroke="#5a4a9a" stroke-width="3"/>
+  <path d="M 112,240 C 60,225 60,180 112,168" fill="none" stroke="#8f86b8" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arr)"/>
+  <text x="46" y="200" fill="#8f86b8" font-size="11" transform="rotate(-90 46 200)">…or simply return</text>
+
+  <!-- 1. Looking happens -->
+  <circle cx="120" cy="160" r="9" fill="url(#gold)"/>
+  <g transform="translate(210,160)">
+    <circle r="7" fill="#ffd873"/>
+    <g stroke="#ffd873" stroke-width="2.5"><line x1="12" y1="0" x2="24" y2="0"/><line x1="-12" y1="0" x2="-24" y2="0"/><line x1="0" y1="12" x2="0" y2="24"/><line x1="0" y1="-12" x2="0" y2="-24"/><line x1="9" y1="9" x2="17" y2="17"/><line x1="-9" y1="-9" x2="-17" y2="-17"/><line x1="9" y1="-9" x2="17" y2="-17"/><line x1="-9" y1="9" x2="-17" y2="17"/></g>
+  </g>
+  <text x="270" y="150" fill="#ffffff" font-size="20" font-weight="bold">1. Looking happens</text>
+  <text x="675" y="176" text-anchor="middle" fill="#8f86b8" font-size="26" font-weight="bold">Ω</text>
+  <text x="675" y="196" text-anchor="middle" fill="#8f86b8" font-size="10">the ground</text>
+  <text x="270" y="176" fill="#d8d2f0" font-size="14.5">Before there is anyone to look, or anything to see —</text>
+  <text x="270" y="196" fill="#d8d2f0" font-size="14.5">a moment of noticing simply occurs.</text>
+
+  <!-- 2. It sees itself -->
+  <circle cx="120" cy="315" r="9" fill="url(#gold)"/>
+  <g transform="translate(210,315)">
+    <path d="M-30,0 Q0,-24 30,0 Q0,24 -30,0 Z" fill="none" stroke="#ffd873" stroke-width="2.5"/>
+    <circle r="8" fill="#cbb8ff"/>
+  </g>
+  <text x="270" y="298" fill="#ffffff" font-size="20" font-weight="bold">2. The looking sees itself</text>
+  <text x="675" y="318" text-anchor="middle" fill="#ffd873" font-size="26" font-weight="bold">Ω→℧</text>
+  <text x="675" y="336" text-anchor="middle" fill="#8f86b8" font-size="10">the fold turns the sign:</text>
+  <text x="675" y="350" text-anchor="middle" fill="#8f86b8" font-size="10">the whole, self-realized</text>
+  <text x="675" y="370" text-anchor="middle" fill="#ffd873" font-size="15" font-weight="bold">1</text>
+  <text x="270" y="324" fill="#d8d2f0" font-size="14.5">The noticing folds back on its own light. Two sides are</text>
+  <text x="270" y="344" fill="#d8d2f0" font-size="14.5">born at once — the seer and the seen. <tspan fill="#ffd873" font-style="italic">"I am" becomes "who am I."</tspan></text>
+  <text x="270" y="364" fill="#9a8ae0" font-size="12.5" font-style="italic">This step is free — and it is the point of no return: the first mark is made.</text>
+
+  <!-- 3. Zero -->
+  <circle cx="120" cy="470" r="9" fill="url(#gold)"/>
+  <g transform="translate(195,470)">
+    <circle r="11" fill="#ffd873"/>
+    <circle cx="52" r="11" fill="none" stroke="#8f86b8" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+  <text x="290" y="453" fill="#ffffff" font-size="20" font-weight="bold">3. Nothing gets a name — zero is born</text>
+  <text x="290" y="479" fill="#d8d2f0" font-size="14.5">"I am" casts a shadow: the idea of what is NOT.</text>
+  <text x="290" y="499" fill="#d8d2f0" font-size="14.5">Nothing isn't a place — it's the empty side of the very first fact. <tspan fill="#ffd873" font-weight="bold">0</tspan> — and its twin, no-edge: <tspan fill="#ffd873" font-weight="bold">∞</tspan></text>
+
+  <!-- 4. No outside -->
+  <circle cx="120" cy="625" r="9" fill="url(#gold)"/>
+  <g transform="translate(210,625)">
+    <circle r="30" fill="none" stroke="#ffd873" stroke-width="2.5"/>
+    <circle cx="-9" cy="-6" r="3.5" fill="#cbb8ff"/><circle cx="10" cy="4" r="3.5" fill="#cbb8ff"/><circle cx="-2" cy="13" r="3.5" fill="#cbb8ff"/><circle cx="4" cy="-14" r="3.5" fill="#cbb8ff"/>
+  </g>
+  <text x="270" y="608" fill="#ffffff" font-size="20" font-weight="bold">4. There is no outside — ever</text>
+  <text x="270" y="634" fill="#d8d2f0" font-size="14.5">A standing law of all that follows: nothing that ever happens</text>
+  <text x="270" y="654" fill="#d8d2f0" font-size="14.5">falls outside the whole. Every new thing appears within.</text>
+
+  <!-- 5. Again and again -->
+  <circle cx="120" cy="780" r="9" fill="url(#gold)"/>
+  <g transform="translate(210,780)">
+    <path d="M 22,0 A 22,22 0 1 1 4,-21" fill="none" stroke="#ffd873" stroke-width="2.5" marker-end="url(#arr)"/>
+    <path d="M 34,0 A 34,34 0 1 1 7,-33" fill="none" stroke="#9a8ae0" stroke-width="1.8" marker-end="url(#arr)" opacity="0.7"/>
+  </g>
+  <text x="270" y="763" fill="#ffffff" font-size="20" font-weight="bold">5. Again, and again — endlessness gets its engine</text>
+  <text x="270" y="789" fill="#d8d2f0" font-size="14.5">The seeing can look at its own looking… and then at THAT —</text>
+  <text x="270" y="809" fill="#d8d2f0" font-size="14.5">and it never runs out, because each look takes the Full and leaves</text>
+  <text x="270" y="829" fill="#d8d2f0" font-size="14.5">the Full. The twins of step 3 now have their proof. (And one-after-another is the seed of time.)</text>
+
+  <!-- 6. One fact two faces -->
+  <circle cx="120" cy="950" r="9" fill="url(#gold)"/>
+  <g transform="translate(210,950)">
+    <circle r="30" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <text x="-13" y="7" fill="#8f86b8" font-size="20" font-weight="bold">0</text>
+    <text x="3" y="7" fill="#ffd873" font-size="20" font-weight="bold">∞</text>
+  </g>
+  <text x="270" y="933" fill="#ffffff" font-size="20" font-weight="bold">6. One fact, two faces</text>
+  <text x="270" y="959" fill="#d8d2f0" font-size="14.5">"Nothing is empty" and "Everything has no edge" turn out to be</text>
+  <text x="270" y="979" fill="#d8d2f0" font-size="14.5">the same statement, seen from its two sides. Zero and infinity</text>
+  <text x="270" y="999" fill="#d8d2f0" font-size="14.5">are twins, born of one moment of self-seeing.</text>
+
+  <text x="380" y="1075" text-anchor="middle" fill="#ffd873" font-size="19" font-style="italic">From Nothing, Everything — one look, and both are here.</text>
+  <text x="380" y="1120" text-anchor="middle" fill="#8f86b8" font-size="12.5">What comes next: the two sides start counting each other — and numbers begin.</text>
+</svg>
